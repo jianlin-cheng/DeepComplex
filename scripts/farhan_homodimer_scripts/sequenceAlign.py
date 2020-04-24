@@ -1,0 +1,77 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jan  3 17:14:25 2020
+
+@author: farhan
+"""
+#this script aligns two fasta sequences and outputs the final alignment.
+#usage: python sequenceAlign.py <id_fasta1> <fasta1> <id_fasta2> <fasta2>
+#sequence align
+
+from Bio import pairwise2
+from Bio.pairwise2 import format_alignment
+import sys
+
+def getMaxConsecutiveGaps(sequence):
+    num_of_gap_sequence=0
+    if ("-" in sequence):
+        gap_found=False
+        i=-1
+        while i < len(sequence)-1:
+            i+=1
+            if (sequence[i]=="-"):
+                gap_found=True
+                for j in range(i,len(sequence)):
+                    
+                    if (sequence[j]!="-"):
+                        num_of_gap_sequence+=1
+                        i=j-1
+                        break
+        #pass
+    else:
+        return 0
+            
+    return num_of_gap_sequence   
+
+def selectBestAlignment(alignment):
+    best=getMaxConsecutiveGaps(alignment[0][0])+getMaxConsecutiveGaps(alignment[0][1])
+    best_aln=alignment[0]
+    for i in range(1,len(alignment)):
+        score_a1=getMaxConsecutiveGaps(alignment[i][0])
+        score_a2=getMaxConsecutiveGaps(alignment[i][1])
+        #print (score_a1,score_a2)
+        if (score_a1+score_a2<=best):
+            best=score_a1+score_a2
+            best_aln=alignment[i]
+        
+    return best_aln
+
+key_x=sys.argv[1]
+x=sys.argv[2]
+key_y=sys.argv[3]
+y=sys.argv[4]
+
+#x="VVKFTKSEALHKEALEHIVGGVNSPSRSFKAVGGGAPIAERGKGAYFWDVDGNKYIDYLAAYGPIITGHAHPHITKAITTAAENGVLYGTPTALEVKFAKLKEAPALDKVRFVNSGTEAVTTIRVARAYTGRTKIKFAGCYHGHSDLVLVA-------LGTPDSAGVPQSIAQEVITVPFNNVETLKEALDKWGHEVAAILVEPIVGNFGIVEPKPGFLEKVNELVHEAGALVIYDEVITAFRFYGGAQDLLGVTPDLTALGVIGGGLPIGAYGGKKEIEQVAPLGPAYQAGTAGNPASASGIACLEVLQQEGLYEKLDELGATLEKGILEQAAKHNIDITLNRLKGALTVYFTTNTIEDYDAAQDTDGEFGKFFKLLQEGVNLAPSKYEAWFLTTEHTKEDIEYTIEAVGRAFAALADNN-"
+#x="VVKFTKSEALHKEALEHIVGGVNSPSRSFKAVGGGAPIAERGKGAYFWDVDGNKYIDYLAAYGPIITGHAHPHITKAITTAAENGVLYGTPTALEVKFAKLKEAPALDKVRFVNSGTEAVTTIRVARAYTGRTKIKFAGCYHGHSDLVLVALGTPDSAGVPQSIAQEVITVPFNNVETLKEALDKWGHEVAAILVEPIVGNFGIVEPKPGFLEKVNELVHEAGALVIYDEVITAFRFYGGAQDLLGVTPDLTALGVIGGGLPIGAYGGKKEIEQVAPLGPAYQAGTAGNPASASGIACLEVLQQEGLYEKLDELGATLEKGILEQAAKHNIDITLNRLKGALTVYFTTNTIEDYDAAQDTDGEFGKFFKLLQEGVNLAPSKYEAWFLTTEHTKEDIEYTIEAVGRAFAALADN"
+#y="VVKFTKSEALHKEALEHIVGGVNSPSRSFKAVGGGAPIAERGKGAYFWDVDGNKYIDYLAAYGPIITGHAHPHITKAITTAAENGVLYGTPTALEVKFAKLKEAPALDKVRFVNSGTEAVTTIRVARAYTGRTKIKFAGCYHGHSDLVLVAAGSGPSTLGTPDSAGVPQSIAQEVITVPFNNVETLKEALDKWGHEVAAILVEPIVGNFGIVEPKPGFLEKVNELVHEAGALVIYDEVITAFRFYGGAQDLLGVTPDLTALGVIGGGLPIGAYGGKKEIEQVAPLGPAYQAGTAGNPASASGIACLEVLQQEGLYEKLDELGATLEKGILEQAAKHNIDITLNRLKGALTVYFTTNTIEDYDAAQDTDGEFGKFFKLLQEGVNLAPSKYEAWFLTTEHTKEDIEYTIEAVGRAFAALADNK"
+#x="NQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLIMQLMPFGCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHVKITDFGLAKLLVPIKWMALESILHRIYTHQSDVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSPTDSNFYRALMDEEDMDDVVDAD"
+#y="NQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLIMQLMPFGCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHVKITDFGLAKLLGKVPIKWMALESILHRIYTHQSDVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSPTDSNFYRALMDEEDMDDVVDAD"
+#alignments = pairwise2.align.globalxx(x, y, one_alignment_only=False)
+alignments = pairwise2.align.globalms(x, y,5,-4,-1,-0.1)
+#print (len(x),len(y))
+# Use format_alignment method to format the alignments in the list
+"""
+for a in alignments:
+    print(format_alignment(*a))
+    #print (a[0])
+    #print(a[1])
+    break
+"""
+#print (len(alignments))
+best_aln=selectBestAlignment(alignments)
+#print (alignments[1][0])
+#print (alignments[1][1])
+print(key_x+":"+best_aln[0])
+print(key_y+":"+best_aln[1])
+

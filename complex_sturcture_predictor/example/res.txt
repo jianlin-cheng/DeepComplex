@@ -1,0 +1,5 @@
+/home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_AB.rr
+/home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_AC.rr
+/home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_BC.rr
+/home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_B1.rr
+/home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_C1.rr

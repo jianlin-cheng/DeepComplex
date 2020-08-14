@@ -1,0 +1,599 @@
+{+ file: docking.inp +}
+{+ directory: general +}
+{+ description: simulated annealing/molecular dynamics multi-body docking
+   calculation using distance restraints. +}
+{+ comment: The definition of the docking calculation consist of
+            1. a set of fixed atoms
+            2. one or more sets of rigid bodies that can be connected by (multiple)
+               covalent bonds allowing the simulation of rigid bodies connected
+               by flexible linkers
+            3. pseudo-atoms that are covalently linked with the rigid bodies or the group of fixed atoms
+            4. distance assignments between the pseudoatoms.
+            The starting configuration must place the rigid bodies and the fixed
+            group of atoms sufficient far apart to allow for rotations of both
+            around their center of mass without causing clashes. +}
+{+ authors: Axel T. Brunger +}
+{+ copyright: Yale University +}
+
+{+ reference: U.B. Choi, P. Strop, M. Vrljic, S. Chu, A.T. Brunger, K.R. Weninger,
+              Single-molecule FRET-derived model of the synaptotagmin 1-SNARE fusion
+              complex.  Nature Structural and Molecular Biology, in press (2010). +}
+{+ reference: M. Vrljic, P. Strop, J.A. Ernst, R.B. Sutton, S.Chu, A.T. Brunger,
+              Molecular mechanism of the synaptotagmin-SNARE interaction in Ca2+ -
+              triggered vesicle fusion, Nature Structural and Molecular Biology, in
+              press (2010). +}
+{+ reference: L.M. Rice and A.T. Brunger, Torsion Angle Dynamics:
+              Reduced Variable Conformational Sampling Enhances
+              Crystallographic Structure Refinement, Proteins: Structure,
+              Function, and Genetics, 19, 277-290 (1994) +}
+
+{- Guidelines for using this file:
+   - all strings must be quoted by double-quotes
+   - logical variables (true/false) are not quoted
+   - do not remove any evaluate statements from the file
+   - the selections store1 through store3 are available for general use -}
+
+{- begin block parameter definition -} define(
+
+{============================ coordinates ============================}
+
+{* coordinate file *}
+{===>} coordinate_infile="_coordinate_file_replace_";
+
+{==================== molecular information ==========================}
+
+{* topology files *}
+{===>} topology_infile_1="CNS_TOPPAR:protein.top";
+{===>} topology_infile_2="CNS_TOPPAR:dna-rna.top";
+{===>} topology_infile_3="CNS_TOPPAR:water.top";
+{===>} topology_infile_4="CNS_TOPPAR:ion.top";
+{===>} topology_infile_5="CNS_TOPPAR:carbohydrate.top";
+{===>} topology_infile_6="CNS_TOPPAR:pseudo.top";
+{===>} topology_infile_7="";
+{===>} topology_infile_8="";
+
+{* linkage files for linear, continuous polymers (protein, DNA, RNA) *}
+{===>} link_infile_1="CNS_TOPPAR:protein.link";
+{===>} link_infile_2="CNS_TOPPAR:dna-rna-pho.link";
+{===>} link_infile_3="";
+
+{* parameter files *}
+{===>} parameter_infile_1="CNS_TOPPAR:protein_rep.param";
+{===>} parameter_infile_2="CNS_TOPPAR:dna-rna_rep.param";
+{===>} parameter_infile_3="CNS_TOPPAR:water_rep.param";
+{===>} parameter_infile_4="CNS_TOPPAR:ion.param";
+{===>} parameter_infile_5="CNS_TOPPAR:carbohydrate.param";
+{===>} parameter_infile_6="CNS_TOPPAR:pseudo.param";
+{===>} parameter_infile_7="";
+{===>} parameter_infile_8="";
+
+{* molecular topology file: optional (leave blank for auto generation) *}
+{*
+   Auto generation of the molecular topology from the coordinates should only
+   be used if:
+   (1) Each distinct protein, DNA, or RNA chain must have a separate segid
+       (or chainid if the chainid is non-blank).
+   (2) Each contiguous protein, RNA, or RNA chain must not be disrupted by
+       other types of residues or ligands.  Rather, these other residues
+       should be listed after protein, RNA/DNA chains.
+   (3) Disulphides are automatically detected based on distances between the sulfur atoms
+      (must be less than 3 A apart).
+   (4) Broken protein/RNA/DNA chains without terminii must be more than 2.5 A apart to be recognized as such.
+   (5) N-linked glycan links are automatically recognized if the bonded atoms are less than 2.5 A apart.
+   (6) Automatic generation cannot be used with alternate conformations.
+   For ligands, the user must make suitable topology and parameter files.
+   For non-standard covalent linkages, the custom patch file should be used.
+   Alternatively, the generate.inp or generate_easy.inp task files
+   can be used to generated the mtf prior to running this task file.
+    *}
+{===>} structure_infile="";
+
+{* for auto generation: extra linkages and modifications by custom patches *}
+{===>} patch_infile="";
+
+{======================= distance restraints =========================}
+
+{* distance restraints file *}
+{===>} restraints_infile="_restrains_file_";
+
+{========================== atom selection ===========================}
+
+{* select atoms to be included in the simulation *}
+{===>} atom_select=( all );
+
+{* select fixed atoms *}
+{* the fixed body can contain multiple chains. *}
+{===>} atom_fixed=(none);
+
+{* select pseudo atoms *}
+{* note that pseudo atoms must be connected the group of rigid atoms or
+   to the rigid bodies. This is done by using custom patches. *}
+{===>} pseudo_select=( resname PSDO );
+
+{* select atoms to be harmonically restrained *}
+{===>} atom_harm=(none);
+
+{* harmonic restraint constant - for harmonically restrained atoms *}
+{===>} k_harmonic=10;
+
+{* selections for moving rigid bodies *}
+{* note: the selections must be non-overlapping *}
+{* note that the bodies can be covalently linked by one or more bonds
+   allowing the simulation of connected rigid bodies with intervening flexible linkers *}
+{===>} atom_rigid_1=(all);
+{===>} atom_rigid_2=(none);
+{===>} atom_rigid_3=(none);
+{===>} atom_rigid_4=(none);
+{===>} atom_rigid_5=(none);
+{===>} atom_rigid_6=(none);
+{===>} atom_rigid_7=(none);
+{===>} atom_rigid_8=(none);
+{===>} atom_rigid_9=(none);
+{===>} atom_rigid_10=(none);
+! to add more groups add more numbered entries:
+!   {===>} atom_rigid_11=(none);
+!   {===>} atom_rigid_12=(none);
+!   {===>} atom_rigid_13=(none);
+! etc
+
+{====================== annealing parameters ========================}
+
+{* starting temperature *}
+{* used for both constant-temperature and slowcooling schemes *}
+{===>} temperature=2000;
+
+{* temperature control method *}
+{* either coupling to a temperature bath or velocity scaling *}
+{+ choice: coupling scaling +}
+{===>} tcontrol="scaling";
+
+{* number of molecular dynamics steps without distance restraints (usually more than 10000 steps) *}
+{===>} pre_steps=10000;
+
+{* number of constant-temperature molecular dynamics steps with distance restraints (usually more than 50000 steps) *}
+{===>} constant_steps=50000;
+
+{* drop in temperature (K) per cycle of dynamics with distance restraints *}
+{===>} cool_rate=12.5;
+
+{* molecular dynamics time step (ps) *}
+{===>} time_step=0.001;
+
+{* start number for trials *}
+{===>} start_trials=0;
+
+{* number of trials to carry out with different initial velocities *}
+{===>} num_trials=_model_count_replace_;
+
+{* seed for random number generator *}
+{* change to get different initial velocities *}
+{===>} seed=82364;
+
+{* torsion angle topology modification file *}
+{===>} torsion_infile="CNS_TOPPAR:torsionmdmods";
+
+{=========================== output files ============================}
+
+{* root name for output files *}
+{+ list:
+        coordinate files will be written: <output_root>_n.pdb
+        where n is the trial number                         +}
+{===>} output_root="docking";
+
+{===========================================================================}
+{         things below this line do not normally need to be changed         }
+{         except for the torsion angle topology setup if you have           }
+{         molecules other than protein or nucleic acid                      }
+{===========================================================================}
+
+ ) {- end block parameter definition -}
+
+ checkversion 1.3
+
+ evaluate ($log_level=quiet)
+
+ if ( $log_level = verbose ) then
+   set message=normal echo=on end
+ else
+   set message=off echo=off end
+ end if
+
+ if ( &BLANK%structure_infile = true ) then
+
+    {- read topology files -}
+    topology
+     evaluate ($counter=1)
+     evaluate ($done=false)
+     while ( $done = false ) loop read
+      if ( &exist_topology_infile_$counter = true ) then
+         if ( &BLANK%topology_infile_$counter = false ) then
+            @@&topology_infile_$counter
+         end if
+      else
+        evaluate ($done=true)
+      end if
+      evaluate ($counter=$counter+1)
+     end loop read
+    end
+
+    @CNS_XTALMODULE:mtfautogenerate (
+                                  coordinate_infile=&coordinate_infile;
+                                  convert=true;
+                                  separate=true;
+                                  atom_delete=(not known);
+                                  hydrogen_flag=true;
+                                  break_cutoff=2.5;
+                                  disulphide_dist=3.0;
+                                  carbo_dist=2.5;
+                                  patch_infile=&patch_infile;
+                                  O5_becomes="O";
+                                 )
+
+ else
+
+   structure @&structure_infile end
+   coordinates @&coordinate_infile
+
+ end if
+
+ {- read parameter files -}
+ parameter
+  evaluate ($counter=1)
+  evaluate ($done=false)
+  while ( $done = false ) loop read
+   if ( &exist_parameter_infile_$counter = true ) then
+      if ( &BLANK%parameter_infile_$counter = false ) then
+         @@&parameter_infile_$counter
+      end if
+   else
+     evaluate ($done=true)
+   end if
+   evaluate ($counter=$counter+1)
+  end loop read
+ end
+
+ set message=off echo=off end
+
+ flags exclude * include bond angle impr dihe vdw ? end
+
+ if ( &BLANK%restraints_infile = false ) then
+     @&restraints_infile
+ end if
+
+ igroup
+   interaction ( &atom_select and not &pseudo_select )
+               ( &atom_select and not &pseudo_select )
+ end
+
+ {- check isolated atoms and atoms at special positions and add to
+    list of fixed atoms if needed - store6 will be used -}
+
+ do (store6=0) (all)
+
+ connectivity
+    selection=( &atom_select and not &atom_fixed )
+    nsetto=store6
+ end
+
+ display
+ display  list of isolated (non-covalently bonded) atoms:
+ show element ( name ) ( attribute store6 = 1 )
+ if ($select=0) then
+       display  --none--
+ end if
+
+ display
+ display  list of isolated (non-covalently bonded) di-atomic molecules:
+ show element ( name ) ( attribute store6 = 2 )
+ if ($select=0) then
+       display  --none--
+ end if
+
+ {- check to make sure that pseudo-atoms are linked to something -}
+ show elem (x) ( &pseudo_select and ( attribute store6 = 1 ) )
+ if ($select>0) then
+    set message = on end
+    display
+    display  some pseudo-atoms are not covalently linked to anything  -> aborting
+    display
+    display  check the following pseudo-atoms:
+    show elem (x) ( &pseudo_select and ( attribute store6 = 0 ) )
+    display
+    display
+    abort
+ end if
+
+ {- set all masses to one amu -}
+
+ do ( mass=1 ) ( all )
+
+ {- for torsion angle dynamics we have to fix
+  isolated atoms and explicitly fixed atoms -}
+
+ ident (store6) ((attribute store6 = 1) or
+                 (attribute store6 = 2) or
+                 ( not ( &atom_select ))  or
+                         &atom_fixed )
+
+ display  $select isolated atoms, atoms in di-atomic molecules,
+ display  explicitly fixed atoms, and atoms not selected will be fixed.
+
+ fix selection=( store6 ) end
+
+ fastnb grid end
+
+ show sum(1) (&atom_harm)
+ if ( $result > 0 ) then
+   evaluate ($harmonic=true)
+ else
+   evaluate ($harmonic=false)
+ end if
+
+ evaluate ($start_temp=&temperature/10)
+ evaluate ($md_steps=6)
+ evaluate ($fbeta=200)
+
+ set seed=&seed end
+
+ do (store7=x) (all)
+ do (store8=y) (all)
+ do (store9=z) (all)
+
+ do (xcomp=x) ( all )
+ do (ycomp=y) ( all )
+ do (zcomp=z) ( all )
+
+ evaluate ($trial= &start_trials)
+
+ evaluate ($stop= &num_trials + &start_trials-1)
+
+ set message=off end
+ set echo=off end
+
+ while ( $trial <= $stop ) loop main
+
+   display
+   display  running trial number $trial
+   display
+
+   do (x=store7) (all)
+   do (y=store8) (all)
+   do (z=store9) (all)
+
+   {- randomly rotate the fixed bodies -}
+
+   evaluate ($angle= random * 360 )
+   evaluate ($vecx= (.5-random))
+   evaluate ($vecy= (.5-random))
+   evaluate ($vecz= (.5-random))
+
+   show ave ( x ) ( store6 and &atom_select )
+   evaluate ($cenx=$result)
+   show ave ( y ) ( store6 and &atom_select )
+   evaluate ($ceny=$result)
+   show ave ( z ) ( store6 and &atom_select )
+   evaluate ($cenz=$result)
+
+   display
+   display  randomly rotating the fixed bodies by $angle degrees around the geometric center ( $cenx $ceny $cenz )
+   display
+
+   coor rotate center = ( $cenx $ceny $cenz ) selection=( store6 and &atom_select ) angle= $angle vector=( $vecx $vecy $vecz ) end
+
+   {- randomly rotate the moving bodies -}
+
+   evaluate ($angle= random * 360 )
+   evaluate ($vecx= (.5-random))
+   evaluate ($vecy= (.5-random))
+   evaluate ($vecz= (.5-random))
+
+   show ave ( x ) ( not store6 and &atom_select )
+   evaluate ($cenx=$result)
+   show ave ( y ) ( not store6 and &atom_select )
+   evaluate ($ceny=$result)
+   show ave ( z ) ( not store6 and &atom_select )
+   evaluate ($cenz=$result)
+
+   display
+   display  randomly rotating the moving bodies by $angle degrees around the geometric center ( $cenx $ceny $cenz )
+   display
+
+   coor rotate center = ( $cenx $ceny $cenz ) selection=( not store6 and &atom_select ) angle=$angle  vector=( $vecx $vecy $vecz ) end
+
+   {- now re-match the coordinates using the fixed bodies as the reference -}
+
+   coor fit selection=( store6 and &atom_select ) end
+
+   if ( $harmonic = true ) then
+     do (refx=x) (all)
+     do (refy=y) (all)
+     do (refz=z) (all)
+     do (harm=0) (all)
+     do (harm=&k_harmonic) (&atom_harm)
+     flags include harm end
+   end if
+
+   parameter
+     nbonds
+        wmin=0.5
+        repel ?  evaluate ($repel_old=$result)
+        rcon ?   evaluate ($rcon_old=$result)
+        if ( $repel_old > 0 ) then
+          if ( $repel_old = 1 ) then
+             repel=1.  rcon=100.
+          else
+             repel=.75 rcon=50.
+          end if
+        end if
+     end
+   end
+
+   do (fbeta=$fbeta) ( ( &atom_select ) and not store6 )
+
+   do (vx=maxwell($start_temp)) ( ( &atom_select ) and not store6 )
+   do (vy=maxwell($start_temp)) ( ( &atom_select ) and not store6 )
+   do (vz=maxwell($start_temp)) ( ( &atom_select ) and not store6 )
+
+   {- first run MD without distance restraints to scramble the starting configuration -}
+
+   display
+   display  running constant temperature dynamics without distance restraints to scramble to starting configuration
+   display
+
+   flags exclude noe end
+
+   energy end
+
+   if ($vdw > 10000000 ) then
+      display
+      display rotated rigid bodies are too close to each other or overlapping.  Going to the next trial.
+      display
+   else
+
+   dynamics torsion
+      topology
+
+          maxlength=-1
+          maxchain=-1
+          maxtree=-1
+          kdihmax = 95.
+
+          evaluate ($atr_count=1)
+          evaluate ($atr_done=false)
+          while ( $atr_done = false ) loop atrl
+          if ( &exist_atom_rigid_$atr_count = true ) then
+           fix group ( &atom_rigid_$atr_count )
+           evaluate ($atr_count=$atr_count+1)
+          else
+           evaluate ($atr_done=true)
+          end if
+         end loop atrl
+
+         if ( &BLANK%torsion_infile = false ) then
+            @&torsion_infile
+         else
+            @CNS_TOPPAR:torsionmdmods
+         end if
+
+       end
+       timestep=&time_step
+       nstep=&pre_steps
+       nprint=250
+       cmremove=true
+       if ( &tcontrol = "scaling" ) then
+         vscaling=true
+       elseif ( &tcontrol = "coupling" ) then
+         tcoupling=true
+       end if
+       temperature=&temperature
+   end
+
+   evaluate ($coordinate_outfile=&output_root + "_start_" + encode($trial) + ".pdb")
+
+   write coordinates output=$coordinate_outfile selection=( &atom_select) format=pdbo end
+
+   display
+   display  running slow-cooling dynamics with distance restraints
+   display
+
+   flags include noe end
+
+   dynamics torsion
+       timestep=&time_step
+       nstep=&constant_steps
+       nprint=250
+       cmremove=true
+       if ( &tcontrol = "scaling" ) then
+         vscaling=true
+       elseif ( &tcontrol = "coupling" ) then
+         tcoupling=true
+       end if
+       temperature=&temperature
+   end
+
+   evaluate ( $curr_temp = &temperature )
+
+   while ( $curr_temp > 0.0 ) loop cool
+       dynamics torsion
+         timestep=&time_step
+         nstep=$md_steps
+         nprint=5
+         cmremove=false
+         if ( &tcontrol = "scaling" ) then
+           vscaling=true
+         elseif ( &tcontrol = "coupling" ) then
+           tcoupling=true
+         end if
+         temperature=$curr_temp
+       end
+     evaluate ( $curr_temp = $curr_temp - &cool_rate )
+   end loop cool
+
+   dynamics torsion
+     topology reset end
+   end
+
+   parameter
+     nbonds
+       repel=$repel_old rcon=$rcon_old
+     end
+   end
+
+   if ( &md_scheme = "slowcool" ) then
+     evaluate ($md_temp=(&temperature-0)/&cool_rate)
+   else
+     evaluate ($md_temp=1)
+   end if
+
+   display
+   display  rigid body minimization
+   display
+
+   minimize rigid
+      nstep=200
+      evaluate ($atr_count=1)
+      evaluate ($atr_done=false)
+      while ( $atr_done = false ) loop atrl
+       if ( &exist_atom_rigid_$atr_count = true ) then
+        group ( &atom_rigid_$atr_count )
+        evaluate ($atr_count=$atr_count+1)
+       else
+        evaluate ($atr_done=true)
+       end if
+      end loop atrl
+   end
+
+   energy end
+
+   print threshold=20.0 bond
+   evaluate ($rmsd_bond=$result)
+
+   print threshold=50.0 angle
+   evaluate ($rmsd_angle=$result)
+
+   evaluate ($coordinate_outfile=&output_root + "_" + encode($trial) + ".pdb")
+   evaluate ($dist_outfile=&output_root + "_" + encode($trial) + ".dist")
+   set display=$coordinate_outfile end
+
+   display REMARK coordinates from molecular dynamics Etotal= $ENER[f14.4] Enoe= $NOE[f14.4]
+   display REMARK rmsd bonds= $rmsd_bond[f8.6]  rmsd angles= $rmsd_angle[f8.5]
+
+   set print=$dist_outfile end
+   noe print thres=-1.0 end
+
+   remark
+
+   write coordinates output=$coordinate_outfile selection=( &atom_select ) format=pdbo end
+
+   set display=OUTPUT end
+   set print=OUTPUT end
+
+   end if
+
+   evaluate ($trial=$trial+1)
+
+ end loop main
+
+ stop
+
+

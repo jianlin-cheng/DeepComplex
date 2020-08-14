@@ -1,0 +1,9 @@
+#!/bin/bash
+# CNS-CONFIGURATION
+source _cns_solve_source_replace_/cns_solve_env.sh
+export KMP_AFFINITY=none
+export CNS_CUSTOMMODULE=_output_file_directory_replace_
+
+
+_cns_solve_source_replace_/intel-x86_64bit-linux/bin/cns_solve < docking.inp > docking.out
+

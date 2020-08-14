@@ -1,0 +1,4 @@
+/home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_A.pdb
+/home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_B.pdb
+/home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_C.pdb
+/home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_X_1.pdb

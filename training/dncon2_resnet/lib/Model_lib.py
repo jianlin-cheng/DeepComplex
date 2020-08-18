@@ -105,14 +105,19 @@ def DNCON2_net(inputs,layers,filters,kernel_size,act_func,normalize):
     block=Flatten()(block)
     return Model(inputs=contact_input, outputs=block)
 
-def DNCON2_ResNet(inputs,layers,filters,kernel_size,act_func,normalize):
+def DNCON2_ResNet(inputs,residual_block_num,filters,kernel_size,act_func,normalize):
     input_shape=(inputs.shape[1],inputs.shape[2],inputs.shape[3])
     print ("This input shape is :", inputs.shape)
     contact_input=Input(shape=input_shape)
     _handle_dimension_ordering()
-    block = basic_block_conv2D_norm_relu(filters=filters, kernel_size=kernel_size, act_func=act_func, kernel_regularizer=None,normalize=normalize)(contact_input)
-    for _ in range(layers-1):
+    first_block = basic_block_conv2D_norm_relu(filters=filters, kernel_size=kernel_size, act_func=act_func, kernel_regularizer=None,normalize=normalize)(contact_input)
+    block = basic_block_conv2D_norm_relu(filters=filters, kernel_size=kernel_size, act_func=act_func, kernel_regularizer=None,normalize=normalize)(first_block)
+    block = add_input(first_block,block)
+    for _ in range(residual_block_num-1):
         block = basic_block_conv2D_norm_relu(filters=filters, kernel_size=kernel_size, act_func=act_func, kernel_regularizer=None,normalize=normalize)(block)
+        block = basic_block_conv2D_norm_relu(filters=filters, kernel_size=kernel_size, act_func=act_func, kernel_regularizer=None,normalize=normalize)(block)
+        block = add_input(first_block,block)
+
     block=basic_block_conv2D_norm_relu(filters=1, kernel_size=kernel_size, act_func="sigmoid", kernel_regularizer=None,normalize=None)(block)
     block=Flatten()(block)
     return Model(inputs=contact_input, outputs=block)

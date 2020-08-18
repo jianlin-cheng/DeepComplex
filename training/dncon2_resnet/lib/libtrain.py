@@ -313,7 +313,8 @@ def train_on_this_X_Y (model_arch, train_param, X, Y, prev_weights, out_file_wei
     print ('X Train shape : ' + str(X.shape))
     print ('Y Train shape : ' + str(Y.shape))
     print ('')
-    model = DNCON2_net(inputs=X,filters=16,layers=6,kernel_size=5,act_func="relu",normalize="BatchNormalization")
+#    model = DNCON2_net(inputs=X,filters=16,layers=6,kernel_size=5,act_func="relu",normalize="BatchNormalization")
+    model = DNCON2_ResNet(inputs=X,filters=16,residual_block_num=6,kernel_size=5,act_func="relu",normalize="BatchNormalization")
     if os.path.isfile(prev_weights):
         print ('Loading previously saved weights..')
         print ('')

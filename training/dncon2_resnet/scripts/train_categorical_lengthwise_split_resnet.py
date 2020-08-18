@@ -157,7 +157,7 @@ def evaluate(LTR, model_arch, file_weights,pathX,pathY,epochs):
         print ("Getting X-features for "+key)
         X=get_x_from_this_file(feat_file_name)
         print ("Making predictions for: "+key)
-        P=make_prediction_new(model_arch, file_weights, X)
+        P=make_prediction_ResNet(model_arch, file_weights, X)
         print ("Prediction output shape:",P.shape," to " ,P.squeeze().reshape(len(Y),len(Y)).shape)
         print ("True Labels shape:",Y.shape)
         print ("Length in dict: ",L)

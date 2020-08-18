@@ -131,6 +131,13 @@ def make_prediction_new(model_arch, file_weights, X):
     P = model.predict(X)
     return P
 
+def make_prediction_ResNet(model_arch, file_weights, X):
+    model = DNCON2_ResNet(inputs=X,filters=16,residual_block_num=6,kernel_size=5,act_func="relu",normalize="BatchNormalization")
+    model.load_weights(file_weights)
+    print ("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  The input shape for prediction is :", X.shape)
+    P = model.predict(X)
+    return P
+
 def make_prediction(model_arch, file_weights, X):
     model = build_model_for_this_input_shape(model_arch, X)
     model.load_weights(file_weights)

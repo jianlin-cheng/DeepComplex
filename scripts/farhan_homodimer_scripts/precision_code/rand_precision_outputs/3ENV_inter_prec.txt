@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3ENV
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 7
+con_num= 11
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3ENV     0   0.0    0.0      0.0     0.0     0.0  0.92   0.69
+ 3ENV     1   0.0    0.0      0.0     0.0    1.83  2.76   3.23
+ 3ENV     2   0.0    0.0     9.09    6.98    6.42  5.07   5.07

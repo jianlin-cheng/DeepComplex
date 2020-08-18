@@ -1,0 +1,10 @@
+./rand_precision_outputs/11AS_inter_prec.txt
+./rand_precision_outputs/137L_inter_prec.txt
+./rand_precision_outputs/19HC_inter_prec.txt
+./rand_precision_outputs/1A05_inter_prec.txt
+./rand_precision_outputs/1A0F_inter_prec.txt
+./rand_precision_outputs/1A0G_inter_prec.txt
+./rand_precision_outputs/1A19_inter_prec.txt
+./rand_precision_outputs/1A25_inter_prec.txt
+./rand_precision_outputs/1A2D_inter_prec.txt
+./rand_precision_outputs/1A3Y_inter_prec.txt

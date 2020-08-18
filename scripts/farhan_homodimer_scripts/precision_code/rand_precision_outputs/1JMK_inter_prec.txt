@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1JMK
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 12
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1JMK     0   0.0    0.0      0.0     0.0     0.0  0.87   0.43
+ 1JMK     1   0.0    0.0      0.0     0.0     0.0  1.74   2.17
+ 1JMK     2   0.0    0.0      0.0     0.0     0.0  2.61   2.61

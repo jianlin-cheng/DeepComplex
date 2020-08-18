@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4X51
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 3
+con_num= 7
+con_num= 9
+con_num= 13
+con_num= 25
+con_num= 53
+Relaxation = 2
+con_num= 0
+con_num= 4
+con_num= 8
+con_num= 12
+con_num= 20
+con_num= 38
+con_num= 82
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4X51     0   0.0    0.0      0.0     0.0    2.82   1.41   1.41
+ 4X51     1   0.0   30.0     50.0   32.14   18.31  17.61  18.66
+ 4X51     2   0.0   40.0    57.14   42.86   28.17  26.76  28.87

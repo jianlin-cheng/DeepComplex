@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2CJW
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 11
+con_num= 15
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2CJW     0   0.0    0.0      0.0     0.0     1.1  0.55   0.28
+ 2CJW     1   0.0    0.0      0.0     0.0     2.2  3.87   2.76
+ 2CJW     2   0.0    0.0      0.0     0.0     3.3  6.08   4.14

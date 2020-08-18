@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1DOK
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 5
+con_num= 17
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 0
+con_num= 3
+con_num= 5
+con_num= 7
+con_num= 19
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1DOK     0   0.0    0.0      0.0     0.0     0.0   0.0   2.78
+ 1DOK     1   0.0    0.0      0.0    7.14    8.33  6.94  11.81
+ 1DOK     2   0.0   20.0      0.0   21.43   13.89  9.72  13.19

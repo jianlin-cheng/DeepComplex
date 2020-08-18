@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1B48
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 7
+con_num= 11
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 3
+con_num= 5
+con_num= 13
+con_num= 20
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1B48     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 1B48     1   0.0   20.0    13.64    6.82     2.7  3.17   2.49
+ 1B48     2   0.0   20.0    13.64    6.82     4.5  5.88   4.52

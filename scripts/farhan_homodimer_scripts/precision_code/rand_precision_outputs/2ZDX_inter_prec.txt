@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2ZDX
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 8
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 14
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2ZDX     0   0.0    0.0      0.0    1.43    0.57  0.29   0.71
+ 2ZDX     1   0.0    0.0      0.0    1.43    0.57  0.29   1.14
+ 2ZDX     2   0.0    0.0      0.0    1.43    0.57  0.29    2.0

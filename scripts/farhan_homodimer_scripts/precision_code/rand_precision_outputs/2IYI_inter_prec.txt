@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2IYI
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 18
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 10
+con_num= 32
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2IYI     0   0.0    0.0      0.0     0.0     0.0   0.0   1.85
+ 2IYI     1   0.0    0.0      0.0     0.0     3.7  5.56   8.33
+ 2IYI     2  40.0   20.0    18.18    9.09   11.11  9.26  14.81

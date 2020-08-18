@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4RDK
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 7
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 5
+con_num= 7
+con_num= 13
+con_num= 35
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4RDK     0   0.0    0.0     6.67    3.39    1.35  0.68   0.34
+ 4RDK     1   0.0    0.0     6.67    3.39     2.7  2.37   2.71
+ 4RDK     2   0.0    0.0     10.0    8.47    4.73  4.41   5.93

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2RCZ
+Relaxation = 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 13
+Relaxation = 1
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 9
+con_num= 18
+con_num= 43
+Relaxation = 2
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 18
+con_num= 36
+con_num= 84
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2RCZ     0   0.0   40.0     50.0    25.0    9.76   7.41   8.02
+ 2RCZ     1   0.0   40.0     50.0    25.0   21.95  22.22  26.54
+ 2RCZ     2   0.0   40.0     50.0    25.0    43.9  44.44  51.85

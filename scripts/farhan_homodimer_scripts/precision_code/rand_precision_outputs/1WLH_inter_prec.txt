@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1WLH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 4
+con_num= 7
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+con_num= 9
+con_num= 15
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1WLH     0   0.0    0.0      0.0     0.0    0.65  0.32   0.16
+ 1WLH     1   0.0    0.0      0.0    1.61     2.6  2.27   1.62
+ 1WLH     2   0.0    0.0      0.0    3.23    3.25  2.92   2.44

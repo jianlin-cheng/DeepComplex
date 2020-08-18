@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3WXB
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 10
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3WXB     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 3WXB     1   0.0    0.0      0.0     3.7    1.48  0.74   1.49
+ 3WXB     2   0.0    0.0      0.0     3.7    1.48  3.72   4.09

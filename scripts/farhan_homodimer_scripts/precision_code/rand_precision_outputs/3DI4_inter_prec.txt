@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3DI4
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+con_num= 12
+con_num= 16
+con_num= 30
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 8
+con_num= 16
+con_num= 22
+con_num= 44
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3DI4     0   0.0    0.0     7.14    3.64    1.45  0.73   1.09
+ 3DI4     1   0.0    0.0    14.29   10.91     8.7  5.82   5.45
+ 3DI4     2   0.0    0.0    21.43   14.55   11.59   8.0    8.0

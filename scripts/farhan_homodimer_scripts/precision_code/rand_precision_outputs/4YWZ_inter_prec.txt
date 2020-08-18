@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4YWZ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+con_num= 9
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 9
+con_num= 16
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4YWZ     0   0.0    0.0      0.0     0.0     0.0   0.0   0.68
+ 4YWZ     1   0.0    0.0      0.0     0.0    2.74  3.42   3.08
+ 4YWZ     2   0.0   20.0    13.33   13.79    8.22  6.16   5.48

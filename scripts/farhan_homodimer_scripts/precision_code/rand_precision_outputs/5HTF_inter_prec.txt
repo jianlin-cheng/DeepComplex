@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5HTF
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 8
+con_num= 8
+con_num= 16
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 8
+con_num= 12
+con_num= 12
+con_num= 24
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5HTF     0   0.0    0.0      0.0    1.85    0.74  0.37   0.19
+ 5HTF     1  40.0   20.0    14.81   11.11    5.93  2.97   2.97
+ 5HTF     2  40.0   20.0    22.22   14.81    8.89  4.46   4.46

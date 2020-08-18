@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5AUS
+Relaxation = 0
+con_num= 2
+con_num= 4
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 8
+con_num= 13
+Relaxation = 1
+con_num= 2
+con_num= 4
+con_num= 2
+con_num= 6
+con_num= 16
+con_num= 31
+con_num= 63
+Relaxation = 2
+con_num= 4
+con_num= 6
+con_num= 4
+con_num= 8
+con_num= 18
+con_num= 33
+con_num= 79
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 5AUS     0  40.0   40.0     25.0   23.53   14.29   9.64   7.83
+ 5AUS     1  40.0   40.0     25.0   35.29    38.1  37.35  37.95
+ 5AUS     2  80.0   60.0     50.0   47.06   42.86  39.76  47.59

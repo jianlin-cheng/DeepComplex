@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3LVS
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 7
+con_num= 11
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 10
+con_num= 20
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3LVS     0   0.0    0.0      0.0     0.0    0.72  0.36   0.54
+ 3LVS     1   0.0    0.0      0.0     0.0    3.62  2.54   1.99
+ 3LVS     2   0.0    0.0      0.0     0.0    4.35  3.62   3.62

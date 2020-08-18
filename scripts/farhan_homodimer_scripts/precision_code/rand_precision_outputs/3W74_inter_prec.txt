@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3W74
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 8
+con_num= 9
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 11
+con_num= 17
+con_num= 24
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3W74     0   0.0    0.0      0.0    3.17    2.55  1.28   0.64
+ 3W74     1   0.0    0.0      0.0    3.17    3.82  2.56   1.44
+ 3W74     2   0.0    0.0      0.0    3.17    7.01  5.43   3.83

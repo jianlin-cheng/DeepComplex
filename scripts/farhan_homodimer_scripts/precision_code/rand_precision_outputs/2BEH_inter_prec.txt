@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2BEH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 5
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 5
+con_num= 9
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2BEH     0   0.0    0.0      0.0     0.0     0.0   0.0   0.12
+ 2BEH     1   0.0    0.0      0.0     0.0    0.48  0.72    0.6
+ 2BEH     2   0.0    0.0      0.0    2.38    1.43  1.19   1.07

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5C93
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+con_num= 6
+con_num= 9
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 5
+con_num= 8
+con_num= 8
+con_num= 16
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5C93     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 5C93     1   0.0    0.0      0.0    8.51    5.04  2.53    1.9
+ 5C93     2   0.0    0.0     4.17   10.64    6.72  3.38   3.38

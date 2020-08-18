@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2D68
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 10
+Relaxation = 1
+con_num= 0
+con_num= 4
+con_num= 2
+con_num= 4
+con_num= 12
+con_num= 22
+con_num= 32
+Relaxation = 2
+con_num= 0
+con_num= 6
+con_num= 4
+con_num= 11
+con_num= 23
+con_num= 37
+con_num= 59
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2D68     0   0.0    0.0      0.0     0.0     0.0   5.13   6.41
+ 2D68     1   0.0   40.0     25.0    25.0   30.77  28.21  20.51
+ 2D68     2   0.0   60.0     50.0   68.75   58.97  47.44  37.82

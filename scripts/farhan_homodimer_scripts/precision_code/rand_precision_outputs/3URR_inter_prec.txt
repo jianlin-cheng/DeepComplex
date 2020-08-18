@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3URR
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 6
+con_num= 24
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 11
+con_num= 33
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3URR     0   0.0    0.0      0.0     0.0     0.0   0.0   1.32
+ 3URR     1  40.0   20.0    13.33   13.33    7.89  3.95   7.89
+ 3URR     2  40.0   20.0    13.33   13.33   13.16  7.24  10.86

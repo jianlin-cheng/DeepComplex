@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4RO3
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 4
+con_num= 9
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 5
+con_num= 12
+con_num= 20
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 7
+con_num= 8
+con_num= 19
+con_num= 33
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4RO3     0   0.0    0.0      0.0     0.0    1.75   3.54   3.98
+ 4RO3     1  40.0   20.0    18.18   17.39    8.77  10.62   8.85
+ 4RO3     2  40.0   20.0    27.27   30.43   14.04  16.81   14.6

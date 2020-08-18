@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1HUL
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 10
+Relaxation = 1
+con_num= 1
+con_num= 3
+con_num= 3
+con_num= 4
+con_num= 14
+con_num= 25
+con_num= 42
+Relaxation = 2
+con_num= 3
+con_num= 7
+con_num= 7
+con_num= 10
+con_num= 24
+con_num= 44
+con_num= 76
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1HUL     0   0.0    0.0      0.0     0.0     3.7    3.7   4.63
+ 1HUL     1  20.0   30.0    27.27   18.18   25.93  23.15  19.44
+ 1HUL     2  60.0   70.0    63.64   45.45   44.44  40.74  35.19

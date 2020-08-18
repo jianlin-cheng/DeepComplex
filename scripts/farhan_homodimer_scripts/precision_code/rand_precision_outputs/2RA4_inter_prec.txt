@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2RA4
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 22
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 13
+con_num= 25
+con_num= 53
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2RA4     0   0.0    0.0      0.0     0.0     0.0    0.0   4.62
+ 2RA4     1   0.0   20.0    28.57   15.38   12.12  15.38  16.92
+ 2RA4     2   0.0   20.0    28.57   30.77   39.39  38.46  40.77

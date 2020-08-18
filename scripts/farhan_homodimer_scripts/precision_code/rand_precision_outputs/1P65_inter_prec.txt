@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1P65
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 5
+Relaxation = 1
+con_num= 2
+con_num= 6
+con_num= 2
+con_num= 6
+con_num= 12
+con_num= 32
+con_num= 46
+Relaxation = 2
+con_num= 2
+con_num= 10
+con_num= 4
+con_num= 10
+con_num= 22
+con_num= 49
+con_num= 79
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1P65     0   0.0   20.0      0.0   18.18     6.9   5.26   4.39
+ 1P65     1  40.0   60.0    33.33   54.55   41.38  56.14  40.35
+ 1P65     2  40.0  100.0    66.67   90.91   75.86  85.96   69.3

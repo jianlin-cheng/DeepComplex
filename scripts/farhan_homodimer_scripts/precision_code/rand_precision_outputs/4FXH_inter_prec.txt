@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4FXH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 7
+con_num= 15
+con_num= 19
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 12
+con_num= 24
+con_num= 38
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4FXH     0   0.0    0.0      0.0     0.0     0.0    0.0   0.54
+ 4FXH     1   0.0    0.0      0.0    5.26   14.89  16.13  10.22
+ 4FXH     2  20.0   10.0    11.11   15.79   25.53  25.81  20.43

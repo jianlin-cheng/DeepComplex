@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3NXJ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 15
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 12
+con_num= 18
+con_num= 32
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3NXJ     0   0.0    0.0      0.0     0.0    3.17   1.6    1.6
+ 3NXJ     1   0.0    0.0      0.0     0.0    3.17   6.4    6.0
+ 3NXJ     2  40.0   20.0    15.38    16.0   19.05  14.4   12.8

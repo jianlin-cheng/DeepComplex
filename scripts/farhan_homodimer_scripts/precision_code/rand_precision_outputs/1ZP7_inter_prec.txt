@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1ZP7
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 9
+con_num= 12
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 23
+con_num= 29
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1ZP7     0   0.0    0.0     12.5    6.45    2.53   2.55   1.27
+ 1ZP7     1   0.0   10.0    18.75    9.68     3.8   5.73   3.82
+ 1ZP7     2   0.0   20.0     25.0    12.9    7.59  14.65   9.24

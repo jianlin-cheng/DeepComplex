@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3UEH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 8
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 12
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3UEH     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 3UEH     1  40.0   20.0    14.29    7.41     2.9  5.84   2.92
+ 3UEH     2  40.0   20.0    14.29    7.41     5.8   7.3   4.38

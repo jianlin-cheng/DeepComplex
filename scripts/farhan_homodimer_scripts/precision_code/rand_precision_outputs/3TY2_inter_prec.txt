@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3TY2
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 6
+con_num= 10
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 8
+con_num= 16
+con_num= 24
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+con_num= 12
+con_num= 25
+con_num= 35
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3TY2     0   0.0    0.0      0.0    2.04    2.44  2.45   2.04
+ 3TY2     1   0.0    0.0      0.0    6.12     6.5  6.53    4.9
+ 3TY2     2   0.0    0.0      8.0    10.2    9.76  10.2   7.14

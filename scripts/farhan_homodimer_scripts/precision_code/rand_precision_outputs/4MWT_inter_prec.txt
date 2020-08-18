@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4MWT
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 11
+con_num= 17
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4MWT     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 4MWT     1   0.0    0.0      0.0     0.0     0.0  1.45   1.21
+ 4MWT     2   0.0    0.0     2.44     1.2    0.48  2.66   2.06

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5DCK
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 6
+Relaxation = 1
+con_num= 2
+con_num= 4
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 20
+con_num= 26
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 2
+con_num= 4
+con_num= 11
+con_num= 25
+con_num= 40
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 5DCK     0  40.0   20.0    28.57   14.29    5.56   8.33   4.17
+ 5DCK     1  40.0   40.0    28.57   28.57   22.22  27.78  18.06
+ 5DCK     2  40.0   40.0    28.57   28.57   30.56  34.72  27.78

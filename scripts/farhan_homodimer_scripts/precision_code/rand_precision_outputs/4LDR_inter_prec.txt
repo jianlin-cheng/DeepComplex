@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4LDR
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+con_num= 17
+con_num= 19
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 12
+con_num= 26
+con_num= 30
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4LDR     0   0.0    0.0      0.0     0.0     0.0  1.12   0.56
+ 4LDR     1   0.0    0.0      0.0    2.82    3.93  4.78   2.67
+ 4LDR     2   0.0   20.0     5.56    8.45    6.74   7.3   4.21

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4QOE
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 6
+con_num= 8
+con_num= 14
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4QOE     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 4QOE     1   0.0    0.0      8.7    4.35    1.74  0.87   0.87
+ 4QOE     2   0.0    0.0    26.09   13.04    6.96  6.11    4.8

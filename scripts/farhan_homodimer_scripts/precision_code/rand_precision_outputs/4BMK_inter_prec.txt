@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4BMK
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 3
+con_num= 9
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+con_num= 9
+con_num= 11
+con_num= 22
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 8
+con_num= 17
+con_num= 19
+con_num= 34
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4BMK     0   0.0    0.0      2.5    1.25    1.51  0.75   1.13
+ 4BMK     1   0.0    0.0     10.0     7.5    4.52  2.76   2.76
+ 4BMK     2   0.0    0.0     10.0    10.0    8.54  4.77   4.27

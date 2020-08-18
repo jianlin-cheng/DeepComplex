@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2YVR
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 11
+con_num= 19
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 13
+con_num= 28
+con_num= 47
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2YVR     0   0.0    0.0      0.0     0.0     8.7   4.44   5.56
+ 2YVR     1   0.0    0.0      0.0     0.0   17.39  24.44  21.11
+ 2YVR     2  40.0   20.0     40.0   22.22   56.52  62.22  52.22

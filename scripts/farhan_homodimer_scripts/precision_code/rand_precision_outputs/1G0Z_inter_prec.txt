@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1G0Z
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 7
+con_num= 15
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 14
+con_num= 26
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1G0Z     0   0.0    0.0      0.0     0.0     0.0    0.0   1.69
+ 1G0Z     1   0.0    0.0      0.0     0.0    6.78   5.93   6.36
+ 1G0Z     2  40.0   20.0    16.67    8.33   13.56  11.86  11.02

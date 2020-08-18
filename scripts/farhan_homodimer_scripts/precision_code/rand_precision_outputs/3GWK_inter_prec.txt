@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3GWK
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 11
+con_num= 17
+con_num= 32
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 17
+con_num= 37
+con_num= 60
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3GWK     0   0.0    0.0      0.0     0.0    8.16   4.08   3.06
+ 3GWK     1  40.0   20.0     20.0    10.0   22.45  17.35  16.33
+ 3GWK     2  40.0   20.0     20.0    20.0   34.69  37.76  30.61

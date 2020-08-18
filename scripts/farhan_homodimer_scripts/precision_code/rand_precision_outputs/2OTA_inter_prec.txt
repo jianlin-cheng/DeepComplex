@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2OTA
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 11
+Relaxation = 1
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 11
+con_num= 38
+con_num= 67
+Relaxation = 2
+con_num= 2
+con_num= 3
+con_num= 3
+con_num= 5
+con_num= 19
+con_num= 53
+con_num= 102
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2OTA     0   0.0    0.0      0.0     0.0    6.06   6.06   8.33
+ 2OTA     1   0.0   10.0    14.29    7.69   33.33  57.58  50.76
+ 2OTA     2  40.0   30.0    42.86   38.46   57.58   80.3  77.27

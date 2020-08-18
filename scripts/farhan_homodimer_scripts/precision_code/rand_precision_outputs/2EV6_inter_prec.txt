@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2EV6
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 10
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 14
+con_num= 26
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2EV6     0   0.0    0.0      0.0    7.41     2.9   2.92   2.19
+ 2EV6     1   0.0    0.0      0.0   14.81     5.8    7.3   5.84
+ 2EV6     2   0.0    0.0    14.29   22.22     8.7  10.22   9.49

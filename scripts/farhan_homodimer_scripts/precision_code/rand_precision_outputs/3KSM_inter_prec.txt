@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3KSM
+Relaxation = 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 3
+con_num= 4
+con_num= 4
+con_num= 4
+Relaxation = 2
+con_num= 0
+con_num= 1
+con_num= 4
+con_num= 5
+con_num= 7
+con_num= 8
+con_num= 11
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3KSM     0   0.0   10.0      3.7    1.85    0.74  0.37   0.18
+ 3KSM     1   0.0   10.0     7.41    5.56    2.94  1.47   0.74
+ 3KSM     2   0.0   10.0    14.81    9.26    5.15  2.94   2.02

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1ZB8
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 7
+con_num= 14
+con_num= 22
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 10
+con_num= 17
+con_num= 32
+con_num= 55
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1ZB8     0   0.0    0.0      0.0    7.14    5.71   4.32   2.16
+ 1ZB8     1   0.0    0.0      0.0   10.71    10.0  10.07   7.91
+ 1ZB8     2  20.0   10.0    21.43   35.71   24.29  23.02  19.78

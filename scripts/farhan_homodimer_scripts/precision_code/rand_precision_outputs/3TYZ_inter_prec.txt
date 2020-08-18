@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3TYZ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 10
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 10
+con_num= 18
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3TYZ     0   0.0    0.0      0.0     0.0     0.0   0.0   0.18
+ 3TYZ     1   0.0    0.0     7.14    3.64    1.45  1.45   1.81
+ 3TYZ     2  40.0   20.0    14.29    7.27    4.35  3.62   3.26

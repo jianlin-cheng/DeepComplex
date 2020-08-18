@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2QUI
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2QUI     0   0.0    0.0      0.0     0.0     0.0   0.0   0.76
+ 2QUI     1   0.0    0.0      0.0     0.0     0.0   0.0   1.02
+ 2QUI     2   0.0    0.0      0.0     0.0     0.0   0.0   1.02

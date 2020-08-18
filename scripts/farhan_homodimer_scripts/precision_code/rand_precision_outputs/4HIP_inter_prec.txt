@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4HIP
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 6
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4HIP     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 4HIP     1   0.0   20.0    15.38     8.0    3.12  3.15   1.57
+ 4HIP     2   0.0   20.0    15.38     8.0    3.12  4.72   2.36

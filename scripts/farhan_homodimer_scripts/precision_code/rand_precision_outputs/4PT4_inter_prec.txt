@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4PT4
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 12
+con_num= 21
+con_num= 53
+Relaxation = 2
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 22
+con_num= 42
+con_num= 88
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4PT4     0   0.0    0.0      0.0     0.0     0.0    0.0   1.01
+ 4PT4     1   0.0   40.0     40.0    30.0    24.0  21.21  26.77
+ 4PT4     2   0.0   40.0     40.0    30.0    44.0  42.42  44.44

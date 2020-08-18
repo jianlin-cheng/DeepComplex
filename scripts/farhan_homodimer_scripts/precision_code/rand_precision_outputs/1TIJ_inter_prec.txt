@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1TIJ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 5
+con_num= 13
+Relaxation = 1
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 8
+con_num= 22
+con_num= 30
+con_num= 51
+Relaxation = 2
+con_num= 4
+con_num= 8
+con_num= 8
+con_num= 10
+con_num= 28
+con_num= 52
+con_num= 85
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1TIJ     0   0.0    0.0      0.0     0.0    8.77   4.39    5.7
+ 1TIJ     1  40.0   60.0    54.55   34.78    38.6  26.32  22.37
+ 1TIJ     2  80.0   80.0    72.73   43.48   49.12  45.61  37.28

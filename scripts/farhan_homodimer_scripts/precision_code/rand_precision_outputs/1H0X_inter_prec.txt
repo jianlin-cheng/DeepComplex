@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1H0X
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 13
+con_num= 17
+Relaxation = 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 20
+con_num= 32
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1H0X     0   0.0    0.0      0.0     0.0     0.0    0.0   1.12
+ 1H0X     1   0.0    0.0      0.0     0.0    8.89  14.61   9.55
+ 1H0X     2  80.0   40.0    44.44   22.22   17.78  22.47  17.98

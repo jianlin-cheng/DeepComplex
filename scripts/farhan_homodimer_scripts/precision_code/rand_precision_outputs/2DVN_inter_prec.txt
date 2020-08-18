@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2DVN
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 4
+con_num= 7
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 2
+con_num= 10
+con_num= 16
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2DVN     0   0.0    0.0      0.0     0.0     0.0  0.54   0.27
+ 2DVN     1   0.0    0.0     5.26     2.7    1.08  2.15   1.88
+ 2DVN     2   0.0    0.0     5.26    5.41    2.15  5.38    4.3

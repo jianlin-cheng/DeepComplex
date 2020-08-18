@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3ECO
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 8
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 7
+con_num= 7
+con_num= 23
+con_num= 44
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 7
+con_num= 7
+con_num= 23
+con_num= 50
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3ECO     0   0.0    0.0      0.0     0.0     0.0   2.96   2.96
+ 3ECO     1  40.0   20.0    35.71   25.93   10.29  17.04   16.3
+ 3ECO     2  40.0   20.0    35.71   25.93   10.29  17.04  18.52

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2WVB
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 3
+con_num= 4
+con_num= 19
+Relaxation = 2
+con_num= 1
+con_num= 3
+con_num= 5
+con_num= 7
+con_num= 12
+con_num= 21
+con_num= 42
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2WVB     0   0.0    0.0      0.0     0.0     0.0  0.71   0.36
+ 2WVB     1   0.0    0.0    14.29   10.71    4.29  2.86   6.79
+ 2WVB     2  20.0   30.0    35.71    25.0   17.14  15.0   15.0

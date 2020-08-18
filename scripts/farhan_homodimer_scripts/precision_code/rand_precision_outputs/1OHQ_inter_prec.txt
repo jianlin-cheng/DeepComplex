@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1OHQ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 11
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1OHQ     0   0.0    0.0      0.0     0.0     0.0  0.83   1.25
+ 1OHQ     1   0.0    0.0      0.0     0.0     0.0  1.67   2.92
+ 1OHQ     2   0.0    0.0      0.0     0.0    10.0  9.17   9.58

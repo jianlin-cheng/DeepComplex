@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3EB8
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 3
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 10
+con_num= 12
+con_num= 15
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3EB8     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 3EB8     1   0.0   10.0     2.94    1.49     0.6  0.89   0.45
+ 3EB8     2   0.0   20.0    11.76    8.96    5.95  3.57   2.23

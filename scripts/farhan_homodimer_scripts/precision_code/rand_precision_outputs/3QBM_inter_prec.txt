@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3QBM
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 13
+con_num= 27
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 13
+con_num= 23
+con_num= 42
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3QBM     0   0.0    0.0      0.0     0.0     0.0   1.03   1.03
+ 3QBM     1   0.0    0.0    10.53   10.26    8.25    6.7   6.96
+ 3QBM     2   0.0    0.0    10.53   10.26    13.4  11.86  10.82

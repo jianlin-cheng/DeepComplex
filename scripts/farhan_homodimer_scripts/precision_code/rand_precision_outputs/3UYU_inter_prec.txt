@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3UYU
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 12
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 12
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3UYU     0   0.0    0.0      0.0     0.0     0.0   0.0   0.44
+ 3UYU     1   0.0    0.0      0.0    4.35    5.22  2.62   2.62
+ 3UYU     2   0.0    0.0      0.0    4.35    5.22  5.24   5.02

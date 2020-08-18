@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3FD6
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 8
+con_num= 11
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 9
+con_num= 17
+con_num= 26
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3FD6     0   0.0    0.0      0.0     0.0     0.0  0.28   0.28
+ 3FD6     1   0.0    0.0     5.56    2.82    3.37  2.25   1.55
+ 3FD6     2   0.0    0.0     5.56    4.23    5.06  4.79   3.66

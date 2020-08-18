@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2Z76
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 10
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 10
+con_num= 17
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2Z76     0   0.0    0.0      0.0     0.0    3.03  1.53   0.76
+ 2Z76     1  40.0   20.0    15.38    7.69    6.06  3.05   3.82
+ 2Z76     2  40.0   20.0    15.38    7.69    9.09  7.63   6.49

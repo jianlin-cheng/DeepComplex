@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3PFT
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+Relaxation = 1
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 10
+con_num= 26
+Relaxation = 2
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 6
+con_num= 18
+con_num= 25
+con_num= 50
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3PFT     0   0.0   20.0     12.5    6.45    2.53   1.27   2.55
+ 3PFT     1  40.0   40.0     25.0    12.9   10.13   6.37   8.28
+ 3PFT     2  40.0   60.0     37.5   19.35   22.78  15.92  15.92

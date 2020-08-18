@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3DFU
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 10
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 18
+con_num= 26
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 5
+con_num= 9
+con_num= 27
+con_num= 47
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3DFU     0   0.0    0.0      0.0    4.44    3.57   2.69   2.24
+ 3DFU     1   0.0   20.0     9.09    8.89    7.14   8.07   5.83
+ 3DFU     2   0.0   20.0    13.64   11.11    8.04  12.11  10.54

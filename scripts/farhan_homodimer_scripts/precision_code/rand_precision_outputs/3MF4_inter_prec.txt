@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3MF4
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 6
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 4
+con_num= 15
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3MF4     0   0.0    0.0      0.0     0.0     0.0   0.0   0.62
+ 3MF4     1   0.0    0.0      0.0    2.08    0.83  0.83   1.25
+ 3MF4     2   0.0    0.0      0.0    2.08    0.83  1.67   3.12

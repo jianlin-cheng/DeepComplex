@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3FAS
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 12
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3FAS     0   0.0    0.0      0.0     0.0    1.54  0.77   0.38
+ 3FAS     1   0.0    0.0      0.0     0.0    1.54  0.77   0.77
+ 3FAS     2   0.0    0.0      0.0     0.0    1.54  1.54   2.31

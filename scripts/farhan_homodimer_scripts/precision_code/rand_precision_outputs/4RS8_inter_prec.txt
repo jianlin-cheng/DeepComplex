@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4RS8
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 7
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 8
+con_num= 23
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+con_num= 13
+con_num= 39
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4RS8     0   0.0    0.0      0.0     0.0    4.76   2.38   4.17
+ 4RS8     1   0.0    0.0      0.0     0.0   14.29   9.52  13.69
+ 4RS8     2   0.0    0.0      0.0     0.0   19.05  15.48  23.21

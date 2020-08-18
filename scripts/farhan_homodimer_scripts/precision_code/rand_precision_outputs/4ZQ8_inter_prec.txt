@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4ZQ8
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 7
+con_num= 9
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 7
+con_num= 15
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4ZQ8     0   0.0    0.0      0.0     0.0     0.0   0.0   0.31
+ 4ZQ8     1   0.0   20.0     6.25    3.12    3.11  2.18    1.4
+ 4ZQ8     2   0.0   20.0     6.25    3.12    4.35  4.67   3.58

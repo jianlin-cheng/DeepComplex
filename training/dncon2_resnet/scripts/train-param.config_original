@@ -1,0 +1,7 @@
+# Training hyperparameters
+optimizer      nadam
+batch_size     30
+inner_epochs   40
+outer_epochs   200
+# Total number of epochs = outer_epochs x 3 x inner_epochs
+# = 200 x 40 x 3 = 24K

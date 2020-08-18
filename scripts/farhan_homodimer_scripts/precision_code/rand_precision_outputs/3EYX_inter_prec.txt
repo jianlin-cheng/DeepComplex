@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3EYX
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 18
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 12
+con_num= 37
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3EYX     0   0.0    0.0      0.0     0.0     0.0   0.0   1.02
+ 3EYX     1   0.0   20.0     10.0    5.13    2.02  2.03   4.57
+ 3EYX     2   0.0   20.0     10.0    5.13    2.02  6.09   9.39

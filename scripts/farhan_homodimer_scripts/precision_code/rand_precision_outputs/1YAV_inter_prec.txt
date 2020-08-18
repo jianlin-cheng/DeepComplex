@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1YAV
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 6
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 3
+con_num= 7
+con_num= 14
+con_num= 28
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1YAV     0   0.0    0.0      0.0     0.0     0.0    0.0    0.0
+ 1YAV     1   0.0    0.0    14.29    7.41    4.35   4.38   3.65
+ 1YAV     2   0.0   10.0    21.43   11.11   10.14  10.22  10.22

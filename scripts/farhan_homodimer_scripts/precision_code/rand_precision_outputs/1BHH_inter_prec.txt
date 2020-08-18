@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1BHH
+Relaxation = 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 5
+con_num= 8
+Relaxation = 2
+con_num= 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 7
+con_num= 11
+con_num= 17
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1BHH     0   0.0   10.0     10.0    4.76    1.92   2.88   1.92
+ 1BHH     1   0.0   10.0     10.0    4.76    3.85   4.81   3.85
+ 1BHH     2  20.0   20.0     20.0    9.52   13.46  10.58   8.17

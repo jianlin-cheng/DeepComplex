@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2QNU
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 5
+con_num= 6
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 7
+con_num= 14
+con_num= 19
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 10
+con_num= 24
+con_num= 33
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2QNU     0   0.0    0.0     9.09    9.09    4.55   2.74   1.37
+ 2QNU     1   0.0    0.0     9.09    9.09    6.36   6.39   4.34
+ 2QNU     2   0.0    0.0     9.09   13.64    9.09  10.96   7.53

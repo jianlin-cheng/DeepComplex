@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2QM7
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 9
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 5
+con_num= 15
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2QM7     0   0.0    0.0      0.0     0.0     0.0   0.0   0.32
+ 2QM7     1   0.0    0.0      0.0     0.0     0.0  2.85   2.06
+ 2QM7     2   0.0    0.0      0.0    1.59    3.16  4.75   3.48

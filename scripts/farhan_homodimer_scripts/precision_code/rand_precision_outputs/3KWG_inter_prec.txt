@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3KWG
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3KWG     0   0.0    0.0      0.0     0.0     0.0   0.0   0.38
+ 3KWG     1   0.0    0.0      0.0     0.0     0.0   0.0   0.38
+ 3KWG     2   0.0    0.0      0.0     3.7    1.49  0.75   1.13

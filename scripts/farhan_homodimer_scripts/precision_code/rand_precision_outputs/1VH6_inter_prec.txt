@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1VH6
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 7
+con_num= 10
+Relaxation = 1
+con_num= 0
+con_num= 6
+con_num= 6
+con_num= 8
+con_num= 14
+con_num= 23
+con_num= 43
+Relaxation = 2
+con_num= 0
+con_num= 6
+con_num= 6
+con_num= 12
+con_num= 21
+con_num= 40
+con_num= 79
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1VH6     0   0.0   20.0     20.0    10.0    3.92   6.86    4.9
+ 1VH6     1   0.0   60.0     60.0    40.0   27.45  22.55  21.08
+ 1VH6     2   0.0   60.0     60.0    60.0   41.18  39.22  38.73

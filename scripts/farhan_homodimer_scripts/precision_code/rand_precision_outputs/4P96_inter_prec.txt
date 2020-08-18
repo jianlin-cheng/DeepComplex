@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4P96
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 12
+Relaxation = 2
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 5
+con_num= 7
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4P96     0   0.0   20.0     7.14    3.57    1.44  0.72   0.36
+ 4P96     1   0.0   20.0     7.14    3.57    1.44  1.08   2.16
+ 4P96     2   0.0   40.0    14.29    7.14     3.6  2.52   4.14

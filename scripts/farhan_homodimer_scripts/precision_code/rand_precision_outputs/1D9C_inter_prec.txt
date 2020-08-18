@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1D9C
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 8
+con_num= 14
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 15
+con_num= 23
+con_num= 60
+Relaxation = 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 25
+con_num= 38
+con_num= 92
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1D9C     0  40.0   20.0    16.67    8.33    9.84   6.61   5.79
+ 1D9C     1  40.0   20.0    16.67   16.67   24.59  19.01  24.79
+ 1D9C     2  80.0   40.0    33.33    25.0   40.98   31.4  38.02

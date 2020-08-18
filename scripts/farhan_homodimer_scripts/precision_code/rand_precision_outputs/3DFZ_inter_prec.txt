@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3DFZ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 9
+con_num= 19
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 10
+con_num= 18
+con_num= 37
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3DFZ     0   0.0    0.0      0.0     0.0     0.0  1.49   0.75
+ 3DFZ     1   0.0    0.0      0.0     5.0    3.96  4.48   4.73
+ 3DFZ     2   0.0    0.0      0.0     5.0     9.9  8.96    9.2

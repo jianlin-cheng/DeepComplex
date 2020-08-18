@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3F8H
+Relaxation = 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 7
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 10
+con_num= 12
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3F8H     0   0.0   10.0     7.69     3.7    1.49  0.75   0.38
+ 3F8H     1   0.0   20.0    15.38   14.81    5.97  3.01   2.63
+ 3F8H     2   0.0   20.0    15.38   22.22   14.93  9.02   8.27

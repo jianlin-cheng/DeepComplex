@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2DS5
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 6
+Relaxation = 1
+con_num= 2
+con_num= 4
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 14
+con_num= 34
+Relaxation = 2
+con_num= 2
+con_num= 8
+con_num= 2
+con_num= 8
+con_num= 10
+con_num= 31
+con_num= 64
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2DS5     0   0.0    0.0      0.0     0.0     0.0   2.27   6.82
+ 2DS5     1  40.0   40.0     50.0   44.44   18.18  31.82  38.64
+ 2DS5     2  40.0   80.0     50.0   88.89   45.45  70.45  72.73

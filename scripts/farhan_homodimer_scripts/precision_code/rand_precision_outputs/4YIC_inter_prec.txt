@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4YIC
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 6
+con_num= 13
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 8
+con_num= 18
+con_num= 18
+con_num= 33
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4YIC     0   0.0    0.0      0.0     0.0     0.0   0.0   0.14
+ 4YIC     1  40.0   20.0    11.43     5.8    3.47  1.74   1.88
+ 4YIC     2  40.0   20.0    17.14   11.59    10.4  5.22   4.78

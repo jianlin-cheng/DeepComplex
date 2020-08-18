@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2QCQ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 8
+con_num= 12
+con_num= 24
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 9
+con_num= 16
+con_num= 42
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2QCQ     0   0.0    0.0      0.0    9.09     3.7   1.85   1.85
+ 2QCQ     1  40.0   40.0    36.36   36.36   14.81  11.11  11.11
+ 2QCQ     2  40.0   40.0    36.36   36.36   16.67  14.81  19.44

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1G6Y
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 10
+con_num= 17
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 12
+con_num= 22
+con_num= 40
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1G6Y     0   0.0    0.0      0.0     0.0     0.0   0.0   0.78
+ 1G6Y     1   0.0    0.0     7.69    7.84     6.2  3.89   3.31
+ 1G6Y     2   0.0    0.0     7.69    7.84     9.3  8.56   7.78

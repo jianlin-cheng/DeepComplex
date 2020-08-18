@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1V13
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 21
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1V13     0   0.0    0.0      0.0     0.0     0.0  1.59   0.79
+ 1V13     1   0.0    0.0      0.0     8.0    6.35  4.76   6.35
+ 1V13     2   0.0    0.0      0.0     8.0    6.35  7.94   8.33

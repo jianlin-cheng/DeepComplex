@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3ZRV
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+con_num= 15
+con_num= 30
+Relaxation = 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 18
+con_num= 31
+con_num= 60
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3ZRV     0   0.0    0.0      0.0    9.09    7.27   3.64   2.73
+ 3ZRV     1   0.0    0.0      0.0    9.09    9.09  13.64  13.64
+ 3ZRV     2  80.0   40.0    36.36   27.27   32.73  28.18  27.27

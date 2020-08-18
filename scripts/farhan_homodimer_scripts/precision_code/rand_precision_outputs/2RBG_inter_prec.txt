@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2RBG
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+Relaxation = 2
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 5
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2RBG     0   0.0    0.0      0.0     0.0     0.0   0.0   0.41
+ 2RBG     1   0.0    0.0      0.0     0.0     0.0   0.0   1.22
+ 2RBG     2   0.0   10.0     8.33     4.0    1.61  1.63   2.03

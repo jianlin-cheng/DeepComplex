@@ -1,0 +1,3 @@
+/data/farhan/SoftwareTools/HomopolymerProject/DeepComplex/training/dncon2_model/lib/1TMI
+1TMI
+/data/farhan/SoftwareTools/HomopolymerProject/DeepComplex/training/dncon2_model/lib/1TMI_temp_rr.rr

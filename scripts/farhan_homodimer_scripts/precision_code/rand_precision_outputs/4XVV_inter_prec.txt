@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4XVV
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 7
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 6
+con_num= 11
+con_num= 31
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 15
+con_num= 47
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4XVV     0   0.0    0.0      0.0     0.0    5.56   5.56   4.86
+ 4XVV     1  20.0   10.0    14.29    7.14   16.67  15.28  21.53
+ 4XVV     2  40.0   20.0    28.57   14.29   22.22  20.83  32.64

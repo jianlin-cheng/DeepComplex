@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1PM3
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 12
+Relaxation = 1
+con_num= 2
+con_num= 3
+con_num= 2
+con_num= 3
+con_num= 7
+con_num= 15
+con_num= 29
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 22
+con_num= 46
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1PM3     0   0.0    0.0      0.0     0.0    5.71  11.43   8.57
+ 1PM3     1  40.0   30.0    28.57   21.43    20.0  21.43  20.71
+ 1PM3     2  40.0   40.0    28.57   28.57   28.57  31.43  32.86

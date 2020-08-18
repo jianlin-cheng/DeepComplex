@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2CN4
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 12
+con_num= 18
+con_num= 37
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 18
+con_num= 29
+con_num= 66
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2CN4     0   0.0    0.0      0.0     0.0     2.3   1.16   2.31
+ 2CN4     1   0.0   20.0    11.76   11.43   13.79   10.4  10.69
+ 2CN4     2   0.0   20.0    11.76   17.14   20.69  16.76  19.08

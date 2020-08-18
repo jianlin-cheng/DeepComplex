@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2XOT
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 5
+con_num= 7
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 10
+con_num= 17
+con_num= 25
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2XOT     0   0.0    0.0      0.0     0.0    1.19   0.6    0.6
+ 2XOT     1   0.0    0.0     2.94    1.49    2.98  2.09   1.94
+ 2XOT     2   0.0    0.0     5.88    2.99    5.95  5.07   3.73

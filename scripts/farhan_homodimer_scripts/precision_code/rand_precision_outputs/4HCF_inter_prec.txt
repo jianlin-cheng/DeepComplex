@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4HCF
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 3
+con_num= 6
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 5
+con_num= 10
+con_num= 14
+Relaxation = 2
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 6
+con_num= 7
+con_num= 14
+con_num= 26
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4HCF     0   0.0    0.0      0.0    5.26    4.17   3.16   3.16
+ 4HCF     1  40.0   20.0     20.0   21.05   10.42  10.53   7.37
+ 4HCF     2  60.0   30.0     30.0   31.58   14.58  14.74  13.68

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4F28
+Relaxation = 0
+con_num= 0
+con_num= 3
+con_num= 1
+con_num= 5
+con_num= 9
+con_num= 11
+con_num= 20
+Relaxation = 1
+con_num= 2
+con_num= 8
+con_num= 4
+con_num= 10
+con_num= 18
+con_num= 28
+con_num= 55
+Relaxation = 2
+con_num= 2
+con_num= 8
+con_num= 4
+con_num= 10
+con_num= 28
+con_num= 44
+con_num= 92
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4F28     0   0.0   30.0    14.29   38.46   27.27  16.92  15.38
+ 4F28     1  40.0   80.0    57.14   76.92   54.55  43.08  42.31
+ 4F28     2  40.0   80.0    57.14   76.92   84.85  67.69  70.77

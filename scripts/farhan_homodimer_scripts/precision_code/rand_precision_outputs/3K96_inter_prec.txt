@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3K96
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 3
+con_num= 8
+con_num= 8
+con_num= 12
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 3
+con_num= 10
+con_num= 14
+con_num= 19
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3K96     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 3K96     1  20.0   10.0     9.09    4.62    4.91  2.45   1.84
+ 3K96     2  20.0   10.0     9.09    4.62    6.13  4.29   2.91

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2FRE
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 9
+con_num= 15
+con_num= 31
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 16
+con_num= 32
+con_num= 56
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2FRE     0   0.0    0.0      0.0     0.0    2.04   1.03   1.03
+ 2FRE     1   0.0    0.0      0.0    5.13    9.18   7.69   7.95
+ 2FRE     2   0.0    0.0      0.0   10.26   16.33  16.41  14.36

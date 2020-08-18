@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4G5P
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 5
+con_num= 6
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 5
+con_num= 8
+con_num= 11
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4G5P     0   0.0    0.0     3.23    1.61    0.64  0.64   0.48
+ 4G5P     1   0.0    0.0     6.45    3.23    1.92   1.6   0.96
+ 4G5P     2   0.0    0.0     6.45    4.84    3.21  2.56   1.76

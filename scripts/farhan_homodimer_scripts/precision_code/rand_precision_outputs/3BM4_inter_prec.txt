@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3BM4
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 14
+con_num= 35
+Relaxation = 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 22
+con_num= 59
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3BM4     0   0.0    0.0      0.0     0.0     0.0   2.03   1.02
+ 3BM4     1  80.0   40.0     20.0   10.26    4.04   7.11   8.88
+ 3BM4     2  80.0   40.0     20.0   10.26    8.08  11.17  14.97

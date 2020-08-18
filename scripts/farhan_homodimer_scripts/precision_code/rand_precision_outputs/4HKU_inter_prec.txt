@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4HKU
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 5
+con_num= 9
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+con_num= 10
+con_num= 18
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4HKU     0   0.0    0.0      0.0     0.0    2.33  1.17   0.58
+ 4HKU     1   0.0    0.0      0.0     0.0    4.65  2.92   2.63
+ 4HKU     2   0.0    0.0      0.0     0.0     9.3  5.85   5.26

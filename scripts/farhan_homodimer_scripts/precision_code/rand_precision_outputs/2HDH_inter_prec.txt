@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2HDH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 6
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 14
+con_num= 28
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2HDH     0   0.0    0.0      0.0     0.0     0.0   0.0   0.35
+ 2HDH     1   0.0   20.0      6.9    3.51     2.1   2.1   2.45
+ 2HDH     2   0.0   40.0    13.79    7.02     4.2   4.9    4.9

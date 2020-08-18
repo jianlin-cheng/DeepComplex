@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1J3M
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 14
+con_num= 23
+Relaxation = 2
+con_num= 2
+con_num= 5
+con_num= 5
+con_num= 7
+con_num= 17
+con_num= 28
+con_num= 44
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1J3M     0   0.0    0.0      0.0     0.0    3.12   3.15   1.57
+ 1J3M     1   0.0   20.0    15.38    16.0   15.62  11.02   9.06
+ 1J3M     2  40.0   50.0    38.46    28.0   26.56  22.05  17.32

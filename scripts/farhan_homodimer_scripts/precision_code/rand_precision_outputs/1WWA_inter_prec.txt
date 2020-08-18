@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1WWA
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 5
+con_num= 9
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 7
+con_num= 11
+con_num= 22
+Relaxation = 2
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 15
+con_num= 21
+con_num= 38
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1WWA     0   0.0   20.0    18.18    9.09    9.09   4.59   4.13
+ 1WWA     1   0.0   20.0    18.18    9.09   12.73  10.09  10.09
+ 1WWA     2   0.0   40.0    36.36   18.18   27.27  19.27  17.43

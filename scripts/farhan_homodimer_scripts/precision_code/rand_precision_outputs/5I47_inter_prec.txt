@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5I47
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 5
+con_num= 12
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5I47     0   0.0    0.0      0.0     0.0     0.0   0.0   0.38
+ 5I47     1   0.0    0.0      0.0     0.0     0.0  0.77   1.15
+ 5I47     2   0.0    0.0     3.85    1.92    0.76  1.92    2.3

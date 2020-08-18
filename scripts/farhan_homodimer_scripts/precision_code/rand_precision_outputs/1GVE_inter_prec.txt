@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1GVE
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 9
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 13
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1GVE     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 1GVE     1   0.0   20.0     12.5    6.15    2.47  1.23   1.39
+ 1GVE     2   0.0   20.0     12.5    6.15    2.47  1.23   2.01

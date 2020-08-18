@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4P37
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 5
+con_num= 15
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+con_num= 19
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4P37     0   0.0    0.0      0.0     0.0     0.0  0.41   0.83
+ 4P37     1   0.0    0.0      0.0     0.0    0.41  1.04   1.55
+ 4P37     2   0.0    0.0      0.0     0.0    0.83  1.45   1.97

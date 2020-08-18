@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2AK7
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 16
+con_num= 34
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 8
+con_num= 22
+con_num= 45
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2AK7     0   0.0    0.0      0.0     0.0    4.65   4.71   4.71
+ 2AK7     1   0.0    0.0      0.0   11.76   13.95  18.82   20.0
+ 2AK7     2   0.0    0.0      0.0   23.53    18.6  25.88  26.47

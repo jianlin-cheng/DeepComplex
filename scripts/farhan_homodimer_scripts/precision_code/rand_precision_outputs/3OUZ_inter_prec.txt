@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3OUZ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 6
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 8
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3OUZ     0   0.0    0.0      0.0     0.0     0.0  0.47   0.23
+ 3OUZ     1  40.0   20.0     4.65    2.35    0.93  1.41    0.7
+ 3OUZ     2  40.0   20.0     4.65    2.35    0.93  1.41   0.94

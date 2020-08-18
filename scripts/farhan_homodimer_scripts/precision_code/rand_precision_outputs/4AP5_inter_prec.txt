@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4AP5
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 7
+con_num= 13
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4AP5     0   0.0    0.0      0.0     0.0     0.0  0.51   0.51
+ 4AP5     1   0.0    0.0     5.13    2.56    1.03  1.03   1.29
+ 4AP5     2   0.0    0.0     5.13    2.56    1.03   1.8   1.67

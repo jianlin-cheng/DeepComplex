@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2F9W
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 10
+con_num= 19
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 10
+con_num= 13
+con_num= 24
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2F9W     0   0.0    0.0      0.0     0.0     0.0   0.0   0.41
+ 2F9W     1   0.0    0.0     8.33    4.08    6.56  4.12   3.91
+ 2F9W     2   0.0    0.0     8.33    4.08     8.2  5.35   4.94

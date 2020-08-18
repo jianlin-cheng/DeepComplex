@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3EKG
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3EKG     0   0.0    0.0      0.0     0.0     0.0   0.0   0.53
+ 3EKG     1   0.0    0.0      0.0    2.63    1.05  1.05   1.84
+ 3EKG     2   0.0    0.0      0.0    5.26    2.11  1.58   2.89

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4HCE
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 6
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 11
+con_num= 27
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 9
+con_num= 17
+con_num= 45
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4HCE     0   0.0    0.0      0.0     0.0    1.54   0.77   2.31
+ 4HCE     1  40.0   20.0    15.38    7.69   12.31   8.46  10.38
+ 4HCE     2  40.0   20.0    15.38    7.69   13.85  13.08  17.31

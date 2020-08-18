@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5LZR
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 11
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5LZR     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 5LZR     1   0.0    0.0      0.0     0.0     0.0   0.0   0.21
+ 5LZR     2   0.0    0.0      0.0     0.0     0.0  0.28   0.78

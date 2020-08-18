@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2Q4D
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 12
+con_num= 17
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 14
+con_num= 21
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2Q4D     0   0.0    0.0      0.0    5.71    4.55  3.41    1.7
+ 2Q4D     1   0.0    0.0    11.11   11.43   11.36  6.82   4.83
+ 2Q4D     2   0.0    0.0    11.11   11.43   11.36  7.95   5.97

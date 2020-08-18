@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2NVM
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 15
+con_num= 23
+Relaxation = 2
+con_num= 1
+con_num= 3
+con_num= 4
+con_num= 4
+con_num= 13
+con_num= 27
+con_num= 42
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2NVM     0   0.0    0.0      0.0     0.0     0.0   3.64   2.73
+ 2NVM     1   0.0    0.0      0.0     0.0    7.27  13.64  10.45
+ 2NVM     2  20.0   30.0    36.36   18.18   23.64  24.55  19.09

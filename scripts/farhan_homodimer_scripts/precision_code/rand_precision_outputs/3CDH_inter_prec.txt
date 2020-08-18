@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3CDH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 7
+con_num= 11
+con_num= 15
+con_num= 33
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 7
+con_num= 11
+con_num= 17
+con_num= 44
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3CDH     0   0.0    0.0      0.0     0.0     0.0   3.05   2.29
+ 3CDH     1  40.0   20.0    30.77   26.92   16.67  11.45   12.6
+ 3CDH     2  40.0   20.0    30.77   26.92   16.67  12.98  16.79

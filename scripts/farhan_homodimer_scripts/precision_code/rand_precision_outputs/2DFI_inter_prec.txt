@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2DFI
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 7
+con_num= 13
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 13
+con_num= 21
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2DFI     0   0.0    0.0      0.0     0.0     0.0  0.66   0.66
+ 2DFI     1  40.0   40.0    13.33    6.67    2.65  2.33   2.16
+ 2DFI     2  40.0   40.0    13.33    6.67     5.3  4.32   3.49

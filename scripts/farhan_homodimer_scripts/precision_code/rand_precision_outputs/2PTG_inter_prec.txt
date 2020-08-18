@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2PTG
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 5
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 7
+con_num= 7
+con_num= 11
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2PTG     0   0.0    0.0      0.0    2.22    0.89  0.45   0.22
+ 2PTG     1   0.0    0.0      0.0    4.44    3.57  1.79   1.12
+ 2PTG     2  40.0   20.0     9.09    8.89    6.25  3.12   2.46

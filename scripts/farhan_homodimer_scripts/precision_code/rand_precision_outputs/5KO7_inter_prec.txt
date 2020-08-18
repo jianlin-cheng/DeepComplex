@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5KO7
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 14
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 18
+con_num= 29
+con_num= 44
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 20
+con_num= 39
+con_num= 70
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 5KO7     0  40.0   20.0     10.0     5.0    3.96   2.97   3.47
+ 5KO7     1  40.0   20.0     10.0     5.0   17.82  14.36  10.89
+ 5KO7     2  40.0   20.0     10.0     5.0    19.8  19.31  17.33

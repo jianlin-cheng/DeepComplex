@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4D3Q
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 8
+con_num= 8
+con_num= 10
+Relaxation = 2
+con_num= 1
+con_num= 3
+con_num= 3
+con_num= 7
+con_num= 9
+con_num= 15
+con_num= 19
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4D3Q     0   0.0   20.0    14.29    7.14    2.82   1.42   0.71
+ 4D3Q     1   0.0   20.0    14.29   21.43   11.27   5.67   3.55
+ 4D3Q     2  20.0   30.0    21.43    25.0   12.68  10.64   6.74

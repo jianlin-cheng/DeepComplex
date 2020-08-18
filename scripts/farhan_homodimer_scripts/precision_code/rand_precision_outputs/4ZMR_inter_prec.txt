@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4ZMR
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 12
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 18
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4ZMR     0   0.0    0.0      0.0     0.0     0.0   0.0   0.49
+ 4ZMR     1   0.0    0.0      0.0     0.0    1.94  1.94   2.91
+ 4ZMR     2   0.0    0.0      0.0     0.0    1.94  2.91   4.37

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4EJR
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 3
+con_num= 5
+con_num= 7
+con_num= 13
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4EJR     0   0.0    0.0      0.0     0.0    1.22  1.23   0.92
+ 4EJR     1   0.0    0.0      0.0     0.0    2.44  2.45   1.84
+ 4EJR     2  20.0   10.0     12.5    9.09     6.1  4.29   3.99

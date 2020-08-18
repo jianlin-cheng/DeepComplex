@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1R5P
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 6
+con_num= 12
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 12
+con_num= 14
+con_num= 28
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1R5P     0   0.0    0.0      0.0     0.0     0.0    0.0    0.0
+ 1R5P     1   0.0    0.0      0.0     0.0   12.77   6.45   6.45
+ 1R5P     2  40.0   20.0    22.22   10.53   25.53  15.05  15.05

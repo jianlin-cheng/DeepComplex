@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4WJT
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 14
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 14
+con_num= 20
+con_num= 44
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 22
+con_num= 38
+con_num= 72
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4WJT     0   0.0    0.0      0.0     0.0    2.74   2.74   4.79
+ 4WJT     1  40.0   20.0    13.33     6.9   19.18   13.7  15.07
+ 4WJT     2  40.0   20.0    13.33     6.9   30.14  26.03  24.66

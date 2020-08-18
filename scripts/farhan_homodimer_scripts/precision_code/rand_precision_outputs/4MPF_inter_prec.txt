@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4MPF
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 7
+con_num= 9
+con_num= 21
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 15
+con_num= 19
+con_num= 35
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4MPF     0   0.0    0.0      0.0     0.0    3.23  2.42   1.61
+ 4MPF     1   0.0    0.0      0.0     0.0    5.65  3.63   4.23
+ 4MPF     2   0.0    0.0      0.0     0.0    12.1  7.66   7.06

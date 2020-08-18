@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3E6B
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 12
+con_num= 30
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 12
+con_num= 21
+con_num= 46
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3E6B     0   0.0    0.0      0.0     0.0     0.0  0.95   1.42
+ 3E6B     1   0.0    0.0     9.52    4.76    5.66  5.69   7.11
+ 3E6B     2   0.0   20.0    19.05   14.29   11.32  9.95   10.9

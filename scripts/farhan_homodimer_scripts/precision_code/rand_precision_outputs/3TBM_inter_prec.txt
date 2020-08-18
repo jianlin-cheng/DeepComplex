@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3TBM
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 11
+con_num= 23
+Relaxation = 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 10
+con_num= 19
+con_num= 49
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3TBM     0  40.0   20.0    33.33   16.67    6.45   6.56   3.28
+ 3TBM     1  80.0   40.0    66.67   33.33   19.35  18.03  18.85
+ 3TBM     2  80.0   40.0    66.67    50.0   32.26  31.15  40.16

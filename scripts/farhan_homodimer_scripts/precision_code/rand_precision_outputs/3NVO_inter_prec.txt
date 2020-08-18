@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3NVO
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 9
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3NVO     0   0.0    0.0      0.0     0.0     0.0   0.4    0.4
+ 3NVO     1   0.0    0.0      0.0     0.0     0.0   0.4   0.59
+ 3NVO     2   0.0    0.0      0.0     0.0    0.79  1.19   1.78

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1EPA
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 11
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 12
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1EPA     0   0.0    0.0      0.0     0.0     0.0   0.0   0.97
+ 1EPA     1   0.0    0.0      0.0     0.0     0.0  3.87   3.55
+ 1EPA     2   0.0    0.0     12.5    6.45    2.56  7.74    7.1

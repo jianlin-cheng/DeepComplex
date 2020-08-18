@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3F6O
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 7
+con_num= 12
+con_num= 21
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 9
+con_num= 15
+con_num= 31
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3F6O     0   0.0    0.0      0.0   10.53    4.08   4.12   2.06
+ 3F6O     1   0.0    0.0      0.0   26.32   14.29  12.37  10.82
+ 3F6O     2   0.0    0.0      0.0   26.32   18.37  15.46  15.98

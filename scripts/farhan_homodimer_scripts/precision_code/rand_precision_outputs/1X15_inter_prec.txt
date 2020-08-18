@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1X15
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 5
+con_num= 7
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 7
+con_num= 7
+con_num= 16
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1X15     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 1X15     1   0.0    0.0     5.41     2.7    2.69  1.35   0.94
+ 1X15     2   0.0    0.0     5.41    5.41    3.76  1.89   2.16

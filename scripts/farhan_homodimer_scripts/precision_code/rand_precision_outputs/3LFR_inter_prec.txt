@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3LFR
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 7
+con_num= 19
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 7
+con_num= 13
+con_num= 34
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3LFR     0   0.0    0.0      0.0     0.0     0.0    0.0   0.79
+ 3LFR     1   0.0    0.0      0.0     0.0    4.69   5.51   7.48
+ 3LFR     2  40.0   20.0    15.38     8.0   10.94  10.24  13.39

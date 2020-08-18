@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3KXD
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 12
+con_num= 27
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 16
+con_num= 29
+con_num= 50
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3KXD     0   0.0    0.0      0.0    4.44    1.79   2.68   1.79
+ 3KXD     1   0.0    0.0      0.0    4.44    5.36   5.36   6.03
+ 3KXD     2   0.0    0.0      0.0   13.33   14.29  12.95  11.16

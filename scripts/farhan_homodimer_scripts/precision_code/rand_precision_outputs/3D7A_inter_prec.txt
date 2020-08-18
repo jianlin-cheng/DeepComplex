@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3D7A
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 8
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3D7A     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 3D7A     1   0.0    0.0      0.0     0.0     2.9  2.92   2.19
+ 3D7A     2   0.0    0.0      0.0     0.0     2.9  4.38   2.92

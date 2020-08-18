@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3ZRG
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 11
+con_num= 25
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 6
+con_num= 19
+con_num= 46
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3ZRG     0   0.0    0.0      0.0     0.0     0.0   6.06   4.55
+ 3ZRG     1   0.0    0.0      0.0   15.38   12.12  16.67  18.94
+ 3ZRG     2  20.0   10.0    14.29   23.08   18.18  28.79  34.85

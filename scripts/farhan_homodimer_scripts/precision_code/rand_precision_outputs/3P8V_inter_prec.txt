@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3P8V
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 8
+con_num= 8
+con_num= 8
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 12
+con_num= 20
+con_num= 22
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 18
+con_num= 28
+con_num= 34
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3P8V     0   0.0    0.0      0.0    6.78    5.44  2.72   1.36
+ 3P8V     1  40.0   20.0      6.9   10.17    8.16   6.8   3.74
+ 3P8V     2  40.0   20.0      6.9   13.56   12.24  9.52   5.78

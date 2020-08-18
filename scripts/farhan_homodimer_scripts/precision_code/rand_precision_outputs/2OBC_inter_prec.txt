@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2OBC
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 11
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 11
+con_num= 20
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2OBC     0  40.0   20.0     5.56    2.82    1.12  0.56   0.28
+ 2OBC     1  40.0   20.0     5.56    2.82    2.25  1.69   1.54
+ 2OBC     2  40.0   20.0     5.56    2.82    2.25  3.09   2.81

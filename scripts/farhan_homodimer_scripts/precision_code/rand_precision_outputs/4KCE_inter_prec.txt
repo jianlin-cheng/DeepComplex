@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4KCE
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 5
+con_num= 10
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 10
+con_num= 25
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4KCE     0   0.0    0.0      0.0     0.0     0.0   0.0   0.58
+ 4KCE     1   0.0    0.0      0.0    5.88    4.65  2.91   2.91
+ 4KCE     2  40.0   20.0    11.76   11.76     9.3  5.81   7.27

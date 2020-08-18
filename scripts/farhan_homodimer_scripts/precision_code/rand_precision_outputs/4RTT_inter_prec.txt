@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4RTT
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 5
+con_num= 9
+con_num= 15
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 7
+con_num= 14
+con_num= 25
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4RTT     0   0.0    0.0      0.0     0.0    2.44   1.22   0.61
+ 4RTT     1   0.0    0.0      0.0    6.25    12.2  10.98   9.15
+ 4RTT     2   0.0    0.0      0.0    6.25   17.07  17.07  15.24

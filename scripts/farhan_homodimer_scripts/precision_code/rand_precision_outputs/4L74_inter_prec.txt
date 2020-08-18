@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4L74
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 17
+con_num= 30
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 13
+con_num= 33
+con_num= 59
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4L74     0   0.0    0.0      0.0     0.0     0.0   1.78   1.33
+ 4L74     1   0.0    0.0      0.0    8.89    3.54   7.56   6.67
+ 4L74     2   0.0    0.0      0.0    8.89    11.5  14.67  13.11

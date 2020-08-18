@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2Y6W
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 3
+con_num= 7
+con_num= 18
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 5
+con_num= 7
+con_num= 13
+con_num= 34
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2Y6W     0   0.0    0.0      0.0     0.0     0.0   0.0   2.04
+ 2Y6W     1   0.0    0.0    13.33   10.34    4.05  4.76   6.12
+ 2Y6W     2  40.0   20.0    26.67   17.24    9.46  8.84  11.56

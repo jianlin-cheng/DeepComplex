@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3TE8
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 10
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+con_num= 21
+con_num= 31
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3TE8     0   0.0    0.0      0.0     0.0    3.17   1.6    1.2
+ 3TE8     1   0.0    0.0      0.0     0.0    7.94   8.0    6.4
+ 3TE8     2   0.0    0.0      0.0     0.0    12.7  16.8   12.4

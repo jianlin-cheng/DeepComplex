@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2ZVY
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 7
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 10
+con_num= 26
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2ZVY     0   0.0    0.0      0.0     0.0     0.0   0.0   0.55
+ 2ZVY     1   0.0    0.0      0.0    5.41    3.26  3.83   3.83
+ 2ZVY     2   0.0   20.0    11.11   10.81    6.52  5.46    7.1

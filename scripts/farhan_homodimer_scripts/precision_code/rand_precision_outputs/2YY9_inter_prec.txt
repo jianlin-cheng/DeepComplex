@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2YY9
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 14
+con_num= 20
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 12
+con_num= 20
+con_num= 34
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2YY9     0  40.0   20.0    18.18    9.09    7.14    3.6    1.8
+ 2YY9     1  40.0   20.0    18.18    9.09   14.29  12.61   9.01
+ 2YY9     2  40.0   20.0    18.18   18.18   21.43  18.02  15.32

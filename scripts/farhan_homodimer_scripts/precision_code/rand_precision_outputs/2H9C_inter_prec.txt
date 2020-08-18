@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2H9C
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+con_num= 13
+Relaxation = 1
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 17
+con_num= 27
+con_num= 49
+Relaxation = 2
+con_num= 4
+con_num= 6
+con_num= 6
+con_num= 8
+con_num= 32
+con_num= 47
+con_num= 80
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2H9C     0   0.0    0.0      0.0     0.0    8.89   6.74    7.3
+ 2H9C     1  40.0   40.0    44.44   22.22   37.78  30.34  27.53
+ 2H9C     2  80.0   60.0    66.67   44.44   71.11  52.81  44.94

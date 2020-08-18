@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4OQY
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 7
+con_num= 22
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+con_num= 11
+con_num= 34
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4OQY     0   0.0    0.0      0.0     0.0     0.0  0.73   1.46
+ 4OQY     1   0.0    0.0      0.0    3.64    2.19  2.55   4.01
+ 4OQY     2   0.0    0.0      0.0    3.64    5.11  4.01    6.2

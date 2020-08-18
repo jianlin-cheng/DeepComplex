@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4XDY
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+con_num= 15
+con_num= 29
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 13
+con_num= 29
+con_num= 57
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4XDY     0   0.0    0.0      0.0    3.03    2.41  1.21    0.6
+ 4XDY     1   0.0    0.0      0.0    3.03    4.22  4.53   4.38
+ 4XDY     2  20.0   10.0     3.03    4.55    7.83  8.76   8.61

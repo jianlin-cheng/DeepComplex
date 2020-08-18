@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3M52
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 5
+con_num= 9
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 11
+con_num= 28
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 13
+con_num= 24
+con_num= 47
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3M52     0  40.0   20.0    16.67     8.7    8.47   4.27   3.85
+ 3M52     1  40.0   20.0    16.67     8.7   10.17    9.4  11.97
+ 3M52     2  40.0   40.0    33.33   26.09   22.03  20.51  20.09

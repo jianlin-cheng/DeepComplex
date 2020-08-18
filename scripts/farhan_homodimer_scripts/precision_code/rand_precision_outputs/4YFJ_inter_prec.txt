@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4YFJ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 13
+con_num= 24
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 12
+con_num= 25
+con_num= 47
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4YFJ     0   0.0    0.0      0.0     0.0     0.0    0.0   0.97
+ 4YFJ     1  40.0   20.0     12.5    12.9    5.13   8.39   7.74
+ 4YFJ     2  40.0   20.0     12.5   19.35   15.38  16.13  15.16

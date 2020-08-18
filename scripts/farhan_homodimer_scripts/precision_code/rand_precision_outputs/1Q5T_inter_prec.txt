@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1Q5T
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 15
+con_num= 29
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+con_num= 19
+con_num= 44
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1Q5T     0   0.0    0.0      0.0     0.0    1.64   1.64   2.05
+ 1Q5T     1   0.0    0.0      0.0     0.0    9.84   12.3  11.89
+ 1Q5T     2   0.0    0.0      0.0     0.0   13.11  15.57  18.03

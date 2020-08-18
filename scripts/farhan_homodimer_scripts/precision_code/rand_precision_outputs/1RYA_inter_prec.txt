@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1RYA
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 5
+con_num= 12
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 7
+con_num= 12
+con_num= 24
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1RYA     0   0.0    0.0      0.0     0.0     0.0   0.0   0.62
+ 1RYA     1   0.0    0.0      0.0     0.0    1.25  3.12   3.75
+ 1RYA     2   0.0    0.0      0.0     0.0    8.75   7.5    7.5

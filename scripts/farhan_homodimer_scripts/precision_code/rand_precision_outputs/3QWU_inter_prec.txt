@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3QWU
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 7
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 7
+con_num= 7
+con_num= 13
+con_num= 27
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 7
+con_num= 11
+con_num= 13
+con_num= 22
+con_num= 37
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3QWU     0   0.0    0.0      0.0     0.0     0.0  1.09   0.96
+ 3QWU     1   0.0    0.0    13.51    9.59    3.83  3.55   3.69
+ 3QWU     2   0.0    0.0    18.92   15.07     7.1  6.01   5.05

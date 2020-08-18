@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3ZW5
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+Relaxation = 1
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 8
+con_num= 14
+con_num= 18
+con_num= 46
+Relaxation = 2
+con_num= 2
+con_num= 8
+con_num= 8
+con_num= 15
+con_num= 23
+con_num= 33
+con_num= 72
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3ZW5     0   0.0    0.0      0.0    7.69    3.03   1.52   3.03
+ 3ZW5     1  40.0   60.0    46.15   30.77   21.21  13.64  17.42
+ 3ZW5     2  40.0   80.0    61.54   57.69   34.85   25.0  27.27

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2OOL
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 6
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 8
+con_num= 14
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2OOL     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 2OOL     1   0.0    0.0      0.0     0.0    0.66  0.66   0.99
+ 2OOL     2   0.0    0.0      0.0     0.0    1.97  2.63    2.3

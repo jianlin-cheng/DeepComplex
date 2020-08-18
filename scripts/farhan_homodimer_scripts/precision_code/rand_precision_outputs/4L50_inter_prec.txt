@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4L50
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 8
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 7
+con_num= 9
+con_num= 13
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4L50     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 4L50     1   0.0    0.0      0.0     0.0     4.8  3.21   2.01
+ 4L50     2   0.0    0.0      0.0     0.0     5.6  3.61   2.61

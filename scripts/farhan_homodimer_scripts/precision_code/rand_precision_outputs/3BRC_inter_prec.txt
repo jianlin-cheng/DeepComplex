@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3BRC
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 6
+con_num= 7
+Relaxation = 1
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 13
+con_num= 19
+con_num= 38
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 18
+con_num= 24
+con_num= 57
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3BRC     0   0.0    0.0      0.0     0.0     8.0   4.03   2.35
+ 3BRC     1   0.0   10.0     6.67    10.0   17.33  12.75  12.75
+ 3BRC     2   0.0   20.0    13.33   13.33    24.0  16.11  19.13

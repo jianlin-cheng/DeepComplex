@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3E60
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 18
+con_num= 32
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 6
+con_num= 14
+con_num= 26
+con_num= 42
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3E60     0   0.0    0.0     4.76    2.38    0.95  0.95   0.71
+ 3E60     1   0.0    0.0     9.52    4.76    3.81  4.29   3.81
+ 3E60     2   0.0    0.0    14.29    7.14    6.67  6.19    5.0

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1KFQ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 12
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 7
+con_num= 15
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1KFQ     0   0.0    0.0      0.0     0.0     0.0  0.35   0.18
+ 1KFQ     1   0.0    0.0      0.0     0.0     0.0  1.05   1.05
+ 1KFQ     2  20.0   10.0     1.75    0.88    0.35  1.23   1.31

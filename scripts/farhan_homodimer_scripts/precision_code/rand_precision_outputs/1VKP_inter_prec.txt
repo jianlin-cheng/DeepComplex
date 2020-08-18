@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1VKP
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 7
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 7
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1VKP     0   0.0    0.0      0.0     0.0     0.0  0.56   0.28
+ 1VKP     1   0.0    0.0      0.0     0.0    1.12  1.68   0.98
+ 1VKP     2   0.0    0.0      0.0     0.0    1.12  1.68   0.98

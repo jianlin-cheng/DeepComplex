@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3JTF
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 11
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 8
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3JTF     0   0.0    0.0      0.0     0.0    3.28  1.65   1.24
+ 3JTF     1   0.0   20.0    16.67    8.33    6.56  3.31   4.55
+ 3JTF     2   0.0   20.0    16.67    8.33   13.11  6.61    9.5

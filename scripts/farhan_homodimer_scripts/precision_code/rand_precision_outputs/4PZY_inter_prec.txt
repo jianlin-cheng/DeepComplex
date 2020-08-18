@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4PZY
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 5
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 11
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4PZY     0   0.0    0.0      0.0     0.0     0.0  1.18   0.59
+ 4PZY     1   0.0    0.0      0.0     0.0     0.0  2.35   1.47
+ 4PZY     2  40.0   20.0    11.76    5.88    2.35  4.71   3.24

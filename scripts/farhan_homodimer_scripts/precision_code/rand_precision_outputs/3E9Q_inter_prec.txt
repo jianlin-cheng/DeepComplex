@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3E9Q
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 7
+con_num= 9
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 11
+con_num= 16
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3E9Q     0   0.0    0.0      0.0     0.0     0.0  0.81    0.4
+ 3E9Q     1  40.0   20.0     12.0    6.12    2.42  2.83   1.82
+ 3E9Q     2  40.0   20.0     12.0    6.12    2.42  4.45   3.24

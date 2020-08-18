@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3KMH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 32
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3KMH     0   0.0    0.0      0.0     0.0     0.0   0.0   0.68
+ 3KMH     1   0.0    0.0     9.09    4.55    1.82  1.83    3.2
+ 3KMH     2   0.0    0.0     9.09    4.55    3.64  4.57   7.31

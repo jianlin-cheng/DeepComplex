@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1KTN
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 3
+con_num= 10
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1KTN     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 1KTN     1   0.0    0.0      0.0     4.0     1.6   0.8    1.2
+ 1KTN     2   0.0    0.0      0.0     4.0     2.4   1.2    2.0

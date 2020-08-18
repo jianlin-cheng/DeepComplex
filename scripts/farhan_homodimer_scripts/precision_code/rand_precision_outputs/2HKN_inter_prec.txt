@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2HKN
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 12
+Relaxation = 1
+con_num= 2
+con_num= 3
+con_num= 2
+con_num= 7
+con_num= 9
+con_num= 9
+con_num= 33
+Relaxation = 2
+con_num= 2
+con_num= 3
+con_num= 2
+con_num= 8
+con_num= 13
+con_num= 25
+con_num= 66
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2HKN     0   0.0    0.0      0.0   13.33   10.53   5.26   7.89
+ 2HKN     1  40.0   30.0     25.0   46.67   23.68  11.84  21.71
+ 2HKN     2  40.0   30.0     25.0   53.33   34.21  32.89  43.42

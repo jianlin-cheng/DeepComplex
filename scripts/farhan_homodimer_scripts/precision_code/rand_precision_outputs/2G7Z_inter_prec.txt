@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2G7Z
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 4
+con_num= 12
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2G7Z     0   0.0    0.0      0.0     0.0     0.0  0.37   0.56
+ 2G7Z     1   0.0    0.0      0.0     0.0    0.74  0.74   1.86
+ 2G7Z     2   0.0    0.0      0.0     0.0    2.22  1.49   2.23

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3I3G
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 10
+con_num= 30
+Relaxation = 2
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 9
+con_num= 19
+con_num= 56
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3I3G     0   0.0   20.0    14.29     6.9    2.78    1.4    2.8
+ 3I3G     1   0.0   40.0    28.57   13.79    5.56   6.99  10.49
+ 3I3G     2   0.0   40.0    28.57   13.79    12.5  13.29  19.58

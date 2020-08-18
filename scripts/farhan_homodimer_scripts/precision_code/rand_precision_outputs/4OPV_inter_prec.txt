@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4OPV
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 14
+con_num= 32
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4OPV     0   0.0    0.0      0.0     0.0     0.0  0.65   0.65
+ 4OPV     1   0.0    0.0     6.45    3.28     2.6  2.61   2.61
+ 4OPV     2   0.0    0.0     6.45    3.28    5.19  4.56   5.21

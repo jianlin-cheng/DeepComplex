@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4H6Z
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 7
+con_num= 13
+con_num= 22
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 7
+con_num= 15
+con_num= 30
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4H6Z     0   0.0    0.0      0.0     0.0    5.48   2.74   2.05
+ 4H6Z     1   0.0    0.0      0.0     0.0    9.59    8.9   7.53
+ 4H6Z     2   0.0    0.0      0.0     0.0    9.59  10.27  10.27

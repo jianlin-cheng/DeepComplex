@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3TGN
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 5
+con_num= 11
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 12
+con_num= 22
+con_num= 42
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 12
+con_num= 23
+con_num= 53
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3TGN     0   0.0    0.0      0.0     0.0    4.11   3.42   3.77
+ 3TGN     1   0.0    0.0    13.33   20.69   16.44  15.07  14.38
+ 3TGN     2   0.0    0.0    13.33   20.69   16.44  15.75  18.15

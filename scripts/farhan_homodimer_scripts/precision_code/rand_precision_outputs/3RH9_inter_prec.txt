@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3RH9
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 8
+con_num= 19
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 16
+con_num= 37
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3RH9     0   0.0    0.0     4.26    2.15    0.85  0.43   0.43
+ 3RH9     1   0.0    0.0     4.26     4.3    2.56  1.71   2.03
+ 3RH9     2   0.0    0.0     4.26     4.3    3.42  3.43   3.96

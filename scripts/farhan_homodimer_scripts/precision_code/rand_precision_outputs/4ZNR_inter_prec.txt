@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4ZNR
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 6
+con_num= 12
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4ZNR     0   0.0    0.0      0.0    1.56    0.63  0.31   0.16
+ 4ZNR     1   0.0    0.0      0.0    1.56    0.63  0.31   0.47
+ 4ZNR     2   0.0    0.0     6.25    9.38    3.77  1.89   1.89

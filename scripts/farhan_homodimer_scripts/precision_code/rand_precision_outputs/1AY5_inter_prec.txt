@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1AY5
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 5
+con_num= 5
+con_num= 8
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 9
+con_num= 11
+con_num= 19
+con_num= 27
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1AY5     0   0.0    0.0     5.13    2.53    1.02  0.76   0.38
+ 1AY5     1   0.0    0.0    10.26    6.33    2.54  2.03   1.78
+ 1AY5     2   0.0    0.0    15.38   11.39    5.58  4.82   3.43

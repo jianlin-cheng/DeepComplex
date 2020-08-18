@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3UCA
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 7
+con_num= 9
+con_num= 15
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 14
+con_num= 26
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3UCA     0   0.0    0.0      0.0    3.64    1.46  0.73   0.36
+ 3UCA     1  20.0   10.0      3.7    5.45    5.11  3.28   2.74
+ 3UCA     2  40.0   20.0     7.41    7.27    5.84  5.11   4.74

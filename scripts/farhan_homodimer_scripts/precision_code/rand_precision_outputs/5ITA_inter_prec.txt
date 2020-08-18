@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5ITA
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 7
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 9
+con_num= 17
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5ITA     0   0.0    0.0      0.0     0.0     0.0  0.39   0.59
+ 5ITA     1   0.0    0.0      0.0    3.92    3.12  2.73   2.54
+ 5ITA     2   0.0    0.0      0.0    3.92    3.12  3.52   3.32

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2Y8E
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 8
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 6
+con_num= 9
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2Y8E     0   0.0    0.0      0.0     0.0     0.0   0.0    0.6
+ 2Y8E     1   0.0    0.0      0.0    5.88    2.38  1.79   2.38
+ 2Y8E     2  20.0   10.0     5.88    8.82    7.14  5.36   6.85

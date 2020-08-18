@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5DZ8
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 4
+con_num= 8
+con_num= 22
+Relaxation = 2
+con_num= 1
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 7
+con_num= 15
+con_num= 38
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5DZ8     0   0.0    0.0      0.0     0.0     0.0   0.0   1.21
+ 5DZ8     1  20.0   10.0     5.88    3.03    4.82  4.85   6.67
+ 5DZ8     2  20.0   30.0    17.65    9.09    8.43  9.09  11.52

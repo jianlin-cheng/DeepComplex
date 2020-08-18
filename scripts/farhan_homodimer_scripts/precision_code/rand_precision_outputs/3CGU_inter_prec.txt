@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3CGU
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 7
+con_num= 12
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 12
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3CGU     0   0.0    0.0      0.0    2.44    0.96  0.97   0.72
+ 3CGU     1   0.0    0.0      0.0    4.88    1.92  3.38    2.9
+ 3CGU     2   0.0    0.0      0.0    4.88    3.85   5.8   5.31

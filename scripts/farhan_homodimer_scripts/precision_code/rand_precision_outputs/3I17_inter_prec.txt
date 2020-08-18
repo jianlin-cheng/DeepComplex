@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3I17
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 6
+con_num= 15
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3I17     0   0.0    0.0      0.0     0.0     0.0   0.0   0.36
+ 3I17     1   0.0    0.0      0.0     0.0     0.0  1.46   2.55
+ 3I17     2   0.0    0.0      0.0     0.0    1.45  4.38   5.47

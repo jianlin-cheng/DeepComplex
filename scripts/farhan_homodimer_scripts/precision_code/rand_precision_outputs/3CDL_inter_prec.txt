@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3CDL
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 3
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 7
+con_num= 7
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 13
+con_num= 15
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3CDL     0   0.0    0.0      0.0     0.0    3.19   1.6    0.8
+ 3CDL     1   0.0    0.0      0.0   10.81    7.45  3.74   3.48
+ 3CDL     2   0.0    0.0      0.0   10.81   13.83  8.02   6.15

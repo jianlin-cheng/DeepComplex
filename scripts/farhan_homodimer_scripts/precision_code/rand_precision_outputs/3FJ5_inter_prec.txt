@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3FJ5
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 12
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 0
+con_num= 2
+con_num= 12
+con_num= 26
+con_num= 60
+Relaxation = 2
+con_num= 2
+con_num= 6
+con_num= 2
+con_num= 8
+con_num= 24
+con_num= 46
+con_num= 93
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3FJ5     0   0.0    0.0      0.0     0.0     6.9  14.04  10.53
+ 3FJ5     1   0.0   20.0      0.0   18.18   41.38  45.61  52.63
+ 3FJ5     2  40.0   60.0    33.33   72.73   82.76   80.7  81.58

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2A87
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 6
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 8
+con_num= 16
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2A87     0   0.0    0.0      0.0     0.0     0.0  0.32   0.16
+ 2A87     1   0.0    0.0      0.0    3.17    2.55  1.92   0.96
+ 2A87     2   0.0    0.0      0.0    3.17    3.82  2.56   2.56

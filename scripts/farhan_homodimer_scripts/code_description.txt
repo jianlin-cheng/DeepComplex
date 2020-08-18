@@ -1,0 +1,90 @@
+calculateAvgPrecision_coneva.py: calculates average intrachain precision using coneva. Look into code to establish required paths
+calculateAvgPrecision_inter.py: Calculates average interchain precision.
+calculateAvgPrecision_inter_v2.py: Calculates average interchain precision. Version 2. Look through code for differences. both versions work
+calculateAvgPrecision_intra.py: Calculates average intrachain precision. This is my version. More robust and accurate than coneva.
+checkForDimers.py: checks to see if .atom files for each pdb is a dimer. selects the dimers only and moves to desired directory. Also creates a list of dimers and multimers 
+checkValidInterPrecisionFiles.py: checks if the interchain precision files created are valid or not. 
+cleanUpPDB.py: This script uses the multimer toolbox to clean up the pdbs. It creates the .atom, .seq, .dssp, etc files. It also does post cleanup cleanups[THIS TOOLBOX HAS NOT YET BEEN SET UP]
+combineFasta.py: this script reads the sequence alignment files and combines the two fasta sequences into one fasta sequence. This also fills out the gaps in the sequences as much as possible.
+copyFromList.py: this script copies the related files from a list from one folder to another
+createContactTable.py: this script reads the WXYZ_inter_prec.txt precision files and creates a database of PDB_Name and respective number of interchain contacts
+createDistributation.py: this script reads the agv_precision file and creates a distribution
+createFastaDB_dimer.py: this script reads the .seq files and creates a fasta list. Also generates similar_fasta_list and different_fasta_list. [Modify as needed]
+createFastaDB_multimer.py: this script reads the .seq files and creates a fasta list. Also generates similar_fasta_list and different_fasta_list. [Modify as needed]
+createFastaDictionary.py: this script reads the .seq files and creates a fasta dictionary called "fasta_dictionary.txt"
+createFastaFilesFromFastaDictionaryList.py: this script reads a list of pdb_names and the fasta_dictionary.txt files to generate the individual fasta files and outputs them into a folder
+createFastaFilesFromFastaDictionary.py: this script reads a fasta_dictionary.txt files to generate the individual fasta files and outputs them into a folder
+createFastaLength.py: this script reads the fasta_dictionary.txt file and creates a database/dictionary of PDB_Name and lengths
+createFastaNeff.py: this script reads the fasta_dictionary.txt and dncon2.rr files and creates a database/dictionary of PDB_Name and Neff
+createLabels.py: this script will create the labels from the list of interchain.rr files
+createnPlotDistribution.py: takes a list of interchain contact distances or rr files. and plots a distance distribution.
+createSimilarFastaList.py: this script creates a list of proteins that have same fasta sequences
+createTrainingFastaDictionary.py: this script creates a training fasta dictionary for the final dataset. it reads the all_8886_protein.txt list and searches the final_fasta_dictionary.txt and the fasta_dictionary.txt and creates a final_fasta_dictionary.txt
+createTrueContactTable.py: this script reads the WXYZ_inter_prec.txt precision files and creates a database of PDB_Name and respective number of interchain contacts
+dist2rr.py: this script reads a distance.txt file and converts to sorted contact map file in .rr format
+doAll_interchain_protein_heavy.py: Read description in file
+doAll_interchain_protein_list_heavy.py: Read description in file
+doAll_interchain_protein_list.py: Read description in file
+doAll_interchain_protein.py: Read description in file
+doAll_interchain.py: Read description in file
+doAll_intrachain_protein_list.py: Read description in file
+doAll_intrachain_protein.py: Read description in file
+doAll_precision_inter.py: Read description in file
+doAll_precision_inter_v2.py: Read description in file
+doAll_precision_intrachain.py: Read description in file
+doAll_precision_intra.py: Read description in file
+doAll.py: Read description in file
+findGap_GapinAlignment.py: this script reads the aligned file and finds if any of the alignments have a gap. This is a testing script
+findNotDone.py: this script will read the two list files (number of input pbds and number of outputs) or folders and find what has not been done
+findSequenceSimilarity.py: this script will check aligned sequences to find % similarity. 
+findSimilarFastaSequencesFromDictionary.py: this script looks at a fasta_dictionary.txt and reports the pdb ids with similar fasta Sequences. output: common_fasta_keys.txt
+fixRRWithmapdict.py: this script takes as an input an RR file and a map_dict.txt file generated using mapfasta2pdb.py script. this script tries to patch the errors created due to mismatches between fasta sequence and the pdb fasta sequence.
+generateContactGraphs.py: this script is used to generate triple contact map graphs for a list of proteins
+getContactAllAtoms.py: this script creates a contact map text file for all atoms
+getHighestContacts_heavy.py: this script browses through all the distance files in the interchain contacts for heavy atoms and choses the file with the highest number 
+getHighestContacts.py: this script browses through all the distance files in the interchain contacts and choses the file with the highest number of contacts
+getHighestResNumFromPDB.py: this script selects the pdb from the list that has the highest residue number.
+getMonomerFasta.py: #this script reads the multimer fasta file and outputs the fasta sequence of the first chain.
+getNotDone.py: this script creates a pdb name list from a directory that are not processed from the pdb_list
+getPrecision_inter.py: this script will calculate the interchain precision by comparing two rr files. according to the requirement like Top-5, Top-10, etc.
+getPrecision_inter_v2.py: this script will calculate the interchain precision by comparing two rr files. according to the requirement like Top-5, Top-10, etc.
+getPrecision_inter_v3.py: this script will calculate the interchain precision by comparing two rr files. according to the requirement like Top-5, Top-10, etc.
+getPrecision_intra.py: this script will calculate the intrachain precision by comparing two rr files. according to the requirement like Top-5, Top-10, etc.
+getPrecision_intra_v2.py: this script will calculate the intrachain precision by comparing two rr files. according to the requirement like Top-5, Top-10, etc.
+getPrecision_intra_v3.py: this script will calculate the intrachain precision by comparing two rr files. according to the requirement like Top-5, Top-10, etc.
+getPrecision.py: this script will calculate the inter or intra (optional) chain precision by comparing two rr files. according to the requirement like Top-5, Top-10, etc.
+loadFastaDictionary.py: this script loads the fasta_dictionary.txt file into a dictionary
+make_cmap_plots_dpb_vs_dncon2_vs_multimer.py: this script plots the triple contact map. [NOT IMPLEMENTED YET]
+makePDBListAllFiles.py: this script creates a file list from a directory of .atom or .pdb or .seq, etc files
+makePDBList.py: this script creates a pdb "name" list from a directory of .atom or .pdb or .seq, etc files
+makeSymmetry.py: this script will read the contact map .rr file and convert it to a symmetric matrix
+mapfasta2pdb.py: this script takes a pdb and an rr file. Then maps the sequence in the fasta section of the rr file to the respective residue positions in pdb
+modifyRRFasta_inter.py: this script will read the interchain.rr file and replace the fasta at the beginning with the one in the final_combined_fasta_dictionary.txt file
+pdb2distance_heavy_all_atoms.py: Read description inside code
+pdb2distance_heavy.py: Read description inside code
+pdb2distance_inter_all_atoms.py: Read description inside code
+pdb2distance_inter_heavy.py: Read description inside code
+pdb2distance_inter.py: Read description inside code
+pdb2distance_inter_v2.py: Read description inside code
+pdb2distancemonomer.py: Read description inside code
+pdb2distancemonomer_v2.py: Read description inside code
+perform_chain_interactions.py: Read description inside code
+perform_intrachain_interactions.py: Read description inside code
+processMismatchedFastas_intra.py: Read description inside code
+processMismatchedFastas_list.py: Read description inside code
+processMismatchedFastas.py: Read description inside code
+readLabelFile.py: this script is used to read the Y-WXYZ.txt label file into a numpy array
+readnPrintInterPrecisionOnly.py: this script reads the WXYZ_inter_prec.txt precision files and creates a database of PDB_Name and respective number of interchain contacts
+readPDBColumns.py: PDB reading and processing library
+readPDBColumns_v2.py: PDB reading and processing library
+readPDB.py: PDB reading and processing library
+readRR.py: Contact map reading and processing library
+reindex.py: this script will reindex the residue numbers in the pdb/atom file according to a mapping function
+reindex_rr_intra.py: this script will reindex the .rr files eg: dncon2.rr and intrachain.rr
+reindex_rr.py: this script will reindex the .rr files eg: dncon2.rr and intrachain.rr
+removeAlternate_List.py: calls removeAlternatesFromPDB.py for each PDB in the list
+removeAlternatesFromPDB.py: this script filter outs alternate B residues from pdbs like BCYS and keeps the ACYS as CYS
+remove_range.py: Removes the contacts from a contact map that are less than a particular range
+select_pdb_not_fasta_mismatch.py: this scripts selects the pdbs whose fasta sequences match in the .seq file
+sequenceAlign.py: this script aligns two fasta sequences and outputs the final alignment.
+sortrr.py: sorts an contact mapn rr file and prints its contents

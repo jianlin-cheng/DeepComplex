@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4WHD
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 10
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 10
+con_num= 15
+con_num= 21
+con_num= 33
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4WHD     0   0.0    0.0      0.0    9.09     3.7   2.78   2.31
+ 4WHD     1   0.0    0.0      0.0    9.09   11.11   9.26   7.41
+ 4WHD     2   0.0   20.0    18.18   45.45   27.78  19.44  15.28

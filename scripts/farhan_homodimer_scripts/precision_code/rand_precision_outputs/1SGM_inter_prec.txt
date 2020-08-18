@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1SGM
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 10
+con_num= 24
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 7
+con_num= 17
+con_num= 37
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1SGM     0   0.0    0.0      0.0     0.0     0.0  1.09   1.36
+ 1SGM     1   0.0    0.0      0.0     0.0    4.35  5.43   6.52
+ 1SGM     2   0.0    0.0      0.0     0.0    7.61  9.24  10.05

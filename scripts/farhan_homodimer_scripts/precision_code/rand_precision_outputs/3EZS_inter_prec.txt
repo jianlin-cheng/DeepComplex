@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3EZS
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 9
+con_num= 9
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 17
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3EZS     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 3EZS     1   0.0    0.0      0.0     0.0    3.23  2.42   1.21
+ 3EZS     2   0.0    0.0      0.0     0.0    3.23  4.57   3.09

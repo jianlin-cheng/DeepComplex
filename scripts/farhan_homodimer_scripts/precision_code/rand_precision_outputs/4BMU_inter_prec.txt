@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4BMU
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 8
+con_num= 10
+con_num= 22
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 10
+con_num= 20
+con_num= 40
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4BMU     0   0.0    0.0      0.0     0.0     0.0   0.0   0.35
+ 4BMU     1  40.0   40.0    13.79   10.53    5.56  3.48   3.83
+ 4BMU     2  40.0   40.0    13.79   10.53    6.94  6.97   6.97

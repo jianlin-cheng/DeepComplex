@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3A7M
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 5
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 4
+con_num= 11
+con_num= 22
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 5
+con_num= 7
+con_num= 17
+con_num= 33
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3A7M     0   0.0    0.0      0.0     0.0     0.0   2.63   2.19
+ 3A7M     1  20.0   10.0     9.09     8.7    7.02   9.65   9.65
+ 3A7M     2  20.0   10.0     9.09   21.74   12.28  14.91  14.47

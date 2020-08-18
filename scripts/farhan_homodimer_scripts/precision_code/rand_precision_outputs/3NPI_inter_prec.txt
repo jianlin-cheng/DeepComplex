@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3NPI
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 6
+con_num= 13
+con_num= 31
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 10
+con_num= 21
+con_num= 45
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3NPI     0   0.0    0.0      0.0     0.0     0.0   0.99   1.97
+ 3NPI     1   0.0    0.0      0.0   14.63    5.88    6.4   7.64
+ 3NPI     2   0.0    0.0      0.0   14.63     9.8  10.34  11.08

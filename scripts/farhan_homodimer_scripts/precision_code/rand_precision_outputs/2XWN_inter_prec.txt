@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2XWN
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 5
+con_num= 11
+con_num= 27
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2XWN     0   0.0    0.0      0.0     0.0     0.0   0.0   0.44
+ 2XWN     1   0.0    0.0      0.0     0.0    1.75  1.76    2.2
+ 2XWN     2   0.0    0.0      0.0    2.22    4.39  4.85   5.95

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3AW8
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 11
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3AW8     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 3AW8     1   0.0    0.0      0.0     0.0     0.0   0.0   0.14
+ 3AW8     2   0.0    0.0     5.56    2.78    3.33  1.67   1.53

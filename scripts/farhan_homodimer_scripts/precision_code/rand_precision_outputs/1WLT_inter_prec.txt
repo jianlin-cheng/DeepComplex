@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1WLT
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 5
+con_num= 7
+con_num= 17
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 7
+con_num= 9
+con_num= 32
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1WLT     0   0.0    0.0      0.0    5.71    2.27  1.14   1.14
+ 1WLT     1   0.0   20.0    11.11   11.43    5.68  3.98   4.83
+ 1WLT     2   0.0   20.0    11.11   17.14    7.95  5.11   9.09

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2PFW
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 12
+con_num= 29
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 9
+con_num= 16
+con_num= 43
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2PFW     0   0.0    0.0      0.0     0.0     0.0   1.83   3.67
+ 2PFW     1   0.0    0.0      0.0     0.0   10.91  11.01   13.3
+ 2PFW     2   0.0    0.0      0.0     0.0   16.36  14.68  19.72

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3JWV
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 10
+con_num= 18
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 16
+con_num= 24
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3JWV     0   0.0    0.0      0.0     0.0    0.97  1.46   0.73
+ 3JWV     1   0.0    0.0      0.0     0.0    0.97  2.43   2.19
+ 3JWV     2   0.0   20.0     4.88    2.44    2.91  3.89   2.92

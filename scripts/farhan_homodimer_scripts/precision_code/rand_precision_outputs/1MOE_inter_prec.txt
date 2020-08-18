@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1MOE
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 3
+con_num= 5
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 8
+con_num= 10
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 9
+con_num= 19
+con_num= 33
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1MOE     0   0.0    0.0      0.0    6.25     2.5  2.08   1.25
+ 1MOE     1   0.0    0.0      0.0    6.25    6.67  4.17   2.92
+ 1MOE     2   0.0    0.0      0.0    6.25     7.5  7.92   6.88

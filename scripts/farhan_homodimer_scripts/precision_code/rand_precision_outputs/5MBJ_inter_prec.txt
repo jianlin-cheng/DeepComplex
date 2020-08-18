@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5MBJ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 12
+con_num= 26
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 18
+con_num= 36
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5MBJ     0   0.0    0.0      0.0     0.0    1.18  0.89   0.74
+ 5MBJ     1   0.0    0.0     5.88    5.88    3.55  3.55   3.85
+ 5MBJ     2   0.0    0.0     5.88    5.88    4.73  5.33   5.33

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4ZSI
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 7
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4ZSI     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 4ZSI     1  20.0   10.0     5.88    3.03     1.2   0.6    0.9
+ 4ZSI     2  20.0   10.0     5.88    3.03     1.2   0.6   2.11

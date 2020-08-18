@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1V6P
+Relaxation = 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 16
+Relaxation = 2
+con_num= 3
+con_num= 4
+con_num= 3
+con_num= 6
+con_num= 9
+con_num= 15
+con_num= 29
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1V6P     0  20.0   10.0    16.67   16.67    6.45   3.23   2.42
+ 1V6P     1  40.0   20.0    33.33   33.33    12.9   12.9   12.9
+ 1V6P     2  60.0   40.0     50.0    50.0   29.03  24.19  23.39

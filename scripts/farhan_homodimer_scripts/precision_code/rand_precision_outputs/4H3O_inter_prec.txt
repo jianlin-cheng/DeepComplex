@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4H3O
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+Relaxation = 1
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 10
+con_num= 10
+con_num= 20
+Relaxation = 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 8
+con_num= 14
+con_num= 23
+con_num= 39
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4H3O     0   0.0    0.0      0.0     0.0     0.0   0.0    1.9
+ 4H3O     1  80.0   40.0    36.36   19.05   18.87  9.52   9.52
+ 4H3O     2  80.0   40.0    54.55    38.1   26.42  21.9  18.57

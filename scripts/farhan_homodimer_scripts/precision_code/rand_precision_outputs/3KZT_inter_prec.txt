@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3KZT
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 4
+con_num= 8
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+con_num= 12
+con_num= 19
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3KZT     0   0.0    0.0      0.0     0.0     0.0  0.78   0.39
+ 3KZT     1   0.0    0.0      0.0    3.85    6.15   6.2   3.88
+ 3KZT     2   0.0    0.0      0.0    7.69   10.77   9.3   7.36

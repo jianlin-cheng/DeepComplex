@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4S2R
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 12
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4S2R     0   0.0    0.0      0.0     0.0     0.0  0.33   0.16
+ 4S2R     1   0.0    0.0      0.0     0.0     0.0  0.33   0.24
+ 4S2R     2   0.0    0.0      0.0    1.63    0.65  0.65   0.98

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3PZA
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 16
+con_num= 24
+Relaxation = 1
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 10
+con_num= 20
+con_num= 51
+con_num= 81
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 16
+con_num= 30
+con_num= 72
+con_num= 120
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3PZA     0   0.0    0.0      0.0    5.88    9.41   9.41   7.06
+ 3PZA     1  40.0   40.0    35.29   29.41   23.53   30.0  23.82
+ 3PZA     2  40.0   40.0    47.06   47.06   35.29  42.35  35.29

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3M5K
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 10
+con_num= 21
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 28
+con_num= 50
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3M5K     0   0.0    0.0      0.0     0.0     0.0   1.23   1.23
+ 3M5K     1   0.0   20.0     12.5    12.5    4.94   6.17   6.48
+ 3M5K     2   0.0   20.0     12.5    12.5    9.88  17.28  15.43

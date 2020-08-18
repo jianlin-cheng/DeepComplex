@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1ASK
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 15
+Relaxation = 2
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 5
+con_num= 14
+con_num= 20
+con_num= 38
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1ASK     0  40.0   20.0    15.38     8.0    3.17   1.6    2.4
+ 1ASK     1  40.0   20.0    15.38     8.0    9.52   4.8    6.0
+ 1ASK     2  60.0   30.0    23.08    20.0   22.22  16.0   15.2

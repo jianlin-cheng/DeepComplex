@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2D2R
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 7
+con_num= 9
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+con_num= 18
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2D2R     0   0.0    0.0      0.0     0.0    1.82  1.83   0.91
+ 2D2R     1   0.0    0.0      0.0     0.0    6.36  4.11   2.97
+ 2D2R     2   0.0    0.0      0.0     0.0    7.27  8.22   5.02

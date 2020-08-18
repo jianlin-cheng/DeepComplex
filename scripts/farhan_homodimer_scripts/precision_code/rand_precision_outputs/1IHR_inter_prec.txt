@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1IHR
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 13
+con_num= 28
+Relaxation = 2
+con_num= 2
+con_num= 8
+con_num= 4
+con_num= 8
+con_num= 18
+con_num= 34
+con_num= 62
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1IHR     0   0.0    0.0      0.0     0.0     0.0    2.7   4.05
+ 1IHR     1   0.0    0.0      0.0     0.0   13.51  17.57  18.92
+ 1IHR     2  40.0   80.0    57.14   53.33   48.65  45.95  41.89

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1K0Z
+Relaxation = 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 3
+con_num= 4
+con_num= 7
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 3
+con_num= 9
+con_num= 16
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 3
+con_num= 10
+con_num= 21
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1K0Z     0  20.0   10.0     6.67    9.68     3.9   2.6   2.27
+ 1K0Z     1  20.0   10.0     6.67    9.68     3.9  5.84   5.19
+ 1K0Z     2  20.0   10.0     6.67    9.68     3.9  6.49   6.82

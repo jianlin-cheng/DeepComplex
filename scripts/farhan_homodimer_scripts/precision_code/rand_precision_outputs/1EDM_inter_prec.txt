@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1EDM
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 7
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 1
+con_num= 0
+con_num= 1
+con_num= 6
+con_num= 11
+con_num= 21
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1EDM     0   0.0    0.0      0.0     0.0     0.0   2.56   2.56
+ 1EDM     1   0.0    0.0      0.0     0.0    15.0  17.95  16.67
+ 1EDM     2   0.0   10.0      0.0    12.5    30.0  28.21  26.92

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3QAT
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 6
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 14
+con_num= 14
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3QAT     0   0.0    0.0      0.0     0.0     0.0  0.64   0.32
+ 3QAT     1   0.0    0.0      0.0     0.0    1.27  1.91   0.96
+ 3QAT     2   0.0    0.0      0.0    3.17     5.1  4.46   2.23

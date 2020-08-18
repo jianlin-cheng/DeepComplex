@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1R7H
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 7
+con_num= 11
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 13
+con_num= 21
+con_num= 38
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 16
+con_num= 38
+con_num= 67
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1R7H     0   0.0   20.0    28.57   13.33   13.51   9.46   7.43
+ 1R7H     1   0.0   20.0    28.57   33.33   35.14  28.38  25.68
+ 1R7H     2   0.0   20.0    28.57   33.33   43.24  51.35  45.27

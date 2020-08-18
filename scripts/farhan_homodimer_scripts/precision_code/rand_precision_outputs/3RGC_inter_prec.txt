@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3RGC
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 5
+con_num= 6
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 8
+con_num= 12
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3RGC     0   0.0    0.0      0.0     0.0     0.0   0.4    0.4
+ 3RGC     1  20.0   10.0      4.0     2.0    0.79  1.99    1.2
+ 3RGC     2  20.0   10.0      4.0     2.0    0.79  3.19   2.39

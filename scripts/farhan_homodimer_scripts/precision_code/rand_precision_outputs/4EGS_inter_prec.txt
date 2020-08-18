@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4EGS
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 5
+con_num= 7
+con_num= 9
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4EGS     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 4EGS     1   0.0    0.0      0.0     0.0     2.7  1.36   0.68
+ 4EGS     2  20.0   10.0     6.67    3.45    6.76  4.76   3.06

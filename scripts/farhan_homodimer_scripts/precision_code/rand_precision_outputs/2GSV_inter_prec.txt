@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2GSV
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 18
+con_num= 35
+Relaxation = 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 18
+con_num= 28
+con_num= 48
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2GSV     0   0.0    0.0      0.0     0.0     0.0   3.03    5.3
+ 2GSV     1  40.0   20.0    28.57   30.77    30.3  27.27  26.52
+ 2GSV     2  80.0   40.0    57.14   61.54   54.55  42.42  36.36

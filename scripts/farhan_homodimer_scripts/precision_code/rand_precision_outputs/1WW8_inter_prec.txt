@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1WW8
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 3
+con_num= 10
+con_num= 12
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 10
+con_num= 30
+con_num= 42
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 12
+con_num= 40
+con_num= 65
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1WW8     0   0.0    0.0      0.0    3.49     1.4  2.33    1.4
+ 1WW8     1   0.0    0.0     4.65    6.98    4.65  6.99    4.9
+ 1WW8     2   0.0    0.0     4.65    6.98    5.58  9.32   7.58

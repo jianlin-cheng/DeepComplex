@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4HBE
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 9
+con_num= 18
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 14
+con_num= 31
+con_num= 68
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+con_num= 20
+con_num= 44
+con_num= 108
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4HBE     0   0.0    0.0      0.0     0.0    2.04   9.18   9.18
+ 4HBE     1   0.0    0.0      0.0    30.0   28.57  31.63  34.69
+ 4HBE     2   0.0    0.0      0.0    40.0   40.82   44.9   55.1

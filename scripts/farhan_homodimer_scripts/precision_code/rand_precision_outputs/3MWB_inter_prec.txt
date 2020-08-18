@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3MWB
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 9
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 11
+con_num= 18
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3MWB     0   0.0    0.0      0.0    3.33    1.32  0.66   0.33
+ 3MWB     1   0.0    0.0      0.0    3.33    1.32  1.66   1.49
+ 3MWB     2   0.0    0.0      0.0    3.33    1.99  3.64   2.98

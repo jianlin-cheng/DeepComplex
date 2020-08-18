@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3WTF
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 9
+con_num= 18
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 10
+con_num= 20
+con_num= 32
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3WTF     0   0.0    0.0      0.0     0.0     0.0   1.49   1.49
+ 3WTF     1   0.0    0.0      0.0     0.0    7.46   6.72   6.72
+ 3WTF     2   0.0    0.0      0.0     0.0   14.93  14.93  11.94

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3SKV
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 7
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 7
+con_num= 12
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3SKV     0   0.0    0.0      0.0     0.0     0.0   0.0   0.28
+ 3SKV     1   0.0    0.0      0.0     0.0     0.0  1.13   0.99
+ 3SKV     2   0.0    0.0     5.71    2.82    1.69  1.98   1.69

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4RMB
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 5
+con_num= 6
+con_num= 8
+con_num= 17
+con_num= 21
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 8
+con_num= 12
+con_num= 27
+con_num= 44
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4RMB     0   0.0    0.0      0.0     0.0    1.28   2.58   1.94
+ 4RMB     1   0.0   20.0    31.25   19.35   10.26  10.97   6.77
+ 4RMB     2   0.0   20.0     37.5   25.81   15.38  17.42  14.19

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1TY9
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 10
+con_num= 14
+con_num= 29
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 17
+con_num= 24
+con_num= 51
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1TY9     0   0.0    0.0      0.0     0.0     0.0    0.0   0.72
+ 1TY9     1  40.0   20.0     9.52    4.88    9.62   6.76    7.0
+ 1TY9     2  40.0   20.0     9.52    7.32   16.35  11.59  12.32

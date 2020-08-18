@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1SPH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 10
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 5
+con_num= 6
+con_num= 16
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1SPH     0   0.0    0.0      0.0     0.0    2.27  1.15   0.57
+ 1SPH     1   0.0    0.0      0.0     0.0    4.55   2.3   5.75
+ 1SPH     2  20.0   10.0    11.11    5.88   11.36   6.9    9.2

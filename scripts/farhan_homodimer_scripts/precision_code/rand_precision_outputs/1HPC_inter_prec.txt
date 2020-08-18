@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1HPC
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 10
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 6
+con_num= 9
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1HPC     0   0.0    0.0      0.0     0.0     0.0   0.0   0.76
+ 1HPC     1   0.0    0.0      0.0     0.0    1.52  2.29   3.82
+ 1HPC     2  20.0   10.0     7.69    7.69    9.09  6.87   8.78

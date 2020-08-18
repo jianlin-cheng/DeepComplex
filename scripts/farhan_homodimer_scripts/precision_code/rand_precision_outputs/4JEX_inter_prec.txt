@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4JEX
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 10
+con_num= 27
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4JEX     0   0.0    0.0      0.0     0.0     0.0  0.52   0.52
+ 4JEX     1   0.0    0.0      0.0     0.0     0.0  0.52   1.82
+ 4JEX     2   0.0    0.0     5.26     2.6    4.17   2.6   3.52

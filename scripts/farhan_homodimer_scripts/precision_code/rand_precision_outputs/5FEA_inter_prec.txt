@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5FEA
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 6
+Relaxation = 1
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 8
+con_num= 14
+con_num= 24
+con_num= 38
+Relaxation = 2
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 10
+con_num= 17
+con_num= 31
+con_num= 56
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 5FEA     0   0.0   20.0    15.38   15.38    6.15   4.65   2.33
+ 5FEA     1  40.0   60.0    46.15   30.77   21.54   18.6  14.73
+ 5FEA     2  40.0   60.0    46.15   38.46   26.15  24.03  21.71

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1VZI
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 10
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 10
+con_num= 20
+con_num= 26
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1VZI     0   0.0    0.0      0.0     0.0    3.17   3.2    2.4
+ 1VZI     1   0.0    0.0      0.0     0.0    3.17   8.0    5.6
+ 1VZI     2   0.0    0.0      0.0     8.0   15.87  16.0   10.4

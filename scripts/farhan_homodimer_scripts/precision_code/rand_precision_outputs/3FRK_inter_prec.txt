@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3FRK
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3FRK     0   0.0    0.0      0.0     0.0     0.0   0.0   0.27
+ 3FRK     1   0.0    0.0      0.0    2.74    1.09   1.1   1.78
+ 3FRK     2   0.0    0.0      0.0    2.74    1.09  1.37   3.15

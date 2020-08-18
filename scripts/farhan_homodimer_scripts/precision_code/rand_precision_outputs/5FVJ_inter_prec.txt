@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5FVJ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 15
+con_num= 27
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5FVJ     0   0.0    0.0      0.0     0.0     0.0   1.2    0.9
+ 5FVJ     1   0.0    0.0      0.0     0.0     0.0  3.61   4.22
+ 5FVJ     2   0.0   20.0    23.53   12.12    4.82  9.04   8.13

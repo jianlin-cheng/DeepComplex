@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4RZB
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 12
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4RZB     0   0.0    0.0      0.0     0.0     0.0   0.0   0.22
+ 4RZB     1   0.0    0.0      0.0     0.0     0.0   0.0   0.89
+ 4RZB     2  40.0   20.0     4.44    2.22    0.88  0.44   1.33

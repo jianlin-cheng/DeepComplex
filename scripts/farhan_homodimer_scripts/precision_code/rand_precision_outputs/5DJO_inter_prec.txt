@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5DJO
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 8
+con_num= 20
+Relaxation = 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 8
+con_num= 10
+con_num= 31
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5DJO     0   0.0    0.0      0.0     0.0     0.0  0.62   0.94
+ 5DJO     1  40.0   20.0     12.5    12.5     7.5   5.0   6.25
+ 5DJO     2  80.0   40.0     25.0   18.75    10.0  6.25   9.69

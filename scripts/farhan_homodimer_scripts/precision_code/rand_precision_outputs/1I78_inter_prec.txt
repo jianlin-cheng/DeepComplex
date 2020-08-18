@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1I78
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 4
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 4
+con_num= 9
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1I78     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 1I78     1   0.0    0.0      0.0     0.0     0.0  0.34   0.67
+ 1I78     2  20.0   10.0     3.33    1.69    2.01  1.35   1.52

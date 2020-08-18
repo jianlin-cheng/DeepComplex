@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3H4L
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 6
+con_num= 13
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3H4L     0   0.0    0.0      0.0     0.0     0.0  0.29   0.29
+ 3H4L     1   0.0    0.0      0.0     0.0     0.0  0.57   0.86
+ 3H4L     2   0.0    0.0     2.86    1.43    1.14  1.71   1.86

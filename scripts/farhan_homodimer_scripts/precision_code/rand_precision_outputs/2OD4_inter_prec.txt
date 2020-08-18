@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2OD4
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 20
+Relaxation = 2
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 5
+con_num= 9
+con_num= 19
+con_num= 37
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2OD4     0   0.0    0.0      0.0     0.0     0.0    0.0    0.0
+ 2OD4     1   0.0    0.0      0.0     0.0    4.08   8.25  10.31
+ 2OD4     2  60.0   30.0     30.0   26.32   18.37  19.59  19.07

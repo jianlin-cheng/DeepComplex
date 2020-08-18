@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1B9M
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 7
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 9
+con_num= 32
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1B9M     0   0.0   20.0     7.69    3.92    1.56  0.78   0.78
+ 1B9M     1   0.0   20.0     7.69    3.92    2.34  2.75   3.14
+ 1B9M     2   0.0   20.0     7.69    3.92    3.12  3.53   6.27

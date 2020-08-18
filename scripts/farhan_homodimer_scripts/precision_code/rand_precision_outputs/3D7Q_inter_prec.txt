@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3D7Q
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 8
+Relaxation = 2
+con_num= 2
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 7
+con_num= 9
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3D7Q     0  40.0   20.0    18.18    9.52     3.7  1.87   0.93
+ 3D7Q     1  40.0   20.0    18.18    9.52     3.7  5.61   3.74
+ 3D7Q     2  40.0   30.0    27.27   14.29    5.56  6.54   4.21

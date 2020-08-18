@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4K28
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4K28     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 4K28     1   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 4K28     2   0.0    0.0      0.0     0.0     0.0   0.0   0.38

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4UC3
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 10
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 20
+con_num= 32
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4UC3     0   0.0    0.0      0.0     0.0     0.0    0.0    0.0
+ 4UC3     1   0.0    0.0      0.0     0.0    2.78   6.99   5.59
+ 4UC3     2   0.0    0.0      0.0     0.0    8.33  13.99  11.19

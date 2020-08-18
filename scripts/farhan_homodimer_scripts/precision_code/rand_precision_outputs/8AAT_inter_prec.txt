@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 8AAT
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 16
+con_num= 22
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 9
+con_num= 21
+con_num= 40
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 8AAT     0   0.0    0.0      0.0     0.0     0.0   0.5    0.5
+ 8AAT     1   0.0    0.0      0.0     2.5    3.98  3.99   2.74
+ 8AAT     2   0.0    0.0      0.0     2.5    4.48  5.24   4.99

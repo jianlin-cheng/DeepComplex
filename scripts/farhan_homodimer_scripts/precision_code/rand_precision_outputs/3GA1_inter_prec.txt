@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3GA1
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 3
+con_num= 12
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 8
+con_num= 12
+con_num= 40
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 12
+con_num= 17
+con_num= 57
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3GA1     0   0.0    0.0      0.0     0.0    4.92   2.46   4.92
+ 3GA1     1   0.0    0.0      0.0    4.17   13.11   9.84  16.39
+ 3GA1     2   0.0    0.0      0.0    4.17   19.67  13.93  23.36

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1NS7
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 8
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 10
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1NS7     0   0.0    0.0      0.0     0.0     0.0  0.58   0.58
+ 1NS7     1   0.0    0.0      0.0     0.0     0.0  1.16   1.16
+ 1NS7     2  40.0   20.0     5.71     2.9    1.16  1.73   1.45

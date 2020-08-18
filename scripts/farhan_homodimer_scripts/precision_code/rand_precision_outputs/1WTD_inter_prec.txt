@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1WTD
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 10
+con_num= 22
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 12
+con_num= 42
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1WTD     0   0.0    0.0      0.0     3.7    1.47  1.47   1.47
+ 1WTD     1  40.0   20.0     7.41   11.11    4.41  3.68   4.04
+ 1WTD     2  40.0   20.0     7.41   11.11    4.41  4.41   7.72

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3SO5
+Relaxation = 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 4
+con_num= 6
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 7
+con_num= 10
+con_num= 24
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3SO5     0   0.0   10.0     10.0     5.0    1.96  1.98   1.98
+ 3SO5     1   0.0   10.0     10.0     5.0    7.84  5.94   6.44
+ 3SO5     2   0.0   30.0     30.0    15.0   13.73   9.9  11.88

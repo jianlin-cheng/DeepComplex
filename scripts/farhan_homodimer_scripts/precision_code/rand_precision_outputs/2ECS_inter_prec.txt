@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2ECS
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 4
+con_num= 2
+con_num= 4
+con_num= 5
+con_num= 9
+con_num= 20
+Relaxation = 2
+con_num= 0
+con_num= 6
+con_num= 2
+con_num= 6
+con_num= 7
+con_num= 13
+con_num= 29
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2ECS     0   0.0    0.0      0.0     0.0     0.0    0.0   4.17
+ 2ECS     1   0.0   40.0    33.33   33.33   16.67   15.0  16.67
+ 2ECS     2   0.0   60.0    33.33    50.0   23.33  21.67  24.17

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4HU7
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 7
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 5
+con_num= 5
+con_num= 13
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4HU7     0   0.0    0.0      0.0     0.0     3.7  1.87    1.4
+ 4HU7     1   0.0    0.0      0.0    9.52    7.41  3.74   3.27
+ 4HU7     2  20.0   10.0     9.09   14.29    9.26  4.67   6.07

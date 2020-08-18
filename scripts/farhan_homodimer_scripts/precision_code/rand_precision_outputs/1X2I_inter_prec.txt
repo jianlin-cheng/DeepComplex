@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1X2I
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 8
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 23
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 18
+con_num= 43
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1X2I     0   0.0    0.0      0.0     0.0    5.88   2.94   5.88
+ 1X2I     1  40.0   20.0    28.57   14.29   11.76  11.76  16.91
+ 1X2I     2  40.0   20.0    28.57   14.29   23.53  26.47  31.62

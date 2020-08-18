@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3NET
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+con_num= 11
+con_num= 19
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 7
+con_num= 17
+con_num= 34
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3NET     0   0.0    0.0      0.0    2.33    1.86   1.4    0.7
+ 3NET     1   0.0    0.0      0.0    2.33    2.33  2.56   2.21
+ 3NET     2  40.0   20.0     4.65    4.65    3.26  3.95   3.95

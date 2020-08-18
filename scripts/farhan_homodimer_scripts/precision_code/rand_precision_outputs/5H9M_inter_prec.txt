@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5H9M
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5H9M     0   0.0    0.0      0.0     0.0     0.0   0.0   0.53
+ 5H9M     1   0.0    0.0      0.0    5.26    2.11  1.05   1.05
+ 5H9M     2   0.0    0.0      0.0    5.26    2.11  1.05   2.11

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1NCI
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 10
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 8
+con_num= 12
+con_num= 20
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1NCI     0   0.0    0.0      0.0    10.0    3.92   1.96   2.45
+ 1NCI     1   0.0   20.0     20.0    20.0    7.84   5.88    4.9
+ 1NCI     2  40.0   40.0     40.0    30.0   15.69  11.76    9.8

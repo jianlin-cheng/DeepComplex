@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3S2Q
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 12
+con_num= 18
+con_num= 36
+Relaxation = 2
+con_num= 2
+con_num= 6
+con_num= 4
+con_num= 8
+con_num= 27
+con_num= 41
+con_num= 63
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3S2Q     0   0.0    0.0      0.0     0.0    6.06   6.15   4.62
+ 3S2Q     1  40.0   40.0    57.14   30.77   36.36  27.69  27.69
+ 3S2Q     2  40.0   60.0    57.14   61.54   81.82  63.08  48.46

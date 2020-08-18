@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5IDW
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 8
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 14
+con_num= 24
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5IDW     0   0.0    0.0      0.0    4.44    1.77  0.89   0.44
+ 5IDW     1   0.0    0.0      8.7    8.89    5.31  3.56   3.11
+ 5IDW     2   0.0    0.0      8.7    8.89    7.08  6.22   5.33

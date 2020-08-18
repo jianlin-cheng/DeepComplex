@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3A8R
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 10
+con_num= 24
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3A8R     0   0.0    0.0      0.0     0.0    1.19   0.6    1.2
+ 3A8R     1   0.0    0.0      0.0     0.0    2.38  3.59   4.79
+ 3A8R     2   0.0    0.0      0.0     0.0    4.76  5.99   7.19

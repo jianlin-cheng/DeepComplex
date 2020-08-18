@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4EPK
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 10
+con_num= 15
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4EPK     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 4EPK     1   0.0    0.0      0.0     0.0    2.41  1.81   1.51
+ 4EPK     2   0.0    0.0      0.0     0.0    3.61  3.02   2.27

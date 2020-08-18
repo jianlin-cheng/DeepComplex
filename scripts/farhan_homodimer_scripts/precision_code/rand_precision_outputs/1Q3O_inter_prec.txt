@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1Q3O
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 5
+con_num= 10
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 17
+con_num= 24
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1Q3O     0   0.0    0.0      0.0     0.0    3.64  4.59   2.29
+ 1Q3O     1   0.0    0.0      0.0    4.55    9.09  9.17   5.96
+ 1Q3O     2   0.0    0.0      0.0    9.09   10.91  15.6  11.01

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5BTU
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 7
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 12
+con_num= 14
+con_num= 21
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 14
+con_num= 19
+con_num= 35
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5BTU     0   0.0    0.0      0.0    6.45    5.06  2.55   2.23
+ 5BTU     1  40.0   20.0     12.5    12.9   15.19  8.92   6.69
+ 5BTU     2  40.0   20.0     12.5    12.9   17.72  12.1  11.15

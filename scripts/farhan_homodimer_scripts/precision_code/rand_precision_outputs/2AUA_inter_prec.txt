@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2AUA
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 10
+con_num= 12
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 10
+con_num= 18
+con_num= 33
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2AUA     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 2AUA     1   0.0    0.0      0.0    4.76    9.62  5.77   3.85
+ 2AUA     2   0.0    0.0      0.0    4.76    9.62  8.65   7.93

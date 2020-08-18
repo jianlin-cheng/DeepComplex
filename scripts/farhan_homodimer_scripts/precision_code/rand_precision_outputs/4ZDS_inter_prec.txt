@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4ZDS
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 6
+con_num= 10
+con_num= 11
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 8
+con_num= 14
+con_num= 18
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4ZDS     0   0.0    0.0      0.0     0.0    1.52   1.52   0.76
+ 4ZDS     1   0.0   10.0     7.69    7.69    9.09   7.58   4.17
+ 4ZDS     2   0.0   20.0    15.38   11.54   12.12  10.61   6.82

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1XHE
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 11
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1XHE     0   0.0    0.0      0.0     0.0     0.0  3.28   1.64
+ 1XHE     1   0.0    0.0    16.67    8.33    6.56  6.56   5.74
+ 1XHE     2   0.0    0.0    16.67    8.33    6.56  9.02   9.02

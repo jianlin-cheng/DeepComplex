@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3CAM
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+con_num= 18
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 23
+con_num= 47
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 18
+con_num= 45
+con_num= 87
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3CAM     0   0.0    0.0      0.0     0.0    6.06  10.77  13.85
+ 3CAM     1   0.0    0.0      0.0     0.0   18.18  35.38  36.15
+ 3CAM     2   0.0    0.0      0.0   15.38   54.55  69.23  66.92

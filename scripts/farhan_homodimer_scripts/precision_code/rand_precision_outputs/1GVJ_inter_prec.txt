@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1GVJ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 11
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 16
+con_num= 21
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1GVJ     0   0.0    0.0      0.0     6.9    2.74   2.74   1.37
+ 1GVJ     1   0.0    0.0      0.0     6.9    2.74   5.48   3.77
+ 1GVJ     2  40.0   20.0    13.33   13.79   10.96  10.96   7.19

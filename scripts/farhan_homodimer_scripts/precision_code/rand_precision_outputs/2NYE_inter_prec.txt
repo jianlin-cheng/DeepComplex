@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2NYE
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 10
+con_num= 10
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 14
+con_num= 30
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 12
+con_num= 19
+con_num= 51
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2NYE     0   0.0    0.0      0.0     8.0    12.5   7.87   3.94
+ 2NYE     1   0.0   20.0    15.38    16.0   15.62  11.02  11.81
+ 2NYE     2   0.0   20.0    15.38    16.0   18.75  14.96  20.08

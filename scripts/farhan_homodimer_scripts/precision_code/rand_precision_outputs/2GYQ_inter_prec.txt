@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2GYQ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 11
+con_num= 25
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+con_num= 9
+con_num= 19
+con_num= 37
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2GYQ     0   0.0    0.0      0.0     0.0    2.47   1.23   0.62
+ 2GYQ     1   0.0    0.0      0.0     0.0    4.94   6.79   7.72
+ 2GYQ     2   0.0    0.0     12.5   15.62   11.11  11.73  11.42

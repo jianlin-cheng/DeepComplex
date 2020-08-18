@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3IBJ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 10
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 5
+con_num= 13
+con_num= 19
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3IBJ     0   0.0    0.0      0.0     0.0     0.0   0.3    0.3
+ 3IBJ     1   0.0    0.0      0.0    1.49     0.6   1.5   1.05
+ 3IBJ     2   0.0    0.0      0.0    2.24     1.5  1.95   1.42

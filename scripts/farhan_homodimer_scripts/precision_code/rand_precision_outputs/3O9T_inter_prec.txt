@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3O9T
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 3
+con_num= 5
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 6
+con_num= 10
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3O9T     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 3O9T     1   0.0    0.0      0.0     0.0    4.92  2.48   2.07
+ 3O9T     2   0.0    0.0      0.0     0.0    9.84  4.96   4.13

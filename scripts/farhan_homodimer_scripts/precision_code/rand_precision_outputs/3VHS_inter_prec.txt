@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3VHS
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 5
+Relaxation = 1
+con_num= 4
+con_num= 6
+con_num= 2
+con_num= 4
+con_num= 7
+con_num= 13
+con_num= 22
+Relaxation = 2
+con_num= 5
+con_num= 8
+con_num= 2
+con_num= 5
+con_num= 9
+con_num= 19
+con_num= 32
+ Name Relax  Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3VHS     0    0.0    0.0      0.0     0.0    7.69  11.54   9.62
+ 3VHS     1   80.0   60.0    66.67    80.0   53.85   50.0  42.31
+ 3VHS     2  100.0   80.0    66.67   100.0   69.23  73.08  61.54

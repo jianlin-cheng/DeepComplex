@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1SAW
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 5
+con_num= 5
+con_num= 9
+con_num= 14
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1SAW     0   0.0    0.0      0.0     0.0     0.0   0.0   0.48
+ 1SAW     1   0.0    0.0      0.0    4.76    1.92  1.92   1.44
+ 1SAW     2  40.0   20.0    14.29    11.9    4.81  4.33   3.37

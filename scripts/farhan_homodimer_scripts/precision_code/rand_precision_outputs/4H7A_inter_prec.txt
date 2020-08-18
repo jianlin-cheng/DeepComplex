@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4H7A
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 5
+con_num= 12
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 3
+con_num= 7
+con_num= 9
+con_num= 17
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4H7A     0   0.0    0.0     6.25    3.23    1.28  1.92   1.28
+ 4H7A     1   0.0    0.0     6.25    3.23    3.85  3.21   3.85
+ 4H7A     2  20.0   10.0     12.5    9.68    8.97  5.77   5.45

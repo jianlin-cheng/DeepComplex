@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3COL
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 11
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 8
+con_num= 28
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3COL     0   0.0    0.0      0.0     0.0     0.0   0.0   0.28
+ 3COL     1   0.0    0.0      0.0     0.0     0.0  1.13   3.11
+ 3COL     2   0.0    0.0      0.0    2.86    2.25  4.52   7.91

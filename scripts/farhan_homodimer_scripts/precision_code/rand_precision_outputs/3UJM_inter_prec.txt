@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3UJM
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 10
+con_num= 20
+con_num= 24
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 16
+con_num= 34
+con_num= 50
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3UJM     0   0.0    0.0      0.0     0.0    6.78   3.42   2.56
+ 3UJM     1   0.0    0.0      0.0     0.0   16.95  17.09  10.26
+ 3UJM     2   0.0   20.0    16.67     8.7   27.12  29.06  21.37

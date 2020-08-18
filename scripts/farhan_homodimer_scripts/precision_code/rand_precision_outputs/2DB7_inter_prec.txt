@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2DB7
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 8
+Relaxation = 1
+con_num= 4
+con_num= 6
+con_num= 4
+con_num= 6
+con_num= 10
+con_num= 23
+con_num= 38
+Relaxation = 2
+con_num= 4
+con_num= 6
+con_num= 4
+con_num= 6
+con_num= 14
+con_num= 35
+con_num= 66
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2DB7     0   0.0   20.0      0.0   18.18    7.14   5.36   7.14
+ 2DB7     1  80.0   60.0    66.67   54.55   35.71  41.07  33.93
+ 2DB7     2  80.0   60.0    66.67   54.55    50.0   62.5  58.93

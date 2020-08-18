@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1A25
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 8
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1A25     0   0.0    0.0      0.0     0.0     0.0   0.0   0.76
+ 1A25     1   0.0    0.0      0.0     0.0     0.0  1.52   6.06
+ 1A25     2   0.0    0.0      0.0     0.0    6.06  6.06   8.33

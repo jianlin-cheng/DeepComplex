@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1FT4
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 10
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 5
+con_num= 22
+con_num= 36
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1FT4     0   0.0    0.0      0.0     0.0     0.0   1.38   0.69
+ 1FT4     1   0.0    0.0    13.33     6.9    4.11    6.9   4.48
+ 1FT4     2   0.0    0.0    13.33   10.34    6.85  15.17  12.41

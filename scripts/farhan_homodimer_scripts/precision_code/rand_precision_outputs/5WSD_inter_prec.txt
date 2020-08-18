@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5WSD
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 8
+con_num= 11
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 11
+con_num= 17
+con_num= 31
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 19
+con_num= 29
+con_num= 53
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 5WSD     0   0.0    0.0      0.0     8.7   10.17   6.84    4.7
+ 5WSD     1   0.0    0.0      0.0   13.04   18.64  14.53  13.25
+ 5WSD     2   0.0    0.0      0.0   13.04    32.2  24.79  22.65

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1FJH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 11
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 7
+con_num= 14
+con_num= 25
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1FJH     0   0.0    0.0      0.0     0.0     0.0  0.85   0.64
+ 1FJH     1   0.0    0.0      0.0     0.0     0.0  2.54   2.33
+ 1FJH     2   0.0   20.0     8.33    4.26    5.93  5.93    5.3

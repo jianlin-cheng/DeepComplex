@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5G6R
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 16
+con_num= 34
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 10
+con_num= 28
+con_num= 53
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5G6R     0   0.0    0.0      0.0     0.0     0.0   0.0   0.52
+ 5G6R     1   0.0    0.0      0.0     0.0    1.38  5.54   5.88
+ 5G6R     2   0.0    0.0      6.9    3.45     6.9  9.69   9.17

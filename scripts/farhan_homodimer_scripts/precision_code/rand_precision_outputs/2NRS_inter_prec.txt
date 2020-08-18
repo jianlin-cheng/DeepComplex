@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2NRS
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 5
+con_num= 9
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 8
+con_num= 13
+con_num= 25
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2NRS     0   0.0    0.0      0.0     0.0     0.0   0.0   0.37
+ 2NRS     1   0.0    0.0      0.0    1.23    2.48  2.23   1.74
+ 2NRS     2   0.0    0.0      2.5     3.7    3.96  3.23    3.1

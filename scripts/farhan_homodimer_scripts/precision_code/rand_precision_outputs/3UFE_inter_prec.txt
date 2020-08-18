@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3UFE
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 7
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 7
+con_num= 13
+con_num= 32
+Relaxation = 2
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 15
+con_num= 25
+con_num= 57
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3UFE     0   0.0    0.0      0.0     0.0    3.64   1.83   3.21
+ 3UFE     1  20.0   10.0     9.09    4.55   12.73  11.93  14.68
+ 3UFE     2  60.0   30.0    27.27   13.64   27.27  22.94  26.15

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4RUE
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 11
+con_num= 19
+con_num= 36
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 18
+con_num= 28
+con_num= 61
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4RUE     0   0.0    0.0      0.0    3.85     3.1   1.55   0.78
+ 4RUE     1   0.0    0.0      0.0    7.69    8.53   7.36   6.98
+ 4RUE     2   0.0    0.0     7.69   11.54   13.95  10.85  11.82

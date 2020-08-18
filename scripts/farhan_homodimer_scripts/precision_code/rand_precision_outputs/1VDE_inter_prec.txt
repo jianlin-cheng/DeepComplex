@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1VDE
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 9
+con_num= 11
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 15
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1VDE     0   0.0    0.0      0.0     0.0     0.0  0.47   0.23
+ 1VDE     1   0.0    0.0      0.0    2.33    1.86   2.1   1.28
+ 1VDE     2   0.0    0.0      0.0    2.33    2.79   3.5   2.68

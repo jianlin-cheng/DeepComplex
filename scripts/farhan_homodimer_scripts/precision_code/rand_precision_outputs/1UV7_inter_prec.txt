@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1UV7
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 17
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 10
+con_num= 13
+con_num= 28
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1UV7     0   0.0    0.0      0.0     0.0     0.0    0.0   4.05
+ 1UV7     1   0.0    0.0      0.0   13.33   10.81   8.11  11.49
+ 1UV7     2  40.0   40.0    57.14    40.0   27.03  17.57  18.92

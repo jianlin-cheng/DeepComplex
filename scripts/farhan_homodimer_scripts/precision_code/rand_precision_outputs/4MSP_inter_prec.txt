@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4MSP
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 10
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 3
+con_num= 9
+con_num= 27
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+con_num= 9
+con_num= 26
+con_num= 50
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4MSP     0   0.0    0.0     5.26    2.63    1.05   0.53   2.63
+ 4MSP     1   0.0    0.0    10.53    7.89    3.16   4.74   7.11
+ 4MSP     2   0.0    0.0    10.53   13.16    9.47  13.68  13.16

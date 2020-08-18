@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1R61
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 9
+con_num= 13
+con_num= 22
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 10
+con_num= 21
+con_num= 39
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1R61     0   0.0    0.0      0.0    4.88    1.94   1.95   1.95
+ 1R61     1   0.0    0.0      0.0    4.88    8.74   6.34   5.37
+ 1R61     2   0.0    0.0      0.0    4.88    9.71  10.24   9.51

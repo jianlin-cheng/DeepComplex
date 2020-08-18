@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4EGU
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 12
+con_num= 18
+con_num= 27
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 18
+con_num= 32
+con_num= 50
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4EGU     0   0.0    0.0      0.0     0.0     0.0   1.68    2.1
+ 4EGU     1  40.0   20.0    33.33    25.0    20.0  15.13  11.34
+ 4EGU     2  40.0   20.0    33.33   33.33    30.0  26.89  21.01

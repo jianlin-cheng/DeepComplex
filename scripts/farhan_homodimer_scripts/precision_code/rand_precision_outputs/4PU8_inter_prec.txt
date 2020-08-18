@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4PU8
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 5
+Relaxation = 1
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 7
+con_num= 13
+con_num= 14
+Relaxation = 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 12
+con_num= 22
+con_num= 34
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4PU8     0   0.0    0.0      0.0     0.0     0.0   5.63   3.52
+ 4PU8     1  60.0   30.0    42.86   21.43   19.44  18.31   9.86
+ 4PU8     2  80.0   40.0    57.14   42.86   33.33  30.99  23.94

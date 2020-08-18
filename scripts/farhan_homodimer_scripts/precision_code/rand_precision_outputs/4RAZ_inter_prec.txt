@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4RAZ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 8
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 10
+con_num= 18
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4RAZ     0   0.0    0.0      0.0     0.0     0.0   0.0   0.75
+ 4RAZ     1  40.0   20.0    15.38   14.81    5.97  2.99   2.99
+ 4RAZ     2  40.0   20.0    15.38   14.81   11.94  7.46   6.72

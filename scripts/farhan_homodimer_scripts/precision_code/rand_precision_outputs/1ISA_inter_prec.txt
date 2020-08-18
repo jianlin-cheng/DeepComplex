@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1ISA
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 12
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1ISA     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 1ISA     1   0.0    0.0      0.0     0.0     0.0   0.0   0.52
+ 1ISA     2   0.0    0.0      0.0    5.26    4.17  2.08   3.12

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1O0W
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 7
+con_num= 19
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1O0W     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 1O0W     1   0.0    0.0      0.0     0.0     0.0  0.84   0.84
+ 1O0W     2   0.0    0.0      0.0     0.0     0.0  2.93   3.97

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3SZB
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 20
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 5
+con_num= 9
+con_num= 31
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3SZB     0   0.0    0.0      0.0     0.0     0.0  0.44   0.22
+ 3SZB     1   0.0    0.0     4.44    2.22    1.77  1.77   2.21
+ 3SZB     2   0.0    0.0     4.44    3.33    2.21  1.99   3.43

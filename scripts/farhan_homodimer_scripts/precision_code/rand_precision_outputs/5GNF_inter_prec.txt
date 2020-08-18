@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5GNF
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 5
+con_num= 11
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 8
+con_num= 13
+con_num= 26
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5GNF     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 5GNF     1   0.0    0.0      0.0     0.0    4.35  3.65   4.01
+ 5GNF     2  20.0   10.0     7.14   11.11   11.59  9.49   9.49

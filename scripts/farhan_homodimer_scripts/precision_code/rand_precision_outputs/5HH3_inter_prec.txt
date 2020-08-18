@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5HH3
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 5
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 6
+con_num= 8
+con_num= 16
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5HH3     0   0.0    0.0      0.0     0.0     0.0   0.0   0.13
+ 5HH3     1   0.0    0.0      0.0    1.27    1.51  1.26   1.26
+ 5HH3     2   0.0    0.0      2.5    2.53    3.02  2.02   2.02

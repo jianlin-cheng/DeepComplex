@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4YEA
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 16
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 15
+con_num= 24
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4YEA     0   0.0    0.0      0.0     0.0     0.0   1.49   0.75
+ 4YEA     1  40.0   20.0    28.57   15.38   11.76  14.93  11.94
+ 4YEA     2  40.0   40.0    28.57   30.77   23.53  22.39  17.91

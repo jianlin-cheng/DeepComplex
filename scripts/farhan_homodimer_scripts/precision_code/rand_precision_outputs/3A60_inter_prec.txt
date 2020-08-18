@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3A60
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 13
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 9
+con_num= 13
+con_num= 27
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3A60     0   0.0    0.0      0.0     0.0     0.0  0.75   0.94
+ 3A60     1  40.0   20.0     7.41    3.77    2.99  2.25   2.43
+ 3A60     2  40.0   20.0     7.41    7.55    6.72  4.87   5.06

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2IAB
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 9
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 9
+con_num= 18
+con_num= 30
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2IAB     0   0.0    0.0      0.0     0.0     0.0   0.66   0.33
+ 2IAB     1   0.0    0.0      0.0     0.0    5.26   5.92   5.26
+ 2IAB     2   0.0    0.0    13.33    6.67   11.84  11.84   9.87

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3ZFL
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+con_num= 9
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 12
+con_num= 21
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3ZFL     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 3ZFL     1   0.0    0.0      0.0     0.0    1.92  3.37   2.16
+ 3ZFL     2  40.0   20.0     9.52    4.76    5.77  5.77   5.05

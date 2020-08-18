@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1TW3
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 10
+con_num= 25
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1TW3     0   0.0    0.0      0.0     0.0     0.0   0.0   0.44
+ 1TW3     1   0.0    0.0      0.0     0.0    2.35  1.18   2.35
+ 1TW3     2   0.0    0.0      0.0     0.0    3.53  2.94   3.68

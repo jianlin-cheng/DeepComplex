@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2HUN
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 7
+con_num= 17
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 9
+con_num= 26
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2HUN     0   0.0    0.0      0.0     0.0     0.0   0.0    1.2
+ 2HUN     1   0.0    0.0      0.0     0.0    2.99   2.1   2.54
+ 2HUN     2   0.0    0.0      0.0     0.0    2.99  2.69   3.89

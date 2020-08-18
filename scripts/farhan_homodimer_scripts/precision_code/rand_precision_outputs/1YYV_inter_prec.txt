@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1YYV
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+Relaxation = 1
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 5
+con_num= 5
+con_num= 8
+con_num= 30
+Relaxation = 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 12
+con_num= 18
+con_num= 51
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1YYV     0  40.0   20.0    18.18    9.09    3.64   1.82   2.73
+ 1YYV     1  60.0   30.0    27.27   22.73    9.09   7.27  13.64
+ 1YYV     2  80.0   40.0    36.36   36.36   21.82  16.36  23.18

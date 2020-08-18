@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3U9E
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 12
+con_num= 15
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 12
+con_num= 21
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3U9E     0   0.0    0.0      0.0     0.0    1.41   0.7   0.35
+ 3U9E     1   0.0   20.0     7.14    3.51    5.63  4.23   2.64
+ 3U9E     2   0.0   20.0     7.14    3.51    5.63  4.23    3.7

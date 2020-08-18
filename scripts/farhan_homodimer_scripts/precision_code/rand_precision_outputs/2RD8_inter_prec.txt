@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2RD8
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 12
+con_num= 14
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 5
+con_num= 7
+con_num= 11
+con_num= 28
+con_num= 32
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2RD8     0   0.0    0.0      0.0     0.0    1.41  2.11   1.06
+ 2RD8     1   0.0    0.0      0.0    3.51    2.82  4.23   2.46
+ 2RD8     2  20.0   10.0    17.86   12.28    7.75  9.86   5.63

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2WLO
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 8
+con_num= 22
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 15
+con_num= 35
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2WLO     0   0.0    0.0     3.57    1.75     0.7  0.71   0.88
+ 2WLO     1   0.0    0.0     3.57    1.75    2.11  2.83   3.89
+ 2WLO     2  20.0   10.0    14.29    7.02    5.63   5.3   6.18

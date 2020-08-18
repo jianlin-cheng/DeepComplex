@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3TAV
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3TAV     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 3TAV     1   0.0   20.0     7.69    3.77    1.52  0.76   0.38
+ 3TAV     2   0.0   20.0     7.69    3.77    1.52  0.76   0.38

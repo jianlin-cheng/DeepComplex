@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2W43
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 9
+con_num= 12
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 12
+con_num= 15
+con_num= 18
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2W43     0   0.0    0.0      0.0     7.5    2.97  1.49   0.75
+ 2W43     1   0.0    0.0     10.0    15.0    8.91  5.97   3.48
+ 2W43     2   0.0    0.0     10.0    20.0   11.88  7.46   4.48

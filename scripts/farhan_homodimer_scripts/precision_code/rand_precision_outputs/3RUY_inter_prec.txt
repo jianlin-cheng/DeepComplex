@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3RUY
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 17
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 18
+con_num= 37
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3RUY     0   0.0    0.0      0.0     0.0    1.02  0.51   0.26
+ 3RUY     1   0.0    0.0      0.0     0.0    1.02  2.05   2.17
+ 3RUY     2   0.0    0.0      0.0    2.56    4.08   4.6   4.73

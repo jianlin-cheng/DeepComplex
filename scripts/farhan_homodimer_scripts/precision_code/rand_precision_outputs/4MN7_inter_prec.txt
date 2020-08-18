@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4MN7
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 7
+con_num= 10
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 8
+con_num= 13
+con_num= 21
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4MN7     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 4MN7     1   0.0    0.0      0.0    10.0    9.46  6.76   4.39
+ 4MN7     2   0.0    0.0      0.0   13.33   10.81  8.78   7.09

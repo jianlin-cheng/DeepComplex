@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2Y3D
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 7
+con_num= 8
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 11
+con_num= 15
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2Y3D     0   0.0    0.0      0.0     0.0    7.02  5.31   2.65
+ 2Y3D     1   0.0    0.0      0.0     0.0    7.02  6.19   3.54
+ 2Y3D     2   0.0    0.0      0.0     0.0    8.77  9.73   6.64

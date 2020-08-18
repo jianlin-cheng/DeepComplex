@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2HCI
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 14
+con_num= 21
+Relaxation = 2
+con_num= 0
+con_num= 6
+con_num= 2
+con_num= 6
+con_num= 18
+con_num= 30
+con_num= 49
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2HCI     0   0.0   20.0    28.57   14.29    5.88   5.88   5.88
+ 2HCI     1   0.0   20.0    28.57   14.29   11.76  20.59  15.44
+ 2HCI     2   0.0   60.0    28.57   42.86   52.94  44.12  36.03

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1WPM
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1WPM     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 1WPM     1   0.0    0.0      0.0     0.0     0.0   0.0   0.32
+ 1WPM     2   0.0    0.0      0.0     0.0     0.0   0.0   0.32

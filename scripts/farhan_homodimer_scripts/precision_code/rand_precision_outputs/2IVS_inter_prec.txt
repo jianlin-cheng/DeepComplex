@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2IVS
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 12
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 3
+con_num= 5
+con_num= 16
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2IVS     0   0.0    0.0      0.0     0.0     0.0   0.0   0.68
+ 2IVS     1   0.0    0.0      0.0    1.69    0.68  1.02   2.03
+ 2IVS     2  40.0   20.0     6.67    5.08    2.03  1.69   2.71

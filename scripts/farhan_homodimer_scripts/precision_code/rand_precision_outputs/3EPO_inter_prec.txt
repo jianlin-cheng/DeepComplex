@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3EPO
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 14
+con_num= 18
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3EPO     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 3EPO     1   0.0    0.0     3.77    1.89    1.52  1.52   0.95
+ 3EPO     2   0.0    0.0     7.55    3.77    3.03  2.65    1.7

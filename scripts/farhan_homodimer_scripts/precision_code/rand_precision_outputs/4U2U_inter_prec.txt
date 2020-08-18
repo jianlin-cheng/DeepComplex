@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4U2U
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 7
+con_num= 7
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 15
+con_num= 39
+Relaxation = 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 5
+con_num= 13
+con_num= 29
+con_num= 66
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4U2U     0   0.0    0.0      0.0     0.0    1.37   4.79    2.4
+ 4U2U     1  40.0   20.0    13.33     6.9   10.96  10.27  13.36
+ 4U2U     2  80.0   40.0    26.67   17.24   17.81  19.86   22.6

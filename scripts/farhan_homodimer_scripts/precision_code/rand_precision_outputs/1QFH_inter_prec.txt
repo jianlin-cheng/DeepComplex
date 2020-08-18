@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1QFH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 9
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 10
+con_num= 14
+con_num= 20
+Relaxation = 2
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 4
+con_num= 13
+con_num= 18
+con_num= 34
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1QFH     0   0.0    0.0      0.0     0.0    3.77  1.89   2.12
+ 1QFH     1   0.0    0.0     9.52    4.76    9.43   6.6   4.72
+ 1QFH     2   0.0   10.0    14.29    9.52   12.26  8.49   8.02

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4JH1
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 18
+con_num= 27
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 14
+con_num= 24
+con_num= 50
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4JH1     0   0.0    0.0      0.0     0.0     0.0   1.45   2.54
+ 4JH1     1   0.0    0.0    14.29   14.29   11.59  13.04   9.78
+ 4JH1     2  40.0   20.0    28.57   28.57   20.29  17.39  18.12

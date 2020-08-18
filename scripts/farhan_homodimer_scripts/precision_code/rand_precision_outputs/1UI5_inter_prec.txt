@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1UI5
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 7
+con_num= 8
+con_num= 12
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 8
+con_num= 9
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1UI5     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 1UI5     1  40.0   20.0     20.0   14.63    6.86  3.92   2.94
+ 1UI5     2  40.0   20.0     20.0   14.63    7.84  4.41   5.39

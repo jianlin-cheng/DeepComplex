@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2RB6
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 10
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2RB6     0   0.0    0.0      0.0     0.0     0.0   3.77   1.89
+ 2RB6     1   0.0    0.0      0.0     0.0    7.41  11.32   9.43
+ 2RB6     2   0.0    0.0      0.0     0.0    7.41  18.87  20.75

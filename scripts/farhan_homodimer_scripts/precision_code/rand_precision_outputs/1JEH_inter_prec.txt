@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1JEH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 5
+con_num= 7
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 6
+con_num= 8
+con_num= 18
+con_num= 26
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1JEH     0   0.0    0.0      0.0     0.0     0.0   0.0   0.21
+ 1JEH     1   0.0    0.0     4.17    2.08    1.67  1.05   0.73
+ 1JEH     2   0.0    0.0     12.5    6.25    3.35  3.77   2.72

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3NDC
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 8
+con_num= 11
+con_num= 19
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 10
+con_num= 12
+con_num= 21
+con_num= 35
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3NDC     0   0.0    0.0      0.0    4.17    1.67  0.84   0.42
+ 3NDC     1   0.0    0.0     8.33   16.67    6.67   4.6   3.97
+ 3NDC     2   0.0    0.0    16.67   20.83    10.0  8.79   7.32

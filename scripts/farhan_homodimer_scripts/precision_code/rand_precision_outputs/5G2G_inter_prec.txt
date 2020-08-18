@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5G2G
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 20
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 12
+con_num= 30
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5G2G     0   0.0    0.0      0.0     0.0    3.12  1.57   2.36
+ 5G2G     1   0.0   20.0    15.38     8.0    6.25   6.3   7.87
+ 5G2G     2   0.0   20.0    15.38     8.0    6.25  9.45  11.81

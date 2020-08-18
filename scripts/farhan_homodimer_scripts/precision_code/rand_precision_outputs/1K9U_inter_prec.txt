@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1K9U
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 5
+con_num= 6
+Relaxation = 1
+con_num= 2
+con_num= 8
+con_num= 4
+con_num= 11
+con_num= 21
+con_num= 34
+con_num= 51
+Relaxation = 2
+con_num= 2
+con_num= 8
+con_num= 4
+con_num= 14
+con_num= 26
+con_num= 48
+con_num= 82
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1K9U     0   0.0    0.0      0.0     0.0    7.89   6.58   3.95
+ 1K9U     1  40.0   80.0     50.0   73.33   55.26  44.74  33.55
+ 1K9U     2  40.0   80.0     50.0   93.33   68.42  63.16  53.95

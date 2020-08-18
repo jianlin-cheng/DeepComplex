@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5JXB
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 4
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 7
+con_num= 15
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5JXB     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 5JXB     1   0.0    0.0      0.0     0.0    1.67  1.68   1.68
+ 5JXB     2  20.0   10.0     8.33    4.17    3.33  5.88    6.3

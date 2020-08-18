@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3I7D
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 6
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 16
+con_num= 20
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3I7D     0  40.0   20.0    13.33    6.67    5.33   2.67   1.33
+ 3I7D     1  40.0   20.0    13.33    6.67     8.0    4.0    2.0
+ 3I7D     2  40.0   20.0    13.33    6.67     8.0  10.67   6.67

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5GT9
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 5
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 4
+con_num= 12
+con_num= 29
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5GT9     0   0.0    0.0      0.0     0.0    0.76  0.38   0.38
+ 5GT9     1   0.0    0.0      0.0     0.0    0.76   1.9   2.66
+ 5GT9     2   0.0    0.0     3.85    3.77    3.03  4.56   5.51

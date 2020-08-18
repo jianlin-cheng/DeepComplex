@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4WUV
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 8
+con_num= 12
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4WUV     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 4WUV     1   0.0    0.0      0.0     0.0    1.44  0.72   0.72
+ 4WUV     2   0.0    0.0      0.0     0.0    4.32  2.89   2.17

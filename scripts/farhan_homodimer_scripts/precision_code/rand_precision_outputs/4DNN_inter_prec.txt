@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4DNN
+Relaxation = 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 7
+con_num= 9
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 7
+con_num= 14
+con_num= 29
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 9
+con_num= 22
+con_num= 44
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4DNN     0  20.0   10.0     20.0   11.11    12.5  14.89   9.57
+ 4DNN     1  20.0   10.0     20.0   11.11   29.17  29.79  30.85
+ 4DNN     2  40.0   20.0     40.0   22.22    37.5  46.81  46.81

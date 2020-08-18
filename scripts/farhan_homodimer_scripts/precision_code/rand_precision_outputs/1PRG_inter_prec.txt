@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1PRG
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 8
+con_num= 12
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 9
+con_num= 13
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1PRG     0   0.0    0.0      0.0     0.0    0.74  0.37   0.19
+ 1PRG     1   0.0    0.0      0.0     0.0    2.96  2.96   2.22
+ 1PRG     2   0.0    0.0      0.0     0.0     3.7  3.33   2.41

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4O9G
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 7
+con_num= 9
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 17
+con_num= 23
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 14
+con_num= 29
+con_num= 49
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4O9G     0  40.0   20.0    14.29   14.29     5.8   5.07   3.26
+ 4O9G     1  40.0   20.0    14.29   14.29   14.49  12.32   8.33
+ 4O9G     2  40.0   20.0    14.29   14.29   20.29  21.01  17.75

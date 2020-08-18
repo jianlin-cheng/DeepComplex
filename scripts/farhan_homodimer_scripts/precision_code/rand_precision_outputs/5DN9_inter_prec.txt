@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5DN9
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 8
+con_num= 18
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 6
+con_num= 8
+con_num= 16
+con_num= 32
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5DN9     0   0.0   20.0     5.56    2.78     1.1  1.11   0.83
+ 5DN9     1   0.0   20.0    11.11    5.56    3.31  2.22   2.49
+ 5DN9     2  40.0   40.0    16.67    8.33    4.42  4.43   4.43

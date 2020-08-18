@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1SND
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 8
+con_num= 23
+con_num= 37
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 9
+con_num= 26
+con_num= 54
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1SND     0   0.0    0.0      0.0    7.69    3.08   1.55   2.33
+ 1SND     1   0.0    0.0      0.0   23.08   12.31  17.83  14.34
+ 1SND     2   0.0    0.0      0.0   23.08   13.85  20.16  20.93

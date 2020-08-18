@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2BSI
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 7
+con_num= 11
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 14
+con_num= 22
+con_num= 35
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2BSI     0   0.0    0.0      0.0     0.0    3.57    1.8    0.9
+ 2BSI     1  20.0   10.0     9.09    4.55    5.36   6.31   4.95
+ 2BSI     2  40.0   20.0    18.18   13.64    25.0  19.82  15.77

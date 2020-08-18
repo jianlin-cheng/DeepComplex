@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4QGB
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 5
+con_num= 13
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 20
+con_num= 29
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4QGB     0   0.0    0.0     9.09    4.65    1.85  1.85   0.93
+ 4QGB     1   0.0    0.0     9.09     9.3    4.63  6.02    3.7
+ 4QGB     2   0.0    0.0     9.09     9.3    5.56  9.26   6.71

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2XMM
+Relaxation = 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 4
+con_num= 8
+con_num= 18
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 12
+con_num= 26
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2XMM     0  20.0   10.0    16.67    7.69    3.12   6.35   4.76
+ 2XMM     1  20.0   10.0    16.67    7.69    12.5   12.7  14.29
+ 2XMM     2  40.0   20.0    33.33   15.38   15.62  19.05  20.63

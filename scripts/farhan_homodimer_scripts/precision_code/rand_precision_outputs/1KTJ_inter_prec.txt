@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1KTJ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 5
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 10
+con_num= 12
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1KTJ     0   0.0    0.0      0.0     0.0     0.0   0.0   0.78
+ 1KTJ     1   0.0    0.0      0.0     0.0    3.08  1.55   1.94
+ 1KTJ     2   0.0    0.0      0.0    7.69   15.38   9.3   8.91

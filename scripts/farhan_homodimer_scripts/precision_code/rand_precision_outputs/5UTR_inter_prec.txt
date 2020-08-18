@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5UTR
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 6
+con_num= 8
+con_num= 12
+con_num= 19
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 9
+con_num= 13
+con_num= 21
+con_num= 35
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5UTR     0   0.0    0.0     5.88    2.94    1.18  0.59   0.29
+ 5UTR     1   0.0   10.0     8.82    8.82    4.71  3.53   2.79
+ 5UTR     2   0.0   20.0    11.76   13.24    7.65  6.18   5.15

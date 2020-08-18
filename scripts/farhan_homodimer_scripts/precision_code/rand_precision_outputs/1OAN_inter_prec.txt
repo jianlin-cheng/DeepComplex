@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1OAN
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 5
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 6
+con_num= 13
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1OAN     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 1OAN     1  40.0   20.0     5.13    5.06    2.03  1.02   0.63
+ 1OAN     2  40.0   20.0     5.13    5.06    3.05  1.52   1.65

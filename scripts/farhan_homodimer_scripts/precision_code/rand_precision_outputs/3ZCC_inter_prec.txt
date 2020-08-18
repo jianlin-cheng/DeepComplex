@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3ZCC
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 8
+con_num= 11
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 11
+con_num= 28
+con_num= 47
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 21
+con_num= 42
+con_num= 72
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3ZCC     0   0.0    0.0      0.0     0.0    5.45   7.27    5.0
+ 3ZCC     1   0.0    0.0     9.09    4.55    20.0  25.45  21.36
+ 3ZCC     2   0.0    0.0     9.09   13.64   38.18  38.18  32.73

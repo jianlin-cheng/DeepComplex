@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3UGS
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 17
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 13
+con_num= 34
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3UGS     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 3UGS     1   0.0    0.0      0.0     0.0    1.92  2.88   4.09
+ 3UGS     2  40.0   40.0    19.05    9.52    7.69  6.25   8.17

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3GDO
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 8
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 11
+con_num= 13
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3GDO     0   0.0    0.0      0.0     0.0    1.18  0.59   0.29
+ 3GDO     1   0.0    0.0     5.88    2.94    2.35  2.36   1.18
+ 3GDO     2   0.0    0.0     5.88    2.94    2.35  3.24   1.92

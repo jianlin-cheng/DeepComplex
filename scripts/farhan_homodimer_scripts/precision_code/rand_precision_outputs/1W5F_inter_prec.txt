@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1W5F
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 8
+con_num= 20
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 9
+con_num= 17
+con_num= 38
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1W5F     0   0.0    0.0      0.0     0.0    1.27  0.63   0.63
+ 1W5F     1   0.0    0.0      0.0    3.17     3.8  2.54   3.17
+ 1W5F     2   0.0    0.0      0.0    6.35     5.7   5.4   6.03

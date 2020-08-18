@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1YHA
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 10
+con_num= 19
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 7
+con_num= 11
+con_num= 21
+con_num= 40
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1YHA     0   0.0    0.0      0.0     0.0     0.0    2.3   1.15
+ 1YHA     1   0.0    0.0      0.0   11.76   13.64  11.49  10.92
+ 1YHA     2   0.0    0.0      0.0   41.18    25.0  24.14  22.99

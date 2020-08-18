@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1HZA
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 7
+con_num= 12
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 10
+con_num= 21
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1HZA     0   0.0    0.0      0.0     0.0     0.0   2.99   3.73
+ 1HZA     1   0.0    0.0      0.0     0.0     0.0  10.45   8.96
+ 1HZA     2   0.0    0.0      0.0     0.0    8.82  14.93  15.67

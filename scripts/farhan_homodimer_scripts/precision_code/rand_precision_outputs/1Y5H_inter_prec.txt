@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1Y5H
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 8
+con_num= 19
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 10
+con_num= 25
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1Y5H     0   0.0    0.0      0.0     0.0    3.39  1.69   1.69
+ 1Y5H     1   0.0    0.0      0.0     0.0    6.78  6.78   8.05
+ 1Y5H     2   0.0    0.0      0.0     0.0    6.78  8.47  10.59

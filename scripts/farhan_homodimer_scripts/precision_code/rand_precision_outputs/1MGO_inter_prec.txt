@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1MGO
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 12
+con_num= 18
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1MGO     0   0.0    0.0     5.41    2.67    1.07  1.07   0.53
+ 1MGO     1   0.0   20.0    10.81    5.33    2.14  2.14   1.87
+ 1MGO     2   0.0   20.0    10.81    5.33    3.21  3.21   2.41

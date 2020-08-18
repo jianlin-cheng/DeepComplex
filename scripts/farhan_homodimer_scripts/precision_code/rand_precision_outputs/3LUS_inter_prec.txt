@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3LUS
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 11
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 9
+con_num= 24
+con_num= 43
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 13
+con_num= 33
+con_num= 66
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3LUS     0   0.0    0.0      0.0     0.0    2.74   2.76   3.79
+ 3LUS     1   0.0    0.0      0.0    3.45   12.33  16.55  14.83
+ 3LUS     2   0.0    0.0    13.33   10.34   17.81  22.76  22.76

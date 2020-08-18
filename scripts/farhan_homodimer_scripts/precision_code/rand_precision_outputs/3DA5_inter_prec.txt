@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3DA5
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 4
+con_num= 7
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 6
+con_num= 7
+con_num= 14
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3DA5     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 3DA5     1   0.0    0.0      0.0    4.17    4.92  3.31   2.89
+ 3DA5     2   0.0    0.0      0.0    12.5    9.84  5.79   5.79

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2GJ3
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 9
+con_num= 21
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 5
+con_num= 8
+con_num= 19
+con_num= 33
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2GJ3     0   0.0    0.0      0.0     0.0     0.0    2.5   2.08
+ 2GJ3     1   0.0    0.0      0.0    8.33    3.33    7.5   8.75
+ 2GJ3     2  20.0   10.0     8.33   20.83   13.33  15.83  13.75

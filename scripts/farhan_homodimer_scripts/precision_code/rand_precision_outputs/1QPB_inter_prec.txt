@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1QPB
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 19
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1QPB     0   0.0    0.0      0.0     0.0     0.0  0.36   0.36
+ 1QPB     1   0.0    0.0      0.0     0.0    0.72  1.08   1.17
+ 1QPB     2   0.0    0.0      0.0     0.0    0.72  1.44   1.71

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2CT9
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 4
+con_num= 8
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+con_num= 10
+con_num= 20
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2CT9     0   0.0    0.0      0.0     0.0    2.02  1.01   0.51
+ 2CT9     1   0.0    0.0      0.0     2.5    3.03  2.02   2.02
+ 2CT9     2   0.0    0.0      0.0    10.0    6.06  5.05   5.05

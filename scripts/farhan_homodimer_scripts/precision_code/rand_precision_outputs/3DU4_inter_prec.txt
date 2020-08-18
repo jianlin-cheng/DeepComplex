@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3DU4
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 8
+con_num= 14
+con_num= 22
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 10
+con_num= 14
+con_num= 26
+con_num= 40
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3DU4     0   0.0    0.0      0.0    2.25    0.89  0.45   0.67
+ 3DU4     1  40.0   20.0     4.44    6.74    3.57  3.13   2.46
+ 3DU4     2  40.0   20.0    13.33   11.24    6.25  5.82   4.47

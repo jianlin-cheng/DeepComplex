@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3E0Y
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 7
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 8
+con_num= 19
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3E0Y     0   0.0    0.0      0.0     0.0     2.6   1.3   0.65
+ 3E0Y     1   0.0    0.0      0.0     0.0    6.49  4.55   4.22
+ 3E0Y     2   0.0    0.0      0.0     0.0    7.79  5.19   6.17

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4L9C
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 7
+con_num= 10
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 10
+con_num= 17
+con_num= 31
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4L9C     0   0.0    0.0      0.0     0.0    2.67   1.33    1.0
+ 4L9C     1   0.0    0.0      0.0    3.33    9.33   6.67   4.33
+ 4L9C     2   0.0   10.0     6.67    6.67   13.33  11.33  10.33

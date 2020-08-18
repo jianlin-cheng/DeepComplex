@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4EHG
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+con_num= 12
+con_num= 16
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4EHG     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 4EHG     1   0.0    0.0      0.0     0.0    1.52  0.76   0.76
+ 4EHG     2   0.0    0.0      0.0    3.77     5.3  4.56   3.04

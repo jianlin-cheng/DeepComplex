@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1JYA
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 8
+con_num= 20
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 12
+con_num= 26
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1JYA     0  40.0   20.0    16.67    8.33    3.33   1.68   0.84
+ 1JYA     1  40.0   20.0    16.67   16.67    10.0   6.72    8.4
+ 1JYA     2  40.0   20.0    16.67   16.67    10.0  10.08  10.92

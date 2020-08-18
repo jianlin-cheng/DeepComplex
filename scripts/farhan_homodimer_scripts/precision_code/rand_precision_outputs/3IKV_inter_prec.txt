@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3IKV
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 10
+con_num= 15
+con_num= 32
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 17
+con_num= 27
+con_num= 50
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3IKV     0   0.0    0.0      0.0     0.0     0.0    0.0   0.24
+ 3IKV     1  40.0   20.0    19.05   14.63    9.71   7.28   7.77
+ 3IKV     2  40.0   20.0    19.05   19.51    16.5  13.11  12.14

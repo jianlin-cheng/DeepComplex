@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1JCZ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 3
+con_num= 5
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1JCZ     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 1JCZ     1   0.0    0.0      0.0     0.0    1.54  0.77   0.38
+ 1JCZ     2   0.0    0.0      0.0     0.0    2.31  1.15   0.96

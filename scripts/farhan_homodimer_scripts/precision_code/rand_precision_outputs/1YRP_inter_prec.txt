@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1YRP
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 12
+con_num= 18
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1YRP     0   0.0    0.0      0.0     0.0    1.45  1.45   1.09
+ 1YRP     1   0.0    0.0      0.0    3.64     2.9  2.91   1.82
+ 1YRP     2   0.0    0.0      0.0    7.27     8.7  6.55    4.0

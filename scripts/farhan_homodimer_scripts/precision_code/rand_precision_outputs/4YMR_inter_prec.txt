@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4YMR
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+con_num= 15
+con_num= 30
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 7
+con_num= 12
+con_num= 27
+con_num= 48
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4YMR     0   0.0    0.0      0.0     0.0     0.0   1.49   2.24
+ 4YMR     1   0.0    0.0      0.0   14.81    8.96  11.19  11.19
+ 4YMR     2  40.0   20.0    15.38   25.93   17.91  20.15  17.91

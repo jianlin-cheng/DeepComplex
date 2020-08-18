@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2WQW
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 4
+con_num= 7
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+con_num= 11
+con_num= 14
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2WQW     0   0.0    0.0      0.0    1.75     0.7  0.35   0.52
+ 2WQW     1   0.0    0.0      0.0    1.75     2.1   1.4   1.22
+ 2WQW     2   0.0    0.0      0.0    3.51     3.5  3.85   2.45

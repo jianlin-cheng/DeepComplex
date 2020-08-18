@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1NWP
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 5
+con_num= 6
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 9
+con_num= 20
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1NWP     0   0.0    0.0      0.0     0.0     0.0  0.78   0.39
+ 1NWP     1   0.0    0.0      0.0    3.85    1.56  3.91   2.34
+ 1NWP     2   0.0    0.0      0.0    7.69    4.69  7.03   7.81

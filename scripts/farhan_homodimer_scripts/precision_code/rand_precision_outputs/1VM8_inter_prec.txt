@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1VM8
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 7
+Relaxation = 2
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 4
+con_num= 5
+con_num= 9
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1VM8     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 1VM8     1  40.0   20.0     4.17    2.08    0.83  0.63   0.73
+ 1VM8     2  60.0   30.0     6.25    3.12    1.67  1.04   0.94

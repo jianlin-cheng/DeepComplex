@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1QX2
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 5
+Relaxation = 2
+con_num= 1
+con_num= 2
+con_num= 1
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 10
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1QX2     0   0.0    0.0      0.0     0.0     0.0   0.0   0.67
+ 1QX2     1   0.0    0.0      0.0     0.0     0.0  1.33   3.33
+ 1QX2     2  20.0   20.0     12.5   13.33    5.26   4.0   6.67

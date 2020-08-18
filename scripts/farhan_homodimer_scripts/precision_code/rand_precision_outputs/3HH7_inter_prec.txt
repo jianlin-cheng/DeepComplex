@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3HH7
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 5
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 11
+con_num= 17
+con_num= 21
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3HH7     0   0.0    0.0      0.0     0.0    3.03   4.62   2.31
+ 3HH7     1   0.0    0.0      0.0     0.0    3.03   4.62   3.85
+ 3HH7     2  20.0   10.0    14.29   23.08   33.33  26.15  16.15

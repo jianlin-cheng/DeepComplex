@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3U7R
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 5
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 18
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3U7R     0   0.0    0.0      0.0     0.0    1.14  0.57   0.28
+ 3U7R     1   0.0    0.0      0.0     0.0    1.14   1.7   1.42
+ 3U7R     2   0.0    0.0      0.0     0.0    1.14   1.7   5.11

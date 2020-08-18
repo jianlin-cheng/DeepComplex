@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2JEV
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 14
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 18
+con_num= 32
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 15
+con_num= 27
+con_num= 56
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2JEV     0   0.0    0.0      0.0     0.0    2.35   3.55   4.14
+ 2JEV     1  40.0   20.0    11.76    5.88    9.41  10.65   9.47
+ 2JEV     2  40.0   20.0    23.53   17.65   17.65  15.98  16.57

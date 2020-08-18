@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4GR2
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 7
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 10
+con_num= 21
+con_num= 53
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 14
+con_num= 33
+con_num= 72
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4GR2     0   0.0    0.0      0.0     0.0     0.0   3.39   2.97
+ 4GR2     1   0.0    0.0     8.33    4.17   16.95   17.8  22.46
+ 4GR2     2   0.0    0.0     8.33    12.5   23.73  27.97  30.51

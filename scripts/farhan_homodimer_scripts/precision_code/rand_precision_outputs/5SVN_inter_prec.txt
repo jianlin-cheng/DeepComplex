@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5SVN
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 10
+con_num= 32
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5SVN     0   0.0    0.0      0.0     0.0     0.0   0.0   0.25
+ 5SVN     1   0.0    0.0      0.0     0.0    0.98  0.98   1.97
+ 5SVN     2   0.0    0.0     9.76    4.94    3.92  2.46   3.93

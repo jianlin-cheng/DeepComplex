@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4EW5
+Relaxation = 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 4
+con_num= 6
+con_num= 12
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 6
+con_num= 11
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4EW5     0  20.0   10.0     10.0     5.0    3.92   1.98   0.99
+ 4EW5     1  20.0   10.0     10.0    15.0    7.84   5.94   5.94
+ 4EW5     2  20.0   10.0     10.0    15.0   11.76  10.89  11.39

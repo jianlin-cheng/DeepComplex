@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4ETM
+Relaxation = 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 9
+con_num= 9
+con_num= 11
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 9
+con_num= 9
+con_num= 15
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4ETM     0   0.0   10.0     6.25    3.12    1.23  0.62   0.31
+ 4ETM     1   0.0   20.0     12.5    6.25   11.11  5.56    3.4
+ 4ETM     2   0.0   20.0     12.5    6.25   11.11  5.56   4.63

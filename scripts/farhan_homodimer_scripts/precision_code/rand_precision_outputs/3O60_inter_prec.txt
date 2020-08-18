@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3O60
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 3
+con_num= 4
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 7
+con_num= 7
+con_num= 12
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3O60     0   0.0    0.0      0.0     0.0     0.0   0.0   0.28
+ 3O60     1   0.0    0.0      0.0     0.0    3.33  1.68   1.12
+ 3O60     2   0.0    0.0      0.0     0.0    7.78  3.91   3.35

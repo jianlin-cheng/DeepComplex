@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3EHD
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 12
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 9
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3EHD     0   0.0    0.0      0.0     0.0     0.0  1.28   1.92
+ 3EHD     1   0.0    0.0      0.0     0.0    2.56  3.85   3.85
+ 3EHD     2   0.0    0.0      0.0     0.0    3.85  5.77   7.37

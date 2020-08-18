@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1ETK
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+con_num= 39
+Relaxation = 2
+con_num= 4
+con_num= 7
+con_num= 5
+con_num= 7
+con_num= 13
+con_num= 23
+con_num= 73
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1ETK     0   0.0    0.0      0.0     0.0     0.0    0.0    5.0
+ 1ETK     1   0.0    0.0      0.0     0.0    10.0    7.5  24.38
+ 1ETK     2  80.0   70.0     62.5   43.75    32.5  28.75  45.62

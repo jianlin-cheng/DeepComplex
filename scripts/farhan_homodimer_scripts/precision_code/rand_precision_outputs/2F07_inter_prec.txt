@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2F07
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+con_num= 9
+con_num= 19
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 14
+con_num= 28
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2F07     0   0.0    0.0      0.0     0.0     0.0   0.0   0.51
+ 2F07     1   0.0    0.0      0.0    5.13    5.05  4.57   4.82
+ 2F07     2   0.0    0.0      0.0    5.13    6.06  7.11   7.11

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1NXH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 14
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 23
+con_num= 30
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1NXH     0   0.0    0.0      0.0     0.0     0.0   3.36    2.1
+ 1NXH     1   0.0    0.0      0.0    8.33    3.33  11.76   6.72
+ 1NXH     2   0.0    0.0      0.0    8.33   13.33  19.33  12.61

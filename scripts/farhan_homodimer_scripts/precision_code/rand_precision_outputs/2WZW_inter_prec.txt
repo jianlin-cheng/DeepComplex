@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2WZW
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 13
+con_num= 29
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 8
+con_num= 15
+con_num= 26
+con_num= 54
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2WZW     0   0.0    0.0      0.0     0.0     0.0   0.92   1.84
+ 2WZW     1   0.0    0.0     9.09    4.65    4.59   5.99   6.68
+ 2WZW     2  40.0   40.0    27.27    18.6   13.76  11.98  12.44

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4OMU
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+con_num= 6
+con_num= 11
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 8
+con_num= 21
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4OMU     0   0.0    0.0      0.0    1.79    1.42  0.71   0.53
+ 4OMU     1   0.0    0.0      0.0    3.57    3.55  2.13   1.95
+ 4OMU     2   0.0    0.0      0.0    3.57    4.26  2.84   3.72

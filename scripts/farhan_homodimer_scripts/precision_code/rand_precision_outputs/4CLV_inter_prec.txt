@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4CLV
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 13
+con_num= 20
+Relaxation = 2
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 8
+con_num= 15
+con_num= 29
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4CLV     0   0.0   20.0    14.29    7.14    2.82   1.41   1.76
+ 4CLV     1   0.0   20.0    14.29   14.29    8.45   9.15   7.04
+ 4CLV     2   0.0   40.0    28.57   21.43   11.27  10.56  10.21

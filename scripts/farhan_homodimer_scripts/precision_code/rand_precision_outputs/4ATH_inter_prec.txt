@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4ATH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 6
+con_num= 6
+con_num= 6
+con_num= 6
+con_num= 12
+con_num= 22
+con_num= 42
+Relaxation = 2
+con_num= 6
+con_num= 8
+con_num= 6
+con_num= 8
+con_num= 15
+con_num= 28
+con_num= 50
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4ATH     0   0.0    0.0      0.0     0.0     0.0   2.53    1.9
+ 4ATH     1   100   60.0     75.0    37.5    30.0  27.85  26.58
+ 4ATH     2   100   80.0     75.0    50.0    37.5  35.44  31.65

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5V3U
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 6
+con_num= 11
+Relaxation = 2
+con_num= 1
+con_num= 2
+con_num= 3
+con_num= 3
+con_num= 6
+con_num= 13
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5V3U     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 5V3U     1  20.0   10.0     7.69    3.85    1.52  4.58    4.2
+ 5V3U     2  20.0   20.0    23.08   11.54    9.09  9.92   8.78

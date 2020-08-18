@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2GBO
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 10
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+con_num= 14
+con_num= 50
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 14
+con_num= 26
+con_num= 74
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2GBO     0   0.0    0.0      0.0     0.0     5.0   2.53   6.33
+ 2GBO     1   0.0    0.0      0.0     0.0    20.0  17.72  31.65
+ 2GBO     2   0.0    0.0      0.0    12.5    35.0  32.91  46.84

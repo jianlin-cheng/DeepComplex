@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3HMK
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 7
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3HMK     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 3HMK     1   0.0    0.0      0.0     0.0    1.24  0.62   0.31
+ 3HMK     2   0.0    0.0      0.0     0.0    1.24  0.62   1.09

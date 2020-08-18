@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3EM6
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+con_num= 7
+con_num= 19
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 14
+con_num= 18
+con_num= 37
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3EM6     0   0.0    0.0      0.0     0.0     8.0   4.04   3.03
+ 3EM6     1   0.0    0.0      0.0    10.0    14.0   7.07    9.6
+ 3EM6     2   0.0    0.0      0.0    20.0    28.0  18.18  18.69

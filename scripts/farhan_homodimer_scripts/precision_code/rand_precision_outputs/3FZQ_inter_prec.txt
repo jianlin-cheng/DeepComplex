@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3FZQ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 13
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3FZQ     0   0.0    0.0      0.0     0.0     0.0   0.0   0.75
+ 3FZQ     1  40.0   20.0     7.41    3.77     1.5  0.75    1.5
+ 3FZQ     2  40.0   20.0     7.41    5.66    2.26  1.13   2.44

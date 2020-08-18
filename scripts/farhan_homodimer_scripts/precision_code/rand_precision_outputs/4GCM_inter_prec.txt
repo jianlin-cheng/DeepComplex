@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4GCM
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 12
+con_num= 16
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 14
+con_num= 30
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4GCM     0   0.0    0.0      0.0     0.0     0.0  1.32   0.66
+ 4GCM     1  40.0   20.0     6.67    3.33    2.65  3.97   2.65
+ 4GCM     2  40.0   20.0     6.67    3.33    2.65  4.64   4.97

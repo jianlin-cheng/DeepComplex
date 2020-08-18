@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3RMJ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 5
+con_num= 7
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 7
+con_num= 10
+con_num= 26
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3RMJ     0   0.0    0.0      0.0     0.0     0.0   0.0   0.32
+ 3RMJ     1   0.0    0.0      0.0    4.84    3.25  2.27   2.11
+ 3RMJ     2   0.0    0.0      0.0    4.84    4.55  3.25   4.22

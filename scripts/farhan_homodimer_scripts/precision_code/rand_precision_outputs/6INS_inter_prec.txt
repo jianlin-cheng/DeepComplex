@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 6INS
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 11
+Relaxation = 1
+con_num= 2
+con_num= 6
+con_num= 2
+con_num= 6
+con_num= 10
+con_num= 14
+con_num= 30
+Relaxation = 2
+con_num= 4
+con_num= 8
+con_num= 4
+con_num= 8
+con_num= 14
+con_num= 20
+con_num= 40
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 6INS     0   0.0   20.0      0.0    20.0    16.0   8.0   11.0
+ 6INS     1  40.0   60.0     40.0    60.0    40.0  28.0   30.0
+ 6INS     2  80.0   80.0     80.0    80.0    56.0  40.0   40.0

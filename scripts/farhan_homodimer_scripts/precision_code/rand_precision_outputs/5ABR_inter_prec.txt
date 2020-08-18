@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5ABR
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 12
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 24
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5ABR     0  40.0   20.0     20.0    9.52    3.85  1.92   1.92
+ 5ABR     1  40.0   20.0     20.0    9.52    3.85  3.85   5.77
+ 5ABR     2  40.0   20.0     20.0    9.52    7.69  5.77  11.54

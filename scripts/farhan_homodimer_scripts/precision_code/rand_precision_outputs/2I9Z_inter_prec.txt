@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2I9Z
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 3
+con_num= 3
+con_num= 19
+Relaxation = 2
+con_num= 1
+con_num= 4
+con_num= 4
+con_num= 7
+con_num= 13
+con_num= 13
+con_num= 37
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2I9Z     0   0.0    0.0      0.0     0.0     0.0    0.0   3.66
+ 2I9Z     1  20.0   10.0     12.5    12.5    7.32   3.66  11.59
+ 2I9Z     2  20.0   40.0     50.0   43.75   31.71  15.85  22.56

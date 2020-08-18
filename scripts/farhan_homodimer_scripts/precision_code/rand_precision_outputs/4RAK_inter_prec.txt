@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4RAK
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 4
+con_num= 11
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 13
+con_num= 26
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4RAK     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 4RAK     1   0.0    0.0      0.0    2.08    2.48  1.66   2.28
+ 4RAK     2   0.0    0.0      0.0    4.17    4.96  5.39   5.39

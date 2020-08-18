@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1BYU
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 5
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 7
+con_num= 13
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1BYU     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 1BYU     1   0.0    0.0      0.0    2.33    1.85  2.33   2.33
+ 1BYU     2   0.0    0.0      0.0    4.65    2.78  3.26   3.02

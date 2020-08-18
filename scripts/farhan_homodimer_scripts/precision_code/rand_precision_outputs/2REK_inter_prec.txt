@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2REK
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 3
+con_num= 7
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 5
+con_num= 10
+con_num= 17
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2REK     0   0.0    0.0      0.0     0.0     0.0  0.57   0.57
+ 2REK     1   0.0    0.0      0.0    2.86    2.27  1.71    2.0
+ 2REK     2   0.0    0.0     5.56    5.71    5.68  5.71   4.86

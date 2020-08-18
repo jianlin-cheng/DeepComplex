@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3EPY
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+con_num= 12
+Relaxation = 1
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 10
+con_num= 34
+con_num= 69
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 12
+con_num= 40
+con_num= 82
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3EPY     0   0.0    0.0      0.0     0.0     0.0   9.09   6.82
+ 3EPY     1  40.0   40.0    44.44   33.33   22.73  38.64   39.2
+ 3EPY     2  40.0   40.0    44.44   33.33   27.27  45.45  46.59

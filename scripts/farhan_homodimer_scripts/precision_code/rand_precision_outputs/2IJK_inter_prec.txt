@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2IJK
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 11
+Relaxation = 1
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 5
+con_num= 7
+con_num= 22
+con_num= 59
+Relaxation = 2
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 5
+con_num= 15
+con_num= 39
+con_num= 87
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2IJK     0   0.0    0.0      0.0   16.67     6.9  10.34   9.48
+ 2IJK     1  60.0   30.0     50.0   41.67   24.14  37.93  50.86
+ 2IJK     2  60.0   30.0     50.0   41.67   51.72  67.24   75.0

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3BJL
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 8
+con_num= 20
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 17
+con_num= 37
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3BJL     0   0.0    0.0      0.0     0.0     0.0  0.93    1.4
+ 3BJL     1   0.0    0.0      0.0     0.0    2.78  3.72   4.65
+ 3BJL     2   0.0    0.0      0.0     0.0    4.63  7.91    8.6

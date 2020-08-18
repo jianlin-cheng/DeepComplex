@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4GLW
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 5
+con_num= 5
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 8
+con_num= 10
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4GLW     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 4GLW     1   0.0    0.0      0.0     0.0    2.13  1.77   0.89
+ 4GLW     2   0.0    0.0      0.0     0.0    4.26  2.84   1.77

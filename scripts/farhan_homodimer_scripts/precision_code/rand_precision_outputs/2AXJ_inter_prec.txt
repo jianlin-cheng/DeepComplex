@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2AXJ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 11
+con_num= 23
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 28
+con_num= 46
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2AXJ     0   0.0    0.0      0.0     0.0     0.0   0.83   0.83
+ 2AXJ     1   0.0    0.0      0.0     0.0     0.0   4.55   4.75
+ 2AXJ     2   0.0    0.0      0.0     0.0    4.96  11.57    9.5

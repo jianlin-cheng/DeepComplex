@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2IPJ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 8
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 12
+con_num= 14
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2IPJ     0   0.0    0.0      0.0    3.12    1.24  1.25   0.62
+ 2IPJ     1   0.0    0.0      0.0    3.12    2.48  2.49   1.25
+ 2IPJ     2   0.0    0.0      0.0    3.12    2.48  3.74   2.18

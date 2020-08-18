@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4AB0
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 11
+con_num= 15
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+con_num= 18
+con_num= 25
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4AB0     0   0.0    0.0      0.0     0.0    8.33  10.64   5.32
+ 4AB0     1   0.0    0.0      0.0     0.0    25.0   23.4  15.96
+ 4AB0     2   0.0    0.0      0.0     0.0   33.33   38.3   26.6

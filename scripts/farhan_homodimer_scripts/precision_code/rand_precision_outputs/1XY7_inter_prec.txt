@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1XY7
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 4
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 18
+con_num= 27
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 5
+con_num= 11
+con_num= 28
+con_num= 42
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1XY7     0   0.0    0.0      0.0     0.0     0.0   2.44   1.63
+ 1XY7     1  40.0   20.0    16.67     8.0    12.9  14.63  10.98
+ 1XY7     2  40.0   40.0    33.33    20.0   17.74  22.76  17.07

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3BSF
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 19
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 22
+con_num= 44
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3BSF     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 3BSF     1   0.0    0.0     8.33    4.08    1.64  2.05   3.89
+ 3BSF     2   0.0    0.0     8.33    4.08    4.92  9.02   9.02

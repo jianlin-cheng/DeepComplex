@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5EK5
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 15
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 7
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5EK5     0   0.0    0.0      0.0     0.0     0.0   0.0   1.25
+ 5EK5     1   0.0    0.0      0.0     0.0     0.0  3.33   6.25
+ 5EK5     2   0.0   20.0    16.67    8.33    3.33  5.83   9.17

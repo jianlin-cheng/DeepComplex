@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2ONF
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 7
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 11
+con_num= 21
+con_num= 56
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 15
+con_num= 27
+con_num= 74
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2ONF     0   0.0    0.0      0.0     0.0     2.9   1.46   2.55
+ 2ONF     1  40.0   20.0    14.29    7.41   15.94  15.33  20.44
+ 2ONF     2  40.0   20.0    14.29    7.41   21.74  19.71  27.01

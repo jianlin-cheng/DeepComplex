@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4MVC
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+con_num= 10
+con_num= 19
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 12
+con_num= 18
+con_num= 33
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4MVC     0   0.0    0.0      0.0     0.0    1.94  0.98   0.73
+ 4MVC     1   0.0    0.0      0.0     0.0    7.77  4.88   4.63
+ 4MVC     2   0.0    0.0      0.0     0.0   11.65  8.78   8.05

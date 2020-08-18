@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4AYN
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 5
+con_num= 7
+con_num= 15
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 6
+con_num= 7
+con_num= 11
+con_num= 17
+con_num= 42
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4AYN     0   0.0    0.0      0.0     4.0    1.59   0.8    1.2
+ 4AYN     1   0.0    0.0    15.38    12.0    7.94   5.6    6.0
+ 4AYN     2  20.0   10.0    46.15    28.0   17.46  13.6   16.8

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5VAA
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 10
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 14
+con_num= 24
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5VAA     0   0.0    0.0     4.76    2.44    0.96  0.48   0.72
+ 5VAA     1   0.0   20.0    19.05    9.76    3.85  4.83   3.38
+ 5VAA     2   0.0   20.0    19.05    9.76    3.85  6.76    5.8

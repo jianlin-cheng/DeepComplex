@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2ZYG
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 7
+Relaxation = 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 6
+con_num= 8
+con_num= 12
+con_num= 16
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2ZYG     0  40.0   20.0     4.26    2.15    0.85  0.43   0.21
+ 2ZYG     1  40.0   20.0     4.26    2.15    0.85  1.07   0.75
+ 2ZYG     2  80.0   40.0    12.77    6.45    3.42  2.57   1.71

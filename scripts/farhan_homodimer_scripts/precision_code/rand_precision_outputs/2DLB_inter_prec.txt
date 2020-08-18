@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2DLB
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 11
+con_num= 17
+Relaxation = 1
+con_num= 0
+con_num= 3
+con_num= 1
+con_num= 5
+con_num= 17
+con_num= 29
+con_num= 43
+Relaxation = 2
+con_num= 2
+con_num= 5
+con_num= 3
+con_num= 7
+con_num= 25
+con_num= 46
+con_num= 77
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2DLB     0   0.0    0.0      0.0     0.0   14.29  15.94  12.32
+ 2DLB     1   0.0   30.0    14.29   35.71   48.57  42.03  31.16
+ 2DLB     2  40.0   50.0    42.86    50.0   71.43  66.67   55.8

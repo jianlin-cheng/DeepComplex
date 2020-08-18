@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2O5A
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 2
+con_num= 1
+con_num= 3
+con_num= 3
+con_num= 5
+con_num= 5
+con_num= 10
+con_num= 16
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2O5A     0   0.0    0.0      0.0     0.0     0.0   0.0   0.93
+ 2O5A     1   0.0    0.0      0.0     0.0     0.0   0.0   0.93
+ 2O5A     2  20.0   30.0    27.27   23.81    9.26  9.35   7.48

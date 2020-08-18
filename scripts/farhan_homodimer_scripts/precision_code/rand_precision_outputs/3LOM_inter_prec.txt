@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3LOM
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 14
+con_num= 28
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3LOM     0   0.0    0.0      0.0     0.0     0.0  0.69   0.35
+ 3LOM     1   0.0    0.0      0.0     0.0    1.39  2.78   2.43
+ 3LOM     2   0.0    0.0      0.0     0.0    2.78  4.86   4.86

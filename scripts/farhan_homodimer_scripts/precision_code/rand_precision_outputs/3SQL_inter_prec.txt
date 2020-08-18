@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3SQL
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 13
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 14
+con_num= 21
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3SQL     0   0.0    0.0      0.0    1.94    0.77  0.39   0.19
+ 3SQL     1   0.0    0.0      0.0    1.94    0.77  1.16   1.26
+ 3SQL     2   0.0    0.0     3.85    3.88    2.32  2.71   2.03

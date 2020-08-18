@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1AOG
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 13
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 12
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1AOG     0   0.0    0.0      0.0     0.0    0.83  0.41   0.21
+ 1AOG     1  40.0   20.0     4.17    2.06    1.65  1.24   1.34
+ 1AOG     2  40.0   20.0     4.17    2.06    2.48  2.48   2.27

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1I8T
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+con_num= 6
+con_num= 10
+con_num= 14
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1I8T     0   0.0    0.0      0.0    2.74    1.09  0.54   0.27
+ 1I8T     1   0.0    0.0      0.0    2.74    1.09  1.09   0.82
+ 1I8T     2   0.0    0.0    10.81    8.22    3.26  2.72   1.91

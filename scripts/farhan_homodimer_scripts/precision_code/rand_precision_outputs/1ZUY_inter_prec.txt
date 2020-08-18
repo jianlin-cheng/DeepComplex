@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1ZUY
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 17
+Relaxation = 2
+con_num= 8
+con_num= 8
+con_num= 8
+con_num= 10
+con_num= 10
+con_num= 22
+con_num= 39
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1ZUY     0   0.0    0.0      0.0     0.0     0.0   3.45   1.72
+ 1ZUY     1  80.0   40.0    66.67   33.33   13.79  13.79  14.66
+ 1ZUY     2   100   80.0      100   83.33   34.48  37.93  33.62

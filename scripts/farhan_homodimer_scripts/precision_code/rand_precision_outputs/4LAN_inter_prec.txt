@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4LAN
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 10
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 12
+con_num= 26
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 10
+con_num= 26
+con_num= 52
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4LAN     0   0.0    0.0      0.0     0.0     0.0  1.08   1.35
+ 4LAN     1   0.0    0.0      0.0    5.41    2.16  3.24   3.51
+ 4LAN     2   0.0    0.0      0.0    5.41    5.41  7.03   7.03

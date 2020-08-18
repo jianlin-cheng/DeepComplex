@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3D26
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 5
+con_num= 7
+con_num= 9
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 7
+con_num= 12
+con_num= 14
+con_num= 25
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3D26     0   0.0    0.0     3.45    1.75     0.7  0.35   0.17
+ 3D26     1   0.0    0.0     3.45    5.26     3.5  2.45   1.57
+ 3D26     2   0.0    0.0     3.45   12.28    8.39   4.9   4.37

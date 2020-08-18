@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5BQS
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 5
+con_num= 7
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 8
+con_num= 12
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 7
+con_num= 14
+con_num= 20
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5BQS     0   0.0    0.0     3.12    1.54    0.62  1.55   1.08
+ 5BQS     1   0.0    0.0     3.12    1.54    1.23  2.48   1.86
+ 5BQS     2   0.0    0.0     3.12    4.62    4.32  4.33    3.1

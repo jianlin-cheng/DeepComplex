@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4DJB
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 10
+con_num= 12
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 11
+con_num= 24
+con_num= 36
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4DJB     0   0.0    0.0      0.0     0.0    3.51   1.75   0.88
+ 4DJB     1   0.0    0.0      0.0     8.7   10.53   8.77   5.26
+ 4DJB     2   0.0    0.0      0.0   13.04    19.3  21.05  15.79

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3LNC
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 8
+con_num= 12
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3LNC     0   0.0    0.0      0.0     0.0    2.11  1.05   0.53
+ 3LNC     1   0.0    0.0      0.0     0.0    2.11  2.11   1.05
+ 3LNC     2   0.0    0.0      0.0     0.0    4.21  4.21   3.16

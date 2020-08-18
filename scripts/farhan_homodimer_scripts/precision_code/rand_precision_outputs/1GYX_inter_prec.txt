@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1GYX
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 10
+con_num= 18
+con_num= 42
+Relaxation = 2
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 10
+con_num= 14
+con_num= 36
+con_num= 70
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1GYX     0   0.0    0.0      0.0     0.0     0.0   2.63   2.63
+ 1GYX     1  40.0   40.0     50.0   53.33   26.32  23.68  27.63
+ 1GYX     2  40.0   60.0     75.0   66.67   36.84  47.37  46.05

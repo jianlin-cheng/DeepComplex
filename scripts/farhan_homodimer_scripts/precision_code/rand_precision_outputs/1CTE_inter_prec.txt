@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1CTE
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 8
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1CTE     0   0.0    0.0      0.0     0.0    1.57  0.79    0.4
+ 1CTE     1   0.0    0.0      0.0     0.0    1.57  0.79    0.4
+ 1CTE     2   0.0    0.0      8.0    3.92    3.15  1.58   1.58

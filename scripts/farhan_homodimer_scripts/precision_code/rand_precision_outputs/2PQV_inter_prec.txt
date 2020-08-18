@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2PQV
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 8
+con_num= 27
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 13
+con_num= 19
+con_num= 47
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2PQV     0   0.0    0.0      0.0     0.0    1.33   0.67   1.67
+ 2PQV     1   0.0    0.0      0.0     0.0     8.0   5.33    9.0
+ 2PQV     2   0.0    0.0      0.0     0.0   17.33  12.67  15.67

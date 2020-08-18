@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1Q6I
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 5
+con_num= 7
+con_num= 21
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 15
+con_num= 31
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1Q6I     0   0.0    0.0      0.0     0.0     0.0   0.0   0.48
+ 1Q6I     1   0.0    0.0     4.76    7.14    4.81  3.37   5.05
+ 1Q6I     2   0.0    0.0     9.52    9.52    7.69  7.21   7.45

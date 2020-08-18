@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4PNG
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+con_num= 23
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 7
+con_num= 30
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4PNG     0   0.0    0.0      0.0     0.0     0.0   0.0   0.45
+ 4PNG     1   0.0    0.0      0.0     0.0    1.79  3.14   5.16
+ 4PNG     2   0.0    0.0      0.0     0.0    1.79  3.14   6.73

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5EPW
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 10
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 17
+con_num= 37
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 22
+con_num= 47
+con_num= 83
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 5EPW     0   0.0    0.0      0.0    9.09    3.64   5.45   4.55
+ 5EPW     1   0.0    0.0      0.0    9.09   10.91  15.45  16.82
+ 5EPW     2   0.0   20.0    18.18   36.36    40.0  42.73  37.73

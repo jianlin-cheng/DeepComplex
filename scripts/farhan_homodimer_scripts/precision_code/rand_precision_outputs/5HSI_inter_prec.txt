@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5HSI
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 7
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 10
+con_num= 22
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 12
+con_num= 18
+con_num= 40
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5HSI     0   0.0    0.0      0.0     0.0    0.66  0.33   0.58
+ 5HSI     1   0.0    0.0      0.0    1.65    1.99  1.66   1.82
+ 5HSI     2   0.0   20.0     3.33    3.31    3.97  2.99   3.32

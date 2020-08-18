@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3FYA
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 7
+con_num= 11
+con_num= 24
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 16
+con_num= 36
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3FYA     0   0.0    0.0      0.0    12.5    5.13   2.56   5.13
+ 3FYA     1   0.0   20.0     25.0    25.0   17.95   14.1  15.38
+ 3FYA     2   0.0   20.0     25.0    25.0   20.51  20.51  23.08

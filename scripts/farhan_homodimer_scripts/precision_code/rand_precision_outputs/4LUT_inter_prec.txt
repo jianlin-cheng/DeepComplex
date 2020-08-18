@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4LUT
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 7
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 9
+con_num= 14
+con_num= 36
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4LUT     0   0.0    0.0      0.0     0.0    1.05  0.52   0.92
+ 4LUT     1   0.0    0.0      0.0     0.0    1.05  1.31   1.83
+ 4LUT     2   0.0    0.0     5.26    7.89    4.71  3.66   4.71

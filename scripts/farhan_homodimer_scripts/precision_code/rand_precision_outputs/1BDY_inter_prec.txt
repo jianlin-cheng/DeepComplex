@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1BDY
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 4
+con_num= 4
+con_num= 9
+Relaxation = 2
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 6
+con_num= 19
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1BDY     0   0.0    0.0      0.0     0.0    1.61  0.81   0.81
+ 1BDY     1   0.0   10.0     8.33     4.0    6.45  3.25   3.66
+ 1BDY     2   0.0   10.0    16.67     8.0    8.06  4.88   7.72

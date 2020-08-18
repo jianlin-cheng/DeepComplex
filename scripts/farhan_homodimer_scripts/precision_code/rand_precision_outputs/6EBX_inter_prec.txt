@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 6EBX
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 6
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 7
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 6EBX     0  40.0   20.0    33.33   16.67    6.45  6.45   3.23
+ 6EBX     1  40.0   20.0    33.33   16.67    12.9  9.68   4.84
+ 6EBX     2  40.0   20.0    33.33   16.67    12.9  9.68   5.65

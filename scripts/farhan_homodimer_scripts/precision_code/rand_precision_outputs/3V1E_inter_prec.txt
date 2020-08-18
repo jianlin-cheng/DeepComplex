@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3V1E
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 2
+Relaxation = 1
+con_num= 2
+con_num= 6
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 23
+con_num= 29
+Relaxation = 2
+con_num= 2
+con_num= 10
+con_num= 2
+con_num= 8
+con_num= 18
+con_num= 35
+con_num= 46
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3V1E     0   0.0    0.0      0.0     0.0    4.55   2.27   2.27
+ 3V1E     1  40.0   60.0     50.0   44.44   45.45  52.27  32.95
+ 3V1E     2  40.0  100.0     50.0   88.89   81.82  79.55  52.27

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5COY
+Relaxation = 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 4
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 14
+con_num= 16
+Relaxation = 2
+con_num= 0
+con_num= 4
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 22
+con_num= 32
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 5COY     0   0.0   20.0    28.57   15.38    6.06   3.08   3.08
+ 5COY     1   0.0   40.0    28.57   30.77   24.24  21.54  12.31
+ 5COY     2   0.0   40.0    28.57   30.77    30.3  33.85  24.62

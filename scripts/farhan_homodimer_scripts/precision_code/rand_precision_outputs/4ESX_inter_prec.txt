@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4ESX
+Relaxation = 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 3
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 11
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 5
+con_num= 9
+con_num= 17
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4ESX     0   0.0   10.0     3.23    1.61    1.94  0.97   0.81
+ 4ESX     1   0.0   20.0     6.45    3.23    2.58  1.29   1.78
+ 4ESX     2   0.0   20.0     6.45    4.84    3.23  2.91   2.75

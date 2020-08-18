@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1YQC
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 12
+Relaxation = 1
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 7
+con_num= 14
+con_num= 26
+Relaxation = 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 11
+con_num= 27
+con_num= 46
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1YQC     0  40.0   20.0     12.5    6.25    5.06    3.8    3.8
+ 1YQC     1  80.0   40.0     25.0    12.5    8.86   8.86   8.23
+ 1YQC     2  80.0   40.0     25.0    12.5   13.92  17.09  14.56

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4U5G
+Relaxation = 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 14
+Relaxation = 2
+con_num= 1
+con_num= 3
+con_num= 3
+con_num= 3
+con_num= 4
+con_num= 8
+con_num= 23
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4U5G     0  20.0   10.0     12.5    5.88    2.38  2.41   1.81
+ 4U5G     1  20.0   20.0     25.0   11.76    4.76  6.02   8.43
+ 4U5G     2  20.0   30.0     37.5   17.65    9.52  9.64  13.86

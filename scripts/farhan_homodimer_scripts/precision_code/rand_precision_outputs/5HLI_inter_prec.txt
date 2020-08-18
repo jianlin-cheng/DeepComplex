@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5HLI
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 7
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 12
+con_num= 33
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 19
+con_num= 52
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 5HLI     0   0.0    0.0      0.0     0.0     0.0    0.0   2.38
+ 5HLI     1   0.0    0.0      0.0     0.0    1.35   8.16  11.22
+ 5HLI     2   0.0    0.0      0.0     0.0    4.05  12.93  17.69

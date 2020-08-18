@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3KUV
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 9
+Relaxation = 1
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 16
+con_num= 35
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 15
+con_num= 21
+con_num= 48
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3KUV     0   0.0    0.0      0.0    7.41    5.97   3.01   3.38
+ 3KUV     1   0.0   20.0    15.38   14.81   14.93  12.03  13.16
+ 3KUV     2   0.0   20.0    30.77   22.22   22.39  15.79  18.05

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3FT7
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 5
+con_num= 12
+Relaxation = 1
+con_num= 3
+con_num= 5
+con_num= 3
+con_num= 3
+con_num= 10
+con_num= 22
+con_num= 48
+Relaxation = 2
+con_num= 4
+con_num= 6
+con_num= 4
+con_num= 4
+con_num= 19
+con_num= 36
+con_num= 82
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3FT7     0   0.0    0.0      0.0     0.0     0.0  10.87  13.04
+ 3FT7     1  60.0   50.0     60.0   33.33   43.48  47.83  52.17
+ 3FT7     2  80.0   60.0     80.0   44.44   82.61  78.26  89.13

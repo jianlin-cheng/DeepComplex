@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1VHY
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 7
+con_num= 21
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1VHY     0   0.0    0.0      0.0     0.0    1.67  0.84   0.84
+ 1VHY     1   0.0    0.0      0.0     0.0    1.67  1.67   2.09
+ 1VHY     2   0.0    0.0      0.0     0.0    3.33  2.93   4.39

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2OKU
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 3
+con_num= 3
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 22
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2OKU     0   0.0    0.0      0.0    8.33    5.08  2.54   2.12
+ 2OKU     1   0.0    0.0      0.0    8.33    6.78  5.08   5.93
+ 2OKU     2   0.0    0.0      0.0    8.33    6.78  8.47   9.32

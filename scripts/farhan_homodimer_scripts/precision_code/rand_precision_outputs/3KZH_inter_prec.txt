@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3KZH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 8
+con_num= 10
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 16
+con_num= 25
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3KZH     0   0.0    0.0     6.67    3.28    2.63  1.32   0.66
+ 3KZH     1   0.0    0.0     6.67    6.56    5.26   3.3   2.31
+ 3KZH     2   0.0    0.0     6.67    6.56    6.58  5.28   4.13

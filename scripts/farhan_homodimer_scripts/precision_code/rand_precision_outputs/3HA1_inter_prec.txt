@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3HA1
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+con_num= 8
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 8
+con_num= 10
+con_num= 21
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3HA1     0   0.0    0.0      0.0     0.0     0.0   0.0   0.52
+ 3HA1     1   0.0    0.0      0.0     0.0    4.15  2.08   1.82
+ 3HA1     2   0.0    0.0      0.0     0.0    4.15   2.6   2.73

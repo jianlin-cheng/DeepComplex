@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1YBX
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 14
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 18
+con_num= 32
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1YBX     0   0.0    0.0      0.0     0.0     0.0    0.0    0.0
+ 1YBX     1   0.0    0.0      0.0   11.11    4.55   6.82   7.95
+ 1YBX     2  40.0   20.0    22.22   33.33   13.64  20.45  18.18

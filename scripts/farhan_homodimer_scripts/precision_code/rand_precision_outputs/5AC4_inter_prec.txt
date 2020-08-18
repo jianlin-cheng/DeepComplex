@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5AC4
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 10
+con_num= 16
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5AC4     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 5AC4     1   0.0    0.0     3.17     1.6    1.92  0.96    0.8
+ 5AC4     2   0.0    0.0     3.17     1.6    2.56   1.6   1.28

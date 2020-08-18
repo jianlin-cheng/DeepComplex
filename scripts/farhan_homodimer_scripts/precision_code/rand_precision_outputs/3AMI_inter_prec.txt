@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3AMI
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 3
+con_num= 5
+Relaxation = 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 10
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 10
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3AMI     0  40.0   20.0     4.76    2.38    0.95  0.71   0.59
+ 3AMI     1  40.0   20.0     4.76    2.38    0.95  1.42   1.18
+ 3AMI     2  40.0   20.0     4.76    2.38    0.95  1.42   1.18

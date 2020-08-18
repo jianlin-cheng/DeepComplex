@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5CH9
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 10
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 16
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5CH9     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 5CH9     1   0.0    0.0      0.0     0.0     0.0   0.0   1.53
+ 5CH9     2  40.0   20.0     6.06    6.15    2.44  1.22   2.45

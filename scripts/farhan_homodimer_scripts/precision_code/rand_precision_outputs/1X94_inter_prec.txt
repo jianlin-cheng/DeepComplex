@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1X94
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 13
+con_num= 22
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 20
+con_num= 39
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1X94     0   0.0    0.0      0.0     0.0     0.0    0.0   0.28
+ 1X94     1   0.0    0.0    11.11    5.71    4.55   7.39   6.25
+ 1X94     2   0.0    0.0    11.11   11.43    6.82  11.36  11.08

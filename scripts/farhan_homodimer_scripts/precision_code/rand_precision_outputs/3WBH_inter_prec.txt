@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3WBH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 7
+con_num= 7
+con_num= 17
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 5
+con_num= 16
+con_num= 18
+con_num= 42
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3WBH     0   0.0    0.0      0.0     0.0     0.8   0.4    0.6
+ 3WBH     1   0.0    0.0      2.0    1.01    2.81  1.41   1.71
+ 3WBH     2   0.0    0.0      6.0    5.05    6.43  3.62   4.23

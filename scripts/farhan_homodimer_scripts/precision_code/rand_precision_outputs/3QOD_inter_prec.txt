@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3QOD
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 5
+con_num= 12
+con_num= 26
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 8
+con_num= 15
+con_num= 29
+con_num= 57
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3QOD     0   0.0    0.0      0.0     0.0    0.71   0.36   0.89
+ 3QOD     1   0.0    0.0      0.0    3.57    3.57   4.29   4.64
+ 3QOD     2   0.0    0.0    14.29   14.29   10.71  10.36  10.18

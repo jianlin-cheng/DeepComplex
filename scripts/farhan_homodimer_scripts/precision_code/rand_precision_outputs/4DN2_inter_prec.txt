@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4DN2
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 6
+con_num= 10
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 8
+con_num= 31
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 8
+con_num= 18
+con_num= 22
+con_num= 53
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 4DN2     0   0.0    0.0      0.0    5.26    4.21   3.17   2.65
+ 4DN2     1   0.0    0.0      0.0    5.26    6.32   4.23    8.2
+ 4DN2     2  40.0   40.0    21.05   21.05   18.95  11.64  14.02

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2BEI
+Relaxation = 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 5
+Relaxation = 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 2
+con_num= 8
+con_num= 13
+con_num= 27
+Relaxation = 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 9
+con_num= 20
+con_num= 28
+con_num= 52
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2BEI     0  20.0   10.0     6.25    3.12    1.25  0.62   1.56
+ 2BEI     1  20.0   10.0     6.25    6.25    10.0  8.12   8.44
+ 2BEI     2  80.0   40.0     25.0   28.12    25.0  17.5  16.25

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3I3N
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 7
+con_num= 20
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3I3N     0   0.0    0.0      0.0     0.0     0.0   0.0   0.38
+ 3I3N     1   0.0    0.0      0.0     0.0     0.0  0.75   1.89
+ 3I3N     2   0.0    0.0      0.0    1.89    2.26  2.64   3.77

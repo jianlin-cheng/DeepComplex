@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1BAI
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 6
+con_num= 8
+Relaxation = 1
+con_num= 1
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 15
+con_num= 21
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 10
+con_num= 24
+con_num= 39
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1BAI     0   0.0    0.0      0.0     0.0     0.0   4.84   3.23
+ 1BAI     1  20.0   20.0    16.67     8.0    3.23   12.1   8.47
+ 1BAI     2  40.0   40.0    33.33    24.0   16.13  19.35  15.73

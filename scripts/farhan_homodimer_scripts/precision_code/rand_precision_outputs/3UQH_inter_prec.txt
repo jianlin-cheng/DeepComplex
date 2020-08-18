@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3UQH
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 14
+con_num= 21
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 14
+con_num= 30
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3UQH     0   0.0    0.0      0.0    6.25     2.5  1.26   0.63
+ 3UQH     1   0.0    0.0      0.0    6.25     7.5  8.81    6.6
+ 3UQH     2   0.0    0.0      0.0    6.25     7.5  8.81   9.43

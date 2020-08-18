@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3T5D
+Relaxation = 0
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 8
+Relaxation = 1
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 12
+con_num= 20
+Relaxation = 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 14
+con_num= 26
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3T5D     0  80.0   40.0    16.67    8.51    3.36  1.69   1.69
+ 3T5D     1  80.0   40.0    16.67    8.51    3.36  5.06   4.22
+ 3T5D     2  80.0   40.0    16.67    8.51    5.04  5.91   5.49

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2ITM
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2ITM     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 2ITM     1   0.0    0.0      0.0    2.11    0.84  0.42   0.21
+ 2ITM     2   0.0    0.0      0.0    2.11    1.68  0.84   0.42

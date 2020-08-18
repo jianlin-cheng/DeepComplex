@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4BTW
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 9
+con_num= 14
+con_num= 35
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+con_num= 15
+con_num= 26
+con_num= 52
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4BTW     0   0.0    0.0      0.0     0.7    0.28  0.14   0.07
+ 4BTW     1   0.0    0.0     2.82    2.82    2.54  1.97   2.46
+ 4BTW     2   0.0    0.0     5.63    4.23    4.23  3.66   3.66

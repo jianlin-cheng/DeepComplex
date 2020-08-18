@@ -1,0 +1,9 @@
+#Local:
+# python train.py /data/farhan/SoftwareTools/HomopolymerProject/data/homodimers/feat /data/farhan/SoftwareTools/HomopolymerProject/data/homodimers/scripts/Y-Labels ../training_lists/same/
+# python train_v3.py /data/farhan/SoftwareTools/HomopolymerProject/data/homodimers/feat /data/farhan/SoftwareTools/HomopolymerProject/data/homodimers/scripts/Y-Labels ../training_lists/same/
+# python train_categorical_lengthwise_split.py /data/farhan/SoftwareTools/HomopolymerProject/data/homodimers/feat /data/farhan/SoftwareTools/HomopolymerProject/data/homodimers/scripts/Y-Labels ../training_lists/same/ checkpoint.txt
+#Lewis:
+python train_v3_all_data.py /storage/htc/bdm/farhan/DNCON2_features_homodimers/feat /storage/htc/bdm/farhan/DNCON2_features_homodimers/Y-Labels ../training_lists/same/
+#Sbatch:
+sbatch run_training_lewis.sh
+

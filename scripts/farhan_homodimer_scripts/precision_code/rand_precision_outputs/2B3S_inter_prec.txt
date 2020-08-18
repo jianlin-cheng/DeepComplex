@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2B3S
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 6
+con_num= 8
+Relaxation = 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 18
+con_num= 28
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2B3S     0   0.0    0.0      0.0     0.0     0.0  1.07   0.53
+ 2B3S     1   0.0    0.0      0.0    5.41    2.13  3.21   2.14
+ 2B3S     2  40.0   20.0    10.53   10.81    4.26  9.63   7.49

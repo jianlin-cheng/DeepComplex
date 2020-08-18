@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3PSM
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 2
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 5
+con_num= 14
+Relaxation = 2
+con_num= 2
+con_num= 3
+con_num= 2
+con_num= 3
+con_num= 9
+con_num= 13
+con_num= 31
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3PSM     0   0.0    0.0      0.0     0.0    4.17   4.26   3.19
+ 3PSM     1   0.0    0.0      0.0     0.0    12.5  10.64  14.89
+ 3PSM     2  40.0   30.0     40.0   33.33    37.5  27.66  32.98

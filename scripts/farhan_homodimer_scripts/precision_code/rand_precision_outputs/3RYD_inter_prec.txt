@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3RYD
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 9
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+con_num= 18
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 3RYD     0   0.0    0.0      0.0     0.0     0.0   0.0   0.19
+ 3RYD     1   0.0    0.0      0.0     0.0     0.0   0.0   1.72
+ 3RYD     2   0.0    0.0      0.0     0.0    3.05   2.3   3.45

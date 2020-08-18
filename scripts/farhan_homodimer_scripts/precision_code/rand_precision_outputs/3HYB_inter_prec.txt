@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3HYB
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 5
+con_num= 5
+con_num= 5
+Relaxation = 1
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 15
+con_num= 26
+con_num= 53
+Relaxation = 2
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 8
+con_num= 21
+con_num= 38
+con_num= 74
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3HYB     0  40.0   20.0    16.67     8.7    8.62   4.35   2.17
+ 3HYB     1  40.0   40.0    33.33   26.09   25.86  22.61  23.04
+ 3HYB     2  40.0   60.0     50.0   34.78   36.21  33.04  32.17

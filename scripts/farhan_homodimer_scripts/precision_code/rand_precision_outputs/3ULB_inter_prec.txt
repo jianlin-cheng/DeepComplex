@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3ULB
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 6
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 4
+con_num= 14
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+con_num= 13
+con_num= 31
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3ULB     0   0.0    0.0      0.0     0.0    1.96   0.98   2.94
+ 3ULB     1   0.0    0.0      0.0     5.0    5.88   3.92   6.86
+ 3ULB     2   0.0    0.0      0.0    20.0   11.76  12.75   15.2

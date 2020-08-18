@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1B2P
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 20
+con_num= 32
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 8
+con_num= 29
+con_num= 49
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1B2P     0   0.0    0.0      0.0     0.0     0.0   1.68   0.84
+ 1B2P     1   0.0    0.0      0.0    8.33    10.0  16.81  13.45
+ 1B2P     2   0.0    0.0      0.0   16.67   13.33  24.37  20.59

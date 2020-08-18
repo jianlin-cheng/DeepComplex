@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5HCB
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 2
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 3
+con_num= 7
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 12
+con_num= 25
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 5HCB     0   0.0    0.0      0.0     0.0     0.0  0.75   0.38
+ 5HCB     1   0.0    0.0      0.0     0.0    0.75  1.13   1.32
+ 5HCB     2   0.0    0.0      0.0    3.77    6.02  4.53   4.72

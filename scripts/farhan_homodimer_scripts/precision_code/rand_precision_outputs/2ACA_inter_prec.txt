@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2ACA
+Relaxation = 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 4
+Relaxation = 1
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 7
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 6
+con_num= 8
+con_num= 9
+con_num= 18
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 2ACA     0  40.0   20.0    11.76    5.88    2.35  1.18   1.18
+ 2ACA     1  40.0   40.0    23.53   11.76    4.71  2.37   2.07
+ 2ACA     2  40.0   40.0    23.53   17.65    9.41  5.33   5.33

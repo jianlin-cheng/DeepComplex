@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2ZEJ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+Relaxation = 1
+con_num= 1
+con_num= 3
+con_num= 7
+con_num= 9
+con_num= 17
+con_num= 24
+con_num= 36
+Relaxation = 2
+con_num= 2
+con_num= 4
+con_num= 9
+con_num= 11
+con_num= 24
+con_num= 44
+con_num= 72
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2ZEJ     0   0.0    0.0      0.0     0.0     0.0    0.0   0.64
+ 2ZEJ     1  20.0   30.0    43.75   29.03   21.79  15.38  11.54
+ 2ZEJ     2  40.0   40.0    56.25   35.48   30.77  28.21  23.08

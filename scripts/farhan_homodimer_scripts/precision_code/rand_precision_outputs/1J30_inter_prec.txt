@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1J30
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 8
+con_num= 22
+con_num= 54
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 12
+con_num= 40
+con_num= 83
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1J30     0   0.0    0.0      0.0     0.0    2.82   2.84   1.77
+ 1J30     1   0.0    0.0      0.0   14.29   11.27   15.6  19.15
+ 1J30     2   0.0    0.0      0.0   14.29    16.9  28.37  29.43

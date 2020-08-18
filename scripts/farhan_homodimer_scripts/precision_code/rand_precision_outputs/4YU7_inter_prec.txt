@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 4YU7
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 5
+con_num= 5
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 4
+con_num= 10
+con_num= 11
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 4YU7     0   0.0    0.0      0.0     0.0     0.0   0.0    0.0
+ 4YU7     1   0.0    0.0      0.0     0.0    1.64  4.13   2.07
+ 4YU7     2  20.0   10.0     8.33    4.17    6.56  8.26   4.55

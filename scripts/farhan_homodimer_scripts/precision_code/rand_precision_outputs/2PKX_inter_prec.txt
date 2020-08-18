@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2PKX
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 8
+con_num= 21
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 2
+con_num= 2
+con_num= 8
+con_num= 14
+con_num= 30
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2PKX     0   0.0    0.0      0.0     0.0     0.0    0.0   1.72
+ 2PKX     1   0.0    0.0      0.0     0.0    3.45    6.9   9.05
+ 2PKX     2   0.0   20.0    16.67     8.7   13.79  12.07  12.93

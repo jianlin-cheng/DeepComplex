@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 5DPQ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 11
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 20
+con_num= 44
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 4
+con_num= 10
+con_num= 27
+con_num= 63
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 5DPQ     0   0.0    0.0      0.0     0.0     0.0   3.01   4.14
+ 5DPQ     1   0.0    0.0    15.38   14.81   14.93  15.04  16.54
+ 5DPQ     2   0.0    0.0    15.38   14.81   14.93   20.3  23.68

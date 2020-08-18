@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 3FNV
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 4
+Relaxation = 1
+con_num= 2
+con_num= 4
+con_num= 4
+con_num= 4
+con_num= 12
+con_num= 26
+con_num= 44
+Relaxation = 2
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 6
+con_num= 18
+con_num= 38
+con_num= 70
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 3FNV     0   0.0    0.0      0.0     0.0   11.76   5.88   2.94
+ 3FNV     1  40.0   40.0    57.14   28.57   35.29  38.24  32.35
+ 3FNV     2  40.0   60.0    85.71   42.86   52.94  55.88  51.47

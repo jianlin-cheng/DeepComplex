@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1DEK
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 1
+con_num= 3
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 4
+con_num= 10
+Relaxation = 2
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 6
+con_num= 17
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2 Top-L Top-2L
+ 1DEK     0   0.0    0.0      0.0     0.0    0.83  0.42   0.62
+ 1DEK     1   0.0    0.0      0.0     0.0    3.33  1.67   2.08
+ 1DEK     2   0.0    0.0      0.0     0.0    3.33   2.5   3.54

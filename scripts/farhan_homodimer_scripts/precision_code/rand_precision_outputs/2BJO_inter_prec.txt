@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 2BJO
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 1
+con_num= 5
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 4
+con_num= 12
+con_num= 35
+Relaxation = 2
+con_num= 1
+con_num= 1
+con_num= 1
+con_num= 3
+con_num= 8
+con_num= 20
+con_num= 50
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 2BJO     0   0.0    0.0      0.0     0.0     0.0   0.74   1.85
+ 2BJO     1   0.0    0.0      0.0     0.0    5.88   8.89  12.96
+ 2BJO     2  20.0   10.0     7.14   11.11   11.76  14.81  18.52

@@ -1,0 +1,29 @@
+Running: getPrecision_inter_twocmaps_v2.py for 1BKJ
+Relaxation = 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 8
+Relaxation = 1
+con_num= 0
+con_num= 0
+con_num= 3
+con_num= 3
+con_num= 9
+con_num= 21
+con_num= 39
+Relaxation = 2
+con_num= 0
+con_num= 2
+con_num= 6
+con_num= 6
+con_num= 12
+con_num= 30
+con_num= 62
+ Name Relax Top-5 Top-10 Top-L/10 Top-L/5 Top-L/2  Top-L Top-2L
+ 1BKJ     0   0.0    0.0      0.0     0.0    1.74   2.61   1.74
+ 1BKJ     1   0.0    0.0    13.04    6.52    7.83   9.13   8.48
+ 1BKJ     2   0.0   20.0    26.09   13.04   10.43  13.04  13.48

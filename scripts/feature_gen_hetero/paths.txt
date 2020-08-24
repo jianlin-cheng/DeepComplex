@@ -1,0 +1,13 @@
+psiblast:/data/farhan/SoftwareTools/DeepComplexToolBox/tools/ncbi-blast-2.2.25+/bin/
+blast_db:/data/farhan/SoftwareTools/DeepComplexToolBox/tools/databases/combined_db_4_psiblast/combined_fasta_AB_BA.fasta
+formatdb:/data/farhan/SoftwareTools/DeepComplexToolBox/tools/blast-2.2.26/bin/
+scratch:/data/farhan/SoftwareTools/DeepComplexToolBox/tools/SCRATCH-1D_1.1/bin/
+psipred:/data/farhan/SoftwareTools/DeepComplexToolBox/tools/psipred/
+psipred_db:/data/farhan/SoftwareTools/DeepComplexToolBox/tools/uniref/uniref90pfilt
+#psipred_exec:/home/casp14/tools/psipred/bin/
+#psipred_exec2:/home/casp14/tools/MetaPSICOV/bin/
+psipred_blast:/data/farhan/SoftwareTools/DeepComplexToolBox/tools/blast-2.2.26/bin/
+#psipred_data:/home/
+#psipred_data2:
+metapsicov:/data/farhan/SoftwareTools/DeepComplexToolBox/tools/MetaPSICOV/
+#psiblast:/home/casp14/tools/blast-2.2.26/bin

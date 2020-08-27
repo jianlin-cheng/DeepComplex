@@ -19,6 +19,9 @@ outdir=os.path.abspath(sys.argv[3])+"/"
 paths_file=os.path.abspath(sys.argv[4])
 dir_A=outdir+"A/"
 dir_B=outdir+"B/"
+package_dir=os.path.dirname(os.path.abspath(sys.argv[0]))+"/"
+print ("Current package directory: "+package_dir)
+#sys.exit()
 if not (os.path.exists(fasta_file_A)): sys.exit ("Fasta file "+fasta_file_A+" not found! Quitting!")
 if not (os.path.exists(fasta_file_B)): sys.exit ("Fasta file "+fasta_file_B+" not found! Quitting!")
 if not (os.path.exists(paths_file)): sys.exit ("Paths file "+paths_file+" not found! Quitting!")
@@ -66,7 +69,7 @@ print ("Done! Combined fasta file called "+dir_AB+name_AB+".fasta created...")
 #1. generate PSSM for combined fasta
 print ("Generating PSSM for combined fasta...")
 #exitcode=os.system("python generatePSSM.py paths.txt "+dir_AB+name_AB+".fasta "+dir_AB)
-exitcode=os.system("python generatePSSM.py "+paths_file+" "+dir_AB+name_AB+".fasta "+dir_AB)
+exitcode=os.system("python "+package_dir+"generatePSSM.py "+paths_file+" "+dir_AB+name_AB+".fasta "+dir_AB)
 if (exitcode==0):
     print ("PSSM successfully created! ")
 else:
@@ -80,8 +83,8 @@ print ("Generating PSIPRED")
 ##### separate the above code into two commands:
 #exitcode_A=os.system("python generatePSIPRED.py paths.txt "+dir_A+name_A+".fasta "+dir_A)
 #exitcode_B=os.system("python generatePSIPRED.py paths.txt "+dir_B+name_B+".fasta "+dir_B)
-exitcode_A=os.system("python generatePSIPRED.py "+paths_file+" "+dir_A+name_A+".fasta "+dir_A)
-exitcode_B=os.system("python generatePSIPRED.py "+paths_file+" "+dir_B+name_B+".fasta "+dir_B)
+exitcode_A=os.system("python "+package_dir+"generatePSIPRED.py "+paths_file+" "+dir_A+name_A+".fasta "+dir_A)
+exitcode_B=os.system("python "+package_dir+"generatePSIPRED.py "+paths_file+" "+dir_B+name_B+".fasta "+dir_B)
 if (exitcode_A==0 and exitcode_B==0):
     print ("PSIPRED successfully created! ")
 else:
@@ -90,9 +93,9 @@ else:
 #combine psipred features
 print ("Concatenating PSIPRED features into one file")
 if not (os.path.isdir(dir_AB+"psipred")): os.makedirs(dir_AB+"psipred")
-exitcode=os.system("python combineSolv.py "+dir_A+"psipred/"+name_A+".solv "+dir_B+"psipred/"+name_B+".solv "+dir_AB+"psipred/"+name_AB+".solv ")
-exitcode=os.system("python combineSS1.py "+dir_A+"psipred/"+name_A+".ss "+dir_B+"psipred/"+name_B+".ss "+dir_AB+"psipred/"+name_AB+".ss ")
-exitcode=os.system("python combineSS2.py "+dir_A+"psipred/"+name_A+".ss2 "+dir_B+"psipred/"+name_B+".ss2 "+dir_AB+"psipred/"+name_AB+".ss2 ")
+exitcode=os.system("python "+package_dir+"combineSolv.py "+dir_A+"psipred/"+name_A+".solv "+dir_B+"psipred/"+name_B+".solv "+dir_AB+"psipred/"+name_AB+".solv ")
+exitcode=os.system("python "+package_dir+"combineSS1.py "+dir_A+"psipred/"+name_A+".ss "+dir_B+"psipred/"+name_B+".ss "+dir_AB+"psipred/"+name_AB+".ss ")
+exitcode=os.system("python "+package_dir+"combineSS2.py "+dir_A+"psipred/"+name_A+".ss2 "+dir_B+"psipred/"+name_B+".ss2 "+dir_AB+"psipred/"+name_AB+".ss2 ")
 if exitcode==0:
     print("PSIPRED features successfully concatenated into one file")
 else:
@@ -101,8 +104,8 @@ else:
 print ("Generating SCRATCH features for both chains...")
 #exitcode_A=os.system("python generateSS_SA.py paths.txt "+dir_A+name_A+".fasta "+dir_A)
 #exitcode_B=os.system("python generateSS_SA.py paths.txt "+dir_B+name_B+".fasta "+dir_B)
-exitcode_A=os.system("python generateSS_SA.py "+paths_file+" "+dir_A+name_A+".fasta "+dir_A)
-exitcode_B=os.system("python generateSS_SA.py "+paths_file+" "+dir_B+name_B+".fasta "+dir_B)
+exitcode_A=os.system("python "+package_dir+"generateSS_SA.py "+paths_file+" "+dir_A+name_A+".fasta "+dir_A)
+exitcode_B=os.system("python "+package_dir+"generateSS_SA.py "+paths_file+" "+dir_B+name_B+".fasta "+dir_B)
 
 if (exitcode_A==0 and exitcode_B==0):
     print ("SCRATCH successfully done! ")
@@ -114,7 +117,7 @@ print ("Concatenating SCRATCH features for both chains...")
 
 if not (os.path.exists(dir_AB+"ss_sa")):os.makedirs(dir_AB+"ss_sa")
 
-exitcode=os.system("python combineSS_SA.py "+dir_A+"ss_sa/"+name_A+".ss_sa "+dir_B+"ss_sa/"+name_B+".ss_sa "+dir_AB+"ss_sa/"+name_AB+".ss_sa ")
+exitcode=os.system("python "+package_dir+"combineSS_SA.py "+dir_A+"ss_sa/"+name_A+".ss_sa "+dir_B+"ss_sa/"+name_B+".ss_sa "+dir_AB+"ss_sa/"+name_AB+".ss_sa ")
 if exitcode==0:
     print("SCRATCH features successfully concatenated into one file")
 else:
@@ -135,8 +138,8 @@ print ("Generating alignment dependent (co-evolutionary) features for the concat
 #os.system("perl feature_gen_hetero.pl "+outdir[0:-1]+"_AB/"+name_AB+".fasta "+outdir[0:-1]+"_AB")
 #os.system("perl feature_gen_hetero.pl "+outdir+"/"+name_AB+".fasta "+outdir)
 print ("Running command...")
-print("perl feature_gen_hetero.pl "+outdir+"/"+name_AB+".fasta "+outdir)
-os.system("perl feature_gen_hetero.pl "+outdir+"/"+name_AB+".fasta "+outdir)
+print("perl "+package_dir+"feature_gen_hetero.pl "+outdir+"/"+name_AB+".fasta "+outdir)
+os.system("perl "+package_dir+"feature_gen_hetero.pl "+outdir+"/"+name_AB+".fasta "+outdir)
 print ("Removing any temporary files and folders...")
 #os.remove(dir_A)
 #os.remove(dir_B)
@@ -144,4 +147,4 @@ print ("Removing any temporary files and folders...")
 shutil.rmtree(dir_A)
 shutil.rmtree(dir_B)
 shutil.rmtree(dir_AB)
-
+print ("All features successfully generated and save in "+outdir)

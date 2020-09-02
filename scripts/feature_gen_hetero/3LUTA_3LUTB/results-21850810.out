@@ -1,0 +1,218 @@
+### Starting at: Fri Aug 28 22:35:45 CDT 2020 ###
+Warning: lcl|Query_1 3LUTA_3LUTB , Chain AB;: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Running PSI-BLAST on fasta_file: /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594/AB/3LUTA_3LUTB.fasta using database /storage/htc/bdm/tools/databases/combined_db_4_psiblast/combined_fasta_AB_BA.fasta
+Running PSI-BLAST with sequence /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594/A/psipred/3LUTA.fasta ...
+Predicting secondary structure...
+Pass1 ...
+Pass2 ...
+Solvation pass ...
+Cleaning up ...
+Final output files: 3LUTA.ss2 3LUTA.horiz 3LUTA.solv
+Finished.
+Running PSI-BLAST with sequence /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594/B/psipred/3LUTB.fasta ...
+Predicting secondary structure...
+Pass1 ...
+Pass2 ...
+Solvation pass ...
+Cleaning up ...
+Final output files: 3LUTB.ss2 3LUTB.horiz 3LUTB.solv
+Finished.
+
+###################################
+#                                 #
+#  SCRATCH-1D release 1.1 (2015)  #
+#                                 #
+###################################
+
+[SCRATCH-1D_predictions.pl] 1 protein sequence(s) found
+[SCRATCH-1D_predictions.pl] generating sequence profiles...
+[SCRATCH-1D_predictions.pl] running SCRATCH-1D predictors...
+[SCRATCH-1D_predictions.pl] running homology analysis...
+[SCRATCH-1D_predictions.pl] writing SSpro predictions...
+[SCRATCH-1D_predictions.pl] writing SSpro8 predictions...
+[SCRATCH-1D_predictions.pl] writing ACCpro predictions...
+[SCRATCH-1D_predictions.pl] writing ACCpro20 predictions...
+[SCRATCH-1D_predictions.pl] job successfully completed!
+
+>3LUTA,326;
+LQFYRNLGKSGLRVSCLGLGTWVTFGGQITDEMAEHLMTLAYDNGINLFDTAEVYAAGKAEVVLGNIIKKKGWRRSSLVITTKIFWGGKAETERGLSRKHIIEGLKASLERLQLEYVDVVFANRPDPNTPMEETVRAMTHVINQGMAMYWGTSRWSSMEIMEAYSVARQFNLIPPICEQAEYHMFQREKVEVQLPELFHKIGVGAMTWSPLACGIVSGKYDSGIPPYSRASLKGYQWLKDKILSEEGRRQQAKLKELQAIAERLGCTLPQLAIAWCLRNEGVSSVLLGASNAEQLMENIGAIQVLPKLSSSIVHEIDSILGNKPYSCCCEEECCCCCCEEECEEEECCCCCCCCCCHHHHHHHHHHHHHCCCCEEEEECCHHHHHHHHHHHHHHHHHCCCHHHCEEEEEECECCCCHHHECCCHHHHHHHHHHHHHHHCCCCEEEEEECCCCCCCCHHHHHHHHHHHHHCCCEEEEEEECCCHHHHHHHHHHHHHHCCCCCCEEEEECECCECHCCCCCHHHHHHHHCCEEEEECCCHHHHHHCCCCCCCCCCCHHHCCCCHHHHHHHHCHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHCCCCEEEEEECCCCHHHHHHHHCHHHHHHHCCHHHHHHHHHHHCCCCCC
+eeeebebbebebebbbbbbbbebbbbeebeeeebbebbbbbbeebbbbbbbbbebeebebbebbbebbeeeebebebbbbbbbbbeeeeeeeeebbbeebbeebbeebbeebebebbbbbbbbebbeebebeebbebbbebbeeebbeebbbbebebeebbebbebbeeeebebbbbbbbebbbbebebbbeebeebbebbbbbbbbbbbbbbbbbbbebeeebeeebbbeeeebeebeeebeeeebeebbeebeebeebbeebebebbbbbbbbbbbeeebbbbbbebbebebbeebbbbbebbeebeeebbeebbebbeeebee
+Predicting secondary structure and solvent accessibility using SCRATCH...
+Predicted SS and SA:
+
+
+###################################
+#                                 #
+#  SCRATCH-1D release 1.1 (2015)  #
+#                                 #
+###################################
+
+[SCRATCH-1D_predictions.pl] 1 protein sequence(s) found
+[SCRATCH-1D_predictions.pl] generating sequence profiles...
+[SCRATCH-1D_predictions.pl] running SCRATCH-1D predictors...
+[SCRATCH-1D_predictions.pl] running homology analysis...
+[SCRATCH-1D_predictions.pl] writing SSpro predictions...
+[SCRATCH-1D_predictions.pl] writing SSpro8 predictions...
+[SCRATCH-1D_predictions.pl] writing ACCpro predictions...
+[SCRATCH-1D_predictions.pl] writing ACCpro20 predictions...
+[SCRATCH-1D_predictions.pl] job successfully completed!
+
+>3LUTB,390;
+CERVVINISGLRFETQLKTLAQFPETLLGDPKKRMRYFDPLRNEYFFDRNRPSFDAILYYYQSGGRLRRPVNVPLDIFSEEIRFYELGEEAMEMFREDEGYIKEEERPLPENEFQRQVWLLFEYPESSGPARIIAIVSVMVILISIVSFCLETLPIFRDENEDMHGGGVTFHTYSQSTIGYQQSTSFTDPFFIVETLCIIWFSFEFLVRFFACPSKAGFFTNIMNIIDIVAIIPYFITLGTELAEKPEDAQQGQQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFAEADERDSQFPSIPDAFWWAVVSMTTVGYGDMVPTTIGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRETCCEEEEEECCEEEEEEHHHHHCCCCCCCCCHHHHHHHEECCCCEEEECCCHHHHHHHHHHHHCCCCCCCCCCCCHHHHHHHHHHCCCCHHHHHHHHHHHCCCCCCCCCCCCCCCHHHHCECCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHCCCHHHHCCCCCCCCCCCCHHHHHHHHHCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCCCHHHHHHHHCCHHHHHHHCCCCCCCCHHHHCCCCCCCHHHHHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCCHHHHHHHHHHHHCCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHHCCC
+eeebbbbbbbbebbbeeebbeebeebbbbbeeebeeeebeeeebbbbbbbbebbebbbbbbbeeeebeebeebeeebbbebbebbebeeebbeebeeeeeeeeeeeeebeeeeeebebbebbeeeeeeeebeebbeebbebbeebbebbeebeeeeeeeebebeeeeeeebebebeebbbbebbeeeebebbeebbebbebbbebbebbeebbeeeeebeeeebbebbbbbbebbeebeeeeeeeeeeeeeeeeeeeeebebeebbeebeebeebbbbeeeeeebeeebeeebeebeeebeeebeebbeebbbebeeebeeeeeeebeebeebeebbebbbeeeeeeebebebeebeebbeebeebbeebeeebeeebeebeeebeeeee
+Predicting secondary structure and solvent accessibility using SCRATCH...
+Predicted SS and SA:
+
+('3LUTA', 'A', 652, 'LQFYRNLGKSGLRVSCLGLGTWVTFGGQITDEMAEHLMTLAYDNGINLFDTAEVYAAGKAEVVLGNIIKKKGWRRSSLVITTKIFWGGKAETERGLSRKHIIEGLKASLERLQLEYVDVVFANRPDPNTPMEETVRAMTHVINQGMAMYWGTSRWSSMEIMEAYSVARQFNLIPPICEQAEYHMFQREKVEVQLPELFHKIGVGAMTWSPLACGIVSGKYDSGIPPYSRASLKGYQWLKDKILSEEGRRQQAKLKELQAIAERLGCTLPQLAIAWCLRNEGVSSVLLGASNAEQLMENIGAIQVLPKLSSSIVHEIDSILGNKPYSCCCEEECCCCCCEEECEEEECCCCCCCCCCHHHHHHHHHHHHHCCCCEEEEECCHHHHHHHHHHHHHHHHHCCCHHHCEEEEEECECCCCHHHECCCHHHHHHHHHHHHHHHCCCCEEEEEECCCCCCCCHHHHHHHHHHHHHCCCEEEEEEECCCHHHHHHHHHHHHHHCCCCCCEEEEECECCECHCCCCCHHHHHHHHCCEEEEECCCHHHHHHCCCCCCCCCCCHHHCCCCHHHHHHHHCHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHCCCCEEEEEECCCCHHHHHHHHCHHHHHHHCCHHHHHHHHHHHCCCCCC', 'eeeebebbebebebbbbbbbbebbbbeebeeeebbebbbbbbeebbbbbbbbbebeebebbebbbebbeeeebebebbbbbbbbbeeeeeeeeebbbeebbeebbeebbeebebebbbbbbbbebbeebebeebbebbbebbeeebbeebbbbebebeebbebbebbeeeebebbbbbbbebbbbebebbbeebeebbebbbbbbbbbbbbbbbbbbbebeeebeeebbbeeeebeebeeebeeeebeebbeebeebeebbeebebebbbbbbbbbbbeeebbbbbbebbebebbeebbbbbebbeebeeebbeebbebbeeebee', '')
+>3LUTA_AB
+LQFYRNLGKSGLRVSCLGLGTWVTFGGQITDEMAEHLMTLAYDNGINLFDTAEVYAAGKAEVVLGNIIKKKGWRRSSLVITTKIFWGGKAETERGLSRKHIIEGLKASLERLQLEYVDVVFANRPDPNTPMEETVRAMTHVINQGMAMYWGTSRWSSMEIMEAYSVARQFNLIPPICEQAEYHMFQREKVEVQLPELFHKIGVGAMTWSPLACGIVSGKYDSGIPPYSRASLKGYQWLKDKILSEEGRRQQAKLKELQAIAERLGCTLPQLAIAWCLRNEGVSSVLLGASNAEQLMENIGAIQVLPKLSSSIVHEIDSILGNKPYSCCCEEECCCCCCEEECEEEECCCCCCCCCCHHHHHHHHHHHHHCCCCEEEEECCHHHHHHHHHHHHHHHHHCCCHHHCEEEEEECECCCCHHHECCCHHHHHHHHHHHHHHHCCCCEEEEEECCCCCCCCHHHHHHHHHHHHHCCCEEEEEEECCCHHHHHHHHHHHHHHCCCCCCEEEEECECCECHCCCCCHHHHHHHHCCEEEEECCCHHHHHHCCCCCCCCCCCHHHCCCCHHHHHHHHCHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHCCCCEEEEEECCCCHHHHHHHHCHHHHHHHCCHHHHHHHHHHHCCCCCCCERVVINISGLRFETQLKTLAQFPETLLGDPKKRMRYFDPLRNEYFFDRNRPSFDAILYYYQSGGRLRRPVNVPLDIFSEEIRFYELGEEAMEMFREDEGYIKEEERPLPENEFQRQVWLLFEYPESSGPARIIAIVSVMVILISIVSFCLETLPIFRDENEDMHGGGVTFHTYSQSTIGYQQSTSFTDPFFIVETLCIIWFSFEFLVRFFACPSKAGFFTNIMNIIDIVAIIPYFITLGTELAEKPEDAQQGQQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFAEADERDSQFPSIPDAFWWAVVSMTTVGYGDMVPTTIGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRETCCEEEEEECCEEEEEEHHHHHCCCCCCCCCHHHHHHHEECCCCEEEECCCHHHHHHHHHHHHCCCCCCCCCCCCHHHHHHHHHHCCCCHHHHHHHHHHHCCCCCCCCCCCCCCCHHHHCECCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHCCCHHHHCCCCCCCCCCCCHHHHHHHHHCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCCCHHHHHHHHCCHHHHHHHCCCCCCCCHHHHCCCCCCCHHHHHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCCHHHHHHHHHHHHCCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHHCCC
+eeeebebbebebebbbbbbbbebbbbeebeeeebbebbbbbbeebbbbbbbbbebeebebbebbbebbeeeebebebbbbbbbbbeeeeeeeeebbbeebbeebbeebbeebebebbbbbbbbebbeebebeebbebbbebbeeebbeebbbbebebeebbebbebbeeeebebbbbbbbebbbbebebbbeebeebbebbbbbbbbbbbbbbbbbbbebeeebeeebbbeeeebeebeeebeeeebeebbeebeebeebbeebebebbbbbbbbbbbeeebbbbbbebbebebbeebbbbbebbeebeeebbeebbebbeeebeeeeebbbbbbbbebbbeeebbeebeebbbbbeeebeeeebeeeebbbbbbbbebbebbbbbbbeeeebeebeebeeebbbebbebbebeeebbeebeeeeeeeeeeeeebeeeeeebebbebbeeeeeeeebeebbeebbebbeebbebbeebeeeeeeeebebeeeeeeebebebeebbbbebbeeeebebbeebbebbebbbebbebbeebbeeeeebeeeebbebbbbbbebbeebeeeeeeeeeeeeeeeeeeeeebebeebbeebeebeebbbbeeeeeebeeebeeebeebeeebeeebeebbeebbbebeeebeeeeeeebeebeebeebbebbbeeeeeeebebebeebeebbeebeebbeebeeebeeebeebeeebeeeee
+
+
+
+Started [/storage/htc/bdm/farhan/DeepComplex/feature_gen_hetero_dncon2/feature_gen_hetero.pl]: Fri Aug 28 22:52:10 2020
+
+Input: /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594//3LUTA_3LUTB.fasta
+L    : 716
+Seq  : LQFYRNLGKSGLRVSCLGLGTWVTFGGQITDEMAEHLMTLAYDNGINLFDTAEVYAAGKAEVVLGNIIKKKGWRRSSLVITTKIFWGGKAETERGLSRKHIIEGLKASLERLQLEYVDVVFANRPDPNTPMEETVRAMTHVINQGMAMYWGTSRWSSMEIMEAYSVARQFNLIPPICEQAEYHMFQREKVEVQLPELFHKIGVGAMTWSPLACGIVSGKYDSGIPPYSRASLKGYQWLKDKILSEEGRRQQAKLKELQAIAERLGCTLPQLAIAWCLRNEGVSSVLLGASNAEQLMENIGAIQVLPKLSSSIVHEIDSILGNKPYSCERVVINISGLRFETQLKTLAQFPETLLGDPKKRMRYFDPLRNEYFFDRNRPSFDAILYYYQSGGRLRRPVNVPLDIFSEEIRFYELGEEAMEMFREDEGYIKEEERPLPENEFQRQVWLLFEYPESSGPARIIAIVSVMVILISIVSFCLETLPIFRDENEDMHGGGVTFHTYSQSTIGYQQSTSFTDPFFIVETLCIIWFSFEFLVRFFACPSKAGFFTNIMNIIDIVAIIPYFITLGTELAEKPEDAQQGQQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFAEADERDSQFPSIPDAFWWAVVSMTTVGYGDMVPTTIGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRET
+
+[[Executing: echo ">3LUTA_3LUTB" > /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594//3LUTA_3LUTB.fasta]]
+[[Executing: echo LQFYRNLGKSGLRVSCLGLGTWVTFGGQITDEMAEHLMTLAYDNGINLFDTAEVYAAGKAEVVLGNIIKKKGWRRSSLVITTKIFWGGKAETERGLSRKHIIEGLKASLERLQLEYVDVVFANRPDPNTPMEETVRAMTHVINQGMAMYWGTSRWSSMEIMEAYSVARQFNLIPPICEQAEYHMFQREKVEVQLPELFHKIGVGAMTWSPLACGIVSGKYDSGIPPYSRASLKGYQWLKDKILSEEGRRQQAKLKELQAIAERLGCTLPQLAIAWCLRNEGVSSVLLGASNAEQLMENIGAIQVLPKLSSSIVHEIDSILGNKPYSCERVVINISGLRFETQLKTLAQFPETLLGDPKKRMRYFDPLRNEYFFDRNRPSFDAILYYYQSGGRLRRPVNVPLDIFSEEIRFYELGEEAMEMFREDEGYIKEEERPLPENEFQRQVWLLFEYPESSGPARIIAIVSVMVILISIVSFCLETLPIFRDENEDMHGGGVTFHTYSQSTIGYQQSTSFTDPFFIVETLCIIWFSFEFLVRFFACPSKAGFFTNIMNIIDIVAIIPYFITLGTELAEKPEDAQQGQQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFAEADERDSQFPSIPDAFWWAVVSMTTVGYGDMVPTTIGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRET >> /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594//3LUTA_3LUTB.fasta]]
+Seq_fasta:
+LQFYRNLGKSGLRVSCLGLGTWVTFGGQITDEMAEHLMTLAYDNGINLFDTAEVYAAGKAEVVLGNIIKKKGWRRSSLVITTKIFWGGKAETERGLSRKHIIEGLKASLERLQLEYVDVVFANRPDPNTPMEETVRAMTHVINQGMAMYWGTSRWSSMEIMEAYSVARQFNLIPPICEQAEYHMFQREKVEVQLPELFHKIGVGAMTWSPLACGIVSGKYDSGIPPYSRASLKGYQWLKDKILSEEGRRQQAKLKELQAIAERLGCTLPQLAIAWCLRNEGVSSVLLGASNAEQLMENIGAIQVLPKLSSSIVHEIDSILGNKPYSCERVVINISGLRFETQLKTLAQFPETLLGDPKKRMRYFDPLRNEYFFDRNRPSFDAILYYYQSGGRLRRPVNVPLDIFSEEIRFYELGEEAMEMFREDEGYIKEEERPLPENEFQRQVWLLFEYPESSGPARIIAIVSVMVILISIVSFCLETLPIFRDENEDMHGGGVTFHTYSQSTIGYQQSTSFTDPFFIVETLCIIWFSFEFLVRFFACPSKAGFFTNIMNIIDIVAIIPYFITLGTELAEKPEDAQQGQQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFAEADERDSQFPSIPDAFWWAVVSMTTVGYGDMVPTTIGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRET
+S_seq:
+LQFYRNLGKSGLRVSCLGLGTWVTFGGQITDEMAEHLMTLAYDNGINLFDTAEVYAAGKAEVVLGNIIKKKGWRRSSLVITTKIFWGGKAETERGLSRKHIIEGLKASLERLQLEYVDVVFANRPDPNTPMEETVRAMTHVINQGMAMYWGTSRWSSMEIMEAYSVARQFNLIPPICEQAEYHMFQREKVEVQLPELFHKIGVGAMTWSPLACGIVSGKYDSGIPPYSRASLKGYQWLKDKILSEEGRRQQAKLKELQAIAERLGCTLPQLAIAWCLRNEGVSSVLLGASNAEQLMENIGAIQVLPKLSSSIVHEIDSILGNKPYSCERVVINISGLRFETQLKTLAQFPETLLGDPKKRMRYFDPLRNEYFFDRNRPSFDAILYYYQSGGRLRRPVNVPLDIFSEEIRFYELGEEAMEMFREDEGYIKEEERPLPENEFQRQVWLLFEYPESSGPARIIAIVSVMVILISIVSFCLETLPIFRDENEDMHGGGVTFHTYSQSTIGYQQSTSFTDPFFIVETLCIIWFSFEFLVRFFACPSKAGFFTNIMNIIDIVAIIPYFITLGTELAEKPEDAQQGQQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFAEADERDSQFPSIPDAFWWAVVSMTTVGYGDMVPTTIGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRET
+
+
+Generating PSSM..
+[[Executing: mkdir -p /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594/pssm]]
+[[Executing: cp ../3LUTA_3LUTB.fasta ./]]
+Looks like .pssm file is already here.. skipping..
+
+
+Predicting secondary structure and solvent accessibility using SCRATCH..
+[[Executing: mkdir -p /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594/ss_sa]]
+[[Executing: cp ../3LUTA_3LUTB.fasta ./]]
+Looks like .ss file is already here.. skipping..
+
+
+Predicting secondary structure and solvent accessibility using PSIPRED..
+[[Executing: mkdir -p /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594/psipred]]
+[[Executing: echo ">3LUTA_3LUTB" > ./3LUTA_3LUTB.fasta]]
+[[Executing: echo "LQFYRNLGKSGLRVSCLGLGTWVTFGGQITDEMAEHLMTLAYDNGINLFDTAEVYAAGKAEVVLGNIIKKKGWRRSSLVITTKIFWGGKAETERGLSRKHIIEGLKASLERLQLEYVDVVFANRPDPNTPMEETVRAMTHVINQGMAMYWGTSRWSSMEIMEAYSVARQFNLIPPICEQAEYHMFQREKVEVQLPELFHKIGVGAMTWSPLACGIVSGKYDSGIPPYSRASLKGYQWLKDKILSEEGRRQQAKLKELQAIAERLGCTLPQLAIAWCLRNEGVSSVLLGASNAEQLMENIGAIQVLPKLSSSIVHEIDSILGNKPYSCERVVINISGLRFETQLKTLAQFPETLLGDPKKRMRYFDPLRNEYFFDRNRPSFDAILYYYQSGGRLRRPVNVPLDIFSEEIRFYELGEEAMEMFREDEGYIKEEERPLPENEFQRQVWLLFEYPESSGPARIIAIVSVMVILISIVSFCLETLPIFRDENEDMHGGGVTFHTYSQSTIGYQQSTSFTDPFFIVETLCIIWFSFEFLVRFFACPSKAGFFTNIMNIIDIVAIIPYFITLGTELAEKPEDAQQGQQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFAEADERDSQFPSIPDAFWWAVVSMTTVGYGDMVPTTIGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRET" >> ./3LUTA_3LUTB.fasta]]
+Looks like .solv file is already here.. skipping..
+
+
+Generating alignments..
+[[Executing: mkdir -p alignments]]
+[[Executing: /storage/htc/bdm/farhan/DeepComplex/feature_gen_hetero_dncon2/generate-alignments_hetero.pl 3LUTA_3LUTB.fasta alignments]]
+Started [/storage/htc/bdm/farhan/DeepComplex/feature_gen_hetero_dncon2/generate-alignments_hetero.pl]: Fri Aug 28 22:52:10 2020
+Starting job jhm-1e-10.sh ..
+running jackhmmer job jhm-1e-10..
+Starting job jhm-1e-20.sh ..
+running jackhmmer job jhm-1e-20..
+Starting job jhm-1e-4.sh ..
+running jackhmmer job jhm-1e-4..
+Starting job jhm-e-0.sh ..
+running jackhmmer job jhm-e-0..
+Wait until all JackHmmer jobs are done ..
+4 jobs running currently
+./jhm-1e-4.sh: line 4: 16744 Killed                  /storage/htc/bdm/tools/hmmer-3.1b2-linux-intel-x86_64/binaries/jackhmmer --cpu 19 -N 5 -E 1e-4 -A jhm-1e-4.ali 3LUTA_3LUTB.jh.fasta /storage/htc/bdm/farhan/string_db/combined_strings_db/filter_combo/all_sequences.txt > jhm-1e-4-jackhmmer.log
+
+ERROR: input file jhm-1e-4.ali contains no sequences
+grep: jhm-1e-4.a3m: No such file or directory
+jackhmmer job jhm-1e-4 done.
+3 jobs running currently
+./jhm-1e-20.sh: line 4: 16721 Killed                  /storage/htc/bdm/tools/hmmer-3.1b2-linux-intel-x86_64/binaries/jackhmmer --cpu 19 -N 5 -E 1e-20 -A jhm-1e-20.ali 3LUTA_3LUTB.jh.fasta /storage/htc/bdm/farhan/string_db/combined_strings_db/filter_combo/all_sequences.txt > jhm-1e-20-jackhmmer.log
+
+ERROR: input file jhm-1e-20.ali contains no sequences
+grep: jhm-1e-20.a3m: No such file or directory
+jackhmmer job jhm-1e-20 done.
+2 jobs running currently
+./jhm-1e-10.sh: line 4: 16698 Killed                  /storage/htc/bdm/tools/hmmer-3.1b2-linux-intel-x86_64/binaries/jackhmmer --cpu 19 -N 5 -E 1e-10 -A jhm-1e-10.ali 3LUTA_3LUTB.jh.fasta /storage/htc/bdm/farhan/string_db/combined_strings_db/filter_combo/all_sequences.txt > jhm-1e-10-jackhmmer.log
+
+ERROR: input file jhm-1e-10.ali contains no sequences
+grep: jhm-1e-10.a3m: No such file or directory
+jackhmmer job jhm-1e-10 done.
+1 jobs running currently
+./jhm-e-0.sh: line 4: 16767 Killed                  /storage/htc/bdm/tools/hmmer-3.1b2-linux-intel-x86_64/binaries/jackhmmer --cpu 19 -N 5 -E 1 -A jhm-e-0.ali 3LUTA_3LUTB.jh.fasta /storage/htc/bdm/farhan/string_db/combined_strings_db/filter_combo/all_sequences.txt > jhm-e-0-jackhmmer.log
+
+ERROR: input file jhm-e-0.ali contains no sequences
+grep: jhm-e-0.a3m: No such file or directory
+jackhmmer job jhm-e-0 done.
+0 jobs running currently
+
+Alignment Summary:
+L = 716
+0 jhm-1e-10.aln
+0 jhm-1e-20.aln
+0 jhm-1e-4.aln
+0 jhm-e-0.aln
+0 total
+
+Copying jhm-e-0.aln as 3LUTA_3LUTB.aln
+Check sequences that are shorter and throw them away..
+
+Finished [/storage/htc/bdm/farhan/DeepComplex/feature_gen_hetero_dncon2/generate-alignments_hetero.pl]: Sat Aug 29 07:57:32 2020
+Warning! Something went wrong! Alignments were not generated!
+[[Executing: touch alignments/3LUTA_3LUTB.aln]]
+[[Executing: echo "LQFYRNLGKSGLRVSCLGLGTWVTFGGQITDEMAEHLMTLAYDNGINLFDTAEVYAAGKAEVVLGNIIKKKGWRRSSLVITTKIFWGGKAETERGLSRKHIIEGLKASLERLQLEYVDVVFANRPDPNTPMEETVRAMTHVINQGMAMYWGTSRWSSMEIMEAYSVARQFNLIPPICEQAEYHMFQREKVEVQLPELFHKIGVGAMTWSPLACGIVSGKYDSGIPPYSRASLKGYQWLKDKILSEEGRRQQAKLKELQAIAERLGCTLPQLAIAWCLRNEGVSSVLLGASNAEQLMENIGAIQVLPKLSSSIVHEIDSILGNKPYSCERVVINISGLRFETQLKTLAQFPETLLGDPKKRMRYFDPLRNEYFFDRNRPSFDAILYYYQSGGRLRRPVNVPLDIFSEEIRFYELGEEAMEMFREDEGYIKEEERPLPENEFQRQVWLLFEYPESSGPARIIAIVSVMVILISIVSFCLETLPIFRDENEDMHGGGVTFHTYSQSTIGYQQSTSFTDPFFIVETLCIIWFSFEFLVRFFACPSKAGFFTNIMNIIDIVAIIPYFITLGTELAEKPEDAQQGQQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFAEADERDSQFPSIPDAFWWAVVSMTTVGYGDMVPTTIGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRET" > alignments/3LUTA_3LUTB.aln]]
+
+
+Generate alignment stats ..
+[[Executing: mkdir -p alnstat]]
+[[Executing: cp alignments/3LUTA_3LUTB.aln ./alnstat/]]
+[[Executing: cp alignments/3LUTA_3LUTB.aln ./alnstat/]]
+[[Executing: /storage/htc/bdm/tools/MetaPSICOV/bin/alnstats 3LUTA_3LUTB.aln 3LUTA_3LUTB.colstats 3LUTA_3LUTB.pairstats]]
+
+
+Contact Predictions ..
+[[Executing: mkdir -p psicov]]
+[[Executing: mkdir -p ccmpred]]
+[[Executing: mkdir -p freecontact]]
+Warning! psicov/3LUTA_3LUTB.psicov.rr file is empty!
+Too few sequences in the alignment! Skipping PSICOV, CCMpred and FreeContact run..
+
+
+Verify coevolution-based contact predictions ..
+[[Executing: touch psicov/3LUTA_3LUTB.psicov.rr]]
+Warning! ccmpred/3LUTA_3LUTB.ccmpred file is empty!
+[[Executing: touch ccmpred/3LUTA_3LUTB.ccmpred]]
+Warning! freecontact/3LUTA_3LUTB.freecontact.rr file is empty!
+[[Executing: touch freecontact/3LUTA_3LUTB.freecontact.rr]]
+
+
+Generating feature file..
+/storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594
+[[Executing: /storage/htc/bdm/farhan/DeepComplex/feature_gen_hetero_dncon2/generate-dncon2-features.pl ./3LUTA_3LUTB.fasta ./pssm/3LUTA_3LUTB.pssm ./ss_sa/3LUTA_3LUTB.ss_sa ./alnstat/3LUTA_3LUTB.colstats ./alnstat/3LUTA_3LUTB.pairstats ./freecontact/3LUTA_3LUTB.freecontact.rr ./ccmpred/3LUTA_3LUTB.ccmpred ./psicov/3LUTA_3LUTB.psicov.rr ./psipred/3LUTA_3LUTB.ss2 ./psipred/3LUTA_3LUTB.solv > feat-3LUTA_3LUTB.txt]]
+ERROR!! Could not execute [/storage/htc/bdm/farhan/DeepComplex/feature_gen_hetero_dncon2/generate-dncon2-features.pl ./3LUTA_3LUTB.fasta ./pssm/3LUTA_3LUTB.pssm ./ss_sa/3LUTA_3LUTB.ss_sa ./alnstat/3LUTA_3LUTB.colstats ./alnstat/3LUTA_3LUTB.pairstats ./freecontact/3LUTA_3LUTB.freecontact.rr ./ccmpred/3LUTA_3LUTB.ccmpred ./psicov/3LUTA_3LUTB.psicov.rr ./psipred/3LUTA_3LUTB.ss2 ./psipred/3LUTA_3LUTB.solv > feat-3LUTA_3LUTB.txt]! 
+Error message: [No such file or directory] at /storage/htc/bdm/farhan/DeepComplex/feature_gen_hetero_dncon2/feature_gen_hetero.pl line 265.
+	main::system_cmd('/storage/htc/bdm/farhan/DeepComplex/feature_gen_hetero_dncon2...') called at /storage/htc/bdm/farhan/DeepComplex/feature_gen_hetero_dncon2/feature_gen_hetero.pl line 211
+Current package directory: /storage/htc/bdm/farhan/DeepComplex/feature_gen_hetero_dncon2/
+Creating folder /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594/AB/ for combined features...
+Done!
+Creating combined fasta file... 
+Done! Combined fasta file called /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594/AB/3LUTA_3LUTB.fasta created...
+Generating PSSM for combined fasta...
+PSSM successfully created! 
+Generating PSIPRED
+PSIPRED successfully created! 
+Concatenating PSIPRED features into one file
+PSIPRED features successfully concatenated into one file
+Generating SCRATCH features for both chains...
+SCRATCH successfully done! 
+Concatenating SCRATCH features for both chains...
+SCRATCH features successfully concatenated into one file
+All features successfully generated...
+Moving output to directory /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594/
+Running command...
+mv /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594/AB/* /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594/
+Output saved in /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594/
+All alignment independent feature creation completed.
+Generating alignment dependent (co-evolutionary) features for the concatenated fasta file...
+Running command...
+perl /storage/htc/bdm/farhan/DeepComplex/feature_gen_hetero_dncon2/feature_gen_hetero.pl /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594//3LUTA_3LUTB.fasta /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594/
+Removing any temporary files and folders...
+All features successfully generated and save in /storage/hpc/data/rsr3gt/hetero_feature/batch_1/3LUTA_3LUTB_42594/
+slurmstepd: error: Exceeded step memory limit at some point.
+slurmstepd: error: Exceeded job memory limit at some point.

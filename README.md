@@ -18,3 +18,26 @@ e.g: /home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_X_1.pdb  , here "1" is 
 The interaction chain name should be separated by an underscore and should be at the last 2 char of the base name
 e.g /home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_AB.rr, here this file would be restains between chain "A and B" respectively
 
+
+
+
+#################################################################
+#                  Inter_chain_Predictor                 #
+################################################################
+Current Version of the file can predict the homodimer of upto 500 sequence length
+
+Format Command:
+python <program_name> <input_feature_file> <output_directory>
+
+Sample Command:
+python contact_predictor.py ./examples/expected_input_file/feat-1A0F.txt /home/rajroy/predict_map_test/
+
+The program will provide 2 files one is in rr format and another in matrix LxL format, where L is the lenght of the sequence.
+
+Furthermore, an example directory has been added, DeepComplex/inter_chain_contact_predictor/homo_dimer/examples/ in which the if the example.sh file is executed it will produce a directory predicted_output_file which will contain 2 output files as stated above: to cross-match the output files another directory is provided which also contains the output of the prediction by the name of expected_output_file. 
+
+
+
+
+
+

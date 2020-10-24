@@ -68,6 +68,19 @@ model_dir = project_root + '/models/resnet32_with_dilation/'
 model = "model_resnet32_with_dilation.json"
 # BEST WEIGHTS
 best_weights = "weights_resnet32_with_dilation.hdf5"
+
+# output directory setup
+name = os.path.basename(feat_file_dir).split('.')[0]
+final_file = outdir + '/' + name + '/'
+if not os.path.exists(final_file):
+    os.system('mkdir -p ' + final_file)
+
+if not os.path.exists(feat_file_dir):
+    print(' Feature file not found at '+feat_file_dir)
+    exit()
+
+
+
 # LOAD MODEL
 print('Loading model ....' + '\n')
 json_file = open(model_dir + model, 'r')
@@ -79,19 +92,10 @@ print('Loading weights  ....' + '\n')
 # load weights into new model
 model.load_weights(model_dir + best_weights)
 
-# output directory setup
-name = os.path.basename(feat_file_dir).split('.')[0]
-final_file = outdir + '/' + name + '/'
 #current Model was ran with best max length of 500
 print(' Output File Provided at ' + final_file + '\n')
 MAX_LENGTH = 500
 
-if not os.path.exists(final_file):
-    os.system('mkdir -p ' + final_file)
-
-if not os.path.exists(feat_file_dir):
-    print(' Feature file not found')
-    exit()
 
 X = get_x_from_this_file(feat_file_dir, MAX_LENGTH)
 lenght_of_seq = X.shape[1]

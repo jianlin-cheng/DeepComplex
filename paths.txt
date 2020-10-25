@@ -1,0 +1,8 @@
+SCRATCH=/data/farhan/SoftwareTools/DeepComplexToolBox/tools/SCRATCH-1D_1.1/bin
+NCBIBLASTPATH=/data/farhan/SoftwareTools/DeepComplexToolBox/tools/ncbi-blast-2.2.25+/bin
+BLASTNRDB=/data/farhan/SoftwareTools/DeepComplexToolBox/tools/uniref/uniref90pfilt
+METAPSICOV=/data/farhan/SoftwareTools/DeepComplexToolBox/tools/MetaPSICOV
+JACKHMMER=/data/farhan/SoftwareTools/DeepComplexToolBox/tools/hmmer-3.1b2-linux-intel-x86_64/binaries/jackhmmer
+JACKHMMERDB=/data/farhan/SoftwareTools/DeepComplexToolBox/tools/uniref/uniref90.fasta
+HHBLITS=/data/farhan/SoftwareTools/DeepComplexToolBox/tools/hhsuite-3.0-beta.3-Source/bin/hhblits
+HHBLITSDB=/data/farhan/SoftwareTools/DeepComplexToolBox/tools/hhsuite-3.0-beta.3-Source/bin/hhblits

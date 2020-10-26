@@ -26,9 +26,12 @@ Once the download is complete, follow the steps in the installation section to i
 
 This software was developed and tested using python, perl and other dependent software. Please make sure the following softwares versions are installed:
 
-(1) Python 3.6\n
-(2) Perl\n
-(3) CNS_solve 1.3 (Crystallography and NMR Systems)\n
+(1) Python 3.6
+
+(2) Perl
+
+(3) CNS_solve 1.3 (Crystallography and NMR Systems)
+
 
 The following python dependencies (packages) are needed for the code to execute:
 
@@ -41,6 +44,7 @@ The following python dependencies (packages) are needed for the code to execute:
 (4) H5py 2.9.0
 
 (5) Scikit-learn 0.20.3
+
 
 Besides the python packages, In order to generate features for the deep learning predictor, the following software tools are necessary:
 

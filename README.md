@@ -5,22 +5,23 @@ This software has two tools:
 (1) Complex Structure Reconstructor which is used to construct the final structure of the protein complex, and
 (2) Interchain Contact Predictor which is used to predict the interprotein contact map (currently for homodimeric proteins only)
 
-#                  Downloading             #
+###                  Downloading             
 
 Just type the following command to download the software.
 
-$ git clone https://github.com/jianlin-cheng/DeepComplex
+`git clone https://github.com/jianlin-cheng/DeepComplex`
 
 You can also use wget to download the software using the following commands:
-
-$ mkdir DeepComplex
-$ cd DeepComplex
-$ wget https://github.com/jianlin-cheng/DeepComplex
+```
+mkdir DeepComplex
+cd DeepComplex
+wget https://github.com/jianlin-cheng/DeepComplex
+```
 
 Once the download is complete, follow the steps in the installation section to install and run the software.
 
 
-#                  Installation             #
+###                  Installation             
 
 This software was developed and tested using python, perl and other dependent software. Please make sure the following softwares versions are installed:
 (1) Python 3.6
@@ -47,12 +48,14 @@ Besides the python packages, In order to generate features for the deep learning
 IMPORTANT: After installing the above tools, please add the paths the above tools into the "paths.txt" keeping the format of the file same.
 
 Now run the following command to install the feature generation tool:
+`
 $ sh install_dncon2_feature_generator.sh
+`
 
 Installation is now complete. Now you are ready to use DeepComplex. Examples of how to use the two tools are described bellow.
 
 
-#                  Complex_Structure_Reconstructor             #
+###                  Complex_Structure_Reconstructor             
 
 To use it go and edit the config file and change the directory of the CNS-1.3 and also may change the number of models that you want to generate
 
@@ -68,7 +71,7 @@ The interaction chain name should be separated by an underscore and should be at
 e.g /home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_AB.rr, here this file would be restains between chain "A and B" respectively
 
 
-#                  Inter_chain_Predictor                 #
+###                  Inter_chain_Predictor                 
 
 Current Version of the file can predict the homodimer of upto 500 sequence length
 

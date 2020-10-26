@@ -80,15 +80,56 @@ Now run the following command to install the feature generation tool:
 Installation is now complete. Now you are ready to use DeepComplex. Examples of how to use the two tools are described bellow.
 
 
+
+
+##                  Inter Chain Contact Predictor                 
+
+Current version of the inter chain contact predictor can predict the homodimer of upto 500 sequence length
+
+### Usage
+For performing a inter-chain contact prediction, run the contact_predictor with the following command:
+
+```
+#Usage
+python contact_predictor.py <input_feature_file> <output_directory>
+
+#Example:
+python contact_predictor.py ./examples/expected_input_file/feat-1A0F.txt /home/rajroy/predict_map_test/
+```
+The program will provide 2 files one is in rr format and another in matrix format of LxL , where L is the maximum length it can predict which is 500 for now.
+### Testing the inter-chain contact prediction
+The program can be tested using the following script:
+```
+(1) cd /inter_chain_contact_predictor/homo_dimer/examples
+(2) sh example.sh
+
+
+Output examples:
+/examples/predict_map_test/feat-1A0F/feat-1A0F_predicted.rr
+/examples/predict_map_test/feat-1A0F/feat-1A0F_predicted.rr_matrix.txt
+```
+
+
+
+
+
 ##                 Complex_Structure_Reconstructor             
 
-To use it go and edit the config file and change the directory of the CNS-1.3 and also may change the number of models that you want to generate
+###Setup
+
+Edit the config file at /complex_sturcture_reconstructor/config.py
+```
+Change the directory of the varaible 'CNS_DIRECTORY' to the directory where it is installed
+
+e.g CNS_DIRECTORY = '/home/rajroy/cns/cns_solve_1.3/'
+
+```
 
 ###                        Usage
 
 For performing a complex structure prediction, run structure predictor with the following command:
 ```
-#Format
+#Usage
 python structure_predictor_n-mer.py <target_id> <pdb_list_file> <restrain_list_file> <output_file>
 
 #Example
@@ -101,37 +142,12 @@ The chain name should be separated by an underscore and should be at the last ch
 ```
 e.g: /home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_X_1.pdb  , here "1" is the name of the chain
 ```
-The interaction chain name should be separated by an underscore and should be at the last 2 char of the base name
+The interacting chain name should be separated by an underscore and should be at the last 2 char of the base name
 ```
 e.g /home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_AB.rr, here this file would be restains between chain "A and B" respectively
 ```
 
-##                  Inter_chain_Predictor                 
 
-Current Version of the file can predict the homodimer of upto 500 sequence length
-
-### Usage
-For performing a inter-chain contact prediction, run the inter-chain contact with the following command:
-
-```
-#Format
-python contact_predictor.py <input_feature_file> <output_directory>
-
-#Sample Command:
-python contact_predictor.py ./examples/expected_input_file/feat-1A0F.txt /home/rajroy/predict_map_test/
-```
-The program will provide 2 files one is in rr format and another in matrix LxL format, where L is the lenght of the sequence.
-### Testing the inter-chain contact prediction
-The program can be tested using the following script:
-```
-(1) cd /inter_chain_contact_predictor/homo_dimer/examples
-(2) sh example.sh
-
-
-Output examples:
-/examples/predict_map_test/feat-1A0F/feat-1A0F_predicted.rr
-/examples/predict_map_test/feat-1A0F/feat-1A0F_predicted.rr_matrix.txt
-```
 
  
 

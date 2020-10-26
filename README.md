@@ -53,13 +53,13 @@ The following python dependencies (packages) are needed for the code to execute:
 
 Besides the python packages, In order to generate features for the deep learning predictor, the following software tools are necessary:
 
-    (1) HH-suite-3.0
+    (1) HH-suite-3.0 available at: https://github.com/soedinglab/hh-suite
 
-    (2) JackHMMER/HMMER-3.1
+    (2) JackHMMER/HMMER-3.1 available at: http://hmmer.org/download.html
 
-    (3) Latest HH-suite searchable protein database like UniRef30_2020_06: available at http://gwdu111.gwdg.de/~compbiol/uniclust/2020_06/
+    (3) Latest HH-suite searchable protein database like UniRef30_2020_06: available at: http://gwdu111.gwdg.de/~compbiol/uniclust/2020_06/
 
-    (4) Latest JackHMMER searchable protein database like UniRef90: available at ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.fasta.gz
+    (4) Latest JackHMMER searchable protein database like UniRef90: available at: ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.fasta.gz
 
     (5) MetaPSICOV avilable at: https://github.com/psipred/metapsicov
 

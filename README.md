@@ -11,24 +11,16 @@ This software has two tools:
 
 Just type the following command to download the software.
 
-<<<<<<< HEAD
+
 `git clone https://github.com/jianlin-cheng/DeepComplex`
 
 You can also use wget to download the software using the following commands:
+
 ```
 mkdir DeepComplex
 cd DeepComplex
 wget https://github.com/jianlin-cheng/DeepComplex
 ```
-=======
-  $ git clone https://github.com/jianlin-cheng/DeepComplex
-
-You can also use wget to download the software using the following commands:
-
-  $ mkdir DeepComplex
-  $ cd DeepComplex
-  $ wget https://github.com/jianlin-cheng/DeepComplex
->>>>>>> 65d6ef42de6e1ca491532a2d2de85dc45c463b5e
 
 Once the download is complete, follow the steps in the installation section to install and run the software.
 
@@ -38,41 +30,49 @@ Once the download is complete, follow the steps in the installation section to i
 This software was developed and tested using python, perl and other dependent software. Please make sure the following softwares versions are installed:
 
 (1) Python 3.6
+
 (2) Perl
+
 (3) CNS_solve 1.3 (Crystallography and NMR Systems)
 
 
 The following python dependencies (packages) are needed for the code to execute:
 (1) Tensorflow 1.7.0
+
 (2) Numpy 1.16.2
+
 (3) Keras 2.1.6
+
 (4) H5py 2.9.0
+
 (5) Scikit-learn 0.20.3
 
 
 Besides the python packages, In order to generate features for the deep learning predictor, the following software tools are necessary:
 
 (1) HH-suite-3.0
+
 (2) JackHMMER/HMMER-3.1
+
 (3) Latest HH-suite searchable protein database like UniRef30_2020_06: available at http://gwdu111.gwdg.de/~compbiol/uniclust/2020_06/
+
 (4) Latest JackHMMER searchable protein database like UniRef90: available at ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.fasta.gz
+
 (5) MetaPSICOV avilable at: https://github.com/psipred/metapsicov
+
 (6) SCRATCH-1D_1.1 available at: https://github.com/SBRG/ssbio/blob/master/docs/instructions/scratch.rst or http://download.igb.uci.edu/#sspro
+
 (7) ncbi-blast-2.2.25+ available at: https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.2.25/
+
 (8) Blast NR database: https://ftp.ncbi.nlm.nih.gov/blast/db/
 
 
-IMPORTANT: After installing the above tools, please add the paths the above tools into the "paths.txt" keeping the format of the file same.
+IMPORTANT: After installing the above tools, please add the paths of the above tools into the "paths.txt" keeping the format of the file same.
 
 Now run the following command to install the feature generation tool:
-<<<<<<< HEAD
-`
-$ sh install_dncon2_feature_generator.sh
-`
-=======
 
-  $ sh install_dncon2_feature_generator.sh
->>>>>>> 65d6ef42de6e1ca491532a2d2de85dc45c463b5e
+`$ sh install_dncon2_feature_generator.sh`
+
 
 Installation is now complete. Now you are ready to use DeepComplex. Examples of how to use the two tools are described bellow.
 

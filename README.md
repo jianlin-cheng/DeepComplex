@@ -23,11 +23,13 @@ Once the download is complete, follow the steps in the installation section to i
 #                  Installation             #
 
 This software was developed and tested using python, perl and other dependent software. Please make sure the following softwares versions are installed:
+
 (1) Python 3.6
 (2) Perl
 (3) CNS_solve 1.3 (Crystallography and NMR Systems)
 
-The following python dependencies (packages) are needed for the code to execute
+The following python dependencies (packages) are needed for the code to execute:
+
 (1) Tensorflow 1.7.0
 (2) Numpy 1.16.2
 (3) Keras 2.1.6
@@ -35,6 +37,7 @@ The following python dependencies (packages) are needed for the code to execute
 (5) Scikit-learn 0.20.3
 
 Besides the python packages, In order to generate features for the deep learning predictor, the following software tools are necessary:
+
 (1) HH-suite-3.0
 (2) JackHMMER/HMMER-3.1
 (3) Latest HH-suite searchable protein database like UniRef30_2020_06: available at http://gwdu111.gwdg.de/~compbiol/uniclust/2020_06/
@@ -47,6 +50,7 @@ Besides the python packages, In order to generate features for the deep learning
 IMPORTANT: After installing the above tools, please add the paths the above tools into the "paths.txt" keeping the format of the file same.
 
 Now run the following command to install the feature generation tool:
+
 $ sh install_dncon2_feature_generator.sh
 
 Installation is now complete. Now you are ready to use DeepComplex. Examples of how to use the two tools are described bellow.

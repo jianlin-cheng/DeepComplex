@@ -8,6 +8,3 @@ JACKHMMER=/storage/htc/bdm/tools/hmmer-3.1b2-linux-intel-x86_64/binaries/jackhmm
 JACKHMMERDB=/storage/htc/bdm/zhiye/DNCON4_db_tools/databases/myg_uniref100_01_2020/myg_uniref100 #/storage/htc/bdm/tools/multicom_db_tools/databases/uniref/uniref90.fasta
 HHBLITS=/storage/htc/bdm/tools/hhsuite-3.0-beta.1/bin/hhblits
 HHBLITSDB=/storage/htc/bdm/tools/databases/UniRef30_2020_03/UniRef30_2020_03#/storage/htc/bdm/tools/multicom_db_tools/databases/uniprot20/uniprot20_2016_02/uniprot20_2016_02
-
-
-

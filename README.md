@@ -96,7 +96,7 @@ python contact_predictor.py <input_feature_file> <output_directory>
 #Example:
 python contact_predictor.py ./examples/expected_input_file/feat-1A0F.txt /home/rajroy/predict_map_test/
 ```
-The program will provide 2 files one is in rr format and another in matrix format of LxL , where L is the maximum length it can predict which is 500 for now.
+The program will provide 2 files one is in rr format and another in matrix format of LxL , where L is the maximum length of sequence it can predict which is 500 for now.
 ### Testing the inter-chain contact prediction
 The program can be tested using the following script:
 ```
@@ -115,7 +115,7 @@ Output examples:
 
 ##                 Complex_Structure_Reconstructor             
 
-###Setup
+### Setup
 
 Edit the config file at /complex_sturcture_reconstructor/config.py
 ```

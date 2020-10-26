@@ -59,7 +59,7 @@ Besides the python packages, In order to generate features for the deep learning
 
     (3) Latest HH-suite searchable protein database like UniRef30_2020_06: available at http://gwdu111.gwdg.de/~compbiol/uniclust/2020_06/
 
-    (4) Latest JackHMMER searchable protein database like UniRef90: available at [ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.fasta.gz]
+    (4) Latest JackHMMER searchable protein database like UniRef90: available at ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.fasta.gz
 
     (5) MetaPSICOV avilable at: https://github.com/psipred/metapsicov
 
@@ -67,7 +67,7 @@ Besides the python packages, In order to generate features for the deep learning
 
     (7) ncbi-blast-2.2.25+ available at: https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.2.25/
 
-    (8) Blast NR database: https://ftp.ncbi.nlm.nih.gov/blast/db/
+    (8) Blast NR database available at: https://ftp.ncbi.nlm.nih.gov/blast/db/
 
 
 IMPORTANT: After installing the above tools, please add the paths of the above tools into the "paths.txt" keeping the format of the file same.

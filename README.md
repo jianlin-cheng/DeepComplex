@@ -3,9 +3,11 @@ Deep learning prediction of inter-chain contacts of protein complexes
 
 This software has two tools:
 
-(1) Complex Structure Reconstructor which is used to construct the final structure of the protein complex, and
+(1) Inter-chain Contact Predictor which is used to predict the inter-chain contact map (currently for homodimeric proteins only), and
 
-(2) Interchain Contact Predictor which is used to predict the interprotein contact map (currently for homodimeric proteins only)
+(2) Complex Structure Reconstructor which is used to construct the final structure of the protein complex from the inter-chain contacts.
+
+
 
 ###                  Downloading             
 

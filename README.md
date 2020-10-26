@@ -31,9 +31,9 @@ Once the download is complete, follow the steps in the installation section to i
 
 This software was developed and tested using python, perl and other dependent software. Please make sure the following softwares versions are installed:
 
-*  (1) Python 3.6
++  (1) Python 3.6
 
-  (2) Perl
+* (2) Perl
 
   (3) CNS_solve 1.3 (Crystallography and NMR Systems)
 

@@ -121,8 +121,19 @@ python contact_predictor.py <input_feature_file> <output_directory>
 python contact_predictor.py ./examples/expected_input_file/feat-1A0F.txt /home/rajroy/predict_map_test/
 ```
 The program will provide 2 files one is in rr format and another in matrix LxL format, where L is the lenght of the sequence.
+### Testing the inter-chain contact prediction
+The program can be tested using the following script:
+```
+(1) cd /inter_chain_contact_predictor/homo_dimer/examples
+(2) sh example.sh
 
-Furthermore, an example directory has been added, DeepComplex/inter_chain_contact_predictor/homo_dimer/examples/ in which the if the example.sh file is executed it will produce a directory predicted_output_file which will contain 2 output files as stated above: to cross-match the output files another directory is provided which also contains the output of the prediction by the name of expected_output_file. 
+
+Output examples:
+/examples/predict_map_test/feat-1A0F/feat-1A0F_predicted.rr
+/examples/predict_map_test/feat-1A0F/feat-1A0F_predicted.rr_matrix.txt
+```
+
+ 
 
 
 

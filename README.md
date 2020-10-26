@@ -37,6 +37,7 @@ This software was developed and tested using python, perl and other dependent so
 
 
 The following python dependencies (packages) are needed for the code to execute:
+
 (1) Tensorflow 1.7.0
 
 (2) Numpy 1.16.2

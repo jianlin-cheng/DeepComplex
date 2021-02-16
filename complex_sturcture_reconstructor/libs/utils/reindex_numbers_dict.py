@@ -1,4 +1,6 @@
 import os
+import sys
+
 from Bio import pairwise2
 import re
 
@@ -84,11 +86,19 @@ def specific_filers(_input):
 
 from Bio import AlignIO, pairwise2
 
-output_dir = "/home/rajroy/reindex/"
-new_fasta_dir = output_dir + "/new_fasta/"
-fasta_dir = "/home/rajroy/Downloads/fasta_dictionary.txt"
-seq_dir = "/home/rajroy/Documents/Clustlw_alignment/output/"
+# output_dir = "/home/rajroy/reindex/"
+# new_fasta_dir = output_dir + "/new_fasta/"
+# fasta_dir = "/home/rajroy/Downloads/fasta_dictionary.txt"
+# seq_dir = "/home/rajroy/Documents/Clustlw_alignment/output/"
 # seq_dir = "/home/rajroy/sampoel/out/"
+
+
+
+fasta_dir = sys.argv[1]
+seq_dir = sys.argv[2]
+output_dir = sys.argv[3]
+
+new_fasta_dir = output_dir + "/new_fasta/"
 seq_file = specific_filers(seq_dir)
 fasta_dict = loadFastaDictionary(fasta_dir)
 names = []
@@ -135,7 +145,8 @@ print(len(list(dict.fromkeys(names))))
 f_string = ""
 for f in failed_cases:
     f_string=f_string+f+"\n"
-write2file("/home/rajroy/failed_cases.txt",f_string)
+# write2file("/home/rajroy/failed_cases.txt",f_string)
+write2file(output_dir+"failed_cases.txt",f_string)
 print(len(failed_cases))
 #ssems like gets the numbers to remove
 # loaded_dimer_stats_dictionary = np.load(output_dir + 'reindex_fasta.npy', allow_pickle='TRUE').item()

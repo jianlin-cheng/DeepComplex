@@ -1,6 +1,7 @@
 import json
 import os
 import pickle
+import sys
 
 import numpy as np
 
@@ -148,23 +149,35 @@ def get_stats(_name):
     return alpha_string
 
 
-dimer_file = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS/contact_info" \
-             "/contact_6/classified_dimer_in_contact_6.txt"
-seq_file = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS/seq_aln_dictionary.txt"
-homo_file = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS/contact_info" \
-            "/contact_6/homodimers.txt"
-hetero_file = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS/contact_info" \
-              "/contact_6/hetero.txt"
-imperfect_file = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS/contact_info" \
-                 "/contact_6/homo_95.txt"
-perfect_file = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS/contact_info" \
-               "/contact_6/perfect.txt"
-four_letter_protein_name_file = "/home/rajroy/protein_names_4_letters.txt"
-five_letter_protein_name_file = "/home/rajroy/protein_names_5_letters.txt"
+# dimer_file = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS/contact_info" \
+#              "/contact_6/classified_dimer_in_contact_6.txt"
+# # seq_file = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS/seq_aln_dictionary.txt"
+# homo_file = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS/contact_info" \
+#             "/contact_6/homodimers.txt"
+# hetero_file = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS/contact_info" \
+#               "/contact_6/hetero.txt"
+# imperfect_file = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS/contact_info" \
+#                  "/contact_6/homo_95.txt"
+# perfect_file = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS/contact_info" \
+#                "/contact_6/perfect.txt"
+# # four_letter_protein_name_file = "/home/rajroy/protein_names_4_letters.txt"
+# five_letter_protein_name_file = "/home/rajroy/protein_names_5_letters.txt"
+# OUTPUT_DIR=
+dimer_file = sys.argv[1]
+# seq_file = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS/seq_aln_dictionary.txt"
+homo_file = sys.argv[2]
+hetero_file = sys.argv[3]
+perfect_file = sys.argv[4]
+imperfect_file = sys.argv[5]
+
+# four_letter_protein_name_file = "/home/rajroy/protein_names_4_letters.txt"
+five_letter_protein_name_file = sys.argv[6]
+OUTPUT_DIR=sys.argv[7]
+
 # alll_ist only contact
 all_dimer_list = np.array(read_pair_file_into_array(dimer_file))
-# seq_dict
-seq_dict = loadFastaDictionary(seq_file)
+# # seq_dict
+# seq_dict = loadFastaDictionary(seq_file)
 # homo_list
 homo_list = np.array(read_pair_file_into_array(homo_file))
 # hetaro_list
@@ -174,7 +187,7 @@ perfect_list = np.array(read_pair_file_into_array(perfect_file))
 # imperfect
 imperfect_list = np.array(read_pair_file_into_array(imperfect_file))
 # 4list
-protein_name_four_letters = np.array(read_pair_file_into_array(four_letter_protein_name_file))
+# protein_name_four_letters = np.array(read_pair_file_into_array(four_letter_protein_name_file))
 # 5List
 protein_name_five_letters = np.array(read_pair_file_into_array(five_letter_protein_name_file))
 
@@ -229,7 +242,8 @@ print_string = ""
 #
 # json_print =json_print+ "]"
 #
-np.save('/home/rajroy/protein_chain_details.npy', my_dictionary)
+np.save(OUTPUT_DIR+'/protein_chain_details.npy', my_dictionary)
+# np.save('/home/rajroy/protein_chain_details.npy', my_dictionary)
 # write2file("/home/rajroy/protein_chain_details.txt", print_string)
 # write2file("/home/rajroy/protein_chain_details.json", json_print)
 # f = open("file.pkl","wb")

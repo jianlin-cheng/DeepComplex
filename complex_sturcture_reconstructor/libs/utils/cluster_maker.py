@@ -1,20 +1,31 @@
 import copy
 import os
+import sys
 
 import numpy as np
 
-CLUSTALW_dir = "/home/rajroy/Downloads/clustalw-2.1-linux-x86_64-libcppstatic/clustalw2"
-fasta_dir = "/home/rajroy/Downloads/fasta_dictionary.txt"
-four_letter_protein_name_file = "/home/rajroy/protein_names_4_letters.txt"
-five_letter_protein_name_file = "/home/rajroy/protein_names_5_letters.txt"
+#USING THE REINDEX STATS FILES THE MUTULA HOMODIMERS ARE CLUSTERED AND SUBMITTED TO CLUSTALW AND ALSO MAKING ITS INPUT AND HENCE AN ALIGNED CLUST IS FORMED
+#NECCESSARY FILES
+# input_dir = "/home/rajroy/Documents/Clustlw_alignment/input/"
+# CLUSTALW_dir = "/home/rajroy/Downloads/clustalw-2.1-linux-x86_64-libcppstatic/clustalw2"
+# fasta_dir = "/home/rajroy/Downloads/fasta_dictionary.txt"
+# five_letter_protein_name_file = "/home/rajroy/protein_names_5_letters.txt"
+# output_dir = "/home/rajroy/Documents/Clustlw_alignment/output/"
+
+
+input_dir = sys.argv[1]
+CLUSTALW_dir =  sys.argv[2]
+fasta_dir =  sys.argv[3]
+five_letter_protein_name_file =  sys.argv[4]
+output_dir =  sys.argv[5]
+
+
+# four_letter_protein_name_file = "/home/rajroy/protein_names_4_letters.txt"
 # homo_file = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS/contact_info" \
 #             "/contact_6/homodimers.txt"
 # dimer_file = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS/contact_info" \
 #              "/contact_6/classified_dimer_in_contact_6.txt"
 
-input_dir = "/home/rajroy/Documents/Clustlw_alignment/input/"
-
-output_dir = "/home/rajroy/Documents/Clustlw_alignment/output/"
 
 
 def read_pair_file_into_array(_input):

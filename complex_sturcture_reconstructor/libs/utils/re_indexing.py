@@ -1,5 +1,6 @@
 import copy
 import os
+import sys
 import time
 
 from Bio import pairwise2
@@ -131,11 +132,15 @@ def write2file(file, contents):
         f.writelines(contents)
 
 import numpy as np
+#
+# input_dir = "/home/rajroy/reindexed_good_but_four_failedcase/"
+# output_dir = "/home/rajroy/redo_reindexing/"
+# removed_alternated_sequence = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS" \
+#                               "/dimers/pdb_alt_seq_removed/"
+input_dir = sys.argv[1]
+removed_alternated_sequence = sys.argv[3]
+output_dir = sys.argv[2]
 
-input_dir = "/home/rajroy/reindexed_good_but_four_failedcase/"
-output_dir = "/home/rajroy/redo_reindexing/"
-removed_alternated_sequence = "/media/rajroy/fbc3794d-a380-4e0f-a00a-4db5aad57e75/rajroy/back_up/input_files/DIMERS" \
-                              "/dimers/pdb_alt_seq_removed/"
 
 if not os.path.exists(output_dir):
     os.system("mkdir -p " + output_dir + '\n')

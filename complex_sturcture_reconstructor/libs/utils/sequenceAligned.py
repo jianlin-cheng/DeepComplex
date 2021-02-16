@@ -3,7 +3,7 @@
 from Bio import pairwise2
 
 
-
+#USES BIPPYTHON TO DO ALIGNMENT AND CLASSIFY IF A PAIR IS A HOMODEIMER OR A HETERPDIMER
 def getMaxConsecutiveGaps(sequence):
     num_of_gap_sequence = 0
     if ("-" in sequence):
@@ -98,6 +98,7 @@ def seqDict2Fasta(seq_dict):
 
 
 def seq_aligner(key_x, key_y, x, y):
+    OUTPUT_DIR="__CHANGE THE VARIABLE__"
     threshold = 0.95
     # key_x = sys.argv[1]
     # x = sys.argv[2]
@@ -125,7 +126,8 @@ def seq_aligner(key_x, key_y, x, y):
     # print (alignments[1][1])
     aln_print = key_x + "_" + key_y + " : " + best_aln[0] + ',' + best_aln[1] + '\n'
 
-    file_object = open('../../../../../../PycharmProjects/multiprocessing/seq_aln_dictionary.txt', 'a')
+    # file_object = open('../../../../../../PycharmProjects/multiprocessing/seq_aln_dictionary.txt', 'a')
+    file_object = open(OUTPUT_DIR+'/seq_aln_dictionary.txt', 'a')
     file_object.write(aln_print)
     file_object.close()
 
@@ -140,7 +142,8 @@ def seq_aligner(key_x, key_y, x, y):
         type = 'heterodimer'
     score_string = key_x + ',' + key_y + ',' + str(score) + ',' + type + '\n'
 
-    file_object = open('../../../../../../PycharmProjects/multiprocessing/dimer_classifier.txt', 'a')
+    # file_object = open('../../../../../../PycharmProjects/multiprocessing/dimer_classifier.txt', 'a')
+    file_object = open(OUTPUT_DIR+'dimer_classifier.txt', 'a')
     file_object.write(score_string)
     file_object.close()
 

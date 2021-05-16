@@ -91,12 +91,13 @@ For performing a inter-chain contact prediction, run the contact_predictor with 
 
 ```
 #Usage
-python contact_predictor.py <input_feature_file> <output_directory>
+python contact_predictor.py <input_fasta> <input_feature_file> <output_directory>
 
 #Example:
-python contact_predictor.py ./examples/expected_input_file/feat-1A0F.txt /home/rajroy/predict_map_test/
+python contact_predictor_homodimer.py ./examples/expected_input_file/11AS.fasta ./examples/expected_input_file/feat-11AS.txt /home/rajroy/output/ 11AS
+ 
 ```
-The program will provide 2 files one is in rr format and another in matrix format of LxL , where L is the maximum length of sequence it can predict which is 500 for now.
+The program will provide 2 files one is in rr format and another in matrix format of LxL , where L is the length of fasta sequence.
 ### Testing the inter-chain contact prediction
 The program can be tested using the following script:
 ```
@@ -105,8 +106,8 @@ The program can be tested using the following script:
 
 
 Output examples:
-/examples/predict_map_test/feat-1A0F/feat-1A0F_predicted.rr
-/examples/predict_map_test/feat-1A0F/feat-1A0F_predicted.rr_matrix.txt
+/examples/predict_map_test/predicted_output_file//feat-1A0F_predicted.rr
+/examples/predict_map_test/predicted_output_file//feat-1A0F_predicted.rr_matrix.txt
 ```
 
 

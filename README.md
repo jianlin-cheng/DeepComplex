@@ -150,10 +150,60 @@ e.g /home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_AB.rr, here this file wo
 
 # DeepComplex webserver
 
+### Dependencies
+
+Please install the following dependency software:
+
+    (1) Python 3.6, and 2.7 for DNCON2
+
+    (2) Perl
+
+    (3) PyRosetta [http://www.pyrosetta.org/dow/pyrosetta4-download]
+
+    (4) DNCON2 and all its dependencies from [https://github.com/multicom-toolbox/DNCON2]
+
+    (5) Tensorflow 1.7.0
+
+    (6) Numpy 1.16.2
+
+    (7) Keras 2.1.6
+
+    (8) H5py 2.9.0
+
+    (9) Scikit-learn 0.20.3
+
+Make sure all the software paths are updates in the file: [https://github.com/jianlin-cheng/DeepComplex/tree/master/webserver/predictor_code/scripts/feature_gen_hetero_v2/paths.txt]
+
+It is best to install the tools/dependencies in the folder [https://github.com/jianlin-cheng/DeepComplex/tree/master/webserver/predictor_code/tools/]
+
+Change any hard paths that if necessary. 
+
 ### Source Code
 
-The webserver source code can be found in 
+The webserver source code can be found in [https://github.com/jianlin-cheng/DeepComplex/tree/master/webserver/html]
 
+The Webserver predictor code is available in [https://github.com/jianlin-cheng/DeepComplex/tree/master/webserver/predictor_code]. This contains codes for both the homodimer and heterodimers. 
+
+```
+For Homodimer prediction Run:
+python contact_predictor_homodimer.py <full path of fasta_file > <full path of feature_path > <full path of  output_dir> <target_id>
+
+For Heterodimer prediction Run:
+python contact_predictor_heterodimer.py <full path of fasta_file A> <full path of fasta_file B> <full path of feature_path > <full path of  output_dir> <target_id>
+```
+
+The feature generation code for heterodimers is available in [https://github.com/jianlin-cheng/DeepComplex/tree/master/webserver/predictor_code/scripts]
+
+The feature generation code for homodimers is available in [https://github.com/jianlin-cheng/DeepComplex/tree/master/webserver/predictor_code/tools/DNCON2/dncon2-v1.0.sh]
+
+The Gradient-descent (BD) based optimizer code is available in [https://github.com/jianlin-cheng/DeepComplex/tree/master/webserver/optimizer_code] 
+
+```
+For GD-based optimizer Run:
+source ~/tools/pyrosettta-env/bin/activate
+weight_file = ~/optimizer_code/talaris2013.wts
+python ~/optimizer/do_dock.py <first_pdb> <second_pdb> <restraint_file> <output_dir> <$weight_file>
+```
 
 
 

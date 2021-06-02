@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-10-14  Length=  240
+Structure2: 2017-10-14  Length=  240 (by which all scores are normalized)
+Number of residues in common=  240
+RMSD of  the common residues=    3.414
+
+TM-score    = 0.9082  (d0= 5.74, TM10= 0.9059)
+MaxSub-score= 0.8275  (d0= 3.50)
+GDT-TS-score= 0.8240 %(d<1)=0.5333 %(d<2)=0.8500 %(d<4)=0.9333 %(d<8)=0.9792
+GDT-HA-score= 0.6646 %(d<0.5)=0.3417 %(d<1)=0.5333 %(d<2)=0.8500 %(d<4)=0.9333
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1     37.7377112820  -0.7301133024  -0.5283225065   0.4333703899
+ 2     85.3218400877   0.4548564510   0.0975282141   0.8852083690
+ 3     -2.1916332188  -0.5099413444   0.8434237231   0.1691042538
+
+Superposition in the TM-score: Length(d<5.0)=224  RMSD=  1.33
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+CPSQCSCRGTYVDCDSRRLASVPAGIPTNVQILNLYNNQITNLEPGVFDRLVNLQKLYLSGNQLQALPVGVFDKLSQLTFLSLDENKLTALPNGVFDKLTELTYLNLNTNQLTALPEGVFDRLVHLKELLMCCNKLTELPRGIERLTHLTHLALDQNQLKSIPHGAFDRLSSLTHAYLFGNPWDCECRDIMYLRNWVADHTSIVMRWDGKAVNDPDSAKCAGTNTPVRAVTEASTSPSKC
+         ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::     :::::::::: :::::::::::::::: 
+CPSQCSCRGTYVDCDSRRLASVPAGIPTNVQILNLYNNQITNLEPGVFDRLVNLQKLYLSGNQLQALPVGVFDKLSQLTFLSLDENKLTALPNGVFDKLTELTYLNLNTNQLTALPEGVFDRLVHLKELLMCCNKLTELPRGIERLTHLTHLALDQNQLKSIPHGAFDRLSSLTHAYLFGNPWDCECRDIMYLRNWVADHTSIVMRWDGKAVNDPDSAKCAGTNTPVRAVTEASTSPSKC
+123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+

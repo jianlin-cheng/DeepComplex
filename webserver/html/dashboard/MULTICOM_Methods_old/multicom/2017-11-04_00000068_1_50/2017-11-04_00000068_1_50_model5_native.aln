@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-11-04  Length=  191
+Structure2: 2017-11-04  Length=  191 (by which all scores are normalized)
+Number of residues in common=  191
+RMSD of  the common residues=    2.437
+
+TM-score    = 0.9231  (d0= 5.15, TM10= 0.9194)
+MaxSub-score= 0.8713  (d0= 3.50)
+GDT-TS-score= 0.8874 %(d<1)=0.7435 %(d<2)=0.8848 %(d<4)=0.9372 %(d<8)=0.9843
+GDT-HA-score= 0.7565 %(d<0.5)=0.4607 %(d<1)=0.7435 %(d<2)=0.8848 %(d<4)=0.9372
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1     24.5794586133   0.3770065769  -0.8613868653  -0.3404096197
+ 2    154.3603306250   0.8985543224   0.4292932509  -0.0911451281
+ 3      7.4631393207   0.2246467684  -0.2715142224   0.9358492702
+
+Superposition in the TM-score: Length(d<5.0)=177  RMSD=  0.96
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+VPAGLGLTAAEYAELQPTVEAYHRYAVGPGQCSSLVAQRIEAPAAAVWAIVRRFDCPQVYKHFIRSCALRPDPDAGDELRPGRLREVSVISGLPASTSTERLDLLDDARRAFGFTITGGEHRLANYRSVTTVSELAPAAPAKICTVVLESYVVDVPEGNSEEDTRLFADTVVRLNLQKLKSLAEANATSAA
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::     :::::::::::::::   ::::::::::::::::::::::::::::::::::::::::::::  ::::::::::::::::::::::::::::::::::::::::::::::::::
+VPAGLGLTAAEYAELQPTVEAYHRYAVGPGQCSSLVAQRIEAPAAAVWAIVRRFDCPQVYKHFIRSCALRPDPDAGDELRPGRLREVSVISGLPASTSTERLDLLDDARRAFGFTITGGEHRLANYRSVTTVSELAPAAPAKICTVVLESYVVDVPEGNSEEDTRLFADTVVRLNLQKLKSLAEANATSAA
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901
+

@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-11-18  Length=  194
+Structure2: 2017-11-18  Length=  192 (by which all scores are normalized)
+Number of residues in common=  192
+RMSD of  the common residues=   48.324
+
+TM-score    = 0.1688  (d0= 5.16, TM10= 0.1591)
+MaxSub-score= 0.0932  (d0= 3.50)
+GDT-TS-score= 0.1471 %(d<1)=0.0781 %(d<2)=0.0938 %(d<4)=0.1563 %(d<8)=0.2604
+GDT-HA-score= 0.0964 %(d<0.5)=0.0573 %(d<1)=0.0781 %(d<2)=0.0938 %(d<4)=0.1563
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1    -38.6502759991  -0.7087155080  -0.6071537942  -0.3592862354
+ 2     37.0159500104   0.2260360581   0.2870058354  -0.9308788057
+ 3     20.1799722088   0.6683038450  -0.7409398900  -0.0661668361
+
+Superposition in the TM-score: Length(d<5.0)= 33  RMSD=  3.26
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+WFPESMRQQLSGIFAKLTKKVTLLQFLDASDEKSLELQSFLTEFASLDQKITLETILKDTEPAKELLYGIEKMPSVVLLDAAGNYTGIKFSGIPSGHEVNSLVLAVYNVGSEGQPLEASLQKNILALPKRKIEIFVSLTCHFCPDVVAACQRIASINPHVEAEMVDISLFPELKKEKKIMSVPAMLIDGEQMIF
+            ::     ::::: ::::  :: :::::::::::  ::: ::::::                                                                                                                                         
+WFPESMRQQLSGIFAKLTKKVTLL-FLDAS-EKSLELQSFLTEFASLDQKITLETILKDTEPAKELLYGIEKMPSVVLLDAAGNYTGIKFSGIPSGHEVNSLVLAVYNVGSEGQPLEASLQKNILALPKRKIEIFVSLTCHFCPDVVAACQRIASINPHVEAEMVDISLFPELKKEKKIMSVPAMLIDGEQMIF
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234
+

@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-11-11  Length=  211
+Structure2: 2017-11-11  Length=  211 (by which all scores are normalized)
+Number of residues in common=  211
+RMSD of  the common residues=   19.387
+
+TM-score    = 0.2506  (d0= 5.40, TM10= 0.2277)
+MaxSub-score= 0.1096  (d0= 3.50)
+GDT-TS-score= 0.1682 %(d<1)=0.0474 %(d<2)=0.0853 %(d<4)=0.1848 %(d<8)=0.3555
+GDT-HA-score= 0.0865 %(d<0.5)=0.0284 %(d<1)=0.0474 %(d<2)=0.0853 %(d<4)=0.1848
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1    -14.6367275999   0.8110155919  -0.5836302769  -0.0403659469
+ 2      2.8994277180  -0.5448842889  -0.7786868315   0.3110432930
+ 3     26.3280884599  -0.2129667145  -0.2302661901  -0.9495381299
+
+Superposition in the TM-score: Length(d<5.0)= 50  RMSD=  3.43
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+SALTQEASVSGTVGQKVTLSCTGNTNNIGSYPVGWYQQISHGPPKTVMFGNSLPSGIPDRFSGSKSGTTASLTISGLQPEDEADYYCSTWDSSLSVQVIGGGTKVTVLGQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPT
+                                                                                                              :    :      : ::      ::::::::::  ::::::::                    :::::::        ::::::::::::::::::::    
+SALTQEASVSGTVGQKVTLSCTGNTNNIGSYPVGWYQQISHGPPKTVMFGNSLPSGIPDRFSGSKSGTTASLTISGLQPEDEADYYCSTWDSSLSVQVIGGGTKVTVLGQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPT
+1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901
+

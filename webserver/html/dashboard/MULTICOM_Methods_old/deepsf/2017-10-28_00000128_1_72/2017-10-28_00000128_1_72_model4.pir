@@ -1,0 +1,19 @@
+C;cover size:30; local alignment length=30 (original info = e4mlaB1	254	10.27	0.52	29	10	0.11)
+>P1;e4mlaB1
+structureX:e4mlaB1: 88: : 116: : : : : 
+-------------------------------------------------EFLDRVHTSELKLRAQSLWE-VPHPWLNLL------------------------------------------------*
+
+C;cover size:126; local alignment length=126 (original info = e3h7qA1	120	259.17	2e-50	116	30	100.00)
+>P1;e3h7qA1
+structureX:e3h7qA1: 3: : 119: : : : : 
+MGIVGVGIDLVSIPDFAEQVDQPGTV-FAETFTPGERRDASDKSSSAARHLAARWAAKEAVIKAWSGS--RFAIHRDIEVV----TRPRVRLTGAIAEY---LADVTIHVSLTHEGDTAAAVAILEA*
+
+C;cover size:124; local alignment length=124 (original info = e3qmnE1	125	293.93	5.1e-57	124	52	100.00)
+>P1;e3qmnE1
+structureX:e3qmnE1: 1: : 124: : : : : 
+-AIVGLGTDIAEIERVEKALARSGENFARRILTDSELEQFHAS-KQQGRFLAKRFAAKEAASKALGTGIAQGVTFHDFTISHDKLGKPLLILSGQAAELASQLQVENIHLSISDERHYAATVILER-*
+
+C;query_length:126 num_of_temps:1 cover_ratio:0.24 cover:30 not_cover:96
+>P1;2017-10-28_00000128_1_72
+ : : : : : : : : : 
+MAILGLGTDIVEIARIEAVIARSGDRLARRVLSDNEWAIWKTH-HQPVRFLAKRFAVKEAAAKAFGTGIRNGLAFNQFEVFNDELGKPRLRLWGEALKLAEKLGVANMHVTLADERHYACATVIIES*

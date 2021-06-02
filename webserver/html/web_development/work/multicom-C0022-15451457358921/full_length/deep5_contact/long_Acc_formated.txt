@@ -1,0 +1,5 @@
+Long-Range Precision
+TopL/5 40.00
+TopL/2 17.46
+TopL 8.80
+Top2L 7.20

@@ -1,0 +1,14 @@
+C; model_eva_score=0.155, tm_score=1, gdt_score=1, maxsub=1.
+>P1;meta_hg4.pdb1
+structureX:meta_hg4.pdb: 1: : 110: : : : : 
+AARYDDVLYFPASRYPETGAHISDAIKAGHADVCTIERSGADKRRQESLKGIPTKPGFDRDEWPMAMCEEGGKGASVRYVSSSDNRGAGSWVGNRLNGYADGTRILFIVQ*
+
+C; model_eva_score=0.15, tm_score=0.5993, gdt_score=0.5955, maxsub=0.5654.
+>P1;meta_ss4.pdb1
+structureX:meta_ss4.pdb: 16: : 81: : : : : 
+---------------PETGAHISDAIKAGHADVCTIERSGADKRRQESLKGIPTKPGFDRDEWPMAMCEEGGKGASVRYVS-----------------------------*
+
+C;total number of template models = 2
+>P1;C00931
+ : : : : : : : : : 
+AARYDDVLYFPASRYPETGAHISDAIKAGHADVCTIERSGADKRRQESLKGIPTKPGFDRDEWPMAMCEEGGKGASVRYVSSSDNRGAGSWVGNRLNGYADGTRILFIVQ*

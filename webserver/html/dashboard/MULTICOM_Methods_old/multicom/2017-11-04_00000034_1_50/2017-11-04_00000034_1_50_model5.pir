@@ -1,0 +1,29 @@
+C; model_eva_score=0.506, tm_score=1, gdt_score=1, maxsub=1.
+>P1;meta_muster1.pdb1
+structureX:meta_muster1.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.492, tm_score=0.7661, gdt_score=0.7941, maxsub=0.7392.
+>P1;meta_prc1.pdb1
+structureX:meta_prc1.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.477, tm_score=0.7295, gdt_score=0.7676, maxsub=0.6888.
+>P1;meta_com4.pdb1
+structureX:meta_com4.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.454, tm_score=0.7253, gdt_score=0.7147, maxsub=0.6924.
+>P1;meta_ap2.pdb1
+structureX:meta_ap2.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.454, tm_score=0.7253, gdt_score=0.7147, maxsub=0.6924.
+>P1;meta_hp2.pdb1
+structureX:meta_hp2.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C;total number of template models = 5
+>P1;C00341
+ : : : : : : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*

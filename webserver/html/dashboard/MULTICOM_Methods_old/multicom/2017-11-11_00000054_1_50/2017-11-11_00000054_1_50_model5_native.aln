@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-11-11  Length=  211
+Structure2: 2017-11-11  Length=  210 (by which all scores are normalized)
+Number of residues in common=  210
+RMSD of  the common residues=   12.544
+
+TM-score    = 0.5695  (d0= 5.39, TM10= 0.5565)
+MaxSub-score= 0.4501  (d0= 3.50)
+GDT-TS-score= 0.4786 %(d<1)=0.2667 %(d<2)=0.4333 %(d<4)=0.5476 %(d<8)=0.6667
+GDT-HA-score= 0.3417 %(d<0.5)=0.1190 %(d<1)=0.2667 %(d<2)=0.4333 %(d<4)=0.5476
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1   -119.1754138600  -0.0981947485   0.9810660512  -0.1669347015
+ 2     60.8874706159  -0.4603222847  -0.1934983790  -0.8664073935
+ 3     75.9073490498  -0.8823044744  -0.0082328929   0.4706070908
+
+Superposition in the TM-score: Length(d<5.0)=122  RMSD=  2.06
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+TIQTVNGVPQYVALDPKMVSIFMEKAREGLGGEEVQLWFTAFSANLTPTDMATLIMAAPGCAADKEILDESLKQLTAEYDRTHPPDAPRPLPYFTAAEIMGIGLTQEQQAEARFAPARMQCRAWYLEALGKLAAIKAKSPRAVQLRQGAKEDYSSFIDRLFAQIDQEQNTAEVKLYLKQSLSIANANADCKKAMSHLKPESTLEEKLRACQ
+:::: ::::::::::::::::::::::   :::::::::::::::::::::::::::::: :::::::::::::::::::::::        ::::::::::::::::::: ::::::::::::::::::::: ::   :                                                                       
+TIQTVNGVPQYVALDPKMVSIFMEKAREGLGGEEVQLWFTAFSANLTPTDMATLIMAAPGCAADKEILDESLKQLTAEYDRTHPPDAPRPLPYFTAAEIMGIGLTQEQQAEARFAPARMQCRAWYLEALGKLAAIKAKSPRAVQLRQGAKEDYSSFIDRLFAQIDQEQNTAEVKLYLKQSLSIANANAD-KKAMSHLKPESTLEEKLRACQ
+1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901
+

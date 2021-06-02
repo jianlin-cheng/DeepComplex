@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-10-28  Length=  182
+Structure2: 2017-10-28  Length=  182 (by which all scores are normalized)
+Number of residues in common=  182
+RMSD of  the common residues=   39.134
+
+TM-score    = 0.1562  (d0= 5.03, TM10= 0.1345)
+MaxSub-score= 0.0849  (d0= 3.50)
+GDT-TS-score= 0.1264 %(d<1)=0.0714 %(d<2)=0.0879 %(d<4)=0.1319 %(d<8)=0.2143
+GDT-HA-score= 0.0852 %(d<0.5)=0.0495 %(d<1)=0.0714 %(d<2)=0.0879 %(d<4)=0.1319
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1      3.6811225353  -0.9759748004   0.2177518330   0.0075715374
+ 2     -7.1431818698   0.2025827864   0.8940973667   0.3994372461
+ 3     -9.1060826234   0.0802085008   0.3913745497  -0.9167292721
+
+Superposition in the TM-score: Length(d<5.0)= 28  RMSD=  3.33
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+YAVDYNEPIIIKENGEIKVVKIGELIDKIIENSENIRREGILEIAKCKGIEVIAFNSNYKFKFMPVSEVSRHPVSEMFEIVVEGNKKVRVTRSHSVFTIRDNEVVPIRVDELKVGDILVLAKRITNIYTNRKLEKLINSDFIFLKIKEINKVEPTSGYAYDLTVPNAENFVAGFGGFVLHNA
+                                              :::               :: :: :::::::::::::                                                                           ::::::::                
+YAVDYNEPIIIKENGEIKVVKIGELIDKIIENSENIRREGILEIAKCKGIEVIAFNSNYKFKFMPVSEVSRHPVSEMFEIVVEGNKKVRVTRSHSVFTIRDNEVVPIRVDELKVGDILVLAKRITNIYTNRKLEKLINSDFIFLKIKEINKVEPTSGYAYDLTVPNAENFVAGFGGFVLHNA
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012
+

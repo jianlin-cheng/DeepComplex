@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-11-18  Length=  146
+Structure2: 2017-11-18  Length=  144 (by which all scores are normalized)
+Number of residues in common=  144
+RMSD of  the common residues=   14.618
+
+TM-score    = 0.3756  (d0= 4.47, TM10= 0.3642)
+MaxSub-score= 0.2624  (d0= 3.50)
+GDT-TS-score= 0.3472 %(d<1)=0.1597 %(d<2)=0.2222 %(d<4)=0.4306 %(d<8)=0.5764
+GDT-HA-score= 0.2222 %(d<0.5)=0.0764 %(d<1)=0.1597 %(d<2)=0.2222 %(d<4)=0.4306
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1    -10.3561295551  -0.2599796955   0.8464629672  -0.4646622462
+ 2      6.4974014261   0.2753257484   0.5262145880   0.8045457971
+ 3     42.4010422381   0.9255302751   0.0812320907  -0.3698581583
+
+Superposition in the TM-score: Length(d<5.0)= 64  RMSD=  2.83
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+SMKDSYERSKKILEDAGINVTVQRLQMANLLLSKPQHLTADQVFQLINEHMPNASRATIFNNLKLFAEKGIVNLLELKSGITLYDSNVIHHHHAIDEKTGEIYDISLDSKLQEKVLSELKQDFKLKTGSSLENCNLSITLKGKKNP
+  :  :: ::  :     ::::::::::::::::::::::::::::::::::::::::::::::::::::::::        ::                                                              
+SMKDSYE-SKKILEDAGINVTVQRLQMANLLLSKPQHLTADQVFQLINEHMPNASRATIFNNLKLFAEKGIVNLLELKSGITLYDSNVIHHHHAIDEKTGEIYDISLDSKLQEKVLSELKQDFKLKTGSSLENCNLSI-LKGKKNP
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456
+

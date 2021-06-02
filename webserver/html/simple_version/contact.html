@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+/*******************************************************
+/**  tutorial.html
+/**
+/**  3Drefine
+/**
+/**  Copyright © 2016 Debswapna Bhattacharya
+/**
+/**  All rights reserved.
+********************************************************/-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-96943265-4');
+</script>
+<title>MULTICOM: Protein Tertiary Structure Modeling by Deep Learning</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="./css/mirna_base.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="./css/mirna_entry.css" media="all"/>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="status.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<link rel="Shortcut Icon" href="http://www.missouri.edu/favicon.ico" type="image/x-icon" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="sms2/scripts/sms_common.js"></script>
+<script type="text/javascript" src="sms2/scripts/color_align_prop.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<body>
+
+<table width="100%" height="40" border="0" align="center" cellspacing="0" bordercolor="#F0F0F0">
+  <tr>
+	<td bgcolor="#C9E4FC">&nbsp;</td>
+	<td bgcolor="#BCDEFA">&nbsp;</td>
+	<td bgcolor="#9BCEF9">&nbsp;</td>
+	<td bgcolor="#7EC0F5">&nbsp;</td>
+	<td bgcolor="#61B1F3">&nbsp;</td>
+	<td bgcolor="#4BA7F1">&nbsp;</td>
+	<td bgcolor="#339BF0">&nbsp;</td>
+	<td bgcolor="#2896F0">&nbsp;</td>
+	<td bgcolor="#1187E8">&nbsp;</td>
+	<td bgcolor="#0F78CE">&nbsp;</td>
+	<td bgcolor="#0F70BF">&nbsp;</td>
+	<td bgcolor="#0C5A9A">&nbsp;</td>
+	<td bgcolor="#0C5694">&nbsp;</td>
+	<td bgcolor="#0A477A">&nbsp;</td>
+	<td bgcolor="#07355A">&nbsp;</td>
+  </tr>
+</table>
+<table   width="100%" height="140" border="0" align="center" cellspacing="0" bordercolor="#F0F0F0">
+  <tr>
+	<td bgcolor="#FFFFFF" width="240" rowspan="2"><img src="images/3.png" width="200" height="120" /></td>
+	<td bgcolor="#FFFFFF" width="100%" height="100"><div align="center"><img src="images/MULTICOM.jpg" width="420" height="60" align="middle" /></div></td>
+	<td bgcolor="#FFFFFF" width="240" rowspan="2"><div align="center"><img src="images/2.jpg" width="180" height="140" align="middle" /></div></td>
+  </tr>
+  <tr>
+	<td bgcolor="#FFFFFF" width="100%"><div align="center"><img src="images/protein.jpg" width="330" height="26" align="top" /></div></td>
+  </tr>
+  
+</table>
+<table  width="100%" height="60" border="0" align="center" cellspacing="0" bordercolor="#F0F0F0">
+  <tr>
+	<td bgcolor="#FFFFFF" width="100%"><div align="center"><p align="center"><img src="images/line.jpg" width="100%" height="10" align="middle"/></p></div></td>
+  </tr>
+  
+</table>
+
+<p id="jobname" style="display:none;" hidden><?php echo $job_name?></p>
+<p id="jobid" style="display:none;" hidden><?php echo $job_id?></p>
+<p id="methodName" style="display:none;" hidden><?php echo $method_id?></p>
+<p id="protein_id" style="display:none;" hidden><?php echo $protein_id?></p>
+<p id="pred_dir" style="display:none;" hidden><?php echo $pred_dir?></p>
+<p id="p_id" style="display:none;" hidden><?php echo $protein_id?></p>
+
+<div id="navBarDiv" align="center">
+	<ul id="navbar">
+	<li>
+		<a href="http://sysbio.rnet.missouri.edu/multicom_cluster/index.html">Home</a>
+	</li>
+	<li>
+		<a href="http://sysbio.rnet.missouri.edu/multicom_cluster/contact.html">Contact</a>
+	</li>
+	<li>
+		<a href="http://calla.rnet.missouri.edu/cheng/cheng_research.html">BDM Lab</a>
+	</li>
+	<li>
+		<a href="http://sysbio.rnet.missouri.edu/multicom_cluster/status.php?job_id=15505775833645&job_name=T1022s1&method=multicom&domain_class=full_length">Result Example (Multi-domain)</a>
+	</li>
+	<li>
+		<a href="http://sysbio.rnet.missouri.edu/multicom_cluster/status.php?job_id=15506444111896&job_name=T0993s2&method=multicom&domain_class=full_length">Result Example (TBM)</a>
+	</li>
+	</ul>
+</div>
+				
+ <div style="clear: both;">&nbsp;</div>
+ <div style="clear: both;">&nbsp;</div>
+ <div style="clear: both;">&nbsp;</div>
+ <div style="clear: both;">&nbsp;</div>
+ <div style="clear: both;">&nbsp;</div>
+			<div align="center">
+				<table width="750" border="0" align="center">
+					
+					<tr>
+						<td   width="650" rowspan="3"  >
+							<table border="0" align="center">
+							<tr>
+								<td>
+									<section>
+										<div class="contact_link"> 
+											<div class="major">
+												<span class="byline"><a href="http://engineering.missouri.edu/person/chengj/" >Prof. Jianlin Cheng </a></span>
+												<span class="byline">Computer Science Department</span>
+												<span class="byline">University of Missouri,   Columbia</span>
+												<span class="byline"> Email: chengji@missouri.edu</span>
+											</div>
+										</div>
+									</section>
+								</td>
+							</tr>
+							<tr>
+							<td>
+							 <div style="clear: both;">&nbsp;</div>
+							 <div style="clear: both;">&nbsp;</div>
+							</td>
+							</tr>
+							<tr>
+								<td>
+									<section>
+										<div class="contact_link">
+											<div class="major">
+												<span class="byline"><a href="https://sites.google.com/site/jiehint/home">Jie Hou</a></span>
+												<span class="byline">Computer Science Department</span>
+												<span class="byline">University of Missouri,   Columbia</span>
+												<span class="byline">Email: jh7x3@mail.missouri.edu</span>
+											</div>
+										</div>
+									</section>
+								</td>
+							</tr>
+							<tr>
+								<td >
+									<br /><br /><br />
+								</td>
+							</tr>						
+						</table>
+						</td>
+				  </tr>
+				</table>
+			</div>	
+            <div style="clear: both;">&nbsp;</div>
+
+
+
+
+
+        
+
+
+
+
+
+        
+        
+        
+
+        </div> <!-- end of #references -->
+		<table width="800" border="0" align="center">
+		  <tr>
+			<td width="800"><div align="center">
+			  <p align="left"><b><text style="font-size: 1.2em;">References<b></text></p>
+			  <p align="left"><text style="font-size: 1em;">[1] Hou, J., Wu, T., Cao, R., & Cheng, J. (2019). Protein tertiary structure modeling driven by deep learning and contact distance prediction in CASP13. bioRxiv, 552422.</text> </p>
+			  <p align="left"><text style="font-size: 1em;">[2] Li, J., Deng, X., Eickholt, J., & Cheng, J. (2013). Designing and benchmarking the MULTICOM protein structure prediction system. BMC structural biology, 13(1), 2.</text></p>
+			  <p align="left"><text style="font-size: 1em;">[3] Cheng, J., Li, J., Wang, Z., Eickholt, J., & Deng, X. (2012). The MULTICOM toolbox for protein structure prediction. BMC bioinformatics, 13(1), 65.</text></p>
+			  <p align="left"><text style="font-size: 1em;">[4] Wang, Z., Eickholt, J., & Cheng, J. (2010). MULTICOM: a multi-level combination approach to protein structure prediction and its assessments in CASP8. Bioinformatics, 26(7), 882-888.</text></p>
+			</div></td>
+		  </tr>
+		</table>
+
+		<div class="footer">
+		<div align="center">
+		<p align="center" style="text-align:center"><a href="http://people.cs.missouri.edu/~chengji/cheng_research.html">Dr. Jianlin Cheng's Bioinformatics, Data Mining, Machine Learning Laboratory (BDM) Laboratory</a>, <a href="http://www.cs.missouri.edu">Department of Computer Science</a>,  <a href="http://www.missouri.edu/">University of Missouri-Columbia</a></p>
+		<p align="center">&nbsp;</p>
+		</div>
+		</div>
+    
+    </body>
+</html>
+

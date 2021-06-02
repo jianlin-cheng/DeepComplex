@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-10-28  Length=  155
+Structure2: 2017-10-28  Length=  155 (by which all scores are normalized)
+Number of residues in common=  155
+RMSD of  the common residues=    2.089
+
+TM-score    = 0.9423  (d0= 4.64, TM10= 0.9397)
+MaxSub-score= 0.9184  (d0= 3.50)
+GDT-TS-score= 0.9306 %(d<1)=0.8387 %(d<2)=0.9355 %(d<4)=0.9613 %(d<8)=0.9871
+GDT-HA-score= 0.8081 %(d<0.5)=0.4968 %(d<1)=0.8387 %(d<2)=0.9355 %(d<4)=0.9613
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1      1.4923925338   0.8793044851  -0.2622667286   0.3975421808
+ 2    -35.4678330540   0.4685598203   0.3268932700  -0.8207268028
+ 3      1.7276890294   0.0852954702   0.9079410515   0.4103263697
+
+Superposition in the TM-score: Length(d<5.0)=149  RMSD=  0.82
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+EGNDVRRNFDVSKISGYWYSVLLASDVREKTEENSSMRVFVNHIEVLSNSSLLFNMHIKVDGKCTEIALVSDKTEKDGEYSVEYDGYNVFRIVETDYTDYIIFHLVNFKEKDSFQMMELSAREPDTSEEVRKRFVEYCQKHGIVKENIFDLTEVD
+      :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+EGNDVRRNFDVSKISGYWYSVLLASDVREKTEENSSMRVFVNHIEVLSNSSLLFNMHIKVDGKCTEIALVSDKTEKDGEYSVEYDGYNVFRIVETDYTDYIIFHLVNFKEKDSFQMMELSAREPDTSEEVRKRFVEYCQKHGIVKENIFDLTEVD
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345
+

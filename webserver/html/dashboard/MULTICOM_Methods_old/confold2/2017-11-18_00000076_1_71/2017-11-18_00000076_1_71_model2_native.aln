@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-11-18  Length=  121
+Structure2: 2017-11-18  Length=  121 (by which all scores are normalized)
+Number of residues in common=  121
+RMSD of  the common residues=   35.913
+
+TM-score    = 0.2625  (d0= 4.07, TM10= 0.2500)
+MaxSub-score= 0.2206  (d0= 3.50)
+GDT-TS-score= 0.2541 %(d<1)=0.1653 %(d<2)=0.2314 %(d<4)=0.2727 %(d<8)=0.3471
+GDT-HA-score= 0.1942 %(d<0.5)=0.1074 %(d<1)=0.1653 %(d<2)=0.2314 %(d<4)=0.2727
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1    -35.5758043715   0.3797286629  -0.1427886531   0.9140117850
+ 2    -69.6559214610   0.6433000149   0.7507818874  -0.1499721583
+ 3    -14.0007999504  -0.6648091706   0.6449325221   0.3769493449
+
+Superposition in the TM-score: Length(d<5.0)= 34  RMSD=  2.02
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+DHCAHHGEKLVLFCQQDGNVICWLCERSQEHRGHQTFLVEEVAQKYREKLQVALEMMRQKQKDAETECNQVAKRVALIARGKACGEQTQSVRVLISDLEHRLQGSVMELLQGVDGVIKRIE
+                                     :: ::::::::::::::::::::::::::::::: :                                                
+DHCAHHGEKLVLFCQQDGNVICWLCERSQEHRGHQTFLVEEVAQKYREKLQVALEMMRQKQKDAETECNQVAKRVALIARGKACGEQTQSVRVLISDLEHRLQGSVMELLQGVDGVIKRIE
+1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901
+

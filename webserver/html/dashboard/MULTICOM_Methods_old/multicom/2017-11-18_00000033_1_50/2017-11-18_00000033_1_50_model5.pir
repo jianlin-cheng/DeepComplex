@@ -1,0 +1,14 @@
+C; model_eva_score=0.178, tm_score=1, gdt_score=1, maxsub=1.
+>P1;meta_blits3.pdb1
+structureX:meta_blits3.pdb: 1: : 81: : : : : 
+MAPKATLVKKFKGLAVGVGALLAAPPIMGLASYAVNGISSYLSITINSTTYDFAPLAQAVMVFGGIGLVAYGLHRILGRGL*
+
+C; model_eva_score=0.178, tm_score=1.0000, gdt_score=1.0000, maxsub=1.0000.
+>P1;meta_ap6.pdb1
+structureX:meta_ap6.pdb: 1: : 81: : : : : 
+MAPKATLVKKFKGLAVGVGALLAAPPIMGLASYAVNGISSYLSITINSTTYDFAPLAQAVMVFGGIGLVAYGLHRILGRGL*
+
+C;total number of template models = 2
+>P1;C00331
+ : : : : : : : : : 
+MAPKATLVKKFKGLAVGVGALLAAPPIMGLASYAVNGISSYLSITINSTTYDFAPLAQAVMVFGGIGLVAYGLHRILGRGL*

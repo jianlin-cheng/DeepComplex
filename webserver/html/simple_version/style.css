@@ -1,0 +1,796 @@
+/* CSS based on XXXXXXXXXXx */
+/* useful   border: 1px solid blue; */
+
+
+body {
+	margin-top: 10px;
+	padding-top: 0.6%;
+    /*background: #165589;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	/*color: #2E2E2E;*/
+}
+
+h1, h2, h3 {
+	text-transform: capitalize;
+	font-weight: normal;
+	color: #365981;
+}
+
+h1 { font-size: 60px; }
+
+h2 { font-size: 18px; }
+
+p, ul {
+	margin-top: 0;
+	line-height: 240%;
+	text-align: justify;
+}
+
+blockquote { }
+
+a { color: #365981; }
+
+a:hover { color:#B5D8FE; }
+
+/* Header */
+
+#header {
+	width: 980px;
+	height: 250px; /* was 98px */
+	margin: 0 auto;
+	/*background: url(images/logo.png) no-repeat left top; */
+ background: url(images/logo.png) no-repeat left top;
+}
+
+#navheader {
+	width: 980px;
+	height: 120px; /* was 98px */
+	margin: 0 auto;
+	/*background: url(images/logo.png) no-repeat left top; */
+ background: url(images/logo.png) no-repeat left top;
+}
+
+/* Page */
+
+#page {
+	/*width: 1600px;*/
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+	background: #FFFFFF;
+}
+
+
+/** LOGO */
+
+#logo {
+    width: 300px;
+	float: left;
+	margin: 0 auto;
+	padding-left: 250px;
+	padding-top: 50px;
+}
+
+#logo h1, #logo p {
+	margin: 0px;
+	line-height: normal;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #365981;
+}
+
+#logo p {
+	margin-top: 0px;
+	text-transform: lowercase;
+	font-size: 13px;
+	color: #365981;
+}
+
+#logo h1 {
+	padding-top: 10px;
+	font-size: 48px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #365981;
+}
+
+#logo h1 a {
+	text-decoration: none;
+	color: #365981;
+}
+
+
+#banner {
+	padding-bottom: 20px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 650px;
+}
+
+#title {
+  margin-left: 30px;
+  font-family: 'Quantify';
+  display: inline;
+}
+
+/* post */
+
+.post {
+	margin: 50px 0 45px 25px;
+}
+
+.post .title {
+	height: 44px;
+	padding-left: 15px;
+	color: #365981;
+}
+
+.post .meta {
+	height: 32px;
+	padding: 4px 30px 2px 0px;
+	font-family: Arial, "Lucida Grande", sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+.post .meta span {
+	display: block;
+	margin-top: -10px;
+}
+
+.post .meta a { }
+
+.post .entry {
+	padding: 0px 15px;
+	width: 75%;
+}
+
+.post .links {
+	display: block;
+	width: 120px;
+	height: 18px;
+	margin: 0px; 
+	padding: 3px 0px 0px 40px;
+	background: #546E09;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 280px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11.5px;
+	padding-top: 5%;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#sidebar li {
+	padding: 0 0 10px 0px;
+}
+
+#sidebar li ul {
+	margin: 0px 14px;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 5px 0px;
+}
+
+#sidebar li li a {
+	padding: 0px 0px 0px 0px;
+	font-weight: normal;
+	vertical-align: top;
+}
+
+#sidebar li li a:hover {
+}
+
+#sidebar p {
+	margin: 0;
+	padding: 0px 14px;
+}
+
+#sidebar h2 {
+	height: 22px;
+	margin: 0 0 10px 0px;
+	padding: 6px 0 2px 14px;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+
+#sidebar p {
+	line-height: 200%;
+}
+
+#sidebar a {
+	text-align: left;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+
+/* Footer */
+
+#footer p{
+	width: 940px;
+	margin: 0 auto;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+#footer a{
+	color: #FFFFFF;
+	text-align: left;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+/* pdbpaste Text Area */
+
+#pdbpaste{
+    width:92%;
+    padding:10px;
+    margin: 20px 0 4px 9px;
+    outline:none;
+    height:200px;
+    font:normal 12px "Lucida Grande", Arial, sans-serif;
+    border-radius:5px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius:5px; 
+    -khtml-border-radius:5px;    
+
+}
+.Highlighted{
+    border:solid 2px #73A6FF;
+    background:#E7EFF5;
+    color:#000000;
+}
+.NonHighlighted{
+    background: #DCE9FE;
+    color: #000000;
+    border: solid 2px #9DC0FD;
+}
+
+
+/* Field Set */
+
+.pastemodel fieldset{
+  float: left;
+	border:0;
+	position:absolute;
+}
+.pastemodel label {
+	display:block;
+	font:normal 11px/14px verdana
+	padding-left: 5px;
+	
+}
+
+.pastemodel input {width:180px;}
+
+.jobname fieldset{
+  float: left;
+	border:0;
+	margin-top: 1%;
+}
+.jobname label {
+	display:block;
+	font:normal 11px/14px verdana
+	padding-left: 5px;
+	
+}
+.jobname input {width:180px;}
+
+.news fieldset{
+  float: left;
+	border:0;
+	margin-top: 1%;
+}
+.news label {
+	display:block;
+	font:normal 11px/14px verdana
+	padding-left: 5px;
+	
+}
+
+.news input {width:180px;}
+
+
+.email fieldset{
+  float: right;
+	border:0;
+	margin-top: 1%;
+	margin-right: 30%;
+}
+.email label {
+	display:block;
+	font:normal 11px/14px verdana
+	padding-left: 5px;
+	
+}
+
+.email input {width:180px;}
+
+
+.modelnum fieldset{
+  float: right;
+	border:0;
+	margin-top: 1%;
+	margin-right: 10%;
+}
+.modelnum label {
+	display:block;
+	font:normal 11px/14px verdana
+	padding-left: 5px;
+	
+}
+
+.modelnum input {width:80px;}
+
+
+
+.postcheckbox {
+
+	margin: 2%;
+}
+
+fieldset#postfield {
+	border: 0;
+	margin-top: 2%;
+}
+
+/* Dropdown menu */
+
+#menu {
+	margin: 250px 100px 10px 600px;
+	position: absolute;
+	float: left;
+}
+
+#menu ul.topnav li {
+	display: block;
+	float: left;
+	margin: 10px 1px 10px 5px;
+	/*position: absolute; /*--Declare X and Y axis base for sub navigation--*/
+}
+
+#menu ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 15px;
+	float: left;
+}
+
+#menu ul.topnav li span.subhover {background-color: #DAEBFE; height:15px; cursor: pointer;} /*--Hover effect for trigger--*/
+
+#menu a {
+	display: block;
+	float: left;
+	padding: 0px 20px 0px 20px;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #365981;
+}
+
+#menu a:hover { 
+	text-decoration: none; 
+	background-color: #B5D8FE;
+}
+
+#menu .current_page_item a {
+	display: block;
+	float: left;
+	padding: 0px 20px 0px 20px;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+    color: #1A2C3F;
+    background-color:#EDF5FE;
+}
+
+
+/* Input File Fields */
+
+.fileinput {
+  background-color:#B5D8FE;
+  color:#000;
+}
+
+.opts {
+  width: 350px;
+  margin: 10px 0 0 0px;
+  font-family: Arial, "Lucida Grande", sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.trigger {
+  width: 300px;
+  margin: 15px 0 0 15px;
+	font-family: Arial, "Lucida Grande", sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.trigger a {
+	font-family: Arial, "Lucida Grande", sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	color: #1A2C3F;
+}
+
+.trigger a:hover {
+	color: #1A2C3F;
+}
+
+/* References */
+
+#references {
+	width: 980px;
+	height: 90px;
+	margin: 0 auto 0 auto;
+	background: #FFFFFF;
+}
+
+#references p {
+	margin: 0;
+	padding: 0 0 5px 5%;
+	text-align: left;
+	line-height: normal;
+	font-family: Arial, "Lucida Grande", sans-serif;	
+	font-size: 11px;
+	font-weight: normal;
+	color: #365981;
+}
+
+/* Submit button */
+
+.submit_form{
+  float: right;
+  margin: 6% 2% 0 0;
+}
+
+
+
+
+
+/* Table Page */
+
+.table {
+  text-align: center;
+  font-size: 11px;
+}
+
+.post_success table {
+  margin: 3% auto 0 auto;
+  border-collapse:collapse;
+
+}
+
+.post_success table thead{
+  font-weight: bold;
+  color: #2E2E2E;
+  border-bottom: 3px solid #165589;
+}
+.post_success table tbody tr{
+  background-color: #E7EFF5;
+}
+
+.post_success table tbody td {
+  border-bottom: 1px solid #165589;
+  padding:5px 30px 5px;
+}
+
+.post_success table tbody tr:hover {
+  background-color: #165589;
+  color:#FFFFFF;
+  font-weight: bold;
+}
+
+.error {
+  background-color: #F53D00;
+
+}
+
+
+
+
+
+
+/*contact*/
+.contact_link {
+  position: relative;
+  margin: 0 auto;
+  padding: 10px 10px 10px;
+  width: 350px;
+  height: 150px;
+  background: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+ font-family: Arial, "Lucida Grande", sans-serif;	
+ font-size: 16px;
+ font-weight: 1600;
+}  
+.contact_link:before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+
+/*********************************************************************************/
+/* Major Styles                                                                  */
+/*********************************************************************************/
+
+.major
+{
+	overflow: hidden;
+	margin-bottom: 4em;
+	text-align: center;
+}
+
+.major h2
+{
+	letter-spacing: 0.10em;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #3f3f3f;
+}
+
+.major .byline
+{
+	display: block;
+	padding-top: 0.2em;
+	font-weight: 300;
+	font-size: 1.3em;
+}
+
+
+
+
+
+
+
+/* References */
+
+#ref {
+      background:#E7EFF5;
+   		overflow:hidden;
+   		width: 980px;
+   		/*height: 40px;*/
+  		font-family: Arial, Helvetica, sans-serif;
+  		font-size: 15px;
+}
+
+#ref p {
+	margin-left: 2%;
+	text-align: left;
+	line-height: normal;
+	font-family: Arial, "Lucida Grande", sans-serif;	
+	font-size: 13px;
+	font-weight: normal;
+	color: #2E2E2E;
+}
+
+
+
+/* Dropdown menu */
+
+#nav {
+      background:#E7EFF5;
+      color:#FFFFFF;
+   		overflow:hidden;
+   		width: 500px;
+   		height: 45px;
+  		font-family: Arial, Helvetica, sans-serif;
+  		font-size: 15px;  		
+}
+#nav ul {
+  
+   list-style:none;
+   margin:0;
+   padding:0;
+  
+}
+#nav ul li {
+   display:inline;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+}
+#nav ul li a {
+   display:block;
+   margin:0;
+   padding:0px 0px;
+   color:#CCC;
+   text-decoration:none;
+   line-height:45px;
+   color:#2E2E2E;
+	 font-family: Arial, Helvetica, sans-serif;
+}
+#nav ul li a:hover {
+   background:#165589;
+   color:#FFFFFF;
+}
+
+
+
+/* QA */
+
+#qa_header {
+      background:#FFFFFF;
+   		overflow:hidden;
+   		width: 980px;
+   		/*height: 40px;*/
+  		font-family: Arial, Helvetica, sans-serif;
+  		font-size: 15px;
+}
+
+#qa_header p {
+	margin-left: 2%;
+	text-align: left;
+	line-height: normal;
+	font-family: Arial, "Lucida Grande", sans-serif;	
+	font-size: 20px;
+	font-weight: bold;
+	font-weight: normal;
+	color: #2E2E2E;
+}
+
+#qa_body {
+      background:#FFFFFF;
+   		overflow:hidden;
+   		width: 980px;
+   		/*height: 40px;*/
+  		font-family: Arial, Helvetica, sans-serif;
+  		font-size: 15px;
+}
+
+#qa_body p {
+	margin-left: 2%;
+	text-align: left;
+	line-height: normal;
+	font-family: Arial, "Lucida Grande", sans-serif;	
+	font-size: 13px;
+	font-weight: normal;
+	color: #2E2E2E;
+}
+
+
+
+
+/* sts */
+
+#sts_header {
+      background:#FFFFFF;
+   		overflow:hidden;
+   		width: 980px;
+   		/*height: 40px;*/
+  		font-family: Arial, Helvetica, sans-serif;
+  		font-size: 15px;
+}
+
+#sts_header p {
+	margin-left: 2%;
+	text-align: center;
+	line-height: normal;
+	font-family: Arial, "Lucida Grande", sans-serif;	
+	font-size: 20px;
+	font-weight: bold;
+	font-weight: normal;
+	color: #2E2E2E;
+}
+
+#sts_body {
+      background:#FFFFFF;
+   		overflow:hidden;
+   		text-align: center;
+   		width: 980px;
+   		/*height: 40px;*/
+  		font-family: Arial, Helvetica, sans-serif;
+  		font-size: 15px;
+}
+
+#sts_body p {
+	margin-left: 2%;
+	text-align: center;
+	line-height: normal;
+	font-family: Arial, "Lucida Grande", sans-serif;	
+	font-size: 13px;
+	font-weight: normal;
+	color: #2E2E2E;
+}
+
+
+/* Msg */
+
+#msg_header {
+      background:#FFFFFF;
+   		overflow:hidden;
+   		width: 940px;
+   		/*height: 40px;*/
+  		font-family: Arial, Helvetica, sans-serif;
+  		font-size: 15px;
+}
+
+#msg_header p {
+	margin-left: 2%;
+	text-align: center;
+	line-height: normal;
+	font-family: Arial, "Lucida Grande", sans-serif;	
+	font-size: 20px;
+	font-weight: bold;
+	font-weight: normal;
+	color: #2E2E2E;
+}
+
+#msg_body {
+      background:#FFFFFF;
+   		overflow:hidden;
+   		width: 940px;
+   		/*height: 40px;*/
+  		font-family: Arial, Helvetica, sans-serif;
+  		font-size: 15px;
+}
+
+#msg_body p {
+	margin-left: 2%;
+	text-align: center;
+	line-height: normal;
+	font-family: Arial, "Lucida Grande", sans-serif;	
+	font-size: 13px;
+	font-weight: normal;
+	color: #2E2E2E;
+}
+
+
+
+
+/* Jsmol */
+
+#jsmolApplet_appletinfotablediv {
+	text-align: center;
+	margin: auto;
+}

@@ -1,0 +1,19 @@
+C; model_eva_score=0.384, tm_score=1, gdt_score=1, maxsub=1.
+>P1;meta_novel4.pdb1
+structureX:meta_novel4.pdb: 1: : 132: : : : : 
+GSHMASAARLTMMWEEVTCPICLDPFVEPVSIECGHSFCQECISQVGKGGGSVCPVCRQRFLLKNLRPNRQLANMVNNLKEISQEAREGTQGERCAVHGERLHLFCEKDGKALCWVCAQSRKHRDHAMVPLE*
+
+C; model_eva_score=0.387, tm_score=0.6775, gdt_score=0.6629, maxsub=0.6404.
+>P1;meta_novel1.pdb1
+structureX:meta_novel1.pdb: 12: : 93: : : : : 
+-----------MMWEEVTCPICLDPFVEPVSIECGHSFCQECISQVGKGGGSVCPVCRQRFLLKNLRPNRQLANMVNNLKEISQEAREGTQGE---------------------------------------*
+
+C; model_eva_score=0.382, tm_score=0.6216, gdt_score=0.6155, maxsub=0.5883.
+>P1;meta_novel5.pdb1
+structureX:meta_novel5.pdb: 5: : 87: : : : : 
+----ASAARLTMMWEEVTCPICLDPFVEPVSIECGHSFCQECISQVGKGGGSVCPVCRQRFLLKNLRPNRQLANMVNNLKEISQEAR---------------------------------------------*
+
+C;total number of template models = 3
+>P1;T042112
+ : : : : : : : : : 
+GSHMASAARLTMMWEEVTCPICLDPFVEPVSIECGHSFCQECISQVGKGGGSVCPVCRQRFLLKNLRPNRQLANMVNNLKEISQEAREGTQGERCAVHGERLHLFCEKDGKALCWVCAQSRKHRDHAMVPLE*

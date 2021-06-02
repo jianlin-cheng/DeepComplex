@@ -1,0 +1,64 @@
+C; model_eva_score=0.516, tm_score=1, gdt_score=1, maxsub=1.
+>P1;meta_prc3.pdb1
+structureX:meta_prc3.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.513, tm_score=0.9072, gdt_score=0.9265, maxsub=0.8957.
+>P1;meta_com1.pdb1
+structureX:meta_com1.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.518, tm_score=0.8382, gdt_score=0.8647, maxsub=0.8169.
+>P1;meta_hs1.pdb1
+structureX:meta_hs1.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.514, tm_score=0.8356, gdt_score=0.8500, maxsub=0.8206.
+>P1;meta_hg1.pdb1
+structureX:meta_hg1.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.492, tm_score=0.8480, gdt_score=0.8676, maxsub=0.8240.
+>P1;meta_prc1.pdb1
+structureX:meta_prc1.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.497, tm_score=0.8054, gdt_score=0.8235, maxsub=0.7740.
+>P1;meta_ss2.pdb1
+structureX:meta_ss2.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.493, tm_score=0.7825, gdt_score=0.8029, maxsub=0.7501.
+>P1;meta_hg2.pdb1
+structureX:meta_hg2.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.494, tm_score=0.7268, gdt_score=0.7176, maxsub=0.7003.
+>P1;meta_rapt4.pdb1
+structureX:meta_rapt4.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.477, tm_score=0.7764, gdt_score=0.8029, maxsub=0.7385.
+>P1;meta_com4.pdb1
+structureX:meta_com4.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.488, tm_score=0.7219, gdt_score=0.7176, maxsub=0.6991.
+>P1;meta_sam3.pdb1
+structureX:meta_sam3.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.479, tm_score=0.7164, gdt_score=0.7206, maxsub=0.6709.
+>P1;meta_muster5.pdb1
+structureX:meta_muster5.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.489, tm_score=0.7285, gdt_score=0.7147, maxsub=0.7027.
+>P1;meta_muster4.pdb1
+structureX:meta_muster4.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C;total number of template models = 12
+>P1;C00341
+ : : : : : : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*

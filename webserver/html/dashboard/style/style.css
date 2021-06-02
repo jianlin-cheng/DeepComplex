@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'Quantify';
+  src: url('Quantify_Bold.ttf') format('truetype');
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.comment_box {
+  border: 1px solid black;
+  height: auto;
+  max-width: 500px;
+}
+
+#dropdown-description {
+  background-color: #DB4F40;
+  border-color: #A33327;
+}
+
+.dropdown-toggle {
+  margin: 5px;
+}
+
+.functions {
+  border-left: 1px black dotted;
+  margin-top: 10px;
+  height: 100px;
+  display: block;
+}
+
+.functions>.btn {
+  display: block;
+  margin: 10px;
+}
+
+#header {
+  background-image: url("header-background.png");
+  margin: 0px;
+  padding-top: 5%;
+  padding-bottom: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#jsmolAppletM1_appletinfotablediv {
+  margin: 10px;
+}
+     
+.method_box {
+  height: auto;
+  width: auto;
+  max-width: 550px;
+  z-index: 0;
+}
+        
+.method_title {
+  background-color: skyblue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.row {
+  text-align: center;
+}
+
+#subtitle {
+  font-size: 20px;
+  display: inline;
+  padding-left: 10px;
+}
+
+#title {
+  margin-left: 30px;
+  font-family: 'Quantify';
+  display: inline;
+}
+
+.update-box {
+  float: left;
+  padding: 5px;
+  height: 400px;
+  margin-top: 5px;
+}
+
+.visualization-container {
+  height: auto;
+}
+
+table{
+  background-color: #a8bec5;
+}
+
+.btn-table {
+  background-color: whitesmoke;
+}
+
+a.view_model, a.view_model_1 {
+  text-decoration: none;
+  color: black;
+}
+
+a.view_model:hover, a.view_model_1:hover  {
+  color: ghostwhite;
+}
+
+td h4 {
+  font-size: 16px;
+}
+
+#protein_sequence {
+  resize: none;
+}
+button.btn-table:hover {
+  background-color: gainsboro;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+.dropdown-menu{
+  overflow-y: auto;
+}
+
+.carousel-inner {
+  height: 360px;
+}
+
+#myTable {
+  color: black;
+}
+
+.carousel-indicators .active {
+  background-color: #DB4F40; 
+}
+
+.carousel-indicators li {
+  border: 1px solid #A33327;
+}

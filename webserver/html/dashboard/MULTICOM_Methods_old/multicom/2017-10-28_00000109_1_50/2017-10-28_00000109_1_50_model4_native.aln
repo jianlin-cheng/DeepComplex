@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-10-28  Length=  411
+Structure2: 2017-10-28  Length=  410 (by which all scores are normalized)
+Number of residues in common=  410
+RMSD of  the common residues=   22.578
+
+TM-score    = 0.5660  (d0= 7.30, TM10= 0.5528)
+MaxSub-score= 0.4928  (d0= 3.50)
+GDT-TS-score= 0.5006 %(d<1)=0.3707 %(d<2)=0.4976 %(d<4)=0.5512 %(d<8)=0.5829
+GDT-HA-score= 0.4049 %(d<0.5)=0.2000 %(d<1)=0.3707 %(d<2)=0.4976 %(d<4)=0.5512
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1     66.9992138598  -0.3072353351   0.2964270523   0.9042883675
+ 2     16.4642488112  -0.9179141157   0.1584018978  -0.3637891080
+ 3     -6.0790376888  -0.2510779265  -0.9418279256   0.2234279155
+
+Superposition in the TM-score: Length(d<5.0)=226  RMSD=  1.31
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+GSHMVYLRYFKGLILSDAYAPGLKWSDELKAYSALAFKYRDVRKYFLEKEIEVEENVIDSLPFPLIKDKIELRDYQAEAVKAWLKEKRGIIVLPTGAGKTQVALKIVSIMKVATLIVVPTIDLITQWKERINKYLDFDPGIIGGGEDSLKGITVITYDSAYTRAEELGNKFPLLIFDEVHHLPSEGYSIMAQLFASPYRLGLTATPERDDGKHELYPILVGPIVYRKSVEELAGKYIAKYKIKKLYVSLTNEEKLKDFLSSRGLKLQNLDDFHRLVKLAAKDKEAREALLAWHESLNIAVNSQSKIEKLRENEKIIVFTRDTQMAYRISKTFLIPVVTYKTDKDEREEILQKFRDGEYRVIVASTVFDEGVDVPDATLAIVMGGYGTKRQFLQRLGRILRKKDKEALLIEI
+ : ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: :::::     ::::: ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::                                                                                                                                                                               
+GSHMVYLRYFKGLILSDAYAPGLKWSDELKAYSALAFKYRDVRKYFLEKEIEVEENVIDSLPFPLIKDKIELRDYQAEAVKAWLKEKRGIIVLPTGAGKTQVALKIVSIMKVATLIVVPTIDLITQW-ERINKYLDFDPGIIGGGEDSLKGITVITYDSAYTRAEELGNKFPLLIFDEVHHLPSEGYSIMAQLFASPYRLGLTATPERDDGKHELYPILVGPIVYRKSVEELAGKYIAKYKIKKLYVSLTNEEKLKDFLSSRGLKLQNLDDFHRLVKLAAKDKEAREALLAWHESLNIAVNSQSKIEKLRENEKIIVFTRDTQMAYRISKTFLIPVVTYKTDKDEREEILQKFRDGEYRVIVASTVFDEGVDVPDATLAIVMGGYGTKRQFLQRLGRILRKKDKEALLIEI
+123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901
+

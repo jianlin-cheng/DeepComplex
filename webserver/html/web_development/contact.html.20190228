@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+/*******************************************************
+/**  tutorial.html
+/**
+/**  3Drefine
+/**
+/**  Copyright © 2016 Debswapna Bhattacharya
+/**
+/**  All rights reserved.
+********************************************************/-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>MULTICOM: Protein Tertiary Structure Modeling by Deep Learning</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+		<link rel="Shortcut Icon" href="http://www.missouri.edu/favicon.ico" type="image/x-icon" />
+    </head>
+
+    <body>
+       <!--	 <div id="header"> -->
+			<div id="header">
+			   <!--	 <div id="logo">
+				<div > -->
+					<!--	  <h1><a style="margin-left: 15%" href="./">Deep<sup style='text-transform: lowercase'>SF</sup></a></h1> -->
+					<!---<h1><a style="margin-left: 35%" href="./">Deep<sup>SF</sup></a></h1>
+						<a style="margin-left: 35%">Deep Convolutional neural network for large-scale mapping protein sequence space to fold space</a>
+					
+					<h4 >
+					</h4>
+					<div style="width: 100%; height: 100%; float:left;"><a href="./"><img style="width: 100%; height: 100%; margin: 0 auto;text-align: center;" alt="MULTICOM" src="./style/multicom_header2.png" /></a></div>
+				</div> <!-- end of #logo -->
+				<table width="900" height="40" align="center" cellspacing="0">
+				  <tr>
+					<td bgcolor="#C9E4FC">&nbsp;</td>
+					<td bgcolor="#BCDEFA">&nbsp;</td>
+					<td bgcolor="#9BCEF9">&nbsp;</td>
+					<td bgcolor="#7EC0F5">&nbsp;</td>
+					<td bgcolor="#61B1F3">&nbsp;</td>
+					<td bgcolor="#4BA7F1">&nbsp;</td>
+					<td bgcolor="#339BF0">&nbsp;</td>
+					<td bgcolor="#2896F0">&nbsp;</td>
+					<td bgcolor="#1187E8">&nbsp;</td>
+					<td bgcolor="#0F78CE">&nbsp;</td>
+					<td bgcolor="#0F70BF">&nbsp;</td>
+					<td bgcolor="#0C5A9A">&nbsp;</td>
+					<td bgcolor="#0C5694">&nbsp;</td>
+					<td bgcolor="#0A477A">&nbsp;</td>
+					<td bgcolor="#07355A">&nbsp;</td>
+				  </tr>
+				</table>
+				<table width="900" height="140" border="0" align="center" cellspacing="0" bordercolor="#F0F0F0">
+				  <tr>
+					<td bgcolor="#FFFFFF" width="240" rowspan="2"><img src="images/3.png" width="200" height="120" /></td>
+					<td bgcolor="#FFFFFF" width="420" height="100"><div align="center"><img src="images/MULTICOM.jpg" width="420" height="60" align="middle" /></div></td>
+					<td bgcolor="#FFFFFF" width="240" rowspan="2"><div align="center"><img src="images/2.jpg" width="180" height="140" align="middle" /></div></td>
+				  </tr>
+				  <tr>
+					<td bgcolor="#FFFFFF" width="420"><div align="center"><img src="images/protein.jpg" width="330" height="26" align="top" /></div></td>
+				  </tr>
+				  
+				</table>
+				<table width="900" height="40" border="0" align="center" cellspacing="0" bordercolor="#F0F0F0">
+				  <tr>
+					<td bgcolor="#FFFFFF" width="900"><div align="center"><p align="center"><img src="images/line.jpg" width="900" height="10" align="middle"/></p></div></td>
+				  </tr>
+				  
+				</table>
+				
+
+				
+			</div> <!-- end of #header -->
+         
+         
+        <div id="navheader">
+        	
+			<div align="center">	
+				<div id="nav" align="center">
+					<ul>
+						<li><a href="http://sysbio.rnet.missouri.edu/multicom_cluster/web_development/index.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>H O M E</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+						<li><a href="http://sysbio.rnet.missouri.edu/multicom_cluster/web_development/contact.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>C O N T A C T</b> &nbsp;&nbsp;&nbsp;&nbsp <b>U S</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+					</ul>
+				</div>			
+			</div>
+		</div>  <!-- end #page -->					
+
+			<div align="center">
+				<table width="750" border="0" align="center">
+					
+					<tr>
+						<td   width="650" rowspan="3"  >
+							<table border="0" align="center">
+							<tr>
+								<td>
+									<section>
+										<div class="contact_link"> 
+											<div class="major">
+												<span class="byline"><a href="http://engineering.missouri.edu/person/chengj/" >Prof. Jianlin Cheng </a></span>
+												<span class="byline">Computer Science Department</span>
+												<span class="byline">University of Missouri,   Columbia</span>
+												<span class="byline"> Email: chengji@missouri.edu</span>
+											</div>
+										</div>
+									</section>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<section>
+										<div class="contact_link">
+											<div class="major">
+												<span class="byline"><a href="https://sites.google.com/site/jiehint/home">Jie Hou</a></span>
+												<span class="byline">Computer Science Department</span>
+												<span class="byline">University of Missouri,   Columbia</span>
+												<span class="byline">Email: jh7x3@mail.missouri.edu</span>
+											</div>
+										</div>
+									</section>
+								</td>
+							</tr>
+							<tr>
+								<td >
+									<br /><br /><br />
+								</td>
+							</tr>						
+						</table>
+						</td>
+				  </tr>
+				</table>
+			</div>	
+            <div style="clear: both;">&nbsp;</div>
+
+
+
+
+
+        
+
+
+
+
+
+        
+        
+        
+
+        </div> <!-- end of #references -->
+        <div id="footer">
+	        <p>&copy; &nbsp;&nbsp;<a href = "http://calla.rnet.missouri.edu/cheng/">B D M &nbsp;&nbsp;&nbsp;&nbsp; L A B</a></p>
+        </div>
+    
+    </body>
+</html>
+

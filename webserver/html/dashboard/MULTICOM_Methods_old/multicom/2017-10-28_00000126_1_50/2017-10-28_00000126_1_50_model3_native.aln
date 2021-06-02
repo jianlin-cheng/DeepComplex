@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-10-28  Length=  427
+Structure2: 2017-10-28  Length=  427 (by which all scores are normalized)
+Number of residues in common=  427
+RMSD of  the common residues=    7.548
+
+TM-score    = 0.6861  (d0= 7.43, TM10= 0.6506)
+MaxSub-score= 0.4162  (d0= 3.50)
+GDT-TS-score= 0.4936 %(d<1)=0.2201 %(d<2)=0.3607 %(d<4)=0.5785 %(d<8)=0.8150
+GDT-HA-score= 0.3126 %(d<0.5)=0.0913 %(d<1)=0.2201 %(d<2)=0.3607 %(d<4)=0.5785
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1     55.0890500215  -0.7329490449  -0.6648211288  -0.1442170735
+ 2    -18.0455593347   0.6567816228  -0.7467851530   0.1046414606
+ 3    376.4533270154  -0.1772670232  -0.0180222650   0.9839977645
+
+Superposition in the TM-score: Length(d<5.0)=268  RMSD=  2.61
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+NRPVFSQDVYRVRLPEDLPPGTTVLRLKAMDQDEGINAEFTYSFLGVANKAQFSLDPITGDIVTRQSLDFEEVEQYTIDVEAKDRGSLSSQCKVIIEVLDENDNRPEIIITSLSDQISEDSPSGTVVALFKVRDRDSGENAEVMCSLSGNNPFKIHSSSNNYYKLVTDSILDREQTPGYNVTITATDRGKPPLSSSTTITLNVADVNDNAPVFQQQAYLINVAENNQPGTSITQVKAWDPDVGSNGLVSYSIIASDLEPKALSSFVSVNQDSGVVYAQRAFDHEQIRSFQLTLQARDQGSPALSANVSMRVLVDDRNDNAPRVLYPTLEPDGSALFDMVPRAAEPGYLVTKVVAVDADSGHNAWLSYHVLQASDPGLFSLGLRTGEVRTARALSDKDAARQRLLVAVRDGGQPPLSATATLLLVFAD
+                                                                                                     :::::::       :::::::::::::::::::::  ::: :::::: : :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::    ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::            :        :::::::::::::::::::::::::::         :::::           : ::::::::::::::::::::::::: 
+NRPVFSQDVYRVRLPEDLPPGTTVLRLKAMDQDEGINAEFTYSFLGVANKAQFSLDPITGDIVTRQSLDFEEVEQYTIDVEAKDRGSLSSQCKVIIEVLDENDNRPEIIITSLSDQISEDSPSGTVVALFKVRDRDSGENAEVMCSLSGNNPFKIHSSSNNYYKLVTDSILDREQTPGYNVTITATDRGKPPLSSSTTITLNVADVNDNAPVFQQQAYLINVAENNQPGTSITQVKAWDPDVGSNGLVSYSIIASDLEPKALSSFVSVNQDSGVVYAQRAFDHEQIRSFQLTLQARDQGSPALSANVSMRVLVDDRNDNAPRVLYPTLEPDGSALFDMVPRAAEPGYLVTKVVAVDADSGHNAWLSYHVLQASDPGLFSLGLRTGEVRTARALSDKDAARQRLLVAVRDGGQPPLSATATLLLVFAD
+1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567
+

@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-11-18  Length=  112
+Structure2: 2017-11-18  Length=  112 (by which all scores are normalized)
+Number of residues in common=  112
+RMSD of  the common residues=    7.305
+
+TM-score    = 0.4462  (d0= 3.90, TM10= 0.4356)
+MaxSub-score= 0.2873  (d0= 3.50)
+GDT-TS-score= 0.4308 %(d<1)=0.1518 %(d<2)=0.2232 %(d<4)=0.4911 %(d<8)=0.8571
+GDT-HA-score= 0.2366 %(d<0.5)=0.0804 %(d<1)=0.1518 %(d<2)=0.2232 %(d<4)=0.4911
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1     11.1439074052  -0.5932091375  -0.7676314152  -0.2425797386
+ 2     30.7546881561   0.7209494459  -0.6406347364   0.2642329105
+ 3     28.9143083831  -0.3582384899  -0.0181423512   0.9334538229
+
+Superposition in the TM-score: Length(d<5.0)= 60  RMSD=  2.91
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+PLYECQTVKGTLSERQRQSLAESITSIHTRETGAPASYVHVLFKELEPGSAFTAGQVATPAIIRGQIRAGRPQATRHAILRAITDVYMAVTGADANAVVVAVVDIPASWAME
+::::        :::::::::::::::::::::   :::::::::                    :  :::::::::: ::: ::::::::::           ::      
+PLYECQTVKGTLSERQRQSLAESITSIHTRETGAPASYVHVLFKELEPGSAFTAGQVATPAIIRGQIRAGRPQATRHAILRAITDVYMAVTGADANAVVVAVVDIPASWAME
+1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012
+

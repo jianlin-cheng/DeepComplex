@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-10-28  Length=  301
+Structure2: 2017-10-28  Length=  297 (by which all scores are normalized)
+Number of residues in common=  297
+RMSD of  the common residues=   72.891
+
+TM-score    = 0.1713  (d0= 6.33, TM10= 0.1385)
+MaxSub-score= 0.0522  (d0= 3.50)
+GDT-TS-score= 0.0943 %(d<1)=0.0404 %(d<2)=0.0539 %(d<4)=0.0808 %(d<8)=0.2020
+GDT-HA-score= 0.0513 %(d<0.5)=0.0303 %(d<1)=0.0404 %(d<2)=0.0539 %(d<4)=0.0808
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1    -41.9592182440   0.8787996923  -0.1568435772   0.4506785917
+ 2    -15.0200233442   0.0134332331   0.9521978681   0.3051864484
+ 3     18.2100506717  -0.4770017285  -0.2621436864   0.8388981098
+
+Superposition in the TM-score: Length(d<5.0)= 31  RMSD=  3.60
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+IVGGSTIQPERVDAAALRQLGDAMRKVVGSADPTPLADLLSGTPVDPDELTREVGADGRQALLDSGMAVDDGTTFSSPLRGHQLHGVVVLSDPDVEEEVQHRWYVDPLWEADLLIRLMLRRGGARALDMGCGSGVLSLVLADRYESVLGVDVNPRAVALSRLNAALNGLTNVTFREGDMFEPAEGRFSRIVFNSPTNEEGNEFVDLLEAGEPILETFFRNVPRKLESGGIVEVNLAMNDYPGDPFRERLADWLGLTENGLRVQIFTSQRRATESGGEWKRGWLVVAPGPVGLTEVEWPYHD
+                                                                                                                            ::::::                 :::: ::: :                :              ::: :::      :             :  :  :    ::::::                                                                     
+IVGGSTIQPERVDAAALRQLGDAMRKVVGSADPTPLADLLSGTPVDPDELTREVGADGRQALLDSGMAVDDGTTFSSPLRGHQLHGVVVLSDPDVEEEVQHRWYVDPLWEADLLIRLMLRRGGARALDMGCGSGVLSL-LA-RYESVLGVDVNPRAVALSRLNAALNGLTNVTFREGDMFEPAEGRF-RIVFNSPTNEEGNEFVDLLEAGEPILETFFRNVPRKLESGGIVEVNLAMNDYPGDPFRERLA-WLGLTENGLRVQIFTSQRRATESGGEWKRGWLVVAPGPVGLTEVEWPYHD
+1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901
+

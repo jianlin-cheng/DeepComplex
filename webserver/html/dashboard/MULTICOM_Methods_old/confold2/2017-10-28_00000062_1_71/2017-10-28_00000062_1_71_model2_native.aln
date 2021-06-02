@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-10-28  Length=   74
+Structure2: 2017-10-28  Length=   74 (by which all scores are normalized)
+Number of residues in common=   74
+RMSD of  the common residues=   12.583
+
+TM-score    = 0.3660  (d0= 3.03, TM10= 0.3576)
+MaxSub-score= 0.3040  (d0= 3.50)
+GDT-TS-score= 0.4257 %(d<1)=0.1622 %(d<2)=0.2838 %(d<4)=0.4459 %(d<8)=0.8108
+GDT-HA-score= 0.2432 %(d<0.5)=0.0811 %(d<1)=0.1622 %(d<2)=0.2838 %(d<4)=0.4459
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1     21.5510472469   0.0447255848  -0.6341529437  -0.7719129913
+ 2     34.6532386932  -0.5682937741  -0.6516328261   0.5024110332
+ 3    -44.7353262645  -0.8216092796   0.4162027198  -0.3895298289
+
+Superposition in the TM-score: Length(d<5.0)= 35  RMSD=  2.54
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+SMQILVTTISAETIRLEVEPSDTIENVKAKIQDKEGIPPDQQRLFFEGKQLEDGRTLSDYNINKKSTLLLVVKF
+         :::::::::                   : :::::::::::::   :::  :    :::::::: 
+SMQILVTTISAETIRLEVEPSDTIENVKAKIQDKEGIPPDQQRLFFEGKQLEDGRTLSDYNINKKSTLLLVVKF
+12345678901234567890123456789012345678901234567890123456789012345678901234
+

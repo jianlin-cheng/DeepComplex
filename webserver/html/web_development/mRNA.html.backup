@@ -1,0 +1,256 @@
+
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>miRBase</title
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="./css/mirna_base.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="./css/mirna_entry.css" media="all"/>
+
+</head>
+<body onLoad="getJson()">
+
+<table id="header">
+<tr>
+<td id="mirna_logo">
+<a href="/">
+<img src="/images/mirbase-logo-blue-web.png" alt="miRBase" width="130" />
+</a>
+</td>
+<td id="pageTitle">
+<a href="/">
+<h1>
+	miRBase
+</h1>
+</a>
+</td>
+<td id="sanger_logo">
+<a href="http://www.ls.manchester.ac.uk/">
+<img src="/images/logomanchester.gif" alt="University of Manchester" width="120" />
+</a>
+</td>
+</tr>
+<tr>
+	<td id="spacer" colspan="2"><img height="1" src="./images/blank.gif" alt="" width="650" /></td>
+</tr>
+</table>
+<div id="navBarDiv">
+<div id="searchBox">
+	<form method="get" action="/cgi-bin/query.pl" enctype="multipart/form-data" name="sitesearch">
+	<input type="text" name="terms"  size="15" maxlength="100" id="searchField" /> <input type="submit" name="submit" value="Search" id="submitButton" /> </form>
+</div>
+<ul id="navbar">
+<li>
+	<a href="/index.shtml">Home</a>
+</li>
+<li>
+	<a href="/search.shtml">Search</a>
+</li>
+<li>
+	<a href="/cgi-bin/browse.pl">Browse</a>
+</li>
+<li>
+	<a href="/help/index.shtml">Help</a>
+</li>
+<li>
+	<a href="/ftp.shtml">Download</a>
+</li>
+<li>
+	<a href="http://www.mirbase.org/blog/">Blog</a>
+</li>
+<li class="spaceLeft">
+	<a href="/registry.shtml">Submit</a>
+</li>
+</ul>
+</div>
+
+
+<div id="mainSection">
+
+<h2>Search miRBase</h2>
+
+<!--
+<div id="releaseWarning" style="margin:0.5em; padding:0.5em; width: 80%; background: #ECC; border: 1px solid #500">
+<h2 style="font-size:1.0em; color:#500; padding:0; margin:0;">At risk time</h2>
+<p style="font-size:0.8em; color:#500; padding:0; margin:0;">
+miRBase release 10.0 is being rolled out on 2nd Aug.  Results from 
+searches on this page may be unstable during this time.
+</p>
+</div>
+-->
+
+<div class="headedBox">
+<h1>By miRNA identifier or keyword</h1>
+<p>Enter a miRNA accession, name or keyword:</p>
+<form name="mirnaSearch" METHOD="GET" ACTION="/cgi-bin/query.pl">
+<input name="terms" input id="terms" /> <!--autocomoplete box--> 
+
+<br>
+<input type="submit">
+<input type="reset">
+<input type="button" value="Example" javascript:void() onClick="window.document.mirnaSearch.terms.value='mir-181a';">
+</form>
+</div>
+
+<div class="headedBox">
+<h1>By genomic location</h1>
+
+<p>Select organism, chromosome and start and end coordinates.  Leave
+the start/end boxes blank to retrieve all miRNAs on the selected
+chromosome.</p>
+
+<form name="genomic" method="get" ACTION="/cgi-bin/chrquery.pl">
+<select name="species" onChange='javascript:populateChromo( this.options[selectedIndex].value )'>
+<option>Select organism: </option></select>
+
+Chr: <select name="chromosome"></select>
+Start: <input type="text" size="10" maxlength="10" name="start" /> 
+End: <input type="text" size="10" maxlength="10" name="end" />
+<input type="submit" value="Get sequences" />
+
+</form>
+</div>
+
+<div class="headedBox">
+<h1>For clusters</h1>
+
+<p>Select organism and the desired inter-miRNA distance.</p>
+
+<form name="cluster" method="get" ACTION="/clusters.shtml">
+<select name="org">
+<option>Select organism: </option></select>
+Inter-miRNA distance: <input type="text" size="6" maxlength="6" name="cluster" value="10000"/> 
+<input type="submit" value="Get clusters" />
+
+</form>
+</div>
+
+
+<div class="headedBox">
+<h1>By tissue expression </h1>
+
+<p>Select organism and tissue.</p>
+
+
+<form name="experiments" method="get" ACTION="/cgi-bin/experiment_summary.pl">
+<select name="organism" onChange='javascript:populateTissue( this.options[selectedIndex].value )'>
+<option>Select organism: </option></select>
+<select name="tissue">
+<option>Select tissue: </option></select>
+<input type="submit" value="Get experiments" />
+
+</form>
+</div>
+
+
+<div class="headedBox">
+<h1>By sequence</h1>
+
+<!--
+<div id="releaseWarning" style="margin: 0.5em; padding: 0.5em; background: #ECC; border: 1px solid #500">
+<h2 style="font-size: 1.0em; color: #500; padding: 0; margin: 0;">This
+facility is currently unavailable</h2> <p style="font-size: 0.8em;
+color: #500; padding: 0; margin: 0;"> The sequence search facility is
+currently unavailable due to hardware problems.  Sequences for both <a
+href="ftp://mirbase.org/pub/mirbase/CURRENT/hairpin.fa.gz">hairpin</a>
+and <a
+href="ftp://mirbase.org/pub/mirbase/CURRENT/mature.fa.gz">mature</a>
+miRNAs are available from the <a
+href="ftp://mirbase.org/pub/mirbase/CURRENT/">FTP
+site</a> in FASTA format for download and for running local searches.
+Apologies for any inconvenience.
+</p>
+</div>
+-->
+
+
+<form name=sequence enctype='multipart/form-data' method="POST" action="/cgi-bin/blast.pl">
+<table>
+<tr>
+<td>     
+<B>Single sequence searches: </B>
+</td></tr>
+<tr>
+<td colspan="2">
+
+Paste a sequence here to search for similarity with miRBase miRNA
+sequences <B>(max size 1000 nts)</B>.  You can choose to search against
+hairpin precursor sequences or mature miRNAs.  This search may take a
+few minutes.  Please note: this facility is designed to search for
+homologs of microRNA sequences, <b>not to predict their target
+sites</b>.  For target site prediction, please use <a
+href="http://en.wikipedia.org/wiki/List_of_RNA_structure_prediction_software#Inter_molecular_interactions:_MicroRNA:UTR">the
+available bespoke tools</a>.
+
+</td>
+
+<tr>
+<td>
+<textarea name="sequence" rows=9 COLS=40></textarea>
+<p><b>Or:</b> Select the sequence file you wish to use</p>
+
+<p><input type=file name="seqfile" size="15" /></p>
+<p>
+<input type="submit" value="Search miRNAs" />
+<input type="reset"> 
+<input type="button" value="Example" javascript:void() onClick="window.document.sequence.sequence.value='ugagguaguaguuuguacagu';"></p>
+</td>
+	<td valign=top>
+	<table width="90%" align="center" cellpadding="5">
+	<tr><td><B>Search sequences:</BR></td>
+	<td><select name="type">
+	    <option value="mature">Mature miRNAs</option>
+	    <option value="precursor">Stem-loop sequences</option>
+	    </select></td></tr>
+	<tr><td><B>Search method:</B></td>
+	<td><select name="search_method">
+	    <option value="blastn">BLASTN</option>
+	    <option value="ssearch">SSEARCH</option>
+	    </select></td></tr>
+	<tr><td colspan="2">
+
+	Choose BLASTN to search for a miRNA homolog in a longer
+sequence.  SSEARCH is useful for finding a short sequence within the
+library of miRNAs (for instance, find a short motif in a miRNA or
+precursor stem-loop, or find mature sequences that are related to your
+query).
+
+</td>
+
+
+	<tr><td><b>E-value cutoff:</b></td>
+	<td><input type=text align=right size=5 name=evalue value=10></td></tr>
+	<tr><td><b>Maximum no. of hits:</b></td>
+	<td><input type=text align=right size=5 name=maxalign value=100></td></tr>
+
+	<tr><td style="vertical-align:top;"><b>Show results only from specific
+	organisms:</b></td>
+	<td><input type="checkbox" name="species" value="hsa" />human
+            <input type="checkbox" name="species" value="mmu" />mouse
+            <input type="checkbox" name="species" value="cel" />worm
+            <input type="checkbox" name="species" value="dme" />fly
+            <input type="checkbox" name="species" value="ath" />Arabidopsis
+	<div style="padding-top:0.5em;">
+	or choose a taxonomic classification:<br \>
+	    <select name="taxon">
+	    <option value="error">Processing</option>
+	    </select></td></tr>
+	</div>
+	</table>
+
+</td></tr></table>
+
+</div>
+
+</div> <!-- mainSection -->
+
+<div id="footer">
+<p class="mailto">
+	Comments, questions? Email  <a href="mailto:mirbase@manchester.ac.uk">mirbase@manchester.ac.uk</a>
+</p>
+</div>
+
+</body>
+</html>

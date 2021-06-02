@@ -1,0 +1,36 @@
+
+========================[ Jun 5, 2020  2:55 PM ]========================
+Version 2.2.26 [Sep-21-2011]
+Started database file "/data/farhan/SoftwareTools/HomopolymerProject/DeepComplex/scripts/feature_gen/test/3e7u.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database /data/farhan/SoftwareTools/HomopolymerProject/DeepComplex/scripts/feature_gen/test/3e7u.fasta
+
+========================[ Jun 5, 2020  3:57 PM ]========================
+Version 2.2.26 [Sep-21-2011]
+Started database file "/data/farhan/SoftwareTools/HomopolymerProject/DeepComplex/scripts/feature_gen/test/3e7u.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database /data/farhan/SoftwareTools/HomopolymerProject/DeepComplex/scripts/feature_gen/test/3e7u.fasta
+
+========================[ Jun 5, 2020  4:17 PM ]========================
+Version 2.2.26 [Sep-21-2011]
+Started database file "/data/farhan/SoftwareTools/HomopolymerProject/DeepComplex/scripts/feature_gen/H1045_A.fasta"
+ERROR: [000.000] Could not open /data/farhan/SoftwareTools/HomopolymerProject/DeepComplex/scripts/feature_gen/H1045_A.fasta
+
+
+========================[ Jun 5, 2020  4:17 PM ]========================
+Version 2.2.26 [Sep-21-2011]
+Started database file "/data/farhan/SoftwareTools/HomopolymerProject/DeepComplex/scripts/feature_gen/H1045_B.fasta"
+ERROR: [000.000] Could not open /data/farhan/SoftwareTools/HomopolymerProject/DeepComplex/scripts/feature_gen/H1045_B.fasta
+
+
+========================[ Jun 5, 2020  4:22 PM ]========================
+Version 2.2.26 [Sep-21-2011]
+Started database file "/data/farhan/SoftwareTools/HomopolymerProject/DeepComplex/scripts/feature_gen/test/H1045/B/H1045_B.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database /data/farhan/SoftwareTools/HomopolymerProject/DeepComplex/scripts/feature_gen/test/H1045/B/H1045_B.fasta
+
+========================[ Jun 5, 2020  4:24 PM ]========================
+Version 2.2.26 [Sep-21-2011]
+Started database file "/data/farhan/SoftwareTools/HomopolymerProject/DeepComplex/scripts/feature_gen/test/H1045/B/H1045_B.fasta"
+Formatted 1 sequences in volume 0
+SUCCESS: formatted database /data/farhan/SoftwareTools/HomopolymerProject/DeepComplex/scripts/feature_gen/test/H1045/B/H1045_B.fasta

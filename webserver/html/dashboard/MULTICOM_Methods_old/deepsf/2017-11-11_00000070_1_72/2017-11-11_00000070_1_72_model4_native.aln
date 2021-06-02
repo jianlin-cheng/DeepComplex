@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-11-11  Length=  123
+Structure2: 2017-11-11  Length=  123 (by which all scores are normalized)
+Number of residues in common=  123
+RMSD of  the common residues=    0.908
+
+TM-score    = 0.9707  (d0= 4.11, TM10= 0.9707)
+MaxSub-score= 0.9609  (d0= 3.50)
+GDT-TS-score= 0.9715 %(d<1)=0.9024 %(d<2)=0.9919 %(d<4)=0.9919 %(d<8)=1.0000
+GDT-HA-score= 0.8801 %(d<0.5)=0.6341 %(d<1)=0.9024 %(d<2)=0.9919 %(d<4)=0.9919
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1    -26.3404078556   0.7896325064  -0.6131583951   0.0227439528
+ 2     22.2838166443   0.6135349059   0.7885820021  -0.0413925741
+ 3     -7.4283951715   0.0074447325   0.0466391310   0.9988840610
+
+Superposition in the TM-score: Length(d<5.0)=122  RMSD=  0.66
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+DATLGIVHTLMCHRQGGESENFAKRAVESLVKKLKDKRDELDALITAVTSNGIQQSKCVTIARTLDGRLQVAGKKGFPHVIYSRIWRWPDLHKNELKHIKLCKFAFDLKLDHVCVNPYHYERV
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DATLGIVHTLMCHRQGGESENFAKRAVESLVKKLKDKRDELDALITAVTSNGIQQSKCVTIARTLDGRLQVAGKKGFPHVIYSRIWRWPDLHKNELKHIKLCKFAFDLKLDHVCVNPYHYERV
+123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123
+

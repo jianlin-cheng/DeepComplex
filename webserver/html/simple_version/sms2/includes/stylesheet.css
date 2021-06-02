@@ -1,0 +1,45 @@
+td.links {vertical-align: top; min-width: 144px; width: 144px; font-family: arial, sans-serif; color: #000000; background: rgb(240,240,240)}
+body.main {background-color: #FFFFFF}
+td.program {vertical-align: top; font-family: arial, sans-serif; color: #000000; background-color: rgb(255,255,255)}
+
+div.linkTitle {font-size: xx-large; color: #FFFFFF; text-align: center; background-color: rgb(0,101,153)}
+div.programTitle {font-size: x-large; color: #FFFFFF; text-align: left; background-color: rgb(0,101,153)}
+
+div.category {font-size: small; color: #FFFFFF; text-align: left; background-color: rgb(98,163,185)}
+div.code_title {font-size: medium; color: #000000; font-weight: bold; text-align: left;}
+div.program {font-size: x-small; color: #000099}
+div.program a {font-size: x-small; color: #000099; text-decoration: none}
+div.program a:visited {font-size: x-small; color: #000099; text-decoration: none}
+div.program a:hover {font-size: x-small; color: #FF0000; text-decoration: underline}
+div.program a:active {font-size: x-small; color: #000099; text-decoration: none}
+
+p.code_title {font-size: medium; color: #000000; text-align: left;}
+p.pre_small {font-size: x-small; color: #000000; font-family: courier, sans-serif; white-space: pre}
+p.pre {color: #000000; font-family: courier, sans-serif; white-space: pre}
+p.pre_bold {font-size: medium; color: #000000; font-weight: bold; font-family: courier, sans-serif; white-space: pre}
+
+div.warning {font-size: medium; color: #FF0000}
+
+div.pre {font-size: medium; color: #000000; font-family: courier, sans-serif; white-space: pre}
+
+div.pre_small {font-size: x-small; color: #000000; font-family: courier, sans-serif; white-space: pre}
+
+div.title {font-size: x-large; color: #000000; text-align: left; background-color: #FFFFFF}
+
+div.copyright {font-size: xx-small; color: #000000}
+
+td.title {font-size: x-large; color: #FFFFFF; text-align: left; background-color: rgb(98,163,185)}
+
+td.sms {font-size: xx-large; color: #FFFFFF; text-align: left; background-color: rgb(0,101,153)}
+
+td.description {font-size: medium; color: #000000; background: rgb(255,255,255)}
+td.description a {font-size: medium; text-decoration: none; color: #000099; background: rgb(255,255,255)}
+td.description a:visited {font-size: medium; text-decoration: none; color: #000099; background: rgb(255,255,255)}
+td.description a:hover {font-size: medium; text-decoration: underline; color: #FF0000; background: rgb(255,255,255)}
+td.description a:active {font-size: medium; text-decoration: none; color: #000099; background: rgb(255,255,255)}
+
+span.version {font-size: x-small; color: #808080}
+
+span.valid {font-size: xx-small; color: #808080}
+
+

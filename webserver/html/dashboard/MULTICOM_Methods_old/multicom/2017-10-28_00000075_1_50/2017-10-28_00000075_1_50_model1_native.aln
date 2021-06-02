@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-10-28  Length=  191
+Structure2: 2017-10-28  Length=  191 (by which all scores are normalized)
+Number of residues in common=  191
+RMSD of  the common residues=   17.067
+
+TM-score    = 0.2813  (d0= 5.15, TM10= 0.2395)
+MaxSub-score= 0.1704  (d0= 3.50)
+GDT-TS-score= 0.2016 %(d<1)=0.1099 %(d<2)=0.1466 %(d<4)=0.2251 %(d<8)=0.3246
+GDT-HA-score= 0.1387 %(d<0.5)=0.0733 %(d<1)=0.1099 %(d<2)=0.1466 %(d<4)=0.2251
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1    -66.1419050908   0.8582188330   0.3736705528  -0.3518959402
+ 2     43.5030810939   0.3712936046   0.0214165896   0.9282684897
+ 3     28.5598994737   0.3544030107  -0.9273142119  -0.1203613659
+
+Superposition in the TM-score: Length(d<5.0)= 44  RMSD=  2.28
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+LSWDEKHRVNEEYCYCGKPGKFDHNMLQCCKCRNWFHTQCMQNFKKKLLRGDMFFVFCCTVCNNGIEFVRRMQIEWVDVLHIALYNLRKHQHQKYHHLLNDIWPFILEQRHQLPICEKWRTLPETALMERLKQTLKDYSDRFVCGREFKRAPAFYALRHSGPPHIPKVFLEPHEELSDELLEKRFKLMLMP
+       :   ::::::::::: ::::::::::::::::::::: :         :::::::::   :                                                                                                                           
+LSWDEKHRVNEEYCYCGKPGKFDHNMLQCCKCRNWFHTQCMQNFKKKLLRGDMFFVFCCTVCNNGIEFVRRMQIEWVDVLHIALYNLRKHQHQKYHHLLNDIWPFILEQRHQLPICEKWRTLPETALMERLKQTLKDYSDRFVCGREFKRAPAFYALRHSGPPHIPKVFLEPHEELSDELLEKRFKLMLMP
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901
+

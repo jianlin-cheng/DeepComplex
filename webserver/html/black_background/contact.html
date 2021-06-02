@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+/*******************************************************
+/**  tutorial.html
+/**
+/**  3Drefine
+/**
+/**  Copyright © 2016 Debswapna Bhattacharya
+/**
+/**  All rights reserved.
+********************************************************/-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-96943265-4');
+</script>
+<title>DeepComplex: Protein Quaternary Structure Modeling by Deep Learning</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="./css/mirna_base.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="./css/mirna_entry.css" media="all"/>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="status.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<link rel="Shortcut Icon" href="http://www.missouri.edu/favicon.ico" type="image/x-icon" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="sms2/scripts/sms_common.js"></script>
+<script type="text/javascript" src="sms2/scripts/color_align_prop.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<body style="background-color:black;">
+
+<table style="background-color:black;" bgcolor="#000000" width="100%" height="40" border="0" align="center" cellspacing="0" bordercolor="#000000" >
+  <tr>
+	<td bgcolor="#000000">&nbsp;</td>
+	<td bgcolor="#000000">&nbsp;</td>
+	<td bgcolor="#000000">&nbsp;</td>
+	<td bgcolor="#000000">&nbsp;</td>
+	<td bgcolor="#000000">&nbsp;</td>
+	<td bgcolor="#000000">&nbsp;</td>
+	<td bgcolor="#000000">&nbsp;</td>
+	<td bgcolor="#000000">&nbsp;</td>
+	<td bgcolor="#000000">&nbsp;</td>
+	<td bgcolor="#000000">&nbsp;</td>
+	<td bgcolor="#000000">&nbsp;</td>
+	<td bgcolor="#000000">&nbsp;</td>
+	<td bgcolor="#000000">&nbsp;</td>
+	<td bgcolor="#000000">&nbsp;</td>
+	<td bgcolor="#000000">&nbsp;</td>
+  </tr>
+</table>
+<table  style="background-color:#000000;" width="100%" height="140" border="0" align="center" cellspacing="0" bordercolor="#000000">
+  <tr>
+	<td bgcolor="#000000" width="240" rowspan="2"><img src="images/3.png" width="350" height="280" /></td>
+	<td bgcolor="#000000" width="100%" height="100"><div align="center"><img src="images/DeepComplex_Logo_2.png" width="420" height="300" align="middle" /></div></td>
+	<td bgcolor="#000000" width="240" rowspan="2"><div align="center"><img src="images/1a3n_screenshot.png" width="420" height="280" align="middle" /></div></td>
+  </tr>
+  <tr>
+	<td bgcolor="#000000" width="100%"><div align="center"><img src="images/protein2.png" width="400" height="40" align="top" /></div></td>
+  </tr>
+  
+</table>
+<table  style="background-color:black;" width="100%" height="60" border="0" align="center" cellspacing="0" bordercolor="#000000">
+  <tr>
+	<td bgcolor="#000000" width="100%"><div align="center"><p align="center"><img src="images/line_.png" width="100%" height="10" align="middle"/></p></div></td>
+  </tr>
+  
+</table>
+
+<table style="background-color:black;" align="center" bordercolor="#000000">
+<div style="background-color:black;" id="navBarDiv" align="center" bordercolor="#000000">
+	<ul id="navbar" style="background-color:black;">
+	<li>
+		<a href="http://tulip.rnet.missouri.edu/deepcomplex/web_index.html">Home</a>
+	</li>
+	<li>
+		<a href="http://tulip.rnet.missouri.edu/deepcomplex/contact.html">Contact</a>
+	</li>
+	<li>
+		<a href="http://calla.rnet.missouri.edu/cheng/cheng_research.html">BML Lab</a>
+	</li>
+	<li>
+		<a href="http://tulip.rnet.missouri.edu/deepcomplex/dimer_status_homo.php?target_name=LCI1&method=multicom&domain_class=full_length">Homodimer Result Example </a>
+	</li>
+	<li>
+		<a href="http://tulip.rnet.missouri.edu/deepcomplex/dimer_status_hetero.php?target_name=SMM7_SBE3&method=multicom&domain_class=full_length">Heterodimer Result Example </a>
+	</li>
+
+	</ul>
+</table>
+
+<table  style="background-color:black;" width="100%" height="60" border="0" align="center" cellspacing="0" bordercolor="#000000">
+  <tr>
+	<td bgcolor="#000000" width="100%"><div align="center"><p align="center"><img src="images/line_.png" width="100%" height="10" align="middle"/></p></div></td>
+  </tr>
+</table>
+</div>
+				
+ <div style="clear: both;">&nbsp;</div>
+ <div style="clear: both;">&nbsp;</div>
+ <div style="clear: both;">&nbsp;</div>
+ <div style="clear: both;">&nbsp;</div>
+ <div style="clear: both;">&nbsp;</div>
+			<div align="center">
+				<table width="750" border="0" align="center">
+					
+					<tr>
+						<td   width="650" rowspan="3"  >
+							<table border="0" align="center">
+							<tr>
+								<td>
+									<section>
+										<div class="contact_link"> 
+											<div class="major">
+												<span class="byline"><a href="http://calla.rnet.missouri.edu/cheng/cheng_research.html" >Prof. Jianlin Cheng </a></span>
+												<span class="byline">Electerical Engineering and Computer Science (EECS) Department</span>
+												<span class="byline">University of Missouri,   Columbia</span>
+												<span class="byline"> Email: chengji@missouri.edu</span>
+											</div>
+										</div>
+									</section>
+								</td>
+							</tr>
+							<tr>
+							<td>
+							 <div style="clear: both;">&nbsp;</div>
+							 <div style="clear: both;">&nbsp;</div>
+							</td>
+							</tr>
+							<tr>
+								<td>
+									<section>
+										<div class="contact_link">
+											<div class="major">
+												<span class="byline"><a href="https://sites.google.com/site/jiehint/home">Farhan Quadir</a></span>
+												<span class="byline">Electerical Engineering and Computer Science (EECS) Department</span>
+												<span class="byline">University of Missouri,   Columbia</span>
+												<span class="byline">Email: fqg7h@mail.missouri.edu</span>
+											</div>
+										</div>
+									</section>
+								</td>
+							</tr>
+							<tr>
+								<td >
+									<br /><br /><br />
+								</td>
+							</tr>						
+						</table>
+						</td>
+				  </tr>
+				</table>
+			</div>	
+            <div style="clear: both;">&nbsp;</div>
+
+
+
+
+
+        
+
+
+
+
+
+        
+        
+        
+
+        </div> <!-- end of #references -->
+		<table width="800" border="0" align="center">
+  <tr>
+    <td width="800"><div align="center">
+      <p align="left"><b><text style="font-size: 1.2em;color:grey">References<b></text></p>
+      <p align="left"><text style="font-size: 1em;color:grey">[1] Quadir, F., Roy, R., Halfmann, R., & Cheng, J. (2021). DNCON2_Inter: Predicting interchain contacts for homodimeric and homomultimeric protein complexes using multiple sequence alignments of monomers and deep learning. Scientific Reports, under review. (https://doi.org/10.21203/rs.3.rs-228041/v1) </text> </p>
+      <p align="left"><text style="font-size: 1em;color:grey">[2] Hou, J., Wu, T., Guo, Z., Quadir, F. & Cheng, J. The MULTICOM Protein Structure Prediction Server Empowered by Deep Learning and Contact Distance Prediction. in Methods in Molecular Biology vol. 2165 13–26 (Humana Press Inc., 2020) </text> </p>
+      <p align="left"><text style="font-size: 1em;color:grey">[3] Hou, J., Wu, T., Cao, R., & Cheng, J. (2019). Protein tertiary structure modeling driven by deep learning and contact distance prediction in CASP13. Proteins, accepted. (https://doi.org/10.1002/prot.25697)</text> </p>
+      <p align="left"><text style="font-size: 1em;color:grey">[4] Li, J., Deng, X., Eickholt, J., & Cheng, J. (2013). Designing and benchmarking the MULTICOM protein structure prediction system. BMC structural biology, 13(1), 2.</text></p>
+      <p align="left"><text style="font-size: 1em;color:grey">[5] Cheng, J., Li, J., Wang, Z., Eickholt, J., & Deng, X. (2012). The MULTICOM toolbox for protein structure prediction. BMC bioinformatics, 13(1), 65.</text></p>
+      <p align="left"><text style="font-size: 1em;color:grey">[6] Wang, Z., Eickholt, J., & Cheng, J. (2010). MULTICOM: a multi-level combination approach to protein structure prediction and its assessments in CASP8. Bioinformatics, 26(7), 882-888.</text></p>
+    </div></td>
+  </tr>
+</table>
+
+<div class="footer">
+<div align="center">
+<p align="center" style="text-align:center"><a href="http://calla.rnet.missouri.edu/cheng/cheng_research.html">Dr. Jianlin Cheng's Bioinformatics, and Machine Learning Laboratory (BML) Laboratory</a>, <a href="http://www.cs.missouri.edu">Department of Computer Science</a>,  <a href="http://www.missouri.edu/">University of Missouri-Columbia</a></p>
+<p align="center">&nbsp;</p>
+</div>
+</div>
+</body>
+</html>
+

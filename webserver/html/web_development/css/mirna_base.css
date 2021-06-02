@@ -1,0 +1,337 @@
+
+/* $Id: tabs.css,v 1.6 2005/10/13 16:48:47 jt6 Exp $ */
+
+/* good idea to do this, but currently breaks a lot of stuff -- eg: */
+/* browse page, sequence search box etc.  Should investigate why. */
+/* @import url('/css/reset.css'); */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, arial, sans-serif, helvetica;
+/* http://blog.another-d-mention.ro/programming/css/how-to-get-cross-browser-compatibility-every-time/ */
+/* Unfortunately, breaks everything else, so needs widespread accompanying changes. */
+/*  font-size: 63%;*/
+}
+
+/* top banner */
+
+#header {
+  width: 100%;
+  background: #006;
+}
+
+#dead_header {
+  width: 100%;
+  background: #987;
+}
+
+
+#mirna_logo, #sanger_logo {
+  width: 130px;
+/*  height: 100px;*/
+  vertical-align: middle;
+  padding-top: 5px;
+}
+
+#header img {
+  border-style: none;
+}
+
+#pageTitle {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#pageTitle h1 {
+  color: #EEE;
+  font-weight: normal;
+}
+
+/* footer */
+
+.mailto {
+  background: #006;
+  color: #EEE;
+  padding: 5px;
+  display: block;
+  clear: both;
+  margin-top: 1em;
+}
+.mailto a {
+  color: #77F;
+}
+
+
+/* embedded blog post */
+.embeddedBlog {
+  font-size: 0.8em;
+}
+
+.embeddedBlog #blogAuthorDate {
+  float: right;
+}
+
+/* banner announcement */
+.announcement {
+  padding: 0.4em; 
+  width: 100%; 
+  background: #ECC; 
+  border: 1px solid #500;
+  text-align: center;
+}
+
+.announcement p {
+  padding: 0; 
+  margin: 0;
+}
+
+
+/* navigation tabs */
+
+#navBarDiv {
+  font-size: 15px;
+  position: relative;
+  height: 2.2em;
+  background: #EEE;
+  border-bottom: 0.4em solid #FFFF;
+  margin: 0;
+  padding: 0;
+}
+
+/*duplicated in mirna_entry.css*/
+#navbar {
+width: 60em;
+  position: absolute;
+  bottom:0;
+  margin: 0;
+  padding: 0;
+  padding-top: 0.6em;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+}
+
+#navbar li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline;
+}
+
+#navbar li.spaceLeft {
+  margin-left: 1em;
+}
+
+#navbar li a {
+  margin: 0;
+  margin-left: 0.3em;
+  padding: 0.2em 1em 0.2em 1em;
+  border: 1px solid #006;
+  background: #3498DB;
+  /*background: #7D3C98;*/
+  text-decoration: none;
+  color: #EEE;
+}
+
+#navbar li a:hover {
+  background: #AAE;
+  color: #000;
+}
+
+#navbar li.current { 
+  margin: 0;
+  margin-left: 0.3em;
+  padding: 0.6em 0.6em 0 0.6em;
+  background: #006;
+  color: #DF0;
+}
+
+/* title */
+.title {
+	height: 20px;
+	padding-bottom: 40px;
+	font-size: 20px;	
+	color: #1A5276;
+	text-align:center;
+    }
+	
+
+/* imitation buttons */
+.button {
+  width: 10em;
+  margin: 8px 0 2px 2px;
+  display: inline;
+}
+.button a {
+  display: inline;
+  text-decoration: none;
+  color: #EEE;
+}
+.button a:link,.button a:visited,.button a:active {
+  font-size: 0.8em;
+  border-top: #DDD;
+  border-right: #555;
+  border-bottom: #555;
+  border-left: #DDD;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #006; /* 1E80D7;*/
+  padding: 3px;
+}
+.button a:hover {
+  border-top: #555;
+  border-right: #DDD;
+  border-bottom: #DDD;
+  border-left: #555;
+  border-width: 2px;
+  border-style: solid;
+}
+
+
+
+/* "blue" box */
+
+.headedBox {
+  background-color: #FFFFF;
+  border: 1px solid #006;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+/*  margin: 0.6em; */
+  padding: 0;
+}
+
+.headedBox h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: #154360;
+  color: #EEE;
+  margin: 0;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;	
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+.headedBox p, form {
+  margin: 0.3em;
+}
+
+.headedBox h4 {
+  margin: 0.3em;
+}
+
+.emphasize {
+  font-weight: bold;
+}
+
+.smalltext {
+  font-size: 0.8em;
+}
+
+.plainlist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#rightColumn {
+  float: right;
+  width: 30%;
+  padding-left: 5px;
+}
+
+#twitter-feed {
+  /* not sure why we need this, but otherwise bottom of twitter box is truncated */
+  border: 1px solid white;
+}
+
+#mainSection {
+  padding: 10px;
+}
+
+#mainPageBody {
+  min-height: 360px;
+  padding-bottom: 20px;
+}
+
+/* comments link */
+
+#footer {
+  clear: both;
+  padding-top: 0.5em;
+}
+
+.mailto {
+  background: #006;
+  color: #EEE;
+  padding: 5px;
+}
+.mailto a {
+  color: #77F;
+}
+
+
+/* submit page */
+.submit dt {
+  float: left;
+  width: 20em;
+  padding: 4px;
+}
+
+.submit dd {
+  padding: 4px;
+}
+
+.submit td {
+  text-align: center;
+}
+
+
+/* utility */
+.clear {
+  clear: both;
+}
+
+
+.histBox {
+  width: 48.2em;
+  height: 100px;
+  border: 1px solid #500;
+}
+
+.inline {
+  display: inline-block;
+  padding-bottom: 0.5em;
+  padding-right: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
+.confButtonDiv {
+  float: right;
+  width: 20%;
+  padding-top: 1.5em;
+  text-align: right;
+}
+
+.balancerDiv {
+  float: left;
+  width: 20%;
+}
+
+.goLinksTable td {
+    padding: 5px 10px 5px 10px;
+}
+
+.goLinksTable thead {
+    font-style: italic;
+}
+
+.goLinksTable td {
+    vertical-align: top;
+    /*border-bottom: 1px solid #ccf;*/
+}

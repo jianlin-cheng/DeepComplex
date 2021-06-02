@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-10-28  Length=  301
+Structure2: 2017-10-28  Length=  297 (by which all scores are normalized)
+Number of residues in common=  297
+RMSD of  the common residues=   19.203
+
+TM-score    = 0.4933  (d0= 6.33, TM10= 0.4538)
+MaxSub-score= 0.3454  (d0= 3.50)
+GDT-TS-score= 0.3847 %(d<1)=0.2323 %(d<2)=0.3266 %(d<4)=0.4377 %(d<8)=0.5421
+GDT-HA-score= 0.2862 %(d<0.5)=0.1481 %(d<1)=0.2323 %(d<2)=0.3266 %(d<4)=0.4377
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1     -5.3126880173   0.5275597702  -0.8412744128  -0.1180595245
+ 2     75.8058319573  -0.2356124901  -0.0113776545  -0.9717804811
+ 3    -16.9677037554   0.8161908131   0.5404885858  -0.2042171520
+
+Superposition in the TM-score: Length(d<5.0)=134  RMSD=  2.03
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+IVGGSTIQPERVDAAALRQLGDAMRKVVGSADPTPLADLLSGTPVDPDELTREVGADGRQALLDSGMAVDDGTTFSSPLRGHQLHGVVVLSDPDVEEEVQHRWYVDPLWEADLLIRLMLRRGGARALDMGCGSGVLSLVLADRYESVLGVDVNPRAVALSRLNAALNGLTNVTFREGDMFEPAEGRFSRIVFNSPTNEEGNEFVDLLEAGEPILETFFRNVPRKLESGGIVEVNLAMNDYPGDPFRERLADWLGLTENGLRVQIFTSQRRATESGGEWKRGWLVVAPGPVGLTEVEWPYHD
+                                         ::::                                            ::           :::::::::::::::::::::::::::::::::::: :: ::::::::::::::::::::::::::::::::::::::::::::: ::::::::        :    :::::::::::::::::::::::::::        :::::: ::             :                                  
+IVGGSTIQPERVDAAALRQLGDAMRKVVGSADPTPLADLLSGTPVDPDELTREVGADGRQALLDSGMAVDDGTTFSSPLRGHQLHGVVVLSDPDVEEEVQHRWYVDPLWEADLLIRLMLRRGGARALDMGCGSGVLSL-LA-RYESVLGVDVNPRAVALSRLNAALNGLTNVTFREGDMFEPAEGRF-RIVFNSPTNEEGNEFVDLLEAGEPILETFFRNVPRKLESGGIVEVNLAMNDYPGDPFRERLA-WLGLTENGLRVQIFTSQRRATESGGEWKRGWLVVAPGPVGLTEVEWPYHD
+1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901
+

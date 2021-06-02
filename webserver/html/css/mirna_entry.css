@@ -1,0 +1,351 @@
+
+	/* $Id: tabs.css,v 1.6 2005/10/13 16:48:47 jt6 Exp $ */
+
+/*
+#intro { 
+  margin: 0;
+  padding: 0;
+  background: #8AE;
+  height: 84px;
+}
+*/
+
+
+/* starting into the page... */
+
+/* data tables */
+
+#wpContainer {
+        width: 95%;
+        height: 500px;
+	overflow: auto;
+	font-size: 0.9em;
+	margin-left: 2em;
+	margin-top: 1em;
+	border: 2px solid #006;
+	background-color: #fff;
+}
+
+td#wikipedia {
+	padding-bottom: 20px;
+}
+
+.wpHelp {
+  font-size: 0.7em;
+}
+
+table.data { 
+  margin: 10px 0;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.data td {
+}
+
+/* keep odd and even rows the same colour in the left column... */
+table.data td.left {
+  width: 8em;
+  background: #006;
+  color: #EEE;
+  text-align: right;
+  vertical-align: top;
+  font-weight: bold;
+  padding: 0.5em;
+}
+table.data td.right {
+    padding: 0.5em;
+}
+table.data tr.odd td.right {
+  background: #CDF;
+}
+table.data tr.even td.right {
+  background: #BCE;
+}
+
+h2.deadHeading {
+  color: #000;
+}
+
+
+dl.deadEntry dt {
+  float: left;
+  text-align: right;
+  font-weight: bold;
+  width: 10em;
+  padding: 0.2em;
+}
+
+dl.deadEntry dd {
+  padding: 0.2em;
+  margin-left: 0.4em
+}
+
+
+/* specific data table elements */
+
+#context a {
+/*  float: left;*/
+}
+
+dl.transcripts {
+  float: left;
+/*  padding-left: 8em; */
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin: 0;
+}
+
+dl.transcripts dt {
+/*  font-weight: bold; */
+  float: left;
+  width: 5em;
+}
+
+dl.transcripts dd {
+  margin-left: 6em;
+  margin-bottom: 0.5em;
+}
+
+
+tr.sectionTitle {
+  background: #006;
+}
+
+.sectionTitle h2 {
+  color: #EEE;
+  font-weight: normal;
+  margin: 0;
+}
+
+.conflict h4 {
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+.conflict p {
+	padding: 0;
+	margin: 0;
+	margin-left: 9em;
+}
+
+
+.experimentTable td {
+   padding-top: 0em;
+   padding-bottom: 0em;
+ }
+ 
+
+ /* read sequence */
+ .readSequence {
+   padding: 10px 0.5em;
+/*   width: 50%;
+   margin-left: auto;
+   margin-right: auto; */
+/*   text-align: center;*/
+ }
+ .readSequence p, .readSequence pre {
+   display: inline;
+/*   text-align: left;*/
+ }
+ .readSequence pre {
+   color: black;
+ }
+
+
+
+/* related entries sections */
+
+#relatedList a.re {
+  float: left;
+  width: 10em;
+  padding: 2px;
+}
+
+#relatedList .button, #relatedTable .button {
+  float: left;
+  clear: both;
+  padding: 4px 0 2px 0;
+}
+
+/* hide the related entry details table on load */
+#relatedTable {
+  display: none;
+}
+
+#relatedTable div.selectBox {
+  clear: both;
+}
+#relatedTable p {
+  display: inline;
+}
+#relatedTable select {
+  top: 0;
+  float: right;
+}
+#relatedTable td {
+  border: 1px solid #555;
+}
+
+/* database links - applies to links in both precursor and mature sections */
+ul.databaseLinks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+/*  padding: 0.2em 0;*/
+}
+.databaseLinks li { 
+  padding: 0 0 0.2em 0; 
+}
+.databaseLinks a {
+  padding-left: 0.5em;
+}
+
+/* mature sequence */
+.matureSequence {
+  padding: 10px 0.5em;
+}
+.matureSequence p, .matureSequence pre {
+  display: inline;
+}
+.matureSequence pre {
+  color: magenta;
+}
+
+
+/* stem loop diagram */
+.sld {
+  color: magenta;
+}
+#stemLoop {
+  padding: 10px 0.5em;
+}
+
+/* references */
+
+.reference span { 
+  display: block;
+}
+
+/* buttons in the "related entries" sections */ 
+.selectBox {
+  clear: both;
+  padding-top: 10px;
+}
+
+.selectBox .selectLabel {
+  float: left;
+  width: 70%;
+}
+
+.selectBox .selectFormItem {
+  float: right;
+  width: 20%;
+} 
+
+.fetchSection table {
+    margin: auto;
+}
+.selectFetch {
+    padding: 0 0 0 5em;
+    text-align: right;
+}
+.fetchHeading {
+    margin-bottom: 0;
+}
+.fetchButtons {
+    text-align: center;
+}
+input#fetch {
+    margin-left: 1em;
+}
+/*
+.fetchButtons * {
+  text-decoration: none;
+  color: #EEE;    
+  margin: 2px;
+  border-top: #DDD;
+  border-right: #555;
+  border-bottom: #555;
+  border-left: #DDD;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #04A;
+}
+*/
+
+.it {
+  font-style: italic;
+}
+
+.top {
+  vertical-align: top;
+}
+
+#contextTable td {
+  padding: 0;
+  padding-right: 5em;
+  margin: 0;
+}
+
+dl.vote dt {
+  float: left;
+  padding-right: 2em;
+}
+
+dl.vote {
+  padding: 0px;
+  margin: 0px;
+}
+
+div#thankyou {
+  color: red;
+}
+
+/* Sentences page */
+
+#sentencesTable .sentence {
+    padding-bottom: 0.8em;
+}
+
+div.sentences {
+    /* start hidden */
+    display: none;
+    margin-top: 1em;
+}
+
+div.otherMirs {
+    /* start hidden */
+    display: none;
+    margin-top: 1em;
+}
+
+.sentence .match {
+    color: red;
+}
+.sentence .term {
+    color: green;
+}
+
+.sentenceScore, .paperScore {
+    color: blue;
+    /* start hidden */
+    display: none;
+}
+
+/*
+#sentencesTable .otherMirs {
+    padding-top: 1em;
+}
+*/
+
+.dataTables_wrapper .dt-buttons {
+    padding-top: 1em;
+    float:right;
+}
+
+.dt-button.current {
+    background-image: linear-gradient(to bottom, #eee,#aaa 100%) !important;
+}

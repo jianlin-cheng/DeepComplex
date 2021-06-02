@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-11-11  Length=  105
+Structure2: 2017-11-11  Length=  102 (by which all scores are normalized)
+Number of residues in common=  102
+RMSD of  the common residues=   14.167
+
+TM-score    = 0.1971  (d0= 3.69, TM10= 0.1706)
+MaxSub-score= 0.1560  (d0= 3.50)
+GDT-TS-score= 0.2108 %(d<1)=0.1373 %(d<2)=0.1667 %(d<4)=0.1765 %(d<8)=0.3627
+GDT-HA-score= 0.1495 %(d<0.5)=0.1176 %(d<1)=0.1373 %(d<2)=0.1667 %(d<4)=0.1765
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1    -15.8414905474   0.0057349955  -0.6817625660   0.7315510327
+ 2    -25.4077150373   0.9825044839   0.1400247748   0.1227925147
+ 3    -30.4753639334  -0.1861506085   0.7180479553   0.6706378195
+
+Superposition in the TM-score: Length(d<5.0)= 18  RMSD=  1.38
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+ARYDDVLYFPASRYPETGAHISDAIKAGHADVCTIERSGADKRRQESLKGIPTKPGFDRDEWPMAMCEEGGKGASVRYVSSSDNRGAGSWVGNRLNGYADGTRIL
+             :::::::::::::::::                                  :                                        
+ARYDDVLYFPASRYPETGAHISDAIKAGHADVCTIERSGADKRRQESLKGIPTKPGFDRDEWPMAMCEEGGKGASVRYV-S-DNRGAG-WVGNRLNGYADGTRIL
+123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345
+

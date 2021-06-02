@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-10-21  Length=   91
+Structure2: 2017-10-21  Length=   91 (by which all scores are normalized)
+Number of residues in common=   91
+RMSD of  the common residues=    1.058
+
+TM-score    = 0.9238  (d0= 3.45, TM10= 0.9238)
+MaxSub-score= 0.9255  (d0= 3.50)
+GDT-TS-score= 0.9093 %(d<1)=0.6813 %(d<2)=0.9560 %(d<4)=1.0000 %(d<8)=1.0000
+GDT-HA-score= 0.7692 %(d<0.5)=0.4396 %(d<1)=0.6813 %(d<2)=0.9560 %(d<4)=1.0000
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1     -4.4245890378   0.4233800233   0.3035322873  -0.8535909479
+ 2    -18.5734167649  -0.5836068317  -0.6292786157  -0.5132362904
+ 3     -1.3775225091  -0.6929303153   0.7154555013  -0.0892804785
+
+Superposition in the TM-score: Length(d<5.0)= 91  RMSD=  1.06
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+MANKQDLIAEVAAKTGLTKKDSEKAVNAFGEVVTEFLAKGEKVQLIGFGTFETRERAAREGRNPQTGEAIKIAATVVPAFKAGKALKDAVK
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+MANKQDLIAEVAAKTGLTKKDSEKAVNAFGEVVTEFLAKGEKVQLIGFGTFETRERAAREGRNPQTGEAIKIAATVVPAFKAGKALKDAVK
+1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901
+

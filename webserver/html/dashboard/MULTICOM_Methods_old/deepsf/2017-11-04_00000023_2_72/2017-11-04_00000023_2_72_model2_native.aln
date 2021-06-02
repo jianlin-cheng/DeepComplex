@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-11-04  Length=  286
+Structure2: 2017-11-04  Length=  286 (by which all scores are normalized)
+Number of residues in common=  286
+RMSD of  the common residues=    4.035
+
+TM-score    = 0.7508  (d0= 6.22, TM10= 0.7498)
+MaxSub-score= 0.5280  (d0= 3.50)
+GDT-TS-score= 0.6652 %(d<1)=0.4580 %(d<2)=0.5420 %(d<4)=0.6608 %(d<8)=1.0000
+GDT-HA-score= 0.4843 %(d<0.5)=0.2762 %(d<1)=0.4580 %(d<2)=0.5420 %(d<4)=0.6608
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1     -9.7371518302  -0.5323770788   0.8316802999   0.1577419563
+ 2      1.5080163985   0.7758688265   0.4048834572   0.4838356644
+ 3     74.0005362657   0.3385294819   0.3799700842  -0.8608254905
+
+Superposition in the TM-score: Length(d<5.0)=219  RMSD=  2.79
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+DLGKKLLEAARAGQDDEVRILMANGADVNAADDVGVTPLHLAAQRGHLEIVEVLLKYGADVNAADLWGQTPLHLAATAGHLEIVEVLLKNGADVNARDNIGHTPLHLAAWAGHLEIVEVLLKYGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAADVNAYDEVGWTPLHRAAWGHLELVEKLLKNGADVNAADIDGYTPLHLAAFSGHLEIVEVLLKYGADVNADDQAGFTPLHLAAIFGHLEIVEVLLKNGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKA
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::  :::::::::::::::::::::::    :::::::  :: ::                 ::::::::::::::::::                 ::: ::::::::::::: ::                  ::::::::::::::::  :  
+DLGKKLLEAARAGQDDEVRILMANGADVNAADDVGVTPLHLAAQRGHLEIVEVLLKYGADVNAADLWGQTPLHLAATAGHLEIVEVLLKNGADVNARDNIGHTPLHLAAWAGHLEIVEVLLKYGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAADVNAYDEVGWTPLHRAAWGHLELVEKLLKNGADVNAADIDGYTPLHLAAFSGHLEIVEVLLKYGADVNADDQAGFTPLHLAAIFGHLEIVEVLLKNGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKA
+1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456
+

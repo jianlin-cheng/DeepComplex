@@ -1,0 +1,34 @@
+
+ *****************************************************************************
+ *                                 TM-SCORE                                  *
+ * A scoring function to assess the quality of protein structure predictions *
+ * Based on statistics:                                                      *
+ *       0.0 < TM-score < 0.17, Random predictions                           *
+ *       0.4 < TM-score < 1.00, Meaningful predictions                       *
+ * Reference: Yang Zhang and Jeffrey Skolnick, Proteins 2004 57: 702-710     *
+ * For comments, please email to: yzhang@ku.edu                              *
+ *****************************************************************************
+
+Structure1: 2017-10-28  Length=  173
+Structure2: 2017-10-28  Length=  173 (by which all scores are normalized)
+Number of residues in common=  173
+RMSD of  the common residues=    3.029
+
+TM-score    = 0.8853  (d0= 4.90, TM10= 0.8834)
+MaxSub-score= 0.8125  (d0= 3.50)
+GDT-TS-score= 0.8049 %(d<1)=0.5029 %(d<2)=0.8092 %(d<4)=0.9249 %(d<8)=0.9827
+GDT-HA-score= 0.6055 %(d<0.5)=0.1850 %(d<1)=0.5029 %(d<2)=0.8092 %(d<4)=0.9249
+
+ -------- rotation matrix to rotate Chain-1 to Chain-2 ------
+ i          t(i)         u(i,1)         u(i,2)         u(i,3)
+ 1     21.7422591419   0.6178498874   0.7254800395  -0.3032164722
+ 2     25.6755182231  -0.7752882729   0.4977813036  -0.3887696847
+ 3     25.0131547526  -0.1311091554   0.4752814809   0.8700102892
+
+Superposition in the TM-score: Length(d<5.0)=163  RMSD=  1.52
+(":" denotes the residue pairs of distance < 5.0 Angstrom)
+YAVDYSEPIIIKEKGEIKVVKIGELIDEIIKNSKNVRKDGILEIARCKDVEVIAFDSNYKFKFMPVSEVSRHPVSEMFEIVVEGNKKVRVTGSHSVFTVKDNEVVPIRVDDLRVGDILVLAKELPEKLINSDFIFLKIKKINKVEPTNGYAYDLTVPNAENFIAGFGGFVLHN
+::::::::::::   :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::    :::::::::::::::::::   :::::::::::::::::::::::::
+YAVDYSEPIIIKEKGEIKVVKIGELIDEIIKNSKNVRKDGILEIARCKDVEVIAFDSNYKFKFMPVSEVSRHPVSEMFEIVVEGNKKVRVTGSHSVFTVKDNEVVPIRVDDLRVGDILVLAKELPEKLINSDFIFLKIKKINKVEPTNGYAYDLTVPNAENFIAGFGGFVLHN
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123
+

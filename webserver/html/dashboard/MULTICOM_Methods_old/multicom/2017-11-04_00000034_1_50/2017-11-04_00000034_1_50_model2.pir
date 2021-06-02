@@ -1,0 +1,49 @@
+C; model_eva_score=0.513, tm_score=1, gdt_score=1, maxsub=1.
+>P1;meta_com1.pdb1
+structureX:meta_com1.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.516, tm_score=0.9072, gdt_score=0.9265, maxsub=0.8957.
+>P1;meta_prc3.pdb1
+structureX:meta_prc3.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.518, tm_score=0.8290, gdt_score=0.8441, maxsub=0.8012.
+>P1;meta_hs1.pdb1
+structureX:meta_hs1.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.492, tm_score=0.8505, gdt_score=0.8647, maxsub=0.8459.
+>P1;meta_prc1.pdb1
+structureX:meta_prc1.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.497, tm_score=0.8228, gdt_score=0.8412, maxsub=0.8006.
+>P1;meta_ss2.pdb1
+structureX:meta_ss2.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.493, tm_score=0.7882, gdt_score=0.8147, maxsub=0.7548.
+>P1;meta_hg2.pdb1
+structureX:meta_hg2.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.494, tm_score=0.7332, gdt_score=0.7382, maxsub=0.7139.
+>P1;meta_rapt4.pdb1
+structureX:meta_rapt4.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.479, tm_score=0.7301, gdt_score=0.7382, maxsub=0.6853.
+>P1;meta_muster5.pdb1
+structureX:meta_muster5.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C; model_eva_score=0.489, tm_score=0.7250, gdt_score=0.7324, maxsub=0.6916.
+>P1;meta_muster4.pdb1
+structureX:meta_muster4.pdb: 1: : 85: : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*
+
+C;total number of template models = 9
+>P1;C00341
+ : : : : : : : : : 
+GHMKVTSVAMPSYIGSSLEFTKNNLIQIVGIKEANIEVVEVTTAPAGSVEGMVVEQSPRAGEKVDLNKTRVKISIYKPKTTSATP*

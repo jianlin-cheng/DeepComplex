@@ -1,3 +1,0 @@
-PRECISION                     Top-L/10  Top-5     Top-L/5   Top-L/2   Top-L     Top-2L    
-domain0.deep5.pdb (precision) 100.00    100.00    100.00    100.00    100.00    100.00    
-domain0.dncon2.rr (precision) 20.00     20.00     55.56     45.83     31.91     20.21     

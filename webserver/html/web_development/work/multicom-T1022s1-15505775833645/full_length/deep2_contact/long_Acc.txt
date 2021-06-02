@@ -1,3 +1,0 @@
-PRECISION                     Top-5     Top-L/10  Top-L/5   Top-L/2   Top-L     Top-2L    
-T1022s1.deep2.pdb (precision) 100.00    100.00    100.00    100.00    100.00    100.00    
-T1022s1.dncon2.rr (precision) 80.00     65.22     52.17     36.52     33.19     20.96     

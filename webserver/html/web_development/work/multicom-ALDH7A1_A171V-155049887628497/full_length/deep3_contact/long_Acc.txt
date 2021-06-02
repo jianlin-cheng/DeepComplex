@@ -1,3 +1,0 @@
-PRECISION                     Top-5     Top-L/10  Top-L/5   Top-L/2   Top-L     Top-2L    
-ALDH7A1_A171V.deep3.pdb (precision)100.00    100.00    100.00    100.00    100.00    100.00    
-ALDH7A1_A171V.dncon2.rr (precision)100.00    100.00    98.04     94.92     83.17     57.73     

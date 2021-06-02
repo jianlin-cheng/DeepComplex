@@ -176,6 +176,7 @@ Heterodimers: [http://tulip.rnet.missouri.edu/deepcomplex/dimer_status_hetero.ph
 
 If we are updating something, a server maintenance page will be shown when you click the 'Predict' button. In such a case, please wait for us to finish necessary updates. The page will be available again once all updates or bug fixes are performed.
 
+## Server Installation
 
 ### Dependencies
 

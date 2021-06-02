@@ -150,6 +150,33 @@ e.g /home/rajroy/multi-mer_test/provided_files/4OJ5_ABC_AB.rr, here this file wo
 
 # DeepComplex webserver
 
+### Using the Webserver
+
+The webserver can be accessed using the link: [http://tulip.rnet.missouri.edu/deepcomplex/web_index.html]
+
+Running the webserver:
+
+    (1) Enter the required information: Email address, and Job Name
+
+    (2) Select the type of prediction: Homodimer or Heterodimer
+    
+    (3) Upload the necessary files or copy and paste the contents in the relevant text boxes. For Homodimer, input only one PDB file, while for heterodimer, input two PDB files.
+
+    (4) Click the 'Predict' button. 
+
+    (5) Once the output is ready a link will be emailed to you pointing to the output page.
+
+### Sample Outputs
+
+Sample outputs are available for both homodimers and heterodimers. 
+Homodimers: [http://tulip.rnet.missouri.edu/deepcomplex/dimer_status_homo.php?target_name=LCI1&method=multicom&domain_class=full_length]
+Heterodimers: [http://tulip.rnet.missouri.edu/deepcomplex/dimer_status_hetero.php?target_name=SMM7_SBE3&method=multicom&domain_class=full_length] 
+
+### Server Maintenance/ Software Updates
+
+If we are updating something, a server maintenance page will be shown when you click the 'Predict' button. In such a case, please wait for us to finish necessary updates. The page will be available again once all updates or bug fixes are performed.
+
+
 ### Dependencies
 
 Please install the following dependency software:

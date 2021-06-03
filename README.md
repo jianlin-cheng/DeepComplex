@@ -199,6 +199,7 @@ Please install the following dependency software:
     (8) H5py 2.9.0
 
     (9) Scikit-learn 0.20.3
+    (10) trRosetta
 
 Make sure all the software paths are updates in the file: [https://github.com/jianlin-cheng/DeepComplex/tree/master/webserver/predictor_code/scripts/feature_gen_hetero_v2/paths.txt]
 
